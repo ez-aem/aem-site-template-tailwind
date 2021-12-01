@@ -1,15 +1,4 @@
-html, body {}
-a {}
-p {}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {}
-
-button,
-input,
-optgroup,
-select,
-textarea {}
+/* Tailwind Includes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

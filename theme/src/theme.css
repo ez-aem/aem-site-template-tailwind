@@ -1,12 +1,12 @@
+@import './site/base.css';
+
 /* Variables */
 @import './site/variables.css';
 /* @import 'site/grid'; */
 
 /* Site global */
 
-/*@import 'normalize.css/normalize.css'; */
 @import './site/fonts.css';
-@import './site/base.css';
 
 /* Core components */
 

@@ -1,6 +1,6 @@
-# Standard Site Template
+# Site Template TailwindCSS
 
-This is the standard site template for Adobe Experience Manager as a Cloud Service (AEMaaCS).
+This is the TailwindCSS site template for Adobe Experience Manager as a Cloud Service (AEMaaCS).
 
 <img src="previews/StandardSiteTemplate.png?raw=true" alt="Standard site preview" width="50%">
 
