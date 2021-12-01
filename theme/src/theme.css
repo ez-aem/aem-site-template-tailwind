@@ -13,30 +13,16 @@
 @import 'src/components/text/text.css';
 
 @import 'src/components/title/title.css';
-@import 'src/components/title/title_styles.css';
 
 @import 'src/components/image/image.css';
-@import 'src/components/image/image_caption.css';
-@import 'src/components/image/image_standard.css';
 
 @import 'src/components/button/button.css';
-@import 'src/components/button/button_call_to_action.css';
-@import 'src/components/button/button_primary.css';
-@import 'src/components/button/button_primary_over_background.css';
-@import 'src/components/button/button_quiet.css';
-@import 'src/components/button/button_quiet_over_background.css';
 
 @import 'src/components/separator/separator.css';
-@import 'src/components/separator/separator_small.css';
-@import 'src/components/separator/separator_standard.css';
 
 @import 'src/components/progressbar/progressbar.css';
 
 @import 'src/components/teaser/teaser.css';
-@import 'src/components/teaser/teaser_dark.css';
-@import 'src/components/teaser/teaser_text_at_bottom.css';
-@import 'src/components/teaser/teaser_text_at_left.css';
-@import 'src/components/teaser/teaser_text_at_right.css';
 
 @import 'src/components/download/download.css';
 
@@ -49,22 +35,16 @@
 @import 'src/components/languagenavigation/languagenavigation.css';
 
 @import 'src/components/breadcrumb/breadcrumb.css';
-@import 'src/components/breadcrumb/breadcrumb_standard.css';
 
 @import 'src/components/search/search.css';
 
 /* Container components */
 
 @import 'src/components/container/container.css';
-@import 'src/components/container/container_content.css';
-@import 'src/components/container/container_dark_theme.css';
-@import 'src/components/container/container_main.css';
 
 @import 'src/components/carousel/carousel.css';
 
 @import 'src/components/tabs/tabs.css';
-@import 'src/components/tabs/tabs_horizontal.css';
-@import 'src/components/tabs/tabs_vertical.css';
 
 @import 'src/components/accordion/accordion.css';
 
