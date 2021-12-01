@@ -1,4 +1,4 @@
-/* Font loading */
+/* Font loading 
 
 @mixin fontface($name, $file, $weight: normal, $style: normal) {
     @font-face {
@@ -33,3 +33,4 @@
 @include fontface(titleFont, 'SourceSerifPro/SourceSerifPro-Regular', normal);
 @include fontface(titleFont, 'SourceSerifPro/SourceSerifPro-SemiBold', bold);
 @include fontface(titleFont, 'SourceSerifPro/SourceSerifPro-SemiBoldItalic', bold, italic);
+*/
