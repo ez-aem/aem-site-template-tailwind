@@ -1,5 +1,4 @@
-
-//== Font loading
+/* Font loading */
 
 @mixin fontface($name, $file, $weight: normal, $style: normal) {
     @font-face {

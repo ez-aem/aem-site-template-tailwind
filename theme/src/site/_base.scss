@@ -1,5 +1,5 @@
 
-//== Defaults
+/* Defaults */
 
 html, body {
   margin: 0;
@@ -36,16 +36,16 @@ textarea {
   font: inherit;
 }
 
-//== Grid
+/* Grid */
 
 $max_col: 12;
 
-// Default breakpoint
+/* Default breakpoint */
 .aem-Grid {
   @include generate-grid(default, $max_col);
 }
 
-// Phone breakpoint
+/* Phone breakpoint */
 @media (max-width: 768px) {
   .aem-Grid {
     @include generate-grid(phone, $max_col);

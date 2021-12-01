@@ -1,4 +1,4 @@
-//== XF Header style, used on page template
+/* XF Header style, used on page template */
 
 #main-header {
   padding: 1.25rem 0;
@@ -8,7 +8,7 @@
     margin: auto 0.5em;
   }
 
-  //=================== Grid layout ===================
+  /*================= Grid layout ===================*/
 
   & .cmp-container {
     display: flex;
@@ -20,7 +20,7 @@
     }
   }
 
-  //=================== Navigation ===================
+  /*================= Navigation ==================*/
 
   .cmp-navigation {
     height: 2.5em;
@@ -110,7 +110,7 @@
   .cmp-navigation__item--active > .cmp-navigation__item-link {
   }
 
-  //=================== Language Navigation ===================
+  /*================= Language Navigation ==================*/
 
   .cmp-languagenavigation {
     position: relative;
@@ -349,7 +349,7 @@
     }
   }
 
-  //=================== Search ===================
+  /*================= Search ===================*/
 
   .cmp-search__field {
     display: flex;
@@ -420,7 +420,7 @@
     background: none;
   }
 
-  //== XF Content Fix
+  /* XF Content Fix */
 
   .xf-content-height {
     min-height: auto;
