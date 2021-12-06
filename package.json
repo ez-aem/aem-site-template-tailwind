@@ -1,24 +1,24 @@
 {
-  "name": "aem-site-template-standard",
-  "version": "1.1.0",
+  "name": "aem-site-template-tailwind",
+  "version": "1.1.1",
   "description": "Standard AEM Site Template used as a starter template for general purpose websites",
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
   "scripts": {
     "build": "aem-site-template-builder",
-    "deploy": "curl -u admin:admin -F file=@aem-site-template-standard-latest.zip http://localhost:4502/conf/global/site-templates.import.html"
+    "deploy": "curl -u admin:admin -F file=@aem-site-template-tailwind-latest.zip http://localhost:4502/conf/global/site-templates.import.html"
   },
   "devDependencies": {
     "@adobe/aem-site-template-builder": "2.2.2"
   },
   "siteTemplate": {
-    "title": "Standard AEM Site Template",
+    "title": "AEM Site Template Tailwind",
     "createdBy": "Adobe",
     "useCases": [
       "General purpose sites, corporate marketing sites, landing pages, blog sites, content marketing"
     ],
     "docsUrl": "",
     "showcaseUrl": "",
-    "sourceRepositoryUrl": "https://github.com/adobe/aem-site-template-standard",
+    "sourceRepositoryUrl": "https://github.com/ez-aem/aem-site-template-tailwind",
     "openItem": "{Path}/en/home"
   }
 }

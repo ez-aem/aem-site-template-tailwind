@@ -15,12 +15,12 @@ It can serve as a standard starting point for creating a new site, or as a start
 
 ## Install on AEMaaCS
 
-* Go to <https://github.com/adobe/aem-site-template-standard/releases/latest> and download `aem-site-template-standard-{version}.zip`
-* Upload `aem-site-template-standard-{version}.zip` in AEMaaCS's site creation wizard to create a new site from that template.
+* Go to <https://github.com/ez-aem/aem-site-template-tailwind/releases/latest> and download `aem-site-template-tailwind-{version}.zip`
+* Upload `aem-site-template-tailwind-{version}.zip` in AEMaaCS's site creation wizard to create a new site from that template.
 
 ## Build locally
 
-Alternatively you can build `aem-site-template-standard-{version}.zip` locally.
+Alternatively you can build `aem-site-template-tailwind-{version}.zip` locally.
 
 1. Install Maven (to be able to use the packaging script).
 1. Initialize the project with following command executed at the template root:
@@ -35,7 +35,7 @@ Alternatively you can build `aem-site-template-standard-{version}.zip` locally.
    npm run build
    ```
 
-1. The site template ZIP file is now located below the template root: `aem-site-template-standard-{version}.zip`.
+1. The site template ZIP file is now located below the template root: `aem-site-template-tailwind-{version}.zip`.
 1. Upload to an AEMaaCS site creation wizard. For installing on a local cloudready development instance use `npm run deploy`.
 
 ## Develop Site Template
@@ -48,7 +48,7 @@ Run `Build and release` GitHub workflow and provide the semantic version you're 
 
 * Build Site Template
 * Release latest version on github
-* Commit, build and release latest Site Theme related changes in [Site Theme E2E Repo](https://github.com/adobe/aem-site-template-standard-theme-e2e).
+* Commit, build and release latest Site Theme related changes in [Site Theme E2E Repo](https://github.com/ez-aem/aem-site-template-tailwind-theme-e2e).
 
 ## Contributing
 

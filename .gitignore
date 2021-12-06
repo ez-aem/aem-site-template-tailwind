@@ -88,5 +88,7 @@ buildNumber.properties
 node_modules
 npm-debug.log
 
-aem-site-template-standard-*.zip
+aem-site-template-tailwind-*.zip
 site-template
+
+theme/.env
