@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:template="/conf/aem-site-template-standard/settings/wcm/templates/xf-web-variation"
+        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/xf-web-variation"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="cq/experience-fragments/components/xfpage">
         <root

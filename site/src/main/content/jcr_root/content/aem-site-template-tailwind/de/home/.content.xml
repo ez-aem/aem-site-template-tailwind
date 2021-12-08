@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:template="/conf/aem-site-template-standard/settings/wcm/templates/home-page"
+        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/home-page"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -29,7 +29,7 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/aem-site-template-standard/Image@2x.png"
+                        fileReference="/content/dam/aem-site-template-tailwind/Image@2x.png"
                         pretitle="Teasers"
                         textIsRich="true"
                         titleFromPage="false">
@@ -87,7 +87,7 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/aem-site-template-standard/building_large.png"
+                        fileReference="/content/dam/aem-site-template-tailwind/building_large.png"
                         pretitle="Teasers"
                         textIsRich="true"
                         titleFromPage="false">
@@ -116,7 +116,7 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/aem-site-template-standard/building_large.png"
+                        fileReference="/content/dam/aem-site-template-tailwind/building_large.png"
                         pretitle="Teasers"
                         textIsRich="true"
                         titleFromPage="false">

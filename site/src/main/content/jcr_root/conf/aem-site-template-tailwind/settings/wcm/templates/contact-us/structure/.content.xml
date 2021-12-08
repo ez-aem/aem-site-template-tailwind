@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:template="/conf/aem-site-template-standard/settings/wcm/templates/contact-us"
+        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/contact-us"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
@@ -13,7 +13,7 @@
             <experiencefragment_h
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/aem-site-template-standard/en/site/header/master"/>
+                fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/header/master"/>
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -84,7 +84,7 @@
             <experiencefragment_f
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/aem-site-template-standard/en/site/footer/master"/>
+                fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

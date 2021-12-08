@@ -523,7 +523,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="My Site Language Navigation - Experience Fragment"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                navigationRoot="/content/aem-site-template-standard"
+                                navigationRoot="/content/aem-site-template-tailwind"
                                 structureDepth="1">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                             </policy_xf>

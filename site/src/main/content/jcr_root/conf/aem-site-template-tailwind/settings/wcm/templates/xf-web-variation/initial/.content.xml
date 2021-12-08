@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:tags="[experience-fragments:variation/web]"
-        cq:template="/conf/aem-site-template-standard/settings/wcm/templates/xf-web-variation"
+        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/xf-web-variation"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="cq/experience-fragments/components/xfpage">
