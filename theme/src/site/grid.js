@@ -1,12 +1,13 @@
 const plugin = require("tailwindcss/plugin");
-console.log("plugin", plugin);
 
 function generateColumnSettings(gridColumns, breakpoint) {
   const settings = {};
   for (let i = 0; i < gridColumns; i++) {
-    settings[`.aem-GridColumn--${breakpoint}--none`] = { "--grid-column-width": `${gridColumns}` }
-    settings[`.aem-GridColumn--${breakpoint}--${i + 1}`] = { "--grid-column-width": `${i + 1}` }
-    settings[`.aem-GridColumn--offset--${breakpoint}--${i}`] = { "--grid-column-offset": `${i}` }
+    settings[`.aem-Grid--${breakpoint}--${i}`] = { "--aem-grid-columns": `${i}` }
+    settings[`.aem-Grid--${i}`] = { "--aem-grid-columns": `${i}` }
+    settings[`.aem-GridColumn--${breakpoint}--none`] = { "--aem-grid-column-width": `${gridColumns}` }
+    settings[`.aem-GridColumn--${breakpoint}--${i + 1}`] = { "--aem-grid-column-width": `${i + 1}` }
+    settings[`.aem-GridColumn--offset--${breakpoint}--${i}`] = { "--aem-grid-column-offset": `${i}` }
   }
   return settings;
 }
@@ -32,29 +33,36 @@ module.exports = plugin(function ({ addBase, e, theme, config }) {
 
   addBase({
     ".aem-Grid": {
+      "--aem-grid-columns": `${columns}`,
       "--aem-grid-gap": gap,
-      display: "grid",
-      gap: "var(--aem-grid-gap)",
-      gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))`,
+      "display": "flex",
+      "flex-wrap": "wrap",
+      "gap": "var(--aem-grid-gap)",
       "margin-inline": `var(--aem-grid-gap)`,
+      "width": "100%",
     },
     ".container.responsivegrid > .cmp-container > .aem-Grid": {
       "padding-block": "var(--padding-block)",
       "padding-inline": "var(--padding-inline)",
-      maxWidth: maxWidth,
+      "max-width": maxWidth,
       "margin-inline": "auto",
     },
     ".aem-Grid .aem-Grid": {
       "margin-inline": `calc(var(--aem-grid-gap) * -1)`,
     },
     ".aem-GridColumn": {
-      "grid-column": `auto / span var(--grid-column-width, ${columns})`,
-      "grid-column-start": "var(--grid-column-offset)",
+      "width": "100%",
+      "flex-basis": `calc(calc(calc(var(--aem-grid-column-width) / var(--aem-grid-columns) * 100%)) - calc(var(--aem-grid-gap) / 2))`,
+      "max-width": `calc(calc(calc(var(--aem-grid-column-width) / var(--aem-grid-columns) * 100%)) - calc(var(--aem-grid-gap) / 2))`,
+      "margin-inline-start": "calc(calc(var(--aem-grid-column-offset) / var(--aem-grid-columns) * 100%))",
+      "position": "relative",
     },
-    [`.new.newpar.section.aem-Grid-newComponent.cq-Editable-dom`]: {
-      gridColumn: `1 / span ${columns}`,
+    ".new.newpar.section.aem-Grid-newComponent.cq-Editable-dom": {
+      "width": "100%",
+      "flex-basis": "100%",
     },
     ...defaultColumnSettings,
     ...mediaQueries,
-  });
+  })
 });
+
