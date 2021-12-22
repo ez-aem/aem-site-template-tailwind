@@ -1,0 +1,4 @@
+.cmp-image {}
+.cmp-image__link {}
+.cmp-image__image { @apply w-auto; }
+.cmp-image__title {}

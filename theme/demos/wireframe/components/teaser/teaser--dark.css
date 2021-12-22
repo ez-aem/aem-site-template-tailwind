@@ -1,0 +1,28 @@
+.teaser.dark {
+  .cmp-teaser__content {
+    @apply bg-shade-4 text-white;
+  }
+
+  .cmp-teaser__pretitle {
+    @apply text-white;
+  }
+
+  .cmp-teaser__title a {
+    @apply text-white;
+    @apply focus:ring-link-inverted focus:ring-2 focus:ring-offset-shade-4;
+  }
+
+  .cmp-teaser__action-link {
+    @apply text-white;
+
+    &:not(:first-child) {
+      @apply border-white;
+      @apply hover:bg-white hover:text-shade-4;
+      @apply focus:border-shade-4 focus:bg-white focus:text-shade-4 focus:ring-link-inverted;
+    }
+
+    &:first-child {
+      @apply focus:border-shade-4 focus:ring-link-inverted;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.teaser:not(.textAtBottom):not(.textAtRight):not(.textAtLeft) {
+  .cmp-teaser {
+    @apply grid;
+    grid-template-areas: "overlay";
+  }
+
+  .cmp-teaser__image, 
+  .cmp-teaser__content {
+    grid-area: overlay;
+  }
+
+  .cmp-teaser__image {
+    @apply aspect-4/1;
+
+    .cmp-image,
+    .cmp-image__image {
+      @apply aspect-4/1;
+    }
+  }
+
+  .cmp-teaser__content {
+    @apply p-10 text-center justify-center text-white gap-y-6;
+
+    .cmp-teaser__pretitle,
+    .cmp-teaser__title,
+    .cmp-teaser__title a {
+      @apply text-white;
+      @apply focus:ring-offset-transparent;
+    }
+
+    .cmp-teaser__action-container {
+      @apply justify-center;
+    }
+  }
+
+  .cmp-teaser__action-link {
+    &:not(:first-child) {
+      @apply border-white text-white;
+      @apply hover:bg-white hover:text-shade-4 hover:border-white;
+      @apply focus:bg-white focus:text-shade-4 focus:border-transparent focus:ring-link-inverted focus:ring-offset-transparent;
+    }
+
+    &:first-child {
+      @apply focus:ring-offset-transparent focus:border-transparent focus:ring-link-inverted;
+    }
+  }
+}

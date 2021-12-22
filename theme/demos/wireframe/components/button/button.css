@@ -1,0 +1,6 @@
+.cmp-button {
+  @apply w-fit h-fit m-2 py-2 px-4 border-solid border-[.125rem] rounded-3xl;
+}
+.cmp-button__text {
+  @apply font-light no-underline;
+}

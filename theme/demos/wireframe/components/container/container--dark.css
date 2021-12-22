@@ -1,0 +1,3 @@
+.dark-container {
+  @apply bg-shade-4 text-shade-1;
+}

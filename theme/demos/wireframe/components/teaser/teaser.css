@@ -1,0 +1,39 @@
+.cmp-teaser__content {
+  @apply text-foreground flex flex-col gap-y-4 justify-between;
+}
+
+.cmp-teaser__image {
+  .cmp-image__image { 
+    @apply w-full;
+  }
+}
+
+.cmp-teaser__pretitle {
+  @apply text-xs text-shade-4 uppercase font-semibold;
+}
+
+.cmp-teaser__title {
+  @apply text-4xl no-underline font-semibold;
+
+  a {
+    @apply text-foreground;
+    @apply hover:text-foreground;
+    @apply focus:ring-offset-white;
+  }
+}
+
+.cmp-teaser__action-container {
+  @apply flex flex-wrap gap-4;
+}
+
+.cmp-teaser__action-link {
+  @apply rounded-full px-4 py-2 font-semibold border-2 border-shade-4 text-shade-4 transition-colors duration-300 text-center inline-flex shrink-0;
+  @apply hover:bg-shade-4 hover:text-white hover:no-underline;
+  @apply focus:rounded-full focus:border-white focus:bg-shade-4 focus:text-white focus:ring-offset-0 focus:ring-offset-transparent;
+
+  &:first-child {
+    @apply bg-accent text-white border-accent;
+    @apply hover:bg-accent-darker hover:border-accent-darker;
+    @apply focus:bg-accent-darker focus:border-white;
+  }
+}

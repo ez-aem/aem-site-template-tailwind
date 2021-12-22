@@ -1,0 +1,18 @@
+/* XF Header style, used on page template */
+#main-header {
+  @apply py-5 px-0 border-b border-solid text-shade-1;
+
+  .cmp-image {
+    @apply flex h-full items-center;
+  }
+
+  & .cmp-container {
+    @apply flex;
+    & .aem-Grid {
+      display: inherit;
+      & .image {
+        @apply inline-flex;
+      }
+    }
+  }
+}
