@@ -1,7 +1,7 @@
 module.exports = {
-  mode: "jit",
-  purge: ["./src/**/*.{html,js}"],
-  darkMode: false, // or 'media' or 'class'
+  presets: [require("./demos/wireframe/wireframe.tailwind.preset.js")],
+  content: ["./src/**/**/*.{html,js}"],
+  darkMode: "media",
   theme: {
     aemGrid: {
       columns: 12,
@@ -13,10 +13,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/line-clamp'),
-    require('@tailwindcss/aspect-ratio'),
     require("./src/site/grid.js"),
   ],
   corePlugins: {

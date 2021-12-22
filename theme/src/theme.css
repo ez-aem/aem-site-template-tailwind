@@ -2,11 +2,7 @@
 @import './site/tailwind.css';
 @import './site/base.css';
 
-/* Variables */
-@import './site/variables.css';
-
 /* Site global */
-
 @import './site/fonts.css';
 
 /* Core components */
@@ -54,3 +50,6 @@
 @import './components/embed/embed.css';
 @import './components/pdfviewer/pdfviewer.css';
 @import './components/socialmediasharing/socialmediasharing.css';
+
+/* Wireframe Demo CSS Theme */
+@import "../demos/wireframe/theme.css";
