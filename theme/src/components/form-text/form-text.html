@@ -1,0 +1,172 @@
+<!-- 
+  Possible HTML structure for Form Text Component 
+  Used as reference for Tailwind build
+  https://www.aemcomponents.dev/content/core-components-examples/library/form/input.html
+-->
+
+<div class="container responsivegrid">
+  <form
+    method="POST"
+    action="/content/core-components-examples/library/form/input.html"
+    id="new_form"
+    name="new_form"
+    enctype="multipart/form-data"
+    class="cmp-form aem-Grid aem-Grid--12 aem-Grid--default--12"
+  >
+    <input
+      type="hidden"
+      name=":formstart"
+      value="/content/core-components-examples/library/form/input/jcr:content/root/responsivegrid/demo/component/container"
+    />
+    <input type="hidden" name="_charset_" value="utf-8" />
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+      <div class="cmp-form-text">
+        <label for="form-text-1673594539">Name</label>
+        <input
+          class="cmp-form-text__text"
+          data-cmp-hook-form-text="input"
+          type="text"
+          id="form-text-1673594539"
+          placeholder="First Name"
+          name="firstName"
+        />
+      </div>
+    </div>
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+      <div
+        class="cmp-form-text"
+        data-cmp-required-message="You need to add your email to log in"
+      >
+        <label for="form-text-109625527">E-Mail</label>
+        <input
+          class="cmp-form-text__text"
+          data-cmp-hook-form-text="input"
+          type="email"
+          id="form-text-109625527"
+          placeholder="E-Mail"
+          name="email"
+          required=""
+        />
+      </div>
+    </div>
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+      <div class="cmp-form-text">
+        <label for="form-text-1264745934">Message</label>
+        <textarea
+          class="cmp-form-text__textarea"
+          data-cmp-hook-form-text="input"
+          id="form-text-1264745934"
+          placeholder="Message"
+          name="textarea"
+          rows="2"
+        ></textarea>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="container responsivegrid">
+  <form
+    method="POST"
+    action="/content/core-components-examples/library/form/input.html"
+    id="new_form"
+    name="new_form"
+    enctype="multipart/form-data"
+    class="cmp-form aem-Grid aem-Grid--12 aem-Grid--default--12"
+  >
+    <input
+      type="hidden"
+      name=":formstart"
+      value="/content/core-components-examples/library/form/input/jcr:content/root/responsivegrid/demo_881795653/component/container"
+    />
+    <input type="hidden" name="_charset_" value="utf-8" />
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+      <div class="cmp-form-text">
+        <label for="form-text-1190565094">Phone Number</label>
+        <input
+          class="cmp-form-text__text"
+          data-cmp-hook-form-text="input"
+          type="tel"
+          id="form-text-1190565094"
+          placeholder="+44 87 299 777 22"
+          name="phonenumber"
+        />
+      </div>
+    </div>
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+      <div class="cmp-form-text">
+        <label for="form-text-1353586212">Date</label>
+        <input
+          class="cmp-form-text__text"
+          data-cmp-hook-form-text="input"
+          type="date"
+          id="form-text-1353586212"
+          placeholder="01.01.2020"
+          name="date"
+        />
+      </div>
+    </div>
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+      <div class="cmp-form-text">
+        <label for="form-text-1834531460">Favorite number</label>
+        <input
+          class="cmp-form-text__text"
+          data-cmp-hook-form-text="input"
+          type="number"
+          id="form-text-1834531460"
+          name="favoritenumber"
+        />
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="container responsivegrid">
+  <form
+    method="POST"
+    action="/content/core-components-examples/library/form/input.html"
+    id="new_form"
+    name="new_form"
+    enctype="multipart/form-data"
+    class="cmp-form aem-Grid aem-Grid--12 aem-Grid--default--12"
+  >
+    <input
+      type="hidden"
+      name=":formstart"
+      value="/content/core-components-examples/library/form/input/jcr:content/root/responsivegrid/demo_665944747/component/container"
+    />
+    <input type="hidden" name="_charset_" value="utf-8" />
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+      <div class="cmp-form-text">
+        <label for="form-text-1283012419">Set Password</label>
+        <input
+          class="cmp-form-text__text"
+          data-cmp-hook-form-text="input"
+          type="password"
+          id="form-text-1283012419"
+          placeholder="password"
+          name="pw"
+          value="12345"
+          required=""
+        />
+      </div>
+    </div>
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+      <div
+        class="cmp-form-text"
+        data-cmp-required-message="It is required to insert password twice "
+      >
+        <label for="form-text-1261613410">Confirm</label>
+        <input
+          class="cmp-form-text__text"
+          data-cmp-hook-form-text="input"
+          type="password"
+          id="form-text-1261613410"
+          placeholder="password"
+          name="confirmpw"
+          required=""
+        />
+      </div>
+    </div>
+  </form>
+</div>

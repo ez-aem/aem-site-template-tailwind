@@ -1,0 +1,85 @@
+<!-- 
+  Possible HTML structure for Form Container Component 
+  Used as reference for Tailwind build
+  https://www.aemcomponents.dev/content/core-components-examples/library/form/container.html
+-->
+
+<div class="container responsivegrid">
+  <form
+    method="POST"
+    action="/content/core-components-examples/library/form/container.html"
+    id="new_form"
+    name="new_form"
+    enctype="multipart/form-data"
+    class="cmp-form aem-Grid aem-Grid--12 aem-Grid--default--12"
+  >
+    <input
+      type="hidden"
+      name=":formstart"
+      value="/content/core-components-examples/library/form/container/jcr:content/root/responsivegrid/demo_665944747/component/container"
+    />
+    <input type="hidden" name="_charset_" value="utf-8" />
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+      <div class="cmp-form-text">
+        <label for="form-text-1104835627">E-Mail</label>
+        <input
+          class="cmp-form-text__text"
+          data-cmp-hook-form-text="input"
+          type="email"
+          id="form-text-1104835627"
+          placeholder="E-Mail"
+          name="email"
+        />
+      </div>
+    </div>
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+      <div class="cmp-form-text">
+        <label for="form-text-1788423476">Set Password</label>
+        <input
+          class="cmp-form-text__text"
+          data-cmp-hook-form-text="input"
+          type="password"
+          id="form-text-1788423476"
+          placeholder="password"
+          name="pw"
+          required=""
+        />
+      </div>
+    </div>
+    <div class="cmp cmp-options aem-GridColumn aem-GridColumn--default--12">
+      <fieldset class="form-group radio">
+        <legend>Newsletter</legend>
+        <div class="radio-item">
+          <label>
+            <input type="radio" name="newsletter" value="true" checked="" />
+            <span>Do you want to get notified about News and Sales?</span>
+          </label>
+        </div>
+        <div class="radio-item">
+          <label>
+            <input type="radio" name="newsletter" value="false" />
+            <span>No</span>
+          </label>
+        </div>
+      </fieldset>
+    </div>
+    <div class="hidden aem-GridColumn aem-GridColumn--default--12">
+      <input
+        type="hidden"
+        id="asset-url"
+        name="Asset URl"
+        value="/assets/marketing/q3/female/hiking"
+      />
+    </div>
+    <div class="button aem-GridColumn aem-GridColumn--default--12">
+      <button
+        type="SUBMIT"
+        id="form-button-1390778470"
+        class="cmp-form-button"
+        name="register"
+      >
+        Register
+      </button>
+    </div>
+  </form>
+</div>
