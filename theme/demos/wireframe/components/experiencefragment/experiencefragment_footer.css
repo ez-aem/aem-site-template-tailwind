@@ -1,2 +1,12 @@
 /*== XF Footer style, used on page template */
-#main-footer {}
+#main-footer {
+  @apply py-4;
+
+  .cmp-container > .aem-Grid {
+    @apply items-center;
+  }
+  
+  .title {
+    @apply flex justify-center items-center;
+  }
+}
