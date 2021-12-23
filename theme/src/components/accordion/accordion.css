@@ -1,6 +1,4 @@
-.cmp-accordion { @apply mx-4; 
-    .cmp-accordion__item { @apply border-b; }
-}
+.cmp-accordion {}
 .cmp-accordion__item {}
 .cmp-accordion__header {}
 .cmp-accordion__button {}
