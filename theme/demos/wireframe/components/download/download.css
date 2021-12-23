@@ -7,7 +7,6 @@
 .cmp-download__title-link {
   @apply text-foreground;
 }
-.cmp-download__description {}
 .cmp-download__properties {
   @apply flex flex-row gap-4 my-1;
 }
@@ -17,10 +16,6 @@
 .cmp-download__property-label {
   @apply hidden;
 }
-.cmp-download__property-content {}
-.cmp-download__property--filename {}
-.cmp-download__property--size {}
-.cmp-download__property--format {}
 .cmp-download__action {
   @apply mt-2 rounded-full pl-3 pr-4 py-2 font-semibold transition-colors duration-300 text-center inline-flex gap-2 items-center bg-accent text-white border-accent;
   @apply hover:bg-accent-darker hover:border-accent-darker hover:no-underline;
@@ -37,3 +32,24 @@
   }
 }
 .cmp-download__action-text {}
+
+
+.dark-container {
+  .cmp-download {
+    @apply border-shade-1;
+  }
+
+  .cmp-download__title,
+  .cmp-download__title-link {
+    @apply text-white;
+    @apply focus:ring-offset-shade-4 focus:ring-link-inverted;
+  }
+
+  .cmp-download__property {
+    @apply text-shade-1;
+  }
+
+  .cmp-download__action {
+    @apply focus:ring-offset-shade-4 focus:ring-link-inverted;
+  }
+}
