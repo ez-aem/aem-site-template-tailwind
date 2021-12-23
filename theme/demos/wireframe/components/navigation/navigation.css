@@ -3,7 +3,7 @@
   @apply flex flex-row gap-x-2;
 
   .cmp-navigation__group {
-    @apply absolute w-full bg-background border-2 border-shade-2 shadow-md rounded-md overflow-hidden delay-75 opacity-0 -translate-y-2 flex flex-col z-10;
+    @apply absolute mt-2 w-full bg-background border-2 border-shade-2 shadow-md rounded-md overflow-hidden delay-75 opacity-0 -translate-y-2 flex flex-col z-10;
     width: max-content;
     transition: transform 250ms, opacity 100ms, visibility 50ms;
     visibility: collapse;
@@ -62,10 +62,13 @@
 
   &:hover::after {
     @apply bg-foreground;
-    @apply -translate-y-[1px];
+    @apply translate-y-[2px];
   }
   &.open::after {
     @apply rotate-180;
+  }
+  &.open:hover::after {
+    @apply -translate-y-[2px];
   }
 }
 
