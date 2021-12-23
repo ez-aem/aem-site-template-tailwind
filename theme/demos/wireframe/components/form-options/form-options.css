@@ -10,10 +10,49 @@
 .select-hide {}
 .select-items div {}
 .same-as-selected {}
-.cmp-form-options--checkbox {}
+
+.cmp-form-options--checkbox {
+  @apply mx-3 my-2;
+
+  .cmp-form-options__legend {
+    @apply hidden;
+  }
+
+  .cmp-form-options__field-label {
+    @apply flex flex-row gap-x-3 items-center;
+  }
+
+  .cmp-form-options__field-description {
+    @apply text-foreground normal-case inline-flex font-normal text-base;
+  }
+
+  .cmp-form-options__field--checkbox {
+    @apply rounded border-2 border-shade-1 bg-shade-1 inline-flex h-6 w-6;
+    @apply hover:bg-white hover:border-shade-2;
+
+    &:not(:checked) {
+      @apply focus:border-accent focus:ring-0;
+    }
+
+    &:checked {
+      @apply bg-accent border-accent ring-0;
+      @apply focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-white;
+    }
+  }
+}
+
 .cmp-form-options__field-label {}
 .cmp-form-options__field--checkbox {}
 .cmp-form-options__field--radio {}
 .cmp-form-options__field-description {}
 .cmp-form-options__drop-down-field {}
 .cmp-form-options__multi-drop-down-field {}
+
+.cmp-form-options {
+  @apply flex flex-col gap-y-2;
+}
+.cmp-form-options__field--drop-down {
+  @apply relative w-full h-10 border-2 border-solid border-shade-1 rounded-md flex-row flex justify-start items-center text-shade-4 transition-colors duration-200 leading-4;
+  @apply hover:border-shade-2 hover:cursor-pointer;
+  @apply focus:border-accent focus:text-foreground;
+}
