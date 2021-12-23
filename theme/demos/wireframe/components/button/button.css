@@ -1,6 +1,15 @@
 .cmp-button {
-  @apply w-fit h-fit m-2 py-2 px-4 border-solid border-[.125rem] rounded-3xl;
+  @apply w-fit rounded-full pl-3 pr-4 py-2 font-semibold transition-colors duration-300 text-center inline-flex gap-2 items-center bg-accent text-white border-2 border-accent;
+  @apply hover:bg-accent-darker hover:border-accent-darker hover:no-underline;
+  @apply focus:bg-accent-darker focus:border-accent-darker focus:rounded-full focus:no-underline;
 }
+
 .cmp-button__text {
-  @apply font-light no-underline;
+  @apply font-semibold no-underline text-inherit;
+}
+
+.dark-container {
+  .cmp-button {
+    @apply focus:ring-offset-shade-3 focus:ring-link-inverted;
+  }
 }

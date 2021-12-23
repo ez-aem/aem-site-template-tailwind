@@ -5,6 +5,8 @@
 @import './components/accordion/accordion.css';
 @import './components/breadcrumb/breadcrumb.css';
 @import './components/button/button.css';
+@import './components/button/button--secondary.css';
+@import './components/button/button--quiet.css';
 @import './components/carousel/carousel.css';
 @import './components/container/container.css';
 @import './components/container/container--dark.css';
