@@ -9,15 +9,6 @@
     grid-area: overlay;
   }
 
-  .cmp-teaser__image {
-    @apply aspect-4/1;
-
-    .cmp-image,
-    .cmp-image__image {
-      @apply aspect-4/1;
-    }
-  }
-
   .cmp-teaser__content {
     @apply p-10 text-center justify-center text-white gap-y-6;
 
