@@ -14,7 +14,6 @@
   .cmp-languagenavigation__group {
     @apply translate-y-0 opacity-100;
     visibility: visible;
-    /* animation: slidDown 200ms ease-out; */
   }
 }
 
@@ -124,16 +123,5 @@ span[class^=cmp-languagenavigation__item--langcode]::before,
   &::after {
     @apply bg-background;
     mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZGVmcz48c3R5bGU+LmEsLmJ7ZmlsbDojMjY4ZTZjO30uYXtvcGFjaXR5OjA7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03MDMgLTgwKSI+PHJlY3QgY2xhc3M9ImEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzAzIDgwKSIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNNC45MzIsMjY5LjlhMSwxLDAsMCwxLS44NjQtLjQ2N0wuNzA3LDI2Ni4wNzJhMSwxLDAsMSwxLDEuNDE0LTEuNDE1bDIuODExLDIuODExLDcuNzYxLTcuNzYxYTEsMSwwLDEsMSwxLjQxNCwxLjQxNUw1LjgsMjY5LjQzMmExLDEsMCwwLDEtLjg0Ny40NjhaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3MDcuNTg2IC0xNzIuNjU3KSIvPjwvZz48L3N2Zz4=");
-  }
-}
-
-@keyframes slideDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-5%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
   }
 }
