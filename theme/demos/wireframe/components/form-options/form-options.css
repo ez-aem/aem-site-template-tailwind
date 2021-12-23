@@ -11,6 +11,7 @@
 .select-items div {}
 .same-as-selected {}
 
+.cmp-form-options--radio,
 .cmp-form-options--checkbox {
   @apply mx-3 my-2;
 
@@ -26,6 +27,7 @@
     @apply text-foreground normal-case inline-flex font-normal text-base;
   }
 
+  .cmp-form-options__field--radio,
   .cmp-form-options__field--checkbox {
     @apply rounded border-2 border-shade-1 bg-shade-1 inline-flex h-6 w-6;
     @apply hover:bg-white hover:border-shade-2;
@@ -38,6 +40,10 @@
       @apply bg-accent border-accent ring-0;
       @apply focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-white;
     }
+  }
+
+  .cmp-form-options__field--radio {
+    @apply rounded-full;
   }
 }
 
