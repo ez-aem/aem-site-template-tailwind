@@ -3,7 +3,6 @@ const plugin = require("tailwindcss/plugin");
 module.exports = plugin(({ addBase, e, theme, config }) => {
   const aemGridSettings = theme("aemGrid", []);
 
-  console.log("aemGridSettings", aemGridSettings)
   addBase({
     ".aem-Grid": {
       "--aem-grid-column-offset": "auto",
