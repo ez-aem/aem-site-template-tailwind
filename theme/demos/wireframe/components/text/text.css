@@ -1,2 +1,27 @@
-.cmp-text {}
-.cmp-text__paragraph {}
+.cmp-text {
+  @apply prose max-w-none;
+  h1, h2, h3, h4, h5, h6 {
+    a {
+      font-weight: unset;
+    }
+  }
+
+  a { 
+    @apply hover:underline;
+    @apply focus:ring-2 focus:ring-accent focus:outline-none focus:rounded focus:ring-offset-2 focus:ring-offset-white;
+  }
+
+  tbody th:first-child,
+  tbody td:first-child {
+    @apply pl-2;
+  }
+}
+
+.dark-container .cmp-text {
+  @apply prose-invert;
+
+  a { 
+    @apply hover:underline;
+    @apply focus:ring-offset-shade-4;
+  }
+}

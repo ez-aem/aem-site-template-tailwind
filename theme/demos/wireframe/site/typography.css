@@ -1,3 +1,28 @@
+
+a { 
+  @apply text-link no-underline; 
+  @apply hover:underline;
+  @apply focus:ring-2 focus:ring-accent focus:outline-none focus:rounded focus:ring-offset-2 focus:ring-offset-white;
+}
+
+.dark-container a {
+  @apply focus:ring-offset-shade-4;
+}
+
+button, input, optgroup, select, textarea { @apply font-inherit; }
+
+h1, h2, h3, h4, h5, h6 {
+  a:hover {
+    @apply underline decoration-1 underline-offset-2;
+  }
+}
+
+h1, h2, h3 {
+  a:hover {
+    @apply decoration-2;
+  }
+}
+
 h1 { 
   @apply text-5xl font-serif font-light text-foreground;
 }
@@ -21,23 +46,3 @@ h5 {
 h6 { 
   @apply text-xs font-sans font-semibold text-shade-4 uppercase;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  a:hover {
-    @apply underline decoration-1 underline-offset-2;
-  }
-}
-
-h1, h2, h3 {
-  a:hover {
-    @apply decoration-2;
-  }
-}
-
-a { 
-  @apply text-link no-underline; 
-  @apply hover:underline;
-  @apply focus:ring-2 focus:ring-accent focus:outline-none focus:rounded focus:ring-offset-2 focus:ring-offset-white;
-}
-
-button, input, optgroup, select, textarea { @apply font-inherit; }

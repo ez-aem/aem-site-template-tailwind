@@ -1,15 +1,34 @@
 module.exports = {
   mode: "jit",
   theme: {
-    aemGrid: {
-      columns: 12,
-      gap: "1rem",
-    },
+    aemGrid: [
+      {
+        name: "default",
+        columns: 12,
+        gap: "1rem",
+        maxWidth: "1420px",
+      },
+      {
+        name: "phone",
+        columns: 4,
+        gap: "1rem",
+        maxWidth: "100%",
+        breakpoint: "768px",
+        breakpointType: "max-width",
+      },
+    ],
     extend: {
-      fontFamily: {
-        "sans": ["defaultFont", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
-        "serif": ["titleFont", "serif"],
-        "inherit": "inherit",
+      aspectRatio: {
+        "2/1": "2 / 1",
+        "3/1": "3 / 1",
+        "3/2": "3 / 2",
+        "4/1": "4 / 1",
+      },
+      borderWidth: {
+        "1": "1px",
+      },
+      boxShadow: {
+        "DEFAULT": "0 0.25em 0.5em 0.2em",
       },
       colors: {
         "background": "#fff",
@@ -34,16 +53,117 @@ module.exports = {
         "success": "#268E6C",
         "success-darker": "#0D7553",
       },
-      boxShadow: {
-        "DEFAULT": "0 0.25em 0.5em 0.2em",
+      fontFamily: {
+        "sans": "defaultFont, 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "serif": "titleFont, serif",
+        "inherit": "inherit",
       },
-      aspectRatio: {
-        "2/1": "2 / 1",
-        "3/1": "3 / 1",
-        "3/2": "3 / 2",
-        "4/1": "4 / 1",
-      }
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            "--tw-prose-headings": theme("colors.foreground"),
+            "--tw-prose-invert-headings": theme("colors.white"),
+            "--tw-prose-links": theme("colors.accent"),
+            "--tw-prose-links-hover": theme("colors.accent-darker"),
+            "--tw-prose-invert-links": theme("colors.link-inverted"),
+            a: {
+              "color": "var(--tw-prose-links)",
+              "text-decoration": "none",
+              "&:hover": {
+                "color": theme("colors.accent-darker"),
+                "text-decoration": "underline",
+              }
+            },
+            h1: {
+              "font-size": "3rem",
+              "line-height": "1",
+              "font-family": theme("fontFamily.serif"),
+              "font-weight": theme("fontWeight.light"),
+              "color": "var(--tw-prose-headings)",
+            },
+            h2: {
+              "font-size": "2.25rem",
+              "line-height": "2.25rem",
+              "font-family": theme("fontFamily.serif"),
+              "font-weight": theme("fontWeight.semibold"),
+              "color": "var(--tw-prose-headings)",
+            },
+            h3: {
+              "font-size": "1.5rem",
+              "line-height": "2rem",
+              "font-family": theme("fontFamily.serif"),
+              "font-weight": theme("fontWeight.semibold"),
+              "color": "var(--tw-prose-headings)",
+            },
+            h4: {
+              "font-size": "1.25rem",
+              "line-height": "1.75rem",
+              "font-family": theme("fontFamily.serif"),
+              "font-weight": theme("fontWeight.semibold"),
+              "color": "var(--tw-prose-headings)",
+            },
+            h5: {
+              "font-size": "1rem",
+              "line-height": "1.5rem",
+              "font-family": theme("fontFamily.serif"),
+              "font-weight": theme("fontWeight.semibold"),
+              "color": "var(--tw-prose-headings)",
+            },
+            h6: {
+              "font-size": ".75rem",
+              "line-height": "1rem",
+              "font-family": theme("fontFamily.sans"),
+              "font-weight": theme("fontWeight.semibold"),
+              "color": theme("colors.shade-4"),
+              "text-transform": "uppercase",
+            },
+            pre: {
+              "--tw-prose-pre-code": theme("colors.foreground"),
+              "--tw-prose-pre-bg": theme("colors.shade-1"),
+            },
+            table: {
+              "border": `1px solid var(--tw-prose-td-borders)`,
+              tbody: {
+                td: {
+                  "&:first-child": {
+                    "padding-left": ".5rem",
+                  },
+                  "& + td": {
+                    "border-left": `1px solid var(--tw-prose-td-borders)`,
+                  }
+                },
+                th: {
+                  "&:first-child": {
+                    "padding-left": ".5rem",
+                  },
+                  "& + th": {
+                    "border-left": `1px solid var(--tw-prose-td-borders)`,
+                  }
+                }
+              }
+            }
+          }
+        },
+        invert: {
+          css: {
+            "--tw-prose-invert-headings": theme("colors.white"),
+            "--tw-prose-invert-links": theme("colors.link-inverted"),
+            "--tw-prose-pre-code": theme("colors.shade-1"),
+            "--tw-prose-pre-bg": theme("colors.shade-4"),
+            "--tw-prose-invert-headings": theme("colors.white"),
+            "--tw-prose-td-borders": theme("colors.white"),
+            "--tw-prose-bullets": theme("colors.white"),
+            h6: {
+              color: theme("colors.shade-1"),
+            },
+          }
+        }
+      })
     },
+    screens: {
+      "phone": { "max": "768px" },
+      "default": "769px",
+    }
   },
   variants: {
     extend: {},
