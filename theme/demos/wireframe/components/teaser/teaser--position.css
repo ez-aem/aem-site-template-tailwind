@@ -22,8 +22,7 @@
   }
   .cmp-teaser__content {
     @apply p-6 pl-0;
-    @apply lg:p-8 lg:pl-0;
-    @apply xl:p-8 xl:pl-0;
+    @apply default:p-8 default:pl-0;
   }
 }
 
@@ -32,7 +31,8 @@
     @apply flex-row;
   }
   .cmp-teaser__content {
-    @apply p-6 lg:p-8 xl:p-10;
+    @apply p-6;
+    @apply default:p-6;
   }
 }
 
@@ -40,19 +40,16 @@
 .teaser.textAtLeft {
   .cmp-teaser__image {
     @apply basis-2/3 aspect-2/1;
-    @apply lg:aspect-3/1;
-    @apply xl:aspect-3/1;
+    @apply default:aspect-3/1;
 
     .cmp-image { 
       @apply w-full h-full aspect-2/1; 
-      @apply lg:aspect-3/1;
-      @apply xl:aspect-3/1;
+      @apply default:aspect-3/1;
     }
 
     .cmp-image__image {
       @apply aspect-2/1 object-cover h-full;
-      @apply lg:aspect-3/1;
-      @apply xl:aspect-3/1;
+      @apply default:aspect-3/1;
     }
   }
 
