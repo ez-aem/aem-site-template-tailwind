@@ -1,6 +1,6 @@
 /* XF Header style, used on page template */
 #main-header {
-  @apply py-5 px-0 border-b border-solid text-shade-1;
+  @apply py-4 border-b border-solid text-shade-1;
 
   .cmp-image {
     @apply flex h-full items-center;
