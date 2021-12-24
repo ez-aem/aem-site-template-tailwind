@@ -120,11 +120,16 @@
           </container_820040118>
         </container>
         <container_1748665491 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container">
-          <title cq:styleIds="[1612896649188]" jcr:primaryType="nt:unstructured" jcr:title="Find us" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-          <text jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Wireframe&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>1251 Harrison Street&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>San Francisco, CA, 94108&lt;/a>&lt;/p>&#xd;&#xa;" textIsRich="true"/>
-          <separator cq:styleIds="[1612911013038]" jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/separator/v1/separator"/>
-          <title_2013747888 cq:styleIds="[1612896649188]" jcr:primaryType="nt:unstructured" jcr:title="Need more help?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-          <text_1226249202 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Give us a call at &lt;a href=&quot;tel:415-591-1416&quot;>415-591-1416&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>E-mail us at &lt;a href=&quot;mailto:info@wireframe.site&quot;>info@wireframe.site&lt;/a>&lt;/p>&#xd;&#xa;" textIsRich="true"/>
+          <container_89231123 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container">
+            <title cq:styleIds="[1612896649188]" jcr:primaryType="nt:unstructured" jcr:title="Find us" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+            <text jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Wireframe&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>1251 Harrison Street&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>San Francisco, CA, 94108&lt;/a>&lt;/p>&#xd;&#xa;" textIsRich="true"/>
+            <separator cq:styleIds="[1612911013038]" jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/separator/v1/separator"/>
+            <title_2013747888 cq:styleIds="[1612896649188]" jcr:primaryType="nt:unstructured" jcr:title="Need more help?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+            <text_1226249202 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Give us a call at &lt;a href=&quot;tel:415-591-1416&quot;>415-591-1416&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>E-mail us at &lt;a href=&quot;mailto:info@wireframe.site&quot;>info@wireframe.site&lt;/a>&lt;/p>&#xd;&#xa;" textIsRich="true"/>
+            <cq:responsive jcr:primaryType="nt:unstructured">
+              <default jcr:primaryType="nt:unstructured" offset="1" width="3"/>
+            </cq:responsive>
+          </container_89231123>
         </container_1748665491>
       </container>
     </root>
