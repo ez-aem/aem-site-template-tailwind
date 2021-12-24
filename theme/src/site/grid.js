@@ -15,7 +15,11 @@ module.exports = plugin(({ addBase, e, theme, config }) => {
     ".aem-GridColumn": {
       "grid-column-start": "var(--aem-grid-column-offset, auto)",
       "grid-column-end": "var(--aem-grid-column-span, -1)"
-    }
+    },
+    ".aem-Grid-newComponent": {
+      "--aem-grid-column-span": "-1",
+      "--aem-grid-column-offset": "1",
+    },
   })
 
   aemGridSettings.forEach(grid => {
