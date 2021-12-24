@@ -25,7 +25,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    // require("./demos/wireframe/site/grid-base.js"),
     require("./src/site/grid.js"),
   ],
   corePlugins: {
