@@ -1,7 +1,7 @@
 import languageNavigation from "./components/languagenavigation/languagenavigation";
 import navigation from "./components/navigation/navigation";
 
-const documentReadyFunctions = (e) => {
+const documentReadyFunctions = () => {
   languageNavigation();
   navigation();
 };

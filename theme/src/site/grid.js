@@ -32,7 +32,6 @@ module.exports = plugin(({ addBase, theme }) => {
     const { columns, gap, name, breakpoint, breakpointType, maxWidth } = grid;
     let styles = {};
     let mediaQuery = "";
-    let gridMaxWidth = "";
     styles[".aem-Grid"] = {
       "--aem-grid-gap": gap,
       "--aem-grid-column-total": `${columns}`,
@@ -50,10 +49,6 @@ module.exports = plugin(({ addBase, theme }) => {
     }
 
     for (let column = 1; column <= columns; column++) {
-      if (maxWidth) {
-        gridMaxWidth = `calc(${maxWidth} / (${column / columns}))`;
-      }
-
       styles[`.aem-Grid--${name}--${column}`] = {
         "--aem-grid-columns": `${column}`,
         "max-width": maxWidth

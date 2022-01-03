@@ -11,7 +11,7 @@ const navigation = () => {
       const $button = document.createElement("button");
       const $a = $el.querySelector(".cmp-navigation__item-link");
 
-      window.toggleNavigationGroup = (e) => {
+      window.toggleNavigationGroup = () => {
         $childGroup.classList.toggle("cmp-navigation__group--open");
         $button.classList.toggle("open");
         setTimeout(

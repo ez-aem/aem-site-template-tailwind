@@ -6,8 +6,8 @@
   "scripts": {
     "build": "aem-site-template-builder",
     "deploy": "curl -u admin:admin -F file=@aem-site-template-tailwind-latest.zip http://localhost:4502/conf/global/site-templates.import.html",
-    "lint:check": "eslint theme --ext .css,.ts,.js,.jsx,.tsx",
-    "lint:fix": "eslint --fix theme --ext .css,.ts,.js,.jsx,.tsx",
+    "lint:check": "eslint theme --ext .ts,.js,.jsx,.tsx",
+    "lint:fix": "eslint --fix theme --ext .ts,.js,.jsx,.tsx",
     "prepare": "husky install",
     "prettier:check": "prettier --check theme/**/**/**/**/*.{css,html,js,jsx,ts,tsx}",
     "prettier:fix": "prettier --write theme/**/**/**/*.{css,html,js,jsx,ts,tsx}"
