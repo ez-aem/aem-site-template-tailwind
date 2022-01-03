@@ -9,6 +9,14 @@
     grid-area: overlay;
   }
 
+  .cmp-image {
+    @apply h-full;
+
+    .cmp-image__image {
+      @apply object-cover h-full;
+    }
+  }
+
   .cmp-teaser__content {
     @apply p-10 text-center justify-center text-white gap-y-6;
 
