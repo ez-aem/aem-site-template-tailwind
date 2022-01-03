@@ -5,7 +5,7 @@
   .cmp-container > .aem-Grid {
     @apply items-center;
   }
-  
+
   .title {
     @apply flex justify-center items-center;
   }

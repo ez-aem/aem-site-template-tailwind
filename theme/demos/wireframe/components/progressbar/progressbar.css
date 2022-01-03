@@ -7,7 +7,7 @@
   }
 }
 
-.cmp-progressbar__label--remaining { 
+.cmp-progressbar__label--remaining {
   @apply hidden;
 }
 

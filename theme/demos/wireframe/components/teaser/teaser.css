@@ -3,7 +3,7 @@
 }
 
 .cmp-teaser__image {
-  .cmp-image__image { 
+  .cmp-image__image {
     @apply w-full;
   }
 }

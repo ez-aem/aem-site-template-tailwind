@@ -6,25 +6,29 @@ module.exports = plugin(({ addBase, theme }) => {
   addBase({
     ".aem-Grid": {
       "--aem-grid-column-offset": "0",
-      "display": "grid",
+      display: "grid",
       "grid-template-columns": "repeat(var(--aem-grid-columns), 1fr)",
-      "gap": "var(--aem-grid-gap)",
+      gap: "var(--aem-grid-gap)",
       "margin-inline": "auto",
-      "width": "100%",
+      width: "100%",
     },
     ".aem-GridColumn": {
-      "grid-column-end": "span calc(var(--aem-grid-column-span, -1) + var(--aem-grid-column-offset))",
-      "--aem-grid-margin-column-offset": "calc(var(--aem-grid-column-offset) / calc(var(--aem-grid-column-span) + var(--aem-grid-column-offset)) * 100%)",
-      "--aem-grid-margin-gap-offset": "calc(var(--aem-grid-gap) / var(--aem-grid-columns))",
-      "margin-inline-start": "calc(var(--aem-grid-margin-gap-offset) + var(--aem-grid-margin-column-offset))"
+      "grid-column-end":
+        "span calc(var(--aem-grid-column-span, -1) + var(--aem-grid-column-offset))",
+      "--aem-grid-margin-column-offset":
+        "calc(var(--aem-grid-column-offset) / calc(var(--aem-grid-column-span) + var(--aem-grid-column-offset)) * 100%)",
+      "--aem-grid-margin-gap-offset":
+        "calc(var(--aem-grid-gap) / var(--aem-grid-columns))",
+      "margin-inline-start":
+        "calc(var(--aem-grid-margin-gap-offset) + var(--aem-grid-margin-column-offset))",
     },
     ".aem-Grid-newComponent": {
       "--aem-grid-column-span": "-1",
       "--aem-grid-column-offset": "1",
     },
-  })
+  });
 
-  aemGridSettings.forEach(grid => {
+  aemGridSettings.forEach((grid) => {
     const { columns, gap, name, breakpoint, breakpointType, maxWidth } = grid;
     let styles = {};
     let mediaQuery = "";
@@ -42,7 +46,7 @@ module.exports = plugin(({ addBase, theme }) => {
 
       styles[`.aem-GridColumn--offset--${name}--0`] = {
         "--aem-grid-column-offset": "0",
-      }
+      };
     }
 
     for (let column = 1; column <= columns; column++) {
@@ -52,7 +56,9 @@ module.exports = plugin(({ addBase, theme }) => {
 
       styles[`.aem-Grid--${name}--${column}`] = {
         "--aem-grid-columns": `${column}`,
-        "max-width": maxWidth ? `calc((var(--aem-grid-max-width) / var(--aem-grid-column-total)) * ${column})` : "",
+        "max-width": maxWidth
+          ? `calc((var(--aem-grid-max-width) / var(--aem-grid-column-total)) * ${column})`
+          : "",
       };
 
       styles[`.aem-GridColumn--${name}--${column}`] = {
@@ -65,11 +71,13 @@ module.exports = plugin(({ addBase, theme }) => {
     }
 
     if (breakpoint) {
-      mediaQuery = breakpointType ? `${breakpointType}: ${breakpoint}` : `min-width: ${breakpoint}`;
+      mediaQuery = breakpointType
+        ? `${breakpointType}: ${breakpoint}`
+        : `min-width: ${breakpoint}`;
       mediaQuery = `@media (${mediaQuery})`;
-      styles = { [mediaQuery]: styles }
+      styles = { [mediaQuery]: styles };
     }
 
     addBase(styles);
-  })
+  });
 });

@@ -1,55 +1,55 @@
-@import './site/reset.css';
-@import './site/tailwind.css';
-@import './site/base.css';
+@import "./site/reset.css";
+@import "./site/tailwind.css";
+@import "./site/base.css";
 
 /* Site global */
-@import './site/fonts.css';
+@import "./site/fonts.css";
 
 /* Core components */
 
-@import './components/text/text.css';
-@import './components/title/title.css';
-@import './components/image/image.css';
-@import './components/button/button.css';
-@import './components/separator/separator.css';
-@import './components/progressbar/progressbar.css';
-@import './components/teaser/teaser.css';
-@import './components/download/download.css';
+@import "./components/text/text.css";
+@import "./components/title/title.css";
+@import "./components/image/image.css";
+@import "./components/button/button.css";
+@import "./components/separator/separator.css";
+@import "./components/progressbar/progressbar.css";
+@import "./components/teaser/teaser.css";
+@import "./components/download/download.css";
 
 /* Lists and Navigation components */
-@import './components/list/list.css';
-@import './components/navigation/navigation.css';
-@import './components/languagenavigation/languagenavigation.css';
-@import './components/breadcrumb/breadcrumb.css';
-@import './components/search/search.css';
+@import "./components/list/list.css";
+@import "./components/navigation/navigation.css";
+@import "./components/languagenavigation/languagenavigation.css";
+@import "./components/breadcrumb/breadcrumb.css";
+@import "./components/search/search.css";
 
 /* Container components */
-@import './components/container/container.css';
-@import './components/carousel/carousel.css';
-@import './components/tabs/tabs.css';
-@import './components/accordion/accordion.css';
+@import "./components/container/container.css";
+@import "./components/carousel/carousel.css";
+@import "./components/tabs/tabs.css";
+@import "./components/accordion/accordion.css";
 
 /* Fragments (CF + XF) components */
 
-@import './components/contentfragment/contentfragment.css';
-@import './components/contentfragmentlist/contentfragmentlist.css';
+@import "./components/contentfragment/contentfragment.css";
+@import "./components/contentfragmentlist/contentfragmentlist.css";
 
-@import './components/experiencefragment/experiencefragment.css';
-@import './components/experiencefragment/experiencefragment_footer.css';
-@import './components/experiencefragment/experiencefragment_header.css';
+@import "./components/experiencefragment/experiencefragment.css";
+@import "./components/experiencefragment/experiencefragment_footer.css";
+@import "./components/experiencefragment/experiencefragment_header.css";
 
 /* Form components */
 
-@import './components/form/form.css';
-@import './components/form-button/form-button.css';
-@import './components/form-text/form-text.css';
-@import './components/form-options/form-options.css';
+@import "./components/form/form.css";
+@import "./components/form-button/form-button.css";
+@import "./components/form-text/form-text.css";
+@import "./components/form-options/form-options.css";
 
 /* Embed components */
 
-@import './components/embed/embed.css';
-@import './components/pdfviewer/pdfviewer.css';
-@import './components/socialmediasharing/socialmediasharing.css';
+@import "./components/embed/embed.css";
+@import "./components/pdfviewer/pdfviewer.css";
+@import "./components/socialmediasharing/socialmediasharing.css";
 
 /* Wireframe Demo CSS Theme */
 @import "../demos/wireframe/theme.css";

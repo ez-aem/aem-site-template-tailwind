@@ -24,10 +24,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [
-    require("./src/site/grid.js"),
-  ],
+  plugins: [require("./src/site/grid.js")],
   corePlugins: {
     container: false,
-  }
-}
+  },
+};

@@ -25,9 +25,8 @@
   @apply z-10 relative top-[unset] left-[unset] right-[unset];
 }
 
-.cmp-search__loading-indicator[aria-hidden=false],
-.cmp-search__icon[aria-hidden=false],
-.cmp-search__clear[aria-hidden=false] .cmp-search__clear-icon {
+.cmp-search__loading-indicator[aria-hidden="false"],
+.cmp-search__icon[aria-hidden="false"],
+.cmp-search__clear[aria-hidden="false"] .cmp-search__clear-icon {
   @apply block;
 }
-

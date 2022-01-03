@@ -4,7 +4,7 @@
     grid-template-areas: "overlay";
   }
 
-  .cmp-teaser__image, 
+  .cmp-teaser__image,
   .cmp-teaser__content {
     grid-area: overlay;
   }

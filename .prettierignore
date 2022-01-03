@@ -1,0 +1,5 @@
+node_modules
+
+theme/dist
+theme/node_modules
+theme/.parcel-cache
