@@ -1,11 +1,11 @@
 const plugin = require("tailwindcss/plugin");
 
-module.exports = plugin(({ addBase, e, theme, config }) => {
+module.exports = plugin(({ addBase, theme }) => {
   const aemGridSettings = theme("aemGrid", []);
 
   addBase({
     ".aem-Grid": {
-      "--aem-grid-column-offset": "auto",
+      "--aem-grid-column-offset": "0",
       "display": "grid",
       "grid-template-columns": "repeat(var(--aem-grid-columns), 1fr)",
       "gap": "var(--aem-grid-gap)",
@@ -13,8 +13,10 @@ module.exports = plugin(({ addBase, e, theme, config }) => {
       "width": "100%",
     },
     ".aem-GridColumn": {
-      "grid-column-start": "var(--aem-grid-column-offset, auto)",
-      "grid-column-end": "var(--aem-grid-column-span, -1)"
+      "grid-column-end": "span calc(var(--aem-grid-column-span, -1) + var(--aem-grid-column-offset))",
+      "--aem-grid-margin-column-offset": "calc(var(--aem-grid-column-offset) / calc(var(--aem-grid-column-span) + var(--aem-grid-column-offset)) * 100%)",
+      "--aem-grid-margin-gap-offset": "calc(var(--aem-grid-gap) / var(--aem-grid-columns))",
+      "margin-inline-start": "calc(var(--aem-grid-margin-gap-offset) + var(--aem-grid-margin-column-offset))"
     },
     ".aem-Grid-newComponent": {
       "--aem-grid-column-span": "-1",
@@ -39,7 +41,7 @@ module.exports = plugin(({ addBase, e, theme, config }) => {
       };
 
       styles[`.aem-GridColumn--offset--${name}--0`] = {
-        "--aem-grid-column-offset": "auto",
+        "--aem-grid-column-offset": "0",
       }
     }
 
@@ -54,11 +56,11 @@ module.exports = plugin(({ addBase, e, theme, config }) => {
       };
 
       styles[`.aem-GridColumn--${name}--${column}`] = {
-        "--aem-grid-column-span": `span ${column}`,
+        "--aem-grid-column-span": `${column}`,
       };
 
       styles[`.aem-GridColumn--offset--${name}--${column}`] = {
-        "--aem-grid-column-offset": `${column + 1}`,
+        "--aem-grid-column-offset": `${column}`,
       };
     }
 
