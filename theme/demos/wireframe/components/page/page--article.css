@@ -1,0 +1,11 @@
+/*
+body.article-page {
+  .aem-Grid {
+    --padding-block: 2rem;
+  }
+
+  .text {
+    @apply prose max-w-none;
+  }
+}
+*/

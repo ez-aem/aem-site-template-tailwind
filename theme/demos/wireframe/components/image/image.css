@@ -1,6 +1,10 @@
-.cmp-image {}
-.cmp-image__link {}
-.cmp-image__image { @apply w-auto; }
+.cmp-image {
+}
+.cmp-image__link {
+}
+.cmp-image__image {
+  @apply w-auto;
+}
 .cmp-image__title {
   @apply uppercase text-xs text-shade-4 my-2;
 }

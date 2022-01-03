@@ -1,9 +1,16 @@
-.cmp-contentfragment {}
+.cmp-contentfragment {
+}
 /* .cmp-contentfragment--<name>{} */
-.cmp-contentfragment__title {}
-.cmp-contentfragment__description {}
-.cmp-contentfragment__elements {}
-.cmp-contentfragment__element {}
+.cmp-contentfragment__title {
+}
+.cmp-contentfragment__description {
+}
+.cmp-contentfragment__elements {
+}
+.cmp-contentfragment__element {
+}
 /* .cmp-contentfragment__element--myElementName {} */
-.cmp-contentfragment__element-title {}
-.cmp-contentfragment__element-value {}
+.cmp-contentfragment__element-title {
+}
+.cmp-contentfragment__element-value {
+}

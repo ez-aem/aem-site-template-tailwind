@@ -1,132 +1,156 @@
 @font-face {
   font-family: defaultFont;
   font-weight: 900;
-  src: url("../resources/fonts/SourceSansPro/SourceSansPro-Black.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSansPro/SourceSansPro-Black.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: defaultFont;
   font-weight: 900;
   font-style: italic;
-  src: url("../resources/fonts/SourceSansPro/SourceSansPro-BlackItalic.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSansPro/SourceSansPro-BlackItalic.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: defaultFont;
   font-weight: 700;
-  src: url("../resources/fonts/SourceSansPro/SourceSansPro-Bold.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSansPro/SourceSansPro-Bold.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: defaultFont;
   font-weight: 700;
   font-style: italic;
-  src: url("../resources/fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: defaultFont;
   font-weight: 200;
-  src: url("../resources/fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: defaultFont;
   font-weight: 200;
   font-style: italic;
-  src: url("../resources/fonts/SourceSansPro/SourceSansPro-ExtraLightItalic.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSansPro/SourceSansPro-ExtraLightItalic.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: defaultFont;
   font-weight: 400;
   font-style: italic;
-  src: url("../resources/fonts/SourceSansPro/SourceSansPro-Italic.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSansPro/SourceSansPro-Italic.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: defaultFont;
   font-weight: 300;
-  src: url("../resources/fonts/SourceSansPro/SourceSansPro-Light.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSansPro/SourceSansPro-Light.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: defaultFont;
   font-weight: 300;
   font-style: italic;
-  src: url("../resources/fonts/SourceSansPro/SourceSansPro-LightItalic.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSansPro/SourceSansPro-LightItalic.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: defaultFont;
   font-weight: 400;
-  src: url("../resources/fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSansPro/SourceSansPro-Regular.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: defaultFont;
   font-weight: 600;
-  src: url("../resources/fonts/SourceSansPro/SourceSansPro-SemiBold.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSansPro/SourceSansPro-SemiBold.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: defaultFont;
   font-weight: 600;
   font-style: italic;
-  src: url("../resources/fonts/SourceSansPro/SourceSansPro-SemiBoldItalic.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSansPro/SourceSansPro-SemiBoldItalic.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: titleFont;
   font-weight: 900;
-  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Black.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Black.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: titleFont;
   font-weight: 900;
   font-style: italic;
-  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-BlackItalic.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-BlackItalic.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: titleFont;
   font-weight: 700;
-  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Bold.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Bold.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: titleFont;
   font-weight: 700;
   font-style: italic;
-  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-BoldItalic.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-BoldItalic.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: titleFont;
   font-weight: 200;
-  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-ExtraLight.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-ExtraLight.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: titleFont;
   font-weight: 200;
   font-style: italic;
-  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-ExtraLightItalic.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-ExtraLightItalic.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: titleFont;
   font-weight: 300;
-  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Light.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Light.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: "Source Serif Pro";
   font-weight: 300;
   font-style: italic;
-  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-LightItalic.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-LightItalic.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: "Source Serif Pro";
   font-weight: 400;
   font-style: italic;
-  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Italic.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Italic.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: "Source Serif Pro";
   font-weight: 400;
-  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: "Source Serif Pro";
   font-weight: 600;
-  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-SemiBold.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-SemiBold.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: "Source Serif Pro";
   font-weight: 600;
   font-style: italic;
-  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-SemiBoldItalic.ttf") format("truetype");
+  src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-SemiBoldItalic.ttf")
+    format("truetype");
 }

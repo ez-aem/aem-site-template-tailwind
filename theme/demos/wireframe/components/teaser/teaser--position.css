@@ -42,8 +42,8 @@
     @apply basis-2/3 aspect-2/1;
     @apply default:aspect-3/1;
 
-    .cmp-image { 
-      @apply w-full h-full aspect-2/1; 
+    .cmp-image {
+      @apply w-full h-full aspect-2/1;
       @apply default:aspect-3/1;
     }
 

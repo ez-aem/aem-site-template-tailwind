@@ -1,4 +1,5 @@
-.cmp-tabs {}
+.cmp-tabs {
+}
 
 .cmp-tabs__tablist {
   @apply border-b-1 border-shade-2;
@@ -17,4 +18,5 @@
 .cmp-tabs__tabpanel {
   @apply my-4;
 }
-.cmp-tabs__tabpanel--active {}
+.cmp-tabs__tabpanel--active {
+}

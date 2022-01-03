@@ -6,7 +6,10 @@ const documentReadyFunctions = (e) => {
   navigation();
 };
 
-if (document.readyState === "complete" || document.readyState === "interactive") {
+if (
+  document.readyState === "complete" ||
+  document.readyState === "interactive"
+) {
   setTimeout(documentReadyFunctions, 1);
 } else {
   document.addEventListener("DOMContentLoaded", documentReadyFunctions);

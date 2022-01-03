@@ -88,7 +88,11 @@ buildNumber.properties
 node_modules
 npm-debug.log
 
+### Generated Files from AEM Template Builder ###
 aem-site-template-tailwind-*.zip
 site-template
 
 theme/.env
+
+### ESLint ###
+.eslintcache

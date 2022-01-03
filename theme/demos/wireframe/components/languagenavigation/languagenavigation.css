@@ -68,7 +68,7 @@
   }
 }
 
-span[class^=cmp-languagenavigation__item--langcode]::before,
+span[class^="cmp-languagenavigation__item--langcode"]::before,
 .cmp-languagenavigation__item::before {
   @apply inline-flex w-4 h-4 bg-no-repeat rounded-full shrink-0;
   content: "";

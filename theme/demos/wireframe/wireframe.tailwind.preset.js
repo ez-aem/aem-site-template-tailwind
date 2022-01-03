@@ -25,38 +25,34 @@ module.exports = {
         "4/1": "4 / 1",
       },
       borderWidth: {
-        "1": "1px",
+        1: "1px",
       },
       boxShadow: {
-        "DEFAULT": "0 0.25em 0.5em 0.2em",
+        DEFAULT: "0 0.25em 0.5em 0.2em",
       },
       colors: {
-        "background": "#fff",
-        "foreground": "#000",
-        "link": "#2020e0",
+        background: "#fff",
+        foreground: "#000",
+        link: "#2020e0",
         "link-inverted": "#B2D2FF",
-        "accent": "#2954ff",
+        accent: "#2954ff",
         "accent-lighter": "#436eff",
         "accent-darker": "#103be6",
         "shade-1": "#eceff1",
         "shade-2": "#cfd8dc",
         "shade-3": "#607d8b",
         "shade-4": "#455a64",
-        "error": "#d7373f",
+        error: "#d7373f",
         "error-darker": "#be1e26",
-        "success": "#268e6c",
+        success: "#268e6c",
         "success-darker": "#0d7553",
-        "shadow": "rgba(0, 0, 0, 0.16)",
-        "transparent": "rgba(0, 0, 0, 0)",
-        "error": "#D7373F",
-        "error-darker": "#BE1E26",
-        "success": "#268E6C",
-        "success-darker": "#0D7553",
+        shadow: "rgba(0, 0, 0, 0.16)",
+        transparent: "rgba(0, 0, 0, 0)",
       },
       fontFamily: {
-        "sans": "defaultFont, 'Helvetica Neue', Helvetica, Arial, sans-serif",
-        "serif": "titleFont, serif",
-        "inherit": "inherit",
+        sans: "defaultFont, 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        serif: "titleFont, serif",
+        inherit: "inherit",
       },
       typography: (theme) => ({
         DEFAULT: {
@@ -67,54 +63,54 @@ module.exports = {
             "--tw-prose-links-hover": theme("colors.accent-darker"),
             "--tw-prose-invert-links": theme("colors.link-inverted"),
             a: {
-              "color": "var(--tw-prose-links)",
+              color: "var(--tw-prose-links)",
               "text-decoration": "none",
               "&:hover": {
-                "color": theme("colors.accent-darker"),
+                color: theme("colors.accent-darker"),
                 "text-decoration": "underline",
-              }
+              },
             },
             h1: {
               "font-size": "3rem",
               "line-height": "1",
               "font-family": theme("fontFamily.serif"),
               "font-weight": theme("fontWeight.light"),
-              "color": "var(--tw-prose-headings)",
+              color: "var(--tw-prose-headings)",
             },
             h2: {
               "font-size": "2.25rem",
               "line-height": "2.25rem",
               "font-family": theme("fontFamily.serif"),
               "font-weight": theme("fontWeight.semibold"),
-              "color": "var(--tw-prose-headings)",
+              color: "var(--tw-prose-headings)",
             },
             h3: {
               "font-size": "1.5rem",
               "line-height": "2rem",
               "font-family": theme("fontFamily.serif"),
               "font-weight": theme("fontWeight.semibold"),
-              "color": "var(--tw-prose-headings)",
+              color: "var(--tw-prose-headings)",
             },
             h4: {
               "font-size": "1.25rem",
               "line-height": "1.75rem",
               "font-family": theme("fontFamily.serif"),
               "font-weight": theme("fontWeight.semibold"),
-              "color": "var(--tw-prose-headings)",
+              color: "var(--tw-prose-headings)",
             },
             h5: {
               "font-size": "1rem",
               "line-height": "1.5rem",
               "font-family": theme("fontFamily.serif"),
               "font-weight": theme("fontWeight.semibold"),
-              "color": "var(--tw-prose-headings)",
+              color: "var(--tw-prose-headings)",
             },
             h6: {
               "font-size": ".75rem",
               "line-height": "1rem",
               "font-family": theme("fontFamily.sans"),
               "font-weight": theme("fontWeight.semibold"),
-              "color": theme("colors.shade-4"),
+              color: theme("colors.shade-4"),
               "text-transform": "uppercase",
             },
             pre: {
@@ -122,7 +118,7 @@ module.exports = {
               "--tw-prose-pre-bg": theme("colors.shade-1"),
             },
             table: {
-              "border": `1px solid var(--tw-prose-td-borders)`,
+              border: `1px solid var(--tw-prose-td-borders)`,
               tbody: {
                 td: {
                   "&:first-child": {
@@ -130,7 +126,7 @@ module.exports = {
                   },
                   "& + td": {
                     "border-left": `1px solid var(--tw-prose-td-borders)`,
-                  }
+                  },
                 },
                 th: {
                   "&:first-child": {
@@ -138,11 +134,11 @@ module.exports = {
                   },
                   "& + th": {
                     "border-left": `1px solid var(--tw-prose-td-borders)`,
-                  }
-                }
-              }
-            }
-          }
+                  },
+                },
+              },
+            },
+          },
         },
         invert: {
           css: {
@@ -150,20 +146,19 @@ module.exports = {
             "--tw-prose-invert-links": theme("colors.link-inverted"),
             "--tw-prose-pre-code": theme("colors.shade-1"),
             "--tw-prose-pre-bg": theme("colors.shade-4"),
-            "--tw-prose-invert-headings": theme("colors.white"),
             "--tw-prose-td-borders": theme("colors.white"),
             "--tw-prose-bullets": theme("colors.white"),
             h6: {
               color: theme("colors.shade-1"),
             },
-          }
-        }
-      })
+          },
+        },
+      }),
     },
     screens: {
-      "phone": { "max": "768px" },
-      "default": "769px",
-    }
+      phone: { max: "768px" },
+      default: "769px",
+    },
   },
   variants: {
     extend: {},
@@ -172,8 +167,8 @@ module.exports = {
     container: false,
   },
   plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/line-clamp'),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/line-clamp"),
   ],
-}
+};
