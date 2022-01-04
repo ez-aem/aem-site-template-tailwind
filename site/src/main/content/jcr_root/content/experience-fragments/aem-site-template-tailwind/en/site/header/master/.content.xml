@@ -1,30 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+<?xml version="1.0" encoding="UTF-8" ?>
+<jcr:root
+  xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
   xmlns:cq="http://www.day.com/jcr/cq/1.0"
   xmlns:jcr="http://www.jcp.org/jcr/1.0"
-  xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="cq:Page">
-  <jcr:content cq:tags="[]" cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/xf-web-variation" cq:xfMasterVariation="{Boolean}true" cq:xfVariantType="web" jcr:primaryType="cq:PageContent" jcr:title="Header" sling:resourceType="cq/experience-fragments/components/xfpage">
-    <root id="main-header" jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" layout="responsiveGrid">
-      <image jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/image/v2/image" fileReference="/content/dam/aem-site-template-tailwind/Group 3458@2x.png">
+  xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+  jcr:primaryType="cq:Page"
+>
+  <jcr:content
+    cq:tags="[]"
+    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/xf-web-variation"
+    cq:xfMasterVariation="{Boolean}true"
+    cq:xfVariantType="web"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Header"
+    sling:resourceType="cq/experience-fragments/components/xfpage"
+  >
+    <root
+      id="main-header"
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="core/wcm/components/container/v1/container"
+      layout="responsiveGrid"
+    >
+      <button
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="core/wcm/components/button/v1/button"
+        id="mobile-header-button"
+        accessibilityLabel="Toggle Main Menu"
+      >
         <cq:responsive jcr:primaryType="nt:unstructured">
-          <default jcr:primaryType="nt:unstructured" offset="1" width="1"/>
+          <default jcr:primaryType="nt:unstructured" behavior="hide" />
+        </cq:responsive>
+      </button>
+      <image
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="core/wcm/components/image/v2/image"
+        fileReference="/content/dam/aem-site-template-tailwind/Group 3458@2x.png"
+      >
+        <cq:responsive jcr:primaryType="nt:unstructured">
+          <default jcr:primaryType="nt:unstructured" offset="1" width="1" />
+          <phone jcr:primaryType="nt:unstructured" offset="3" width="6" />
         </cq:responsive>
       </image>
-      <navigation jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/navigation/v1/navigation" collectAllPages="true" disableShadowing="false" navigationRoot="/content/aem-site-template-tailwind/en" structureDepth="1" structureStart="1">
+      <container
+        id="mobile-header"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="core/wcm/components/container/v1/container"
+        layout="responsiveGrid"
+      >
         <cq:responsive jcr:primaryType="nt:unstructured">
-          <default jcr:primaryType="nt:unstructured" offset="0" width="5"/>
+          <default jcr:primaryType="nt:unstructured" offset="0" width="9" />
+          <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
         </cq:responsive>
-      </navigation>
-      <search jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/search/v1/search">
-        <cq:responsive jcr:primaryType="nt:unstructured">
-          <default jcr:primaryType="nt:unstructured" offset="0" width="2"/>
-        </cq:responsive>
-      </search>
-      <languagenavigation jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/languagenavigation/v1/languagenavigation" navigationRoot="/content/aem-site-template-tailwind" structureDepth="1">
-        <cq:responsive jcr:primaryType="nt:unstructured">
-          <default jcr:primaryType="nt:unstructured" offset="0" width="2"/>
-        </cq:responsive>
-      </languagenavigation>
+        <navigation
+          jcr:primaryType="nt:unstructured"
+          sling:resourceType="core/wcm/components/navigation/v1/navigation"
+          collectAllPages="true"
+          disableShadowing="false"
+          navigationRoot="/content/aem-site-template-tailwind/en"
+          structureDepth="1"
+          structureStart="1"
+        >
+          <cq:responsive jcr:primaryType="nt:unstructured">
+            <default jcr:primaryType="nt:unstructured" offset="0" width="5" />
+            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+          </cq:responsive>
+        </navigation>
+        <search
+          jcr:primaryType="nt:unstructured"
+          sling:resourceType="core/wcm/components/search/v1/search"
+        >
+          <cq:responsive jcr:primaryType="nt:unstructured">
+            <default jcr:primaryType="nt:unstructured" offset="0" width="2" />
+            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+          </cq:responsive>
+        </search>
+        <languagenavigation
+          jcr:primaryType="nt:unstructured"
+          sling:resourceType="core/wcm/components/languagenavigation/v1/languagenavigation"
+          navigationRoot="/content/aem-site-template-tailwind"
+          structureDepth="1"
+        >
+          <cq:responsive jcr:primaryType="nt:unstructured">
+            <default jcr:primaryType="nt:unstructured" offset="0" width="2" />
+            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+          </cq:responsive>
+        </languagenavigation>
+      </container>
     </root>
   </jcr:content>
 </jcr:root>
