@@ -1,3 +1,5 @@
+/* Fix AEM oddities and things that shouldn't be there */
+
 .xf-content-height {
   margin: unset !important;
   min-height: 0 !important;
@@ -7,4 +9,9 @@
   margin-left: revert;
   margin-right: revert;
   padding: revert;
+}
+
+div.image {
+  margin-bottom: revert;
+  overflow: revert;
 }

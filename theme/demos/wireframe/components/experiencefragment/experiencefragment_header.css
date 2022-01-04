@@ -1,6 +1,6 @@
 /* XF Header style, used on page template */
 #main-header {
-  @apply mb-4 border-b-2 border-solid text-shade-1 h-20 flex items-center;
+  @apply mb-4 py-4 border-b-2 border-solid text-shade-1 h-20 flex items-center;
 
   .cmp-image {
     @apply flex h-full items-center justify-center;
@@ -9,6 +9,8 @@
 
 @screen phone {
   #main-header {
+    @apply py-0;
+
     > .aem-Grid {
       @apply h-full justify-start gap-y-0;
       grid-template-rows: 5rem 1fr;
@@ -71,6 +73,32 @@
 
     .languagenavigation {
       @apply order-3 self-end;
+    }
+  }
+}
+
+.aem-AuthorLayer-Preview.aem-Author--hidePlaceholder,
+.aem-AuthorLayer-Edit {
+  #main-header {
+    @apply h-auto;
+  }
+}
+
+@screen phone {
+  .aem-AuthorLayer-Preview.aem-Author--hidePlaceholder,
+  .aem-AuthorLayer-Edit {
+    #main-header {
+      &.open {
+        @apply h-full;
+
+        #mobile-header {
+          @apply block;
+        }
+      }
+    }
+
+    #mobile-header {
+      @apply hidden;
     }
   }
 }

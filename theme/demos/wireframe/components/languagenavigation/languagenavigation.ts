@@ -46,19 +46,20 @@ const languageNavigation = () => {
 
   $elements.forEach(($el) => {
     const $active = $el.querySelector(".cmp-languagenavigation__item--active");
-    console.log("$active", $active);
     let langCode = "";
     let language = "language";
     const classes = [];
-    $active.classList.forEach((className) => {
-      if (!className.includes("active")) {
-        if (className.includes("langcode")) {
-          langCode = className.split("langcode-")[1];
-          language = getLanguageFromLangCode(langCode);
+    if ($active) {
+      $active.classList.forEach((className) => {
+        if (!className.includes("active")) {
+          if (className.includes("langcode")) {
+            langCode = className.split("langcode-")[1];
+            language = getLanguageFromLangCode(langCode);
+          }
+          classes.push(className);
         }
-        classes.push(className);
-      }
-    });
+      });
+    }
 
     const $toggleButton = document.createElement("button");
     const $activeText = document.createElement("span");

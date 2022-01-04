@@ -23,8 +23,8 @@ module.exports = plugin(({ addBase, theme }) => {
         "calc(var(--aem-grid-margin-gap-offset) + var(--aem-grid-margin-column-offset))",
     },
     ".aem-Grid-newComponent": {
-      "--aem-grid-column-span": "-1",
-      "--aem-grid-column-offset": "1",
+      "grid-column-end": "-1",
+      "grid-column-start": "1",
     },
   });
 
