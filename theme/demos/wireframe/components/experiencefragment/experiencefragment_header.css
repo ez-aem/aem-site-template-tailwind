@@ -1,6 +1,6 @@
 /* XF Header style, used on page template */
 #main-header {
-  @apply mb-4 border-b-2 border-solid text-shade-1 h-20;
+  @apply mb-4 border-b-2 border-solid text-shade-1 h-20 flex items-center;
 
   .cmp-image {
     @apply flex h-full items-center justify-center;
@@ -20,10 +20,18 @@
       #mobile-header {
         @apply visible translate-y-0 opacity-100;
       }
+      .button .cmp-button {
+        background-image: url("../../resources/images/x-icon.png");
+      }
     }
 
     .button {
       @apply w-8 h-20 self-center mx-4 flex items-center z-10;
+
+      .cmp-button {
+        @apply bg-transparent rounded bg-no-repeat border-0 h-8 w-8 bg-center;
+        background-image: url("../../resources/images/hamburger-menu.png");
+      }
     }
 
     .image {
