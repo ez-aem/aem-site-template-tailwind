@@ -33,8 +33,8 @@
           sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"
         >
           <cq:responsive jcr:primaryType="nt:unstructured">
-            <default jcr:primaryType="nt:unstructured" offset="1" width="8" />
-            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+            <default jcr:primaryType="nt:unstructured" offset="1" width="10" />
+            <phone jcr:primaryType="nt:unstructured" offset="1" width="10" />
           </cq:responsive>
         </breadcrumb>
         <title
@@ -43,8 +43,8 @@
           sling:resourceType="core/wcm/components/title/v2/title"
         >
           <cq:responsive jcr:primaryType="nt:unstructured">
-            <default jcr:primaryType="nt:unstructured" offset="2" width="6" />
-            <default jcr:primaryType="nt:unstructured" offset="0" width="12" />
+            <default jcr:primaryType="nt:unstructured" offset="1" width="10" />
+            <phone jcr:primaryType="nt:unstructured" offset="1" width="10" />
           </cq:responsive>
         </title>
         <container
@@ -54,13 +54,13 @@
           editable="{Boolean}true"
         >
           <cq:responsive jcr:primaryType="nt:unstructured">
-            <default jcr:primaryType="nt:unstructured" offset="1" width="8" />
-            <default jcr:primaryType="nt:unstructured" offset="0" width="12" />
+            <default jcr:primaryType="nt:unstructured" offset="1" width="10" />
+            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
           </cq:responsive>
         </container>
         <cq:responsive jcr:primaryType="nt:unstructured">
-          <default jcr:primaryType="nt:unstructured" offset="2" width="10" />
-          <default jcr:primaryType="nt:unstructured" offset="0" width="12" />
+          <default jcr:primaryType="nt:unstructured" offset="1" width="10" />
+          <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
         </cq:responsive>
       </container>
       <experiencefragment
