@@ -37,6 +37,10 @@ module.exports = plugin(({ addBase, theme }) => {
       "--aem-grid-column-total": `${columns}`,
     };
 
+    styles[`.aem-GridColumn--${name}--hide`] = {
+      display: "none !important",
+    };
+
     if (maxWidth) {
       styles[".aem-Grid"] = {
         ...styles[".aem-Grid"],
