@@ -5,15 +5,18 @@
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
   "scripts": {
     "build": "aem-site-template-builder",
+    "build:theme": "cd theme && npm run build",
     "deploy": "curl -u admin:admin -F file=@aem-site-template-tailwind-latest.zip http://localhost:4502/conf/global/site-templates.import.html",
     "lint:check": "eslint theme --ext .ts,.js,.jsx,.tsx",
     "lint:fix": "eslint --fix theme --ext .ts,.js,.jsx,.tsx",
+    "live": "cd theme && npm run live",
     "prepare": "husky install",
     "prettier:check": "prettier --check theme/**/**/**/**/*.{css,html,js,jsx,ts,tsx}",
     "prettier:fix": "prettier --write theme/**/**/**/*.{css,html,js,jsx,ts,tsx}"
   },
   "devDependencies": {
     "@adobe/aem-site-template-builder": "2.2.2",
+    "@prettier/plugin-xml": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
     "eslint": "^8.6.0",
