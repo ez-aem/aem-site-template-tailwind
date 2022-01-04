@@ -72,6 +72,4 @@ const languageNavigation = () => {
   });
 };
 
-window.langNav = languageNavigation;
-
 export default languageNavigation;

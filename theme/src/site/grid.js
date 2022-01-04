@@ -38,7 +38,7 @@ module.exports = plugin(({ addBase, theme }) => {
     };
 
     styles[`.aem-GridColumn--${name}--hide`] = {
-      display: "none !important",
+      display: "none",
     };
 
     if (maxWidth) {
