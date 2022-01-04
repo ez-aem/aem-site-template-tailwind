@@ -11,8 +11,8 @@
     "lint:fix": "eslint --fix theme --ext .ts,.js,.jsx,.tsx",
     "live": "cd theme && npm run live",
     "prepare": "husky install",
-    "prettier:check": "prettier --check theme/**/**/**/**/*.{css,html,js,jsx,ts,tsx}",
-    "prettier:fix": "prettier --write theme/**/**/**/*.{css,html,js,jsx,ts,tsx}"
+    "prettier:check": "prettier --check ./theme/**/*.{css,html,js,jsx,ts,tsx}",
+    "prettier:fix": "prettier --write ./theme/**/*.{css,html,js,jsx,ts,tsx}"
   },
   "devDependencies": {
     "@adobe/aem-site-template-builder": "2.2.2",
@@ -24,7 +24,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.5",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
   },
   "siteTemplate": {
     "title": "AEM Site Template Tailwind",
