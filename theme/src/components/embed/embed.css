@@ -1,2 +1,7 @@
-.cmp-embed {
+.embed.aspect-16\/9 {
+  .cmp-embed {
+    iframe {
+      @apply w-full h-full;
+    }
+  }
 }

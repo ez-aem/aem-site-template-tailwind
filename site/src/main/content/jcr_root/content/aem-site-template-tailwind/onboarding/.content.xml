@@ -11,7 +11,6 @@
     jcr:primaryType="cq:PageContent"
     jcr:title="Onboarding"
     sling:resourceType="core/wcm/components/page/v2/page"
-    hideInNav="true"
   >
     <root
       jcr:primaryType="nt:unstructured"
@@ -62,7 +61,6 @@
               cq:panelTitle="Create Site"
               jcr:primaryType="nt:unstructured"
               sling:resourceType="core/wcm/components/container/v1/container"
-              layout="responsiveGrid"
             >
               <progressbar_copy
                 jcr:primaryType="nt:unstructured"
@@ -107,7 +105,7 @@
               jcr:primaryType="nt:unstructured"
               sling:resourceType="core/wcm/components/container/v1/container"
             >
-              <accordion
+              <accordion_copy
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/accordion/v1/accordion"
                 singleExpansion="false"
@@ -116,13 +114,36 @@
                   cq:panelTitle="Use the Existing Wireframe Theme"
                   jcr:primaryType="nt:unstructured"
                   sling:resourceType="core/wcm/components/container/v1/container"
-                />
+                  layout="responsiveGrid"
+                >
+                  <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    text="&lt;p>If you want to use the Wireframe theme that comes with this template, go for it!&lt;/p>&#xd;&#xa;&lt;p>You will probably want to change out the logos though? You should head to the experience fragments, and edit the header and footer to change the images for your logos.&lt;/p>&#xd;&#xa;&lt;p>It's also likely that you will want to change the page and language hierarchy to better suit your needs. Feel free to move or delete the language pages in the root of the site. If you don't need multiple language support, don't forget to update the header by removing the language navigation component.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"
+                  />
+                </item_1641409011353>
                 <item_1641409013257
                   cq:panelTitle="Customize the Theme to fit your Brand"
                   jcr:primaryType="nt:unstructured"
                   sling:resourceType="core/wcm/components/container/v1/container"
-                />
-              </accordion>
+                  layout="responsiveGrid"
+                >
+                  <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    text="&lt;p>Customizing the Wireframe theme is quite simple with the Theme Sources download. Frontend Developers will feel right at home with modern tools and libraries that are used to build the demo Wireframe theme.&lt;/p>&#xd;&#xa;&lt;p>Check out this quick video that will briefly explain the concepts necessary to get started customizing your theme.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"
+                  />
+                  <embed
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/embed/v1/embed"
+                    type="url"
+                    url="https://www.youtube.com/watch?v=NQeQ1jZ7ZBw"
+                    cq:styleIds="[16130982314089]"
+                  />
+                </item_1641409013257>
+              </accordion_copy>
             </item_1641408314397>
             <item_1641408322802
               cq:panelTitle="Author Content"
