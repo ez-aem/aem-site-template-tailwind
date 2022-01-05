@@ -31,7 +31,7 @@ npm run live
 ## Helpful Links
 - [AEM Quick Site Creation Journey](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/overview.html?lang=en)
 - [Video Overview of Quick Sites](https://https://www.youtube.com/watch?v=NQeQ1jZ7ZBw)
-- [Designing for Core Components](https://one-inside.com/aem-cloud-service/designing-with-core-components/)
+- [Designing for Core Components](https://business.adobe.com/summit/2021/sessions/fasttrack-your-site-design-workflow-for-adobe-expe-s504.html)
 - [aemcomponents.dev](https://aemcomponents.dev)
 - [WKND.site](https://wknd.site/)
 - [AEM Site Template Builder](https://github.com/adobe/aem-site-template-builder)
