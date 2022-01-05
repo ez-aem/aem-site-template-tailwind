@@ -36,7 +36,7 @@
     "docsUrl": "",
     "showcaseUrl": "",
     "sourceRepositoryUrl": "https://github.com/ez-aem/aem-site-template-tailwind",
-    "openItem": "{Path}/en/home"
+    "openItem": "{Path}/onboarding"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
