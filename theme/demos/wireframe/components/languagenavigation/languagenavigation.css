@@ -54,7 +54,7 @@
 }
 
 .cmp-languagenavigation__item {
-  @apply p-2 flex flex-row gap-x-2 flex-1 items-center;
+  @apply flex flex-row gap-x-2 flex-1 items-center;
 
   &:not(.cmp-languagenavigation__item--active):hover {
     @apply bg-shade-1 cursor-pointer;
@@ -70,7 +70,7 @@
 
 span[class^="cmp-languagenavigation__item--langcode"]::before,
 .cmp-languagenavigation__item::before {
-  @apply inline-flex w-4 h-4 bg-no-repeat rounded-full shrink-0;
+  @apply inline-flex w-4 h-4 bg-no-repeat rounded-full shrink-0 absolute left-3;
   content: "";
   background-size: 18px 18px;
 }
@@ -113,7 +113,7 @@ span[class^="cmp-languagenavigation__item--langcode"]::before,
 }
 
 .cmp-languagenavigation__item-link {
-  @apply text-foreground outline-none relative flex-1 flex flex-row justify-between items-center;
+  @apply text-foreground outline-none relative flex-1 flex flex-row justify-between items-center p-2 pl-10;
   @apply hover:no-underline;
 }
 
