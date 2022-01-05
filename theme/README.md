@@ -1,8 +1,7 @@
-# Site Theme
+# Standard Tailwind Site Theme
 
-This is the theme of the standard site template for Adobe Experience Manager (AEM).
+This theme is an opinionated version of the [Adobe standard site template for Adobe Experience Manager (AEM)](https://github.com/adobe/aem-site-template-standard). It is implemented with Tailwind, Parcel and PostCSS instead of SCSS and Webpack. It also implements the Wireframe demo styling separately from the theme files, for easily removal. It is setup with TypeScript, ESLint and Prettier to ensure code quality and conformity. Additionally, the AEM Float based grid has been replaced with a CSS Based grid which dramatically reduces - 600% less - the amount of code shipped to implement the grid.
 
-This theme can be modified to customize the visual appearance of sites created from the standard site template.
 
 ## Structure
 
@@ -36,7 +35,7 @@ npm run live
 - [aemcomponents.dev](https://aemcomponents.dev)
 - [WKND.site](https://wknd.site/)
 - [AEM Site Template Builder](https://github.com/adobe/aem-site-template-builder)
-- [Adobe's AEM Site Template Standard?](https://github.com/adobe/aem-site-template-standard)
+- [Adobe's AEM Site Template Standard](https://github.com/adobe/aem-site-template-standard)
 - [Tailwind](https://https://tailwindcss.com/)
 - [Parcel](https://https://parceljs.org/)
 - [PostCSS](https://https://postcss.org/)

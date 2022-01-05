@@ -2,7 +2,7 @@
 
 This is the TailwindCSS site template for Adobe Experience Manager as a Cloud Service (AEMaaCS).
 
-<img src="previews/StandardSiteTemplate.png?raw=true" alt="Standard site preview" width="50%">
+<img src="previews/site-preview.png?raw=true" alt="Standard site preview" width="50%">
 
 It can serve as a standard starting point for creating a new site, or as a starting point for creating custom site templates.
 
