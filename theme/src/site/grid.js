@@ -29,7 +29,15 @@ module.exports = plugin(({ addBase, theme }) => {
   });
 
   aemGridSettings.forEach((grid) => {
-    const { columns, gap, name, breakpoint, breakpointType, maxWidth } = grid;
+    const {
+      columns,
+      gap,
+      name,
+      breakpoint,
+      breakpointType,
+      maxWidth,
+      horizontalPadding,
+    } = grid;
     let styles = {};
     let mediaQuery = "";
     styles[".aem-Grid"] = {
@@ -41,16 +49,9 @@ module.exports = plugin(({ addBase, theme }) => {
       display: "none",
     };
 
-    if (maxWidth) {
-      styles[".aem-Grid"] = {
-        ...styles[".aem-Grid"],
-        "--aem-grid-max-width": maxWidth,
-      };
-
-      styles[`.aem-GridColumn--offset--${name}--0`] = {
-        "--aem-grid-column-offset": "0",
-      };
-    }
+    styles[`.aem-GridColumn--offset--${name}--0`] = {
+      "--aem-grid-column-offset": "0",
+    };
 
     for (let column = 1; column <= columns; column++) {
       styles[`.aem-Grid--${name}--${column}`] = {
@@ -67,6 +68,26 @@ module.exports = plugin(({ addBase, theme }) => {
       styles[`.aem-GridColumn--offset--${name}--${column}`] = {
         "--aem-grid-column-offset": `${column}`,
       };
+
+      if (column === columns) {
+        if (horizontalPadding) {
+          styles[`.aem-Grid--${name}--${column}`] = {
+            ...styles[`.aem-Grid--${name}--${column}`],
+            "padding-inline": "var(--aem-grid-gap)",
+
+            [`.aem-Grid--${name}--${column}`]: {
+              "padding-inline": "0",
+            },
+          };
+        }
+
+        if (maxWidth) {
+          styles[".aem-Grid"] = {
+            ...styles[".aem-Grid"],
+            "--aem-grid-max-width": maxWidth,
+          };
+        }
+      }
     }
 
     if (breakpoint) {

@@ -2,37 +2,34 @@
 .teaser.textAtRight,
 .teaser.textAtLeft {
   .cmp-teaser {
-    @apply flex;
+    @apply flex flex-col;
   }
-}
-
-.teaser.textAtBottom {
-  .cmp-teaser {
-    @apply flex-col;
-  }
-
   .cmp-teaser__content {
     @apply py-6;
   }
 }
 
 .teaser.textAtLeft {
-  .cmp-teaser {
-    @apply flex-row-reverse;
-  }
-  .cmp-teaser__content {
-    @apply p-6 pl-0;
-    @apply default:p-8 default:pl-0;
+  @screen default {
+    .cmp-teaser {
+      @apply flex-row-reverse;
+    }
+    .cmp-teaser__content {
+      @apply p-6 pl-0;
+      @apply default:p-8 default:pl-0;
+    }
   }
 }
 
 .teaser.textAtRight {
-  .cmp-teaser {
-    @apply flex-row;
-  }
-  .cmp-teaser__content {
-    @apply p-6;
-    @apply default:p-6;
+  @screen default {
+    .cmp-teaser {
+      @apply flex-row;
+    }
+    .cmp-teaser__content {
+      @apply p-6;
+      @apply default:p-6;
+    }
   }
 }
 

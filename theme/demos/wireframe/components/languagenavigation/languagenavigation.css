@@ -29,7 +29,7 @@
   }
 
   span {
-    @apply flex-1 flex justify-start items-center;
+    @apply flex-1 flex justify-start items-center ml-10;
   }
 }
 
