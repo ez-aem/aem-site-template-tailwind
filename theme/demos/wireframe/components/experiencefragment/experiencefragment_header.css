@@ -81,13 +81,6 @@
   }
 }
 
-.aem-AuthorLayer-Preview.aem-Author--hidePlaceholder,
-.aem-AuthorLayer-Edit {
-  #main-header {
-    @apply h-auto;
-  }
-}
-
 @screen phone {
   .aem-AuthorLayer-Preview.aem-Author--hidePlaceholder,
   .aem-AuthorLayer-Edit {
