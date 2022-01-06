@@ -1,6 +1,6 @@
-.teaser.textAtBottom,
-.teaser.textAtRight,
-.teaser.textAtLeft {
+.teaser--text-bottom,
+.teaser--text-right,
+.teaser--text-left {
   .cmp-teaser {
     @apply flex flex-col;
   }
@@ -9,7 +9,7 @@
   }
 }
 
-.teaser.textAtLeft {
+.teaser--text-left {
   @screen default {
     .cmp-teaser {
       @apply flex-row-reverse;
@@ -21,7 +21,7 @@
   }
 }
 
-.teaser.textAtRight {
+.teaser--text-right {
   @screen default {
     .cmp-teaser {
       @apply flex-row;
@@ -33,8 +33,8 @@
   }
 }
 
-.teaser.textAtRight,
-.teaser.textAtLeft {
+.teaser--text-right,
+.teaser--text-left {
   .cmp-teaser__image {
     @apply basis-2/3 aspect-2/1;
     @apply default:aspect-3/1;

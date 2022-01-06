@@ -1,4 +1,4 @@
-.teaser.dark {
+.teaser--dark {
   .cmp-teaser__content {
     @apply bg-shade-4 text-white;
   }

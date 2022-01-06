@@ -1,4 +1,4 @@
-.teaser:not(.textAtBottom):not(.textAtRight):not(.textAtLeft) {
+.teaser:not(.teaser--text-bottom):not(.teaser--text-right):not(.teaser--text-left) {
   .cmp-teaser {
     @apply grid;
     grid-template-areas: "overlay";
