@@ -10,13 +10,17 @@
 }
 
 .teaser--text-left {
-  @screen default {
-    .cmp-teaser {
-      @apply flex-row-reverse;
-    }
+  .cmp-teaser {
+    @apply default:flex-row-reverse;
+  }
+  .cmp-teaser__content {
+    @apply p-6;
+    @apply default:p-8;
+  }
+  &:not(.teaser--dark) {
     .cmp-teaser__content {
-      @apply p-6 pl-0;
-      @apply default:p-8 default:pl-0;
+      @apply pl-0;
+      @apply default:pl-0;
     }
   }
 }

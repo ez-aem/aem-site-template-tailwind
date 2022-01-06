@@ -127,7 +127,7 @@
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
-                        cq:styleClasses="dark"
+                        cq:styleClasses="teaser--dark"
                         cq:styleId="1612897513127"
                         cq:styleLabel="Dark"
                         jcr:primaryType="nt:unstructured"
