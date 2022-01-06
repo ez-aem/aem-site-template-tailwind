@@ -426,7 +426,6 @@
                 </cq:styleGroups>
               </policy_page>
               <policy_default
-                cq:styleDefaultClasses="h2_style"
                 jcr:description="Allows all sizes, but not H1, which is reserved for the main page title."
                 jcr:lastModified="{Date}2022-01-06T11:27:05.929-03:00"
                 jcr:lastModifiedBy="admin"
@@ -482,6 +481,19 @@
                       />
                     </cq:styles>
                   </item0>
+                  <item1
+                    cq:styleGroupLabel="Spacing"
+                    jcr:primaryType="nt:unstructured"
+                  >
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                      <item1
+                        cq:styleClasses="title--mt-8"
+                        cq:styleId="09812749238742"
+                        cq:styleLabel="Top Margin"
+                        jcr:primaryType="nt:unstructured"
+                      />
+                    </cq:styles>
+                  </item1>
                 </cq:styleGroups>
               </policy_default>
             </title>

@@ -35,6 +35,9 @@ This template is an opinionated version of the [Adobe standard site template for
 * `site`: Content package of the content that will be copied for each site created from this template (templates, pages, etc.).
 * `theme`: Sources of the template theme to modify how the site looks (CSS, JS, etc.).
 
+## Develop Site Template
+Check out the [Theme readme](https://github.com/ez-aem/aem-site-template-tailwind/blob/main/theme/README.md) to learn more about customizing the frontend theme for your project.
+
 ## Build locally
 
 If you are working on the template itself, and not using the downloaded theme sources, you can build `aem-site-template-tailwind-{version}.zip` locally.
@@ -57,9 +60,6 @@ npm run build
 ```bash
 npm run deploy
 ```
-
-## Develop Site Template
-Check out the [Theme readme](https://github.com/ez-aem/aem-site-template-tailwind/blob/main/theme/README.md) to learn more about customizing the frontend theme for your project.
 
 ## Release
 
