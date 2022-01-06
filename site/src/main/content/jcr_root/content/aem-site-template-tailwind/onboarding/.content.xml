@@ -7,25 +7,39 @@
   jcr:primaryType="cq:Page"
 >
   <jcr:content
-    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/content-page"
+    cq:lastModified="{Date}2022-01-06T10:55:53.597-03:00"
+    cq:lastModifiedBy="admin"
+    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/grid-width-content-page"
     jcr:primaryType="cq:PageContent"
     jcr:title="Onboarding"
     sling:resourceType="core/wcm/components/page/v2/page"
+    hideInNav="true"
+    pwaCachestrategy="staleWhileRevalidate"
+    pwaDisplay="standalone"
+    pwaOrientation="any"
   >
     <root
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
     >
-      <container
+      <container_2131119103
+        jcr:created="{Date}2022-01-06T09:17:26.934-03:00"
+        jcr:createdBy="admin"
+        jcr:lastModified="{Date}2022-01-06T09:17:26.934-03:00"
+        jcr:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="core/wcm/components/container/v1/container"
-        layout="responsiveGrid"
       >
         <container
+          jcr:created="{Date}2022-01-06T09:17:29.978-03:00"
+          jcr:createdBy="admin"
+          jcr:lastModified="{Date}2022-01-06T09:18:09.647-03:00"
+          jcr:lastModifiedBy="admin"
           jcr:primaryType="nt:unstructured"
           sling:resourceType="core/wcm/components/container/v1/container"
+          layout="responsiveGrid"
         >
-          <accordion_copy
+          <accordion_copy_copy
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/accordion/v1/accordion"
             expandedItems="[item_1641408303065]"
@@ -136,11 +150,11 @@
                     textIsRich="true"
                   />
                   <embed
+                    cq:styleIds="[16130982314089]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/embed/v1/embed"
                     type="url"
                     url="https://www.youtube.com/watch?v=NQeQ1jZ7ZBw"
-                    cq:styleIds="[16130982314089]"
                   />
                 </item_1641409013257>
               </accordion_copy>
@@ -215,9 +229,9 @@
                 link="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/publishing-pages.html?lang=en"
               />
             </item_1641408337384>
-          </accordion_copy>
+          </accordion_copy_copy>
         </container>
-      </container>
+      </container_2131119103>
     </root>
   </jcr:content>
 </jcr:root>

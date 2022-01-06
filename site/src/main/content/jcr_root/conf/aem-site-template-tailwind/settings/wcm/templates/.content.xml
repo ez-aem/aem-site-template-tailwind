@@ -1,11 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
-    jcr:mixinTypes="[rep:AccessControllable]"
-    jcr:primaryType="cq:Page">
-    <home-page/>
-    <xf-web-variation/>
-    <rep:policy/>
-    <article-page/>
-    <contact-us/>
-    <content-page/>
+<?xml version="1.0" encoding="UTF-8" ?>
+<jcr:root
+  xmlns:cq="http://www.day.com/jcr/cq/1.0"
+  xmlns:jcr="http://www.jcp.org/jcr/1.0"
+  xmlns:rep="internal"
+  jcr:mixinTypes="[rep:AccessControllable]"
+  jcr:primaryType="cq:Page"
+>
+  <xf-web-variation />
+  <rep:policy />
+  <blank-page />
+  <page-w-hero />
+  <grid-width-content-page />
+  <full-width-hero-grid-content />
+  <two-column-grid />
+  <article-page />
 </jcr:root>

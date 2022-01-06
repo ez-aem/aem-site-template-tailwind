@@ -10,9 +10,9 @@
     cq:allowedTemplates="[/conf/aem-site-template-tailwind/settings/wcm/templates/(?!xf-).*]"
     cq:conf="/conf/aem-site-template-tailwind"
     cq:redirectTarget="/content/aem-site-template-tailwind/en"
-    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/home-page"
+    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/blank-page"
     jcr:primaryType="cq:PageContent"
-    jcr:title="My Site"
+    jcr:title="aem-site-template-tailwind"
     sling:configRef="/conf/aem-site-template-tailwind"
     sling:redirect="{Boolean}true"
     sling:redirectStatus="{Long}302"
@@ -22,8 +22,8 @@
       <file />
     </image>
   </jcr:content>
-  <de />
-  <en />
-  <fr />
   <onboarding />
+  <en />
+  <de />
+  <fr />
 </jcr:root>
