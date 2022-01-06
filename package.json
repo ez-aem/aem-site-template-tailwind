@@ -1,8 +1,8 @@
 {
   "name": "aem-site-template-tailwind",
-  "version": "1.1.21",
-  "description": "Standard AEM Site Template built with TailwindCSS used as a starter template for general purpose websites",
-  "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
+  "version": "1.1.22",
+  "description": "AEM Site Template built with Tailwind that comes with an easy-to-remove Wireframe Theme",
+  "license": "MIT License, Copyright 2022 headwire.com",
   "scripts": {
     "build": "aem-site-template-builder",
     "build:theme": "cd theme && npm run build",
@@ -29,9 +29,9 @@
   },
   "siteTemplate": {
     "title": "AEM Site Template Tailwind",
-    "createdBy": "Adobe",
+    "createdBy": "headwire.com",
     "useCases": [
-      "General purpose sites, corporate marketing sites, landing pages, blog sites, content marketing"
+      "General purpose sites, corporate marketing sites, landing pages, blog sites, content marketing, demos"
     ],
     "docsUrl": "",
     "showcaseUrl": "",
