@@ -10,6 +10,7 @@
     cq:isLanguageRoot="true"
     cq:lastModified="{Date}2022-01-06T13:33:36.965-03:00"
     cq:lastModifiedBy="admin"
+    cq:redirectTarget="/content/aem-site-template-tailwind/en/home"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/full-width-hero-grid-content"
     jcr:language="en"
     jcr:primaryType="cq:PageContent"
