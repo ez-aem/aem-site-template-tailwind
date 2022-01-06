@@ -1,6 +1,12 @@
 /* XF Header style, used on page template */
 #main-header-wrapper {
   @apply mb-4 border-b-2 border-solid;
+
+  @screen phone {
+    & > .aem-Grid {
+      @apply px-0;
+    }
+  }
 }
 
 #main-header {
