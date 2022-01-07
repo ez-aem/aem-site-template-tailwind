@@ -7,12 +7,12 @@
     "build": "aem-site-template-builder",
     "build:theme": "cd theme && npm run build",
     "deploy": "curl -u admin:admin -F file=@aem-site-template-tailwind-latest.zip http://localhost:4502/conf/global/site-templates.import.html",
-    "lint:check": "eslint theme --ext .ts,.js,.jsx,.tsx",
-    "lint:fix": "eslint --fix theme --ext .ts,.js,.jsx,.tsx",
+    "lint:check": "eslint -c theme/.eslintrc.json theme --ext .ts,.js,.jsx,.tsx",
+    "lint:fix": "eslint -c theme/.eslintrc.json --fix theme --ext .ts,.js,.jsx,.tsx",
     "live": "cd theme && npm run live",
     "prepare": "husky install",
-    "prettier:check": "prettier --check ./theme/**/*.{css,html,js,jsx,ts,tsx}",
-    "prettier:fix": "prettier --write ./theme/**/*.{css,html,js,jsx,ts,tsx}"
+    "prettier:check": "prettier --check ./theme/**/*.{css,html,js,ts}",
+    "prettier:fix": "prettier --write ./theme/**/*.{css,html,js,ts}"
   },
   "devDependencies": {
     "@adobe/aem-site-template-builder": "2.2.2",
@@ -40,7 +40,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint --cache --fix",
+      "eslint -c ./theme/.eslintrc.json --cache --fix",
       "prettier --write"
     ],
     "*.css": [
@@ -52,5 +52,6 @@
     "*.xml": [
       "prettier --write"
     ]
-  }
+  },
+  "prettier": "./theme/.prettierrc.json"
 }
