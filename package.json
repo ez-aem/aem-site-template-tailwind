@@ -15,7 +15,7 @@
     "prettier:fix": "prettier --write ./theme/**/*.{css,html,js,jsx,ts,tsx}"
   },
   "devDependencies": {
-    "@adobe/aem-site-template-builder": "2.2.2",
+    "@adobe/aem-site-template-builder": "2.3.0",
     "@prettier/plugin-xml": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
