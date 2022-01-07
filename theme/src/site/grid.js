@@ -13,14 +13,17 @@ module.exports = plugin(({ addBase, theme }) => {
       width: "100%",
     },
     ".aem-GridColumn": {
-      "grid-column-end":
-        "span calc(var(--aem-grid-column-span, -1) + var(--aem-grid-column-offset))",
       "--aem-grid-margin-column-offset":
-        "calc(var(--aem-grid-column-offset) / calc(var(--aem-grid-column-span) + var(--aem-grid-column-offset)) * 100%)",
+        "calc(var(--aem-grid-column-offset) / var(--aem-grid-columns-w-offset))",
+      "--aem-grid-margin-column-offset-percent":
+        "calc(var(--aem-grid-margin-column-offset) * 100%)",
       "--aem-grid-margin-gap-offset":
         "calc(var(--aem-grid-gap) / var(--aem-grid-columns))",
+      "--aem-grid-columns-w-offset":
+        "calc(var(--aem-grid-column-span) + var(--aem-grid-column-offset))",
+      "grid-column-end": "span var(--aem-grid-columns-w-offset, -1)",
       "margin-inline-start":
-        "calc(var(--aem-grid-margin-gap-offset) + var(--aem-grid-margin-column-offset))",
+        "calc(var(--aem-grid-margin-column-offset-percent) + calc(var(--aem-grid-gap) * var(--aem-grid-margin-column-offset)))",
     },
     ".aem-Grid-newComponent": {
       "grid-column-end": "-1",
@@ -45,6 +48,10 @@ module.exports = plugin(({ addBase, theme }) => {
       "--aem-grid-column-total": `${columns}`,
     };
 
+    styles[`.aem-GridColumn--${name}--newline`] = {
+      "grid-column-start": "1",
+    };
+
     styles[`.aem-GridColumn--${name}--hide`] = {
       display: "none",
     };
@@ -54,6 +61,10 @@ module.exports = plugin(({ addBase, theme }) => {
     };
 
     for (let column = 1; column <= columns; column++) {
+      styles[`.aem-Grid--${column}`] = {
+        "--aem-grid-column-total": `${column}`,
+      };
+
       styles[`.aem-Grid--${name}--${column}`] = {
         "--aem-grid-columns": `${column}`,
         "max-width": maxWidth
