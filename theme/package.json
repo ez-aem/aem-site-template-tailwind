@@ -11,8 +11,8 @@
     "watch:js": "parcel watch src/theme.ts",
     "proxy": "aem-site-theme-builder live",
     "live": "run-p watch proxy",
-    "prettier:check": "prettier --check '**/(*.css|html|js|jsx|ts|tsx)'",
-    "prettier:fix": "prettier --write '**/(*.css|html|js|jsx|ts|tsx)'",
+    "prettier:check": "prettier --check **/*.{css,html,js,ts}",
+    "prettier:fix": "prettier --write **/*.{css,html,js,ts}",
     "lint:check": "eslint --ext .ts,.js,.jsx,.tsx",
     "lint:fix": "eslint --fix --ext .ts,.js,.jsx,.tsx"
   },
