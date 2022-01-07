@@ -12,7 +12,8 @@
     "live": "cd theme && npm run live",
     "prepare": "husky install",
     "prettier:check": "prettier --check ./theme/**/*.{css,html,js,ts}",
-    "prettier:fix": "prettier --write ./theme/**/*.{css,html,js,ts}"
+    "prettier:fix": "prettier --write ./theme/**/*.{css,html,js,ts}",
+    "stub": "aem-site-template-builder stub"
   },
   "devDependencies": {
     "@adobe/aem-site-template-builder": "2.3.0",
