@@ -9,7 +9,7 @@
   <jcr:content
     cq:lastModified="{Date}2022-01-06T10:20:46.911-03:00"
     cq:lastModifiedBy="admin"
-    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/test-page-template111"
+    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/two-column-grid"
     jcr:primaryType="cq:PageContent"
     jcr:title="Contact Us"
     sling:resourceType="core/wcm/components/page/v2/page"

@@ -1,14 +1,18 @@
-.teaser.dark {
+.teaser--dark {
   .cmp-teaser__content {
-    @apply bg-shade-4 text-white;
+    @apply bg-shade-4 text-white p-4;
   }
 
   .cmp-teaser__pretitle {
     @apply text-white;
   }
 
+  .cmp-teaser__title,
   .cmp-teaser__title a {
     @apply text-white;
+  }
+
+  .cmp-teaser__title a {
     @apply focus:ring-link-inverted focus:ring-2 focus:ring-offset-shade-4;
   }
 

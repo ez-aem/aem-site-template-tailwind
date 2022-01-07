@@ -37,6 +37,7 @@
           layout="responsiveGrid"
         >
           <title
+            cq:styleIds="[09812749238742]"
             jcr:created="{Date}2022-01-06T09:39:10.624-03:00"
             jcr:createdBy="admin"
             jcr:lastModified="{Date}2022-01-06T09:39:41.190-03:00"
