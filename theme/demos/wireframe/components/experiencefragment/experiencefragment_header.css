@@ -90,7 +90,7 @@
 .aem-AuthorLayer-Preview.aem-Author--hidePlaceholder,
 .aem-AuthorLayer-Edit {
   #main-header {
-    @apply h-auto;
+    @apply h-auto min-h-[5rem];
   }
 }
 
