@@ -7,10 +7,22 @@
       @apply px-0;
     }
   }
+
+  /* 
+   * Fixes mobile webkit issue with 100vh and the browser bar 
+   * covering the language navigation dropdown 
+  */
+  &.open {
+    @apply fixed inset-0 mb-0;
+
+    & > .aem-Grid {
+      @apply h-full;
+    }
+  }
 }
 
 #main-header {
-  @apply text-shade-1 h-20 flex items-center;
+  @apply h-20 flex items-center bg-background;
 
   .cmp-image {
     @apply flex h-full items-center justify-center;
@@ -27,11 +39,12 @@
     }
 
     &.open {
-      @apply h-screen;
+      @apply h-full;
 
       #mobile-header {
         @apply visible translate-y-0 opacity-100;
       }
+
       .button .cmp-button {
         background-image: url("../../resources/images/x-icon.png");
       }
@@ -56,7 +69,7 @@
   }
 
   #mobile-header {
-    @apply h-full p-4 border-t-2 border-shade-1 delay-75 opacity-0 translate-y-2;
+    @apply h-full p-4 border-t-2 border-shade-1 delay-75 opacity-0 translate-y-2 bg-background;
     transition: transform 250ms, opacity 100ms, visibility 50ms;
     visibility: collapse;
 
