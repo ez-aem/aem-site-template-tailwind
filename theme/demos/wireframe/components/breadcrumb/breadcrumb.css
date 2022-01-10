@@ -2,7 +2,8 @@
   @apply my-3;
 }
 .cmp-breadcrumb__list {
-  @apply flex flex-row flex-wrap gap-x-2 -ml-3;
+  @apply flex flex-row flex-wrap gap-x-2;
+  /* @apply -ml-3; */
 }
 .cmp-breadcrumb__item {
   @apply inline-flex items-center align-middle;

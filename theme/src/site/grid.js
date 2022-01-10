@@ -24,6 +24,7 @@ module.exports = plugin(({ addBase, theme }) => {
       "grid-column-end": "span var(--aem-grid-columns-w-offset, -1)",
       "margin-inline-start":
         "calc(var(--aem-grid-margin-column-offset-percent) + calc(var(--aem-grid-gap) * var(--aem-grid-margin-column-offset)))",
+      "min-width": "fit-content",
     },
     ".aem-Grid-newComponent": {
       "grid-column-end": "-1",
