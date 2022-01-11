@@ -228,14 +228,33 @@
                         cq:styleLabel="Dark Theme"
                         jcr:primaryType="nt:unstructured"
                       />
-                      <item1
-                        cq:styleClasses="full-width"
+                    </cq:styles>
+                  </item0>
+                  <item1
+                    cq:styleGroupLabel="Grid Settings"
+                    jcr:primaryType="nt:unstructured"
+                  >
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                      <item0
+                        cq:styleClasses="aem-Grid--full-width"
                         cq:styleId="1641469777944"
-                        cq:styleLabel="Full Width"
+                        cq:styleLabel="Full Width Container"
+                        jcr:primaryType="nt:unstructured"
+                      />
+                      <item1
+                        cq:styleClasses="aem-Grid--gap-0"
+                        cq:styleId="1641469777944"
+                        cq:styleLabel="No Grid Gap"
+                        jcr:primaryType="nt:unstructured"
+                      />
+                      <item2
+                        cq:styleClasses="aem-Grid--gap-padding"
+                        cq:styleId="1641469777944"
+                        cq:styleLabel="Gap as Padding"
                         jcr:primaryType="nt:unstructured"
                       />
                     </cq:styles>
-                  </item0>
+                  </item1>
                 </cq:styleGroups>
               </policy_default>
               <policy_main

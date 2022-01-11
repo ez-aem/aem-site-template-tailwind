@@ -36,13 +36,13 @@ module.exports = plugin(({ addBase, theme }) => {
     "html:not(.aem-AuthorLayer-Edit) .aem-Grid-newComponent": {
       display: "none",
     },
-    ".aem-Grid-gap-0 .cmp-container .aem-Grid": {
+    ".aem-Grid--gap-0 .cmp-container .aem-Grid": {
       gap: 0,
     },
-    ".aem-Grid-gap-padding > .cmp-container > .aem-Grid": {
+    ".aem-Grid--gap-padding > .cmp-container > .aem-Grid": {
       "--aem-grid-column-padding": "calc(var(--aem-grid-gap) / 2)",
     },
-    ".aem-Grid-gap-padding .aem-Grid .aem-Grid": {
+    ".aem-Grid--gap-padding .aem-Grid .aem-Grid": {
       "--aem-grid-column-padding": "0",
     },
   });
