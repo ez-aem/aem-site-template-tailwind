@@ -243,13 +243,13 @@
                       />
                       <item1
                         cq:styleClasses="aem-Grid--gap-0"
-                        cq:styleId="1641469777944"
+                        cq:styleId="9831274298374"
                         cq:styleLabel="No Grid Gap"
                         jcr:primaryType="nt:unstructured"
                       />
                       <item2
                         cq:styleClasses="aem-Grid--gap-padding"
-                        cq:styleId="1641469777944"
+                        cq:styleId="1209842340914"
                         cq:styleLabel="Gap as Padding"
                         jcr:primaryType="nt:unstructured"
                       />
@@ -277,13 +277,38 @@
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
-                        cq:styleClasses="homepage-content-container"
-                        cq:styleId="1612998379971"
-                        cq:styleLabel="Homepage Content Container"
+                        cq:styleClasses="dark-container"
+                        cq:styleId="1613079653269"
+                        cq:styleLabel="Dark Theme"
                         jcr:primaryType="nt:unstructured"
                       />
                     </cq:styles>
                   </item0>
+                  <item1
+                    cq:styleGroupLabel="Grid Settings"
+                    jcr:primaryType="nt:unstructured"
+                  >
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                      <item0
+                        cq:styleClasses="aem-Grid--full-width"
+                        cq:styleId="1641469777944"
+                        cq:styleLabel="Full Width Container"
+                        jcr:primaryType="nt:unstructured"
+                      />
+                      <item1
+                        cq:styleClasses="aem-Grid--gap-0"
+                        cq:styleId="9831274298374"
+                        cq:styleLabel="No Grid Gap"
+                        jcr:primaryType="nt:unstructured"
+                      />
+                      <item2
+                        cq:styleClasses="aem-Grid--gap-padding"
+                        cq:styleId="1209842340914"
+                        cq:styleLabel="Gap as Padding"
+                        jcr:primaryType="nt:unstructured"
+                      />
+                    </cq:styles>
+                  </item1>
                 </cq:styleGroups>
               </policy_main>
               <policy_xf_root
@@ -321,6 +346,46 @@
                     />
                   </assetToComponentMapping>
                 </cq:authoring>
+                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                  <item0
+                    cq:styleGroupLabel="Styles"
+                    jcr:primaryType="nt:unstructured"
+                  >
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                      <item0
+                        cq:styleClasses="dark-container"
+                        cq:styleId="1613079653269"
+                        cq:styleLabel="Dark Theme"
+                        jcr:primaryType="nt:unstructured"
+                      />
+                    </cq:styles>
+                  </item0>
+                  <item1
+                    cq:styleGroupLabel="Grid Settings"
+                    jcr:primaryType="nt:unstructured"
+                  >
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                      <item0
+                        cq:styleClasses="aem-Grid--full-width"
+                        cq:styleId="1641469777944"
+                        cq:styleLabel="Full Width Container"
+                        jcr:primaryType="nt:unstructured"
+                      />
+                      <item1
+                        cq:styleClasses="aem-Grid--gap-0"
+                        cq:styleId="9831274298374"
+                        cq:styleLabel="No Grid Gap"
+                        jcr:primaryType="nt:unstructured"
+                      />
+                      <item2
+                        cq:styleClasses="aem-Grid--gap-padding"
+                        cq:styleId="1209842340914"
+                        cq:styleLabel="Gap as Padding"
+                        jcr:primaryType="nt:unstructured"
+                      />
+                    </cq:styles>
+                  </item1>
+                </cq:styleGroups>
               </policy_xf_root>
               <policy_1641470010395
                 jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
@@ -371,14 +436,33 @@
                         cq:styleLabel="Dark Theme"
                         jcr:primaryType="nt:unstructured"
                       />
-                      <item1
-                        cq:styleClasses="full-width"
+                    </cq:styles>
+                  </item0>
+                  <item1
+                    cq:styleGroupLabel="Grid Settings"
+                    jcr:primaryType="nt:unstructured"
+                  >
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                      <item0
+                        cq:styleClasses="aem-Grid--full-width"
                         cq:styleId="1641469777944"
-                        cq:styleLabel="Full Width"
+                        cq:styleLabel="Full Width Container"
+                        jcr:primaryType="nt:unstructured"
+                      />
+                      <item1
+                        cq:styleClasses="aem-Grid--gap-0"
+                        cq:styleId="9831274298374"
+                        cq:styleLabel="No Grid Gap"
+                        jcr:primaryType="nt:unstructured"
+                      />
+                      <item2
+                        cq:styleClasses="aem-Grid--gap-padding"
+                        cq:styleId="1209842340914"
+                        cq:styleLabel="Gap as Padding"
                         jcr:primaryType="nt:unstructured"
                       />
                     </cq:styles>
-                  </item0>
+                  </item1>
                 </cq:styleGroups>
               </policy_1641470010395>
             </container>
