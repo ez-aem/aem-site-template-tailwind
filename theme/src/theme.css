@@ -2,6 +2,9 @@
 @import "./site/tailwind.css";
 @import "./site/base.css";
 
+/* Wireframe Demo CSS Theme - For Removal */
+@import "../demos/wireframe/theme.css";
+
 /* Site global */
 @import "./site/fonts.css";
 
@@ -50,6 +53,3 @@
 @import "./components/embed/embed.css";
 @import "./components/pdfviewer/pdfviewer.css";
 @import "./components/socialmediasharing/socialmediasharing.css";
-
-/* Wireframe Demo CSS Theme */
-@import "../demos/wireframe/theme.css";

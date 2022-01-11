@@ -6,6 +6,7 @@ module.exports = plugin(({ addBase, theme }) => {
   addBase({
     ".aem-Grid": {
       "--aem-grid-column-offset": "0",
+      "--aem-grid-column-padding": "0",
       display: "grid",
       "grid-template-columns": "repeat(var(--aem-grid-columns), 1fr)",
       gap: "var(--aem-grid-gap)",
@@ -24,11 +25,25 @@ module.exports = plugin(({ addBase, theme }) => {
       "grid-column-end": "span var(--aem-grid-columns-w-offset, -1)",
       "margin-inline-start":
         "calc(var(--aem-grid-margin-column-offset-percent) + calc(var(--aem-grid-gap) * var(--aem-grid-margin-column-offset)))",
-      "min-width": "fit-content",
+      "padding-inline": "var(--aem-grid-column-padding)", // Used for variant to place gap setting as padding
+      "word-break": "break-all", // Prevents overflow with 12 columns on mobile
     },
-    ".aem-Grid-newComponent": {
+    "html.aem-AuthorLayer-Edit .aem-Grid-newComponent": {
       "grid-column-end": "-1",
       "grid-column-start": "1",
+      height: "2.875rem",
+    },
+    "html:not(.aem-AuthorLayer-Edit) .aem-Grid-newComponent": {
+      display: "none",
+    },
+    ".aem-Grid-gap-0 .cmp-container .aem-Grid": {
+      gap: 0,
+    },
+    ".aem-Grid-gap-padding > .cmp-container > .aem-Grid": {
+      "--aem-grid-column-padding": "calc(var(--aem-grid-gap) / 2)",
+    },
+    ".aem-Grid-gap-padding .aem-Grid .aem-Grid": {
+      "--aem-grid-column-padding": "0",
     },
   });
 

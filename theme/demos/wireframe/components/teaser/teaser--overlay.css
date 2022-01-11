@@ -1,6 +1,6 @@
 .teaser:not(.teaser--text-bottom):not(.teaser--text-right):not(.teaser--text-left) {
   .cmp-teaser {
-    @apply grid;
+    @apply grid default:aspect-4/1;
     grid-template-areas: "overlay";
   }
 
@@ -9,16 +9,21 @@
     grid-area: overlay;
   }
 
-  .cmp-image {
-    @apply h-full;
+  .cmp-teaser__image {
+    @apply min-h-full;
 
-    .cmp-image__image {
-      @apply object-cover h-full;
+    .cmp-image {
+      @apply h-full;
+
+      .cmp-image__image {
+        @apply object-cover h-full;
+      }
     }
   }
 
   .cmp-teaser__content {
-    @apply p-10 text-center justify-center text-white gap-y-6;
+    @apply p-10 text-center justify-center text-white gap-y-6 place-self-center;
+    max-width: var(--aem-grid-max-width, 60rem);
 
     .cmp-teaser__pretitle,
     .cmp-teaser__title,
