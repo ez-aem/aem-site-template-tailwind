@@ -235,12 +235,6 @@
                     jcr:primaryType="nt:unstructured"
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        cq:styleClasses="aem-Grid--full-width"
-                        cq:styleId="1641469777944"
-                        cq:styleLabel="Full Width Container"
-                        jcr:primaryType="nt:unstructured"
-                      />
                       <item1
                         cq:styleClasses="aem-Grid--gap-0"
                         cq:styleId="9831274298374"
@@ -289,12 +283,6 @@
                     jcr:primaryType="nt:unstructured"
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        cq:styleClasses="aem-Grid--full-width"
-                        cq:styleId="1641469777944"
-                        cq:styleLabel="Full Width Container"
-                        jcr:primaryType="nt:unstructured"
-                      />
                       <item1
                         cq:styleClasses="aem-Grid--gap-0"
                         cq:styleId="9831274298374"
@@ -365,12 +353,6 @@
                     jcr:primaryType="nt:unstructured"
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        cq:styleClasses="aem-Grid--full-width"
-                        cq:styleId="1641469777944"
-                        cq:styleLabel="Full Width Container"
-                        jcr:primaryType="nt:unstructured"
-                      />
                       <item1
                         cq:styleClasses="aem-Grid--gap-0"
                         cq:styleId="9831274298374"
@@ -443,12 +425,6 @@
                     jcr:primaryType="nt:unstructured"
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        cq:styleClasses="aem-Grid--full-width"
-                        cq:styleId="1641469777944"
-                        cq:styleLabel="Full Width Container"
-                        jcr:primaryType="nt:unstructured"
-                      />
                       <item1
                         cq:styleClasses="aem-Grid--gap-0"
                         cq:styleId="9831274298374"
