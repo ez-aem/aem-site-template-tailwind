@@ -6,7 +6,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-    <jcr:content
+  <jcr:content
     cq:lastModified="{Date}2022-01-06T13:44:52.954-03:00"
     cq:lastModifiedBy="admin"
     cq:tags="[]"
@@ -17,12 +17,12 @@
     jcr:title="Article Recommendations"
     sling:resourceType="cq/experience-fragments/components/xfpage"
   >
-        <root
+    <root
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
       layout="responsiveGrid"
     >
-            <container
+      <container
         jcr:created="{Date}2022-01-06T11:21:16.278-03:00"
         jcr:createdBy="admin"
         jcr:lastModified="{Date}2022-01-06T11:21:22.254-03:00"
@@ -31,7 +31,7 @@
         sling:resourceType="core/wcm/components/container/v1/container"
         layout="responsiveGrid"
       >
-                <separator_copy
+        <separator_copy
           jcr:created="{Date}2022-01-06T09:39:18.932-03:00"
           jcr:createdBy="admin"
           jcr:lastModified="{Date}2022-01-06T09:39:18.932-03:00"
@@ -39,7 +39,7 @@
           jcr:primaryType="nt:unstructured"
           sling:resourceType="core/wcm/components/separator/v1/separator"
         />
-                <teaser_copy_copy
+        <teaser_copy_copy
           cq:styleIds="[1612897379772]"
           jcr:created="{Date}2022-01-06T09:38:13.794-03:00"
           jcr:createdBy="admin"
@@ -55,27 +55,19 @@
           textIsRich="true"
           titleFromPage="false"
         >
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-              jcr:primaryType="nt:unstructured"
-              offset="1"
-              width="10"
-            />
-                        <phone
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="12"
-            />
-                    </cq:responsive>
-                    <actions jcr:primaryType="nt:unstructured">
-                        <item0
+          <cq:responsive jcr:primaryType="nt:unstructured">
+            <default jcr:primaryType="nt:unstructured" offset="2" width="8" />
+            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+          </cq:responsive>
+          <actions jcr:primaryType="nt:unstructured">
+            <item0
               jcr:primaryType="nt:unstructured"
               link="/content/aem-site-template-tailwind/en/article/donec-tristique-efficitur"
               text="Keep Reading"
             />
-                    </actions>
-                </teaser_copy_copy>
-                <teaser_copy_74296013
+          </actions>
+        </teaser_copy_copy>
+        <teaser_copy_74296013
           cq:styleIds="[1612897454978]"
           jcr:created="{Date}2022-01-06T09:38:13.794-03:00"
           jcr:createdBy="admin"
@@ -91,27 +83,19 @@
           textIsRich="true"
           titleFromPage="false"
         >
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-              jcr:primaryType="nt:unstructured"
-              offset="1"
-              width="10"
-            />
-                        <phone
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="12"
-            />
-                    </cq:responsive>
-                    <actions jcr:primaryType="nt:unstructured">
-                        <item0
+          <cq:responsive jcr:primaryType="nt:unstructured">
+            <default jcr:primaryType="nt:unstructured" offset="2" width="8" />
+            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+          </cq:responsive>
+          <actions jcr:primaryType="nt:unstructured">
+            <item0
               jcr:primaryType="nt:unstructured"
               link="/content/aem-site-template-tailwind/en/article/fusce-at-efficitur-mi"
               text="Keep Reading"
             />
-                    </actions>
-                </teaser_copy_74296013>
-                <teaser_copy_74296013_2089031651
+          </actions>
+        </teaser_copy_74296013>
+        <teaser_copy_74296013_2089031651
           cq:styleIds="[1612897379772]"
           jcr:created="{Date}2022-01-06T09:38:13.794-03:00"
           jcr:createdBy="admin"
@@ -127,27 +111,19 @@
           textIsRich="true"
           titleFromPage="false"
         >
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-              jcr:primaryType="nt:unstructured"
-              offset="1"
-              width="10"
-            />
-                        <phone
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="12"
-            />
-                    </cq:responsive>
-                    <actions jcr:primaryType="nt:unstructured">
-                        <item0
+          <cq:responsive jcr:primaryType="nt:unstructured">
+            <default jcr:primaryType="nt:unstructured" offset="2" width="8" />
+            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+          </cq:responsive>
+          <actions jcr:primaryType="nt:unstructured">
+            <item0
               jcr:primaryType="nt:unstructured"
               link="/content/aem-site-template-tailwind/en/article/morbi-dapibus-libero-velit"
               text="Keep Reading"
             />
-                    </actions>
-                </teaser_copy_74296013_2089031651>
-            </container>
-        </root>
-    </jcr:content>
+          </actions>
+        </teaser_copy_74296013_2089031651>
+      </container>
+    </root>
+  </jcr:content>
 </jcr:root>

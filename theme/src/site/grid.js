@@ -44,6 +44,7 @@ module.exports = plugin(({ addBase, theme }) => {
     },
     ".aem-Grid--gap-padding .aem-Grid .aem-Grid": {
       "--aem-grid-column-padding": "0",
+      gap: 0,
     },
   });
 

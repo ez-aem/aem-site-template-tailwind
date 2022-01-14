@@ -58,7 +58,16 @@
             hideCurrent="false"
             showHidden="false"
             startLevel="2"
-          />
+          >
+            <cq:responsive jcr:primaryType="nt:unstructured">
+              <default
+                jcr:primaryType="nt:unstructured"
+                offset="1"
+                width="10"
+              />
+              <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+            </cq:responsive>
+          </breadcrumb>
           <container
             jcr:created="{Date}2022-01-06T09:44:58.490-03:00"
             jcr:createdBy="admin"
@@ -69,7 +78,7 @@
             editable="{Boolean}true"
           >
             <cq:responsive jcr:primaryType="nt:unstructured">
-              <default jcr:primaryType="nt:unstructured" offset="0" width="8" />
+              <default jcr:primaryType="nt:unstructured" offset="1" width="6" />
               <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
             </cq:responsive>
           </container>

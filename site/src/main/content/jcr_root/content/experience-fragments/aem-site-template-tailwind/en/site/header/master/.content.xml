@@ -50,7 +50,7 @@
           titleValueFromDAM="true"
         >
           <cq:responsive jcr:primaryType="nt:unstructured">
-            <default jcr:primaryType="nt:unstructured" offset="0" width="1" />
+            <default jcr:primaryType="nt:unstructured" offset="1" width="1" />
           </cq:responsive>
         </image_271092066>
         <button
@@ -70,7 +70,7 @@
           layout="responsiveGrid"
         >
           <cq:responsive jcr:primaryType="nt:unstructured">
-            <default jcr:primaryType="nt:unstructured" offset="0" width="11" />
+            <default jcr:primaryType="nt:unstructured" offset="0" width="9" />
             <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
           </cq:responsive>
           <navigation
@@ -85,7 +85,7 @@
             structureStart="1"
           >
             <cq:responsive jcr:primaryType="nt:unstructured">
-              <default jcr:primaryType="nt:unstructured" offset="0" width="7" />
+              <default jcr:primaryType="nt:unstructured" offset="0" width="5" />
               <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
             </cq:responsive>
           </navigation>

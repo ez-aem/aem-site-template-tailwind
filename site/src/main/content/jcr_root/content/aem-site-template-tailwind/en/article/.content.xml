@@ -21,7 +21,7 @@
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
     >
-      <container_2131119103
+      <container
         jcr:created="{Date}2022-01-06T09:17:26.934-03:00"
         jcr:createdBy="admin"
         jcr:lastModified="{Date}2022-01-06T09:17:26.934-03:00"
@@ -85,7 +85,7 @@
             </teaser_copy_copy_cop>
           </container>
         </container_1125714356>
-      </container_2131119103>
+      </container>
     </root>
   </jcr:content>
   <donec-tristique-efficitur />

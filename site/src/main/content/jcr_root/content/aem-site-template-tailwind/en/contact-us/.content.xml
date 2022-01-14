@@ -74,8 +74,6 @@
                   width="12"
                 />
               </cq:responsive>
-              <options_copy jcr:primaryType="nt:unstructured" />
-              <options_copy_267137654 jcr:primaryType="nt:unstructured" />
               <options
                 jcr:primaryType="nt:unstructured"
                 jcr:title="What can we do for you"
