@@ -32,6 +32,10 @@
       @apply focus:ring-offset-transparent;
     }
 
+    .cmp-teaser__title {
+      @apply font-serif;
+    }
+
     .cmp-teaser__action-container {
       @apply justify-center;
     }

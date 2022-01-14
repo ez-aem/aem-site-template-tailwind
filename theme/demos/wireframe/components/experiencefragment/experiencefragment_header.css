@@ -27,6 +27,10 @@
   .cmp-image {
     @apply flex h-full items-center justify-center;
   }
+
+  & > .aem-Grid {
+    @apply default:items-center;
+  }
 }
 
 @screen phone {

@@ -13,7 +13,7 @@
 }
 
 .cmp-teaser__title {
-  @apply text-4xl no-underline font-semibold;
+  @apply text-4xl no-underline font-normal font-sans;
 
   a {
     @apply text-foreground;
