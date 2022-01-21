@@ -26,7 +26,7 @@ module.exports = plugin(({ addBase, theme }) => {
       "margin-inline-start":
         "calc(var(--aem-grid-margin-column-offset-percent) + calc(var(--aem-grid-gap) * var(--aem-grid-margin-column-offset)))",
       "padding-inline": "var(--aem-grid-column-padding)", // Used for variant to place gap setting as padding
-      "word-break": "break-all", // Prevents overflow with 12 columns on mobile
+      "word-break": "break-word", // Prevents overflow with 12 columns on mobile
     },
     "html.aem-AuthorLayer-Edit .aem-Grid-newComponent": {
       "grid-column-end": "-1",
