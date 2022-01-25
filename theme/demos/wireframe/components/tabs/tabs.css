@@ -8,7 +8,7 @@
 .cmp-tabs__tab {
   @apply text-shade-4 border-b-2 border-transparent transition-colors duration-200;
   @apply hover:text-foreground hover:border-shade-2;
-  @apply focus:ring-2 focus:ring-accent focus:outline-none focus:text-foreground focus:border-transparent focus:rounded;
+  @apply focus:ring-2 focus:ring-focus focus:outline-none focus:text-foreground focus:border-transparent focus:rounded;
   @apply hover:focus:border-transparent;
 }
 .cmp-tabs__tab--active {

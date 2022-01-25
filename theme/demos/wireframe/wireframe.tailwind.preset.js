@@ -1,3 +1,10 @@
+const withOpacity = (variable) => {
+  return ({ withOpacity }) =>
+    withOpacity
+      ? `rgba(var(--${variable}, ${withOpacity}))`
+      : `rgb(var(--${variable}))`;
+};
+
 module.exports = {
   theme: {
     aemGrid: [
@@ -30,21 +37,21 @@ module.exports = {
         DEFAULT: "0 0.25em 0.5em 0.2em",
       },
       colors: {
-        background: "#fff",
-        foreground: "#000",
-        link: "#2020e0",
-        "link-inverted": "#B2D2FF",
-        accent: "#2954ff",
-        "accent-lighter": "#436eff",
-        "accent-darker": "#103be6",
-        "shade-1": "#eceff1",
-        "shade-2": "#cfd8dc",
-        "shade-3": "#607d8b",
-        "shade-4": "#455a64",
-        error: "#d7373f",
-        "error-darker": "#be1e26",
-        success: "#268e6c",
-        "success-darker": "#0d7553",
+        background: withOpacity("color-background"),
+        foreground: withOpacity("color-foreground"),
+        link: withOpacity("color-link"),
+        focus: withOpacity("color-focus"),
+        accent: withOpacity("color-accent"),
+        "accent-lighter": withOpacity("color-accent-lighter"),
+        "accent-darker": withOpacity("color-accent-darker"),
+        "shade-1": withOpacity("color-shade-1"),
+        "shade-2": withOpacity("color-shade-2"),
+        "shade-3": withOpacity("color-shade-3"),
+        "shade-4": withOpacity("color-shade-4"),
+        error: withOpacity("color-error"),
+        "error-darker": withOpacity("color-error-darker"),
+        success: withOpacity("color-success"),
+        "success-darker": withOpacity("color-success-darker"),
         shadow: "rgba(0, 0, 0, 0.16)",
         transparent: "rgba(0, 0, 0, 0)",
       },
@@ -57,15 +64,15 @@ module.exports = {
         DEFAULT: {
           css: {
             "--tw-prose-headings": theme("colors.foreground"),
-            "--tw-prose-invert-headings": theme("colors.white"),
-            "--tw-prose-links": theme("colors.accent"),
+            "--tw-prose-invert-headings": theme("colors.background"),
+            "--tw-prose-links": theme("colors.link"),
             "--tw-prose-links-hover": theme("colors.accent-darker"),
-            "--tw-prose-invert-links": theme("colors.link-inverted"),
+            "--tw-prose-invert-links": theme("colors.link"),
             a: {
               color: "var(--tw-prose-links)",
               "text-decoration": "none",
               "&:hover": {
-                color: theme("colors.accent-darker"),
+                color: theme("colors.link"),
                 "text-decoration": "underline",
               },
             },
@@ -141,12 +148,13 @@ module.exports = {
         },
         invert: {
           css: {
-            "--tw-prose-invert-headings": theme("colors.white"),
-            "--tw-prose-invert-links": theme("colors.link-inverted"),
+            "--tw-prose-invert-headings": theme("colors.background"),
+            "--tw-prose-invert-links": theme("colors.link"),
             "--tw-prose-pre-code": theme("colors.shade-1"),
             "--tw-prose-pre-bg": theme("colors.shade-4"),
-            "--tw-prose-td-borders": theme("colors.white"),
-            "--tw-prose-bullets": theme("colors.white"),
+            "--tw-prose-td-borders": theme("colors.background"),
+            "--tw-prose-bullets": theme("colors.background"),
+            "--tw-prose-body": theme("colors.foreground"),
             h6: {
               color: theme("colors.shade-1"),
             },

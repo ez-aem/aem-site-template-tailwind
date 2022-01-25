@@ -1,6 +1,7 @@
 .cmp-image {
 }
 .cmp-image__link {
+  @apply flex;
 }
 .cmp-image__image {
   @apply w-auto;
@@ -10,5 +11,5 @@
 }
 
 .dark-container .cmp-image__title {
-  @apply text-white;
+  @apply text-background;
 }

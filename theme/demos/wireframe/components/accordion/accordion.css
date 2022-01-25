@@ -1,7 +1,7 @@
 .cmp-accordion__button {
   @apply p-4 border-b-1 border-b-shade-2 font-sans font-semibold text-shade-3 text-base flex flex-row justify-between items-center;
   @apply hover:text-foreground hover:border-shade-4;
-  @apply focus:outline-none focus:ring-2 focus:ring-accent focus:border-b-transparent focus:rounded;
+  @apply focus:outline-none focus:ring-2 focus:ring-focus focus:border-b-transparent focus:rounded;
 }
 
 .cmp-accordion__panel {

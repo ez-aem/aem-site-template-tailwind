@@ -1,11 +1,7 @@
 a {
   @apply text-link no-underline;
   @apply hover:underline;
-  @apply focus:ring-2 focus:ring-accent focus:outline-none focus:rounded focus:ring-offset-2 focus:ring-offset-white;
-}
-
-.dark-container a {
-  @apply focus:ring-offset-shade-4;
+  @apply focus:ring-2 focus:ring-focus focus:outline-none focus:rounded focus:ring-offset-2 focus:ring-offset-background;
 }
 
 button,
@@ -22,16 +18,16 @@ h3,
 h4,
 h5,
 h6 {
-  a:hover {
-    @apply underline decoration-1 underline-offset-2;
+  a {
+    @apply hover:underline hover:decoration-1 hover:underline-offset-2;
   }
 }
 
 h1,
 h2,
 h3 {
-  a:hover {
-    @apply decoration-2;
+  a {
+    @apply hover:decoration-2;
   }
 }
 

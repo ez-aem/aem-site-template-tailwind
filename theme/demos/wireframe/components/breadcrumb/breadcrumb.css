@@ -11,7 +11,9 @@
 .cmp-breadcrumb__item-link {
   @apply text-shade-4 px-3 py-1 inline-flex;
   @apply hover:text-foreground;
-  @apply focus:text-foreground focus:ring-2 focus:ring-accent focus:ring-offset-2;
+  @apply focus:text-foreground focus:ring-2 focus:ring-focus focus:ring-offset-2;
+  @apply dark:text-link;
+  @apply dark:hover:text-foreground;
 }
 
 .cmp-breadcrumb__item--active {

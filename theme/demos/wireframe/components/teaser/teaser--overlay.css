@@ -22,14 +22,18 @@
   }
 
   .cmp-teaser__content {
-    @apply p-10 text-center justify-center text-white gap-y-6 place-self-center;
+    @apply p-10 text-center justify-center text-background gap-y-6 place-self-center;
     max-width: var(--aem-grid-max-width, 60rem);
+
+    @apply dark:text-foreground;
 
     .cmp-teaser__pretitle,
     .cmp-teaser__title,
     .cmp-teaser__title a {
-      @apply text-white;
+      @apply text-background;
       @apply focus:ring-offset-transparent;
+
+      @apply dark:text-foreground;
     }
 
     .cmp-teaser__title {
@@ -43,13 +47,17 @@
 
   .cmp-teaser__action-link {
     &:not(:first-child) {
-      @apply border-white text-white;
-      @apply hover:bg-white hover:text-shade-4 hover:border-white;
-      @apply focus:bg-white focus:text-shade-4 focus:border-transparent focus:ring-link-inverted focus:ring-offset-transparent;
+      @apply border-background text-background;
+      @apply hover:bg-background hover:text-shade-4 hover:border-background;
+      @apply focus:bg-background focus:text-shade-4 focus:border-transparent focus:ring-focus focus:ring-offset-transparent;
+
+      @apply dark:text-foreground dark:border-foreground;
+      @apply dark:hover:text-foreground dark:hover:border-background;
+      @apply dark:focus:text-foreground;
     }
 
     &:first-child {
-      @apply focus:ring-offset-transparent focus:border-transparent focus:ring-link-inverted;
+      @apply focus:ring-offset-transparent focus:border-transparent focus:ring-focus;
     }
   }
 }

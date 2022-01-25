@@ -127,7 +127,7 @@
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
-                        cq:styleClasses="teaser--dark"
+                        cq:styleClasses="dark teaser--dark"
                         cq:styleId="1612897513127"
                         cq:styleLabel="Dark"
                         jcr:primaryType="nt:unstructured"
@@ -223,7 +223,7 @@
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
-                        cq:styleClasses="dark-container"
+                        cq:styleClasses="dark dark-container"
                         cq:styleId="1613079653269"
                         cq:styleLabel="Dark Theme"
                         jcr:primaryType="nt:unstructured"
@@ -271,7 +271,7 @@
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
-                        cq:styleClasses="dark-container"
+                        cq:styleClasses="dark dark-container"
                         cq:styleId="1613079653269"
                         cq:styleLabel="Dark Theme"
                         jcr:primaryType="nt:unstructured"
@@ -341,7 +341,7 @@
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
-                        cq:styleClasses="dark-container"
+                        cq:styleClasses="dark dark-container"
                         cq:styleId="1613079653269"
                         cq:styleLabel="Dark Theme"
                         jcr:primaryType="nt:unstructured"
@@ -413,7 +413,7 @@
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
-                        cq:styleClasses="dark-container"
+                        cq:styleClasses="dark dark-container"
                         cq:styleId="1613079653269"
                         cq:styleLabel="Dark Theme"
                         jcr:primaryType="nt:unstructured"

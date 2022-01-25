@@ -18,7 +18,7 @@
   a {
     @apply text-foreground;
     @apply hover:text-foreground;
-    @apply focus:ring-offset-white;
+    @apply focus:ring-offset-background;
   }
 }
 
@@ -28,12 +28,14 @@
 
 .cmp-teaser__action-link {
   @apply rounded-full px-4 py-2 font-semibold border-2 border-shade-4 text-shade-4 transition-colors duration-300 text-center inline-flex shrink-0;
-  @apply hover:bg-shade-4 hover:text-white hover:no-underline;
-  @apply focus:rounded-full focus:border-white focus:bg-shade-4 focus:text-white focus:ring-offset-0 focus:ring-offset-transparent;
+  @apply hover:bg-shade-4 hover:text-background hover:no-underline;
+  @apply focus:rounded-full focus:border-background focus:bg-shade-4 focus:text-background focus:ring-offset-0 focus:ring-offset-transparent;
 
   &:first-child {
-    @apply bg-accent text-white border-accent;
+    @apply bg-accent text-background border-accent;
     @apply hover:bg-accent-darker hover:border-accent-darker;
-    @apply focus:bg-accent-darker focus:border-white;
+    @apply focus:bg-accent-darker focus:border-background;
+
+    @apply dark:text-foreground;
   }
 }
