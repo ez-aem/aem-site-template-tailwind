@@ -495,9 +495,9 @@
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
-                        cq:styleClasses="h1_style"
+                        cq:styleClasses="title--h1"
                         cq:styleId="1612984301150"
-                        cq:styleLabel="h1 style"
+                        cq:styleLabel="H1 Style"
                         jcr:primaryType="nt:unstructured"
                       />
                     </cq:styles>
@@ -518,44 +518,44 @@
                 <jcr:content jcr:primaryType="nt:unstructured" />
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0
-                    cq:styleGroupLabel="Styles"
+                    cq:styleGroupLabel="Display As"
                     jcr:primaryType="nt:unstructured"
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
-                        cq:styleClasses="h1_style"
+                        cq:styleClasses="title--h1"
                         cq:styleId="1612896635178"
-                        cq:styleLabel="h1 style"
+                        cq:styleLabel="H1 Style"
                         jcr:primaryType="nt:unstructured"
                       />
                       <item1
-                        cq:styleClasses="h2_style"
+                        cq:styleClasses="title--h2"
                         cq:styleId="1612896641947"
-                        cq:styleLabel="h2 style"
+                        cq:styleLabel="H2 Style"
                         jcr:primaryType="nt:unstructured"
                       />
                       <item2
-                        cq:styleClasses="h3_style"
+                        cq:styleClasses="title--h3"
                         cq:styleId="1612896645990"
-                        cq:styleLabel="h3 style"
+                        cq:styleLabel="H3 Style"
                         jcr:primaryType="nt:unstructured"
                       />
                       <item3
-                        cq:styleClasses="h4_style"
+                        cq:styleClasses="title--h4"
                         cq:styleId="1612896649188"
-                        cq:styleLabel="h4 style"
+                        cq:styleLabel="H4 Style"
                         jcr:primaryType="nt:unstructured"
                       />
                       <item4
-                        cq:styleClasses="h5_style"
+                        cq:styleClasses="title--h5"
                         cq:styleId="1612988090638"
-                        cq:styleLabel="h5 style"
+                        cq:styleLabel="H5 Style"
                         jcr:primaryType="nt:unstructured"
                       />
                       <item5
-                        cq:styleClasses="h6_style"
+                        cq:styleClasses="title--h6"
                         cq:styleId="1612988098073"
-                        cq:styleLabel="h6 style"
+                        cq:styleLabel="H6 Style"
                         jcr:primaryType="nt:unstructured"
                       />
                     </cq:styles>

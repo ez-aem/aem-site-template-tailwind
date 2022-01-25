@@ -7,9 +7,6 @@
   @apply w-auto;
 }
 .cmp-image__title {
-  @apply uppercase text-xs text-shade-4 my-2;
-}
-
-.dark-container .cmp-image__title {
-  @apply text-background;
+  @apply flex uppercase text-xs text-shade-4 my-2 leading-snug;
+  @apply dark:text-foreground;
 }
