@@ -46,7 +46,7 @@
     @apply hover:bg-background hover:border-shade-2 hover:cursor-pointer;
 
     &:not(:checked) {
-      @apply focus:border-accent focus:ring-0;
+      @apply focus:border-focus focus:ring-0 focus:ring-offset-background focus:bg-background;
     }
 
     &:checked {

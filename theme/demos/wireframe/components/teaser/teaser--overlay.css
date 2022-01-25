@@ -49,11 +49,11 @@
     &:not(:first-child) {
       @apply border-background text-background;
       @apply hover:bg-background hover:text-shade-4 hover:border-background;
-      @apply focus:bg-background focus:text-shade-4 focus:border-transparent focus:ring-focus focus:ring-offset-transparent;
+      @apply focus:bg-background focus:text-shade-4 focus:border-focus focus:ring-0;
 
       @apply dark:text-foreground dark:border-foreground;
       @apply dark:hover:text-foreground dark:hover:border-background;
-      @apply dark:focus:text-foreground;
+      @apply dark:focus:text-foreground dark:focus:border-focus;
     }
 
     &:first-child {
