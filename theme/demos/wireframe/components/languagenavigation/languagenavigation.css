@@ -4,7 +4,7 @@
 
 .languagenavigation.open {
   .cmp-languagenavigation__button {
-    @apply border-accent;
+    @apply border-focus;
 
     &::after {
       @apply rotate-180;
@@ -28,14 +28,8 @@
 
 .cmp-languagenavigation__button {
   @apply relative w-full h-10 border-2 border-solid border-shade-1 rounded-md flex-row flex justify-start items-center text-foreground transition-colors duration-200;
-
-  &:hover {
-    @apply border-shade-2 cursor-pointer;
-  }
-
-  &:focus {
-    @apply border-accent;
-  }
+  @apply hover:border-shade-2 hover:cursor-pointer;
+  @apply focus:border-focus focus:outline-none;
 
   span {
     @apply flex-1 flex justify-start items-center ml-10;
@@ -54,6 +48,7 @@
 .cmp-languagenavigation__button::after {
   @apply bg-shade-3 transition-transform duration-200 mr-2;
   mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZGVmcz48c3R5bGU+LmEsLmJ7ZmlsbDojNjA3ZDhiO30uYXtvcGFjaXR5OjA7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01NjUgLTgwKSI+PHJlY3QgY2xhc3M9ImEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTY1IDgwKSIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNLjI5MywxMy4wMjFhMSwxLDAsMCwxLDAtMS40MTRsNC45NS00Ljk1TC4yOTMsMS43MDdBMSwxLDAsMCwxLDEuNzA3LjI5M0w3LjM2NCw1Ljk1YTEsMSwwLDAsMSwwLDEuNDE1TDEuNzA3LDEzLjAyMWExLDEsMCwwLDEtMS40MTUsMFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU4My44MjkgODguMTcxKSByb3RhdGUoOTApIi8+PC9nPjwvc3ZnPg==");
+  @apply dark:bg-foreground;
 
   /* Flip upside down for mobile. As the menu goes up instead of down */
   @screen phone {
@@ -73,12 +68,10 @@
   &:not(.cmp-languagenavigation__item--active):hover {
     @apply bg-shade-1 cursor-pointer;
   }
-  &:focus-within {
-    @apply ring-accent outline-none ring-2 ring-offset-[-2px];
-  }
 
   &--active {
     @apply bg-accent text-background font-medium;
+    @apply dark:bg-link;
   }
 }
 
@@ -127,12 +120,13 @@ span[class^="cmp-languagenavigation__item--langcode"]::before,
 }
 
 .cmp-languagenavigation__item-link {
-  @apply text-foreground outline-none relative flex-1 flex flex-row justify-between items-center p-2 pl-10;
-  @apply hover:no-underline;
+  @apply text-foreground outline-none relative flex-1 flex flex-row justify-between items-center p-2 pl-10 border-2 border-background;
+  @apply hover:no-underline hover:border-shade-1;
+  @apply focus:border-focus focus:outline-none focus:ring-0 focus:rounded-none;
 }
 
 .cmp-languagenavigation__item--active .cmp-languagenavigation__item-link {
-  @apply text-background font-medium;
+  @apply text-background font-medium border-focus;
 
   &::after {
     @apply bg-background;

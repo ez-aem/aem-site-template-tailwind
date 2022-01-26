@@ -1,11 +1,7 @@
 a {
   @apply text-link no-underline;
   @apply hover:underline;
-  @apply focus:ring-2 focus:ring-accent focus:outline-none focus:rounded focus:ring-offset-2 focus:ring-offset-white;
-}
-
-.dark-container a {
-  @apply focus:ring-offset-shade-4;
+  @apply focus:ring-2 focus:ring-focus focus:outline-none focus:rounded focus:ring-offset-2 focus:ring-offset-background;
 }
 
 button,
@@ -22,39 +18,46 @@ h3,
 h4,
 h5,
 h6 {
-  a:hover {
-    @apply underline decoration-1 underline-offset-2;
+  a {
+    @apply hover:underline hover:decoration-1 hover:underline-offset-2;
   }
 }
 
 h1,
 h2,
 h3 {
-  a:hover {
-    @apply decoration-2;
+  a {
+    @apply hover:decoration-2;
   }
 }
 
-h1 {
+h1,
+.title--h1 .cmp-title__text {
   @apply text-5xl font-serif font-normal text-foreground;
 }
 
-h2 {
+h2,
+.title--h2 .cmp-title__text {
   @apply text-4xl font-serif font-medium text-foreground;
 }
 
-h3 {
+h3,
+.title--h3 .cmp-title__text {
   @apply text-2xl font-serif font-medium text-foreground;
 }
 
-h4 {
+h4,
+.title--h4 .cmp-title__text {
   @apply text-xl font-serif font-medium text-foreground;
 }
 
-h5 {
+h5,
+.title--h5 .cmp-title__text {
   @apply text-base font-serif font-medium text-foreground;
 }
 
-h6 {
+h6,
+.title--h6 .cmp-title__text {
   @apply text-xs font-sans font-normal text-shade-4 uppercase;
+  @apply dark:text-foreground;
 }

@@ -17,9 +17,9 @@
   @apply hidden;
 }
 .cmp-download__action {
-  @apply mt-2 rounded-full pl-3 pr-4 py-2 font-semibold transition-colors duration-300 text-center inline-flex gap-2 items-center bg-accent text-white border-accent;
+  @apply mt-2 rounded-full pl-3 pr-4 py-2 font-semibold transition-colors duration-300 text-center inline-flex gap-2 items-center bg-accent text-background border-accent;
   @apply hover:bg-accent-darker hover:border-accent-darker hover:no-underline;
-  @apply focus:bg-accent-darker focus:border-white focus:rounded-full focus:no-underline;
+  @apply focus:bg-accent-darker focus:border-background focus:rounded-full focus:no-underline;
 
   &::before {
     @apply w-5 h-5 bg-no-repeat bg-center;
@@ -41,8 +41,8 @@
 
   .cmp-download__title,
   .cmp-download__title-link {
-    @apply text-white;
-    @apply focus:ring-offset-shade-4 focus:ring-link-inverted;
+    @apply text-background;
+    @apply focus:ring-offset-shade-4 focus:ring-focus;
   }
 
   .cmp-download__property {
@@ -50,6 +50,6 @@
   }
 
   .cmp-download__action {
-    @apply focus:ring-offset-shade-4 focus:ring-link-inverted;
+    @apply focus:ring-offset-shade-4 focus:ring-focus;
   }
 }

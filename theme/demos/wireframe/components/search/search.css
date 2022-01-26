@@ -3,19 +3,16 @@
 }
 
 .cmp-search__input {
-  @apply bg-transparent border-2 border-shade-1 bg-shade-1 absolute inset-0 pl-9 rounded text-foreground;
+  @apply border-2 border-shade-1 bg-shade-1 absolute inset-0 pl-9 rounded text-foreground transition-colors duration-200;
+  @apply hover:bg-background;
+  @apply focus:outline-none focus:border-focus focus:bg-background focus:text-foreground;
 
   &::placeholder {
     @apply text-shade-3;
-  }
-  &:hover {
-    @apply bg-background;
-  }
-  &:focus {
-    @apply outline-none border-accent-lighter bg-background text-foreground;
+    @apply dark:text-foreground;
   }
   &:active {
-    @apply outline-none border-accent-darker bg-background text-foreground;
+    @apply outline-none border-focus bg-background text-foreground;
   }
 }
 

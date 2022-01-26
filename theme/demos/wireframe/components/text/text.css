@@ -1,5 +1,7 @@
 .cmp-text {
   @apply prose max-w-none;
+  @apply dark:prose-invert;
+
   h1,
   h2,
   h3,
@@ -13,20 +15,11 @@
 
   a {
     @apply hover:underline;
-    @apply focus:ring-2 focus:ring-accent focus:outline-none focus:rounded focus:ring-offset-2 focus:ring-offset-white;
+    @apply focus:ring-2 focus:ring-focus focus:outline-none focus:rounded focus:ring-offset-2 focus:ring-offset-background;
   }
 
   tbody th:first-child,
   tbody td:first-child {
     @apply pl-2;
-  }
-}
-
-.dark-container .cmp-text {
-  @apply prose-invert;
-
-  a {
-    @apply hover:underline;
-    @apply focus:ring-offset-shade-4;
   }
 }

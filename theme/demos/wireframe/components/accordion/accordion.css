@@ -1,7 +1,10 @@
 .cmp-accordion__button {
   @apply p-4 border-b-1 border-b-shade-2 font-sans font-semibold text-shade-3 text-base flex flex-row justify-between items-center;
-  @apply hover:text-foreground hover:border-shade-4;
-  @apply focus:outline-none focus:ring-2 focus:ring-accent focus:border-b-transparent focus:rounded;
+  @apply hover:text-foreground hover:border-b-shade-4;
+  @apply focus:outline-none focus:ring-2 focus:ring-focus focus:border-b-transparent focus:rounded focus:text-foreground;
+  @apply dark:text-link;
+  @apply dark:hover:border-b-link dark:hover:text-foreground;
+  @apply dark:focus:text-foreground;
 }
 
 .cmp-accordion__panel {
@@ -14,8 +17,12 @@
   mask-repeat: no-repeat;
   mask-position: right;
   mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZGVmcz48c3R5bGU+LmEsLmJ7ZmlsbDojNjA3ZDhiO30uYXtvcGFjaXR5OjA7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01NjUgLTgwKSI+PHJlY3QgY2xhc3M9ImEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTY1IDgwKSIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNLjI5MywxMy4wMjFhMSwxLDAsMCwxLDAtMS40MTRsNC45NS00Ljk1TC4yOTMsMS43MDdBMSwxLDAsMCwxLDEuNzA3LjI5M0w3LjM2NCw1Ljk1YTEsMSwwLDAsMSwwLDEuNDE1TDEuNzA3LDEzLjAyMWExLDEsMCwwLDEtMS40MTUsMFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU4My44MjkgODguMTcxKSByb3RhdGUoOTApIi8+PC9nPjwvc3ZnPg==");
+  @apply dark:bg-link;
+  @apply dark:hover:bg-foreground;
+  @apply dark:focus:bg-foreground;
 }
 
+.cmp-accordion__button:focus .cmp-accordion__icon,
 .cmp-accordion__button:hover .cmp-accordion__icon {
   @apply bg-foreground;
 }

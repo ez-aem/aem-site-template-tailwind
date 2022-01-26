@@ -1,5 +1,9 @@
 .cmp-form-text {
   @apply flex flex-col gap-y-2;
+
+  label {
+    @apply text-foreground;
+  }
 }
 
 .cmp-form-text__help-block {
@@ -7,6 +11,14 @@
 .cmp-form-text__textarea,
 .cmp-form-text__text {
   @apply rounded bg-shade-1 border-2 border-shade-1 transition-colors duration-200 font-sans;
-  @apply hover:bg-white;
-  @apply focus:text-foreground focus:border-accent;
+  @apply hover:bg-background;
+  @apply focus:bg-background focus:text-foreground focus:border-focus;
+
+  &::placeholder {
+    @apply dark:text-shade-4;
+  }
+
+  &:hover::placeholder {
+    @apply dark:text-shade-1;
+  }
 }
