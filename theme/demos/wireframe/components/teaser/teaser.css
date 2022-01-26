@@ -1,5 +1,5 @@
 .cmp-teaser__content {
-  @apply text-foreground flex flex-col gap-y-4 justify-between;
+  @apply text-foreground flex flex-col gap-y-4 justify-center;
 }
 
 .cmp-teaser__image {

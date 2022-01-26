@@ -26,6 +26,7 @@
 @import "./components/list/list.css";
 @import "./components/languagenavigation/languagenavigation.css";
 @import "./components/navigation/navigation.css";
+@import "./components/page/page--article.css";
 @import "./components/pdfviewer/pdfviewer.css";
 @import "./components/progressbar/progressbar.css";
 @import "./components/search/search.css";
@@ -39,3 +40,4 @@
 @import "./components/text/text.css";
 @import "./components/title/title.css";
 @import "./components/title/title--mt-8.css";
+@import "./components/title/title--w-full.css";

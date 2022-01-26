@@ -12,6 +12,7 @@
 
   .image {
     @apply flex;
+    @apply dark:invert dark:hue-rotate-180;
   }
 }
 

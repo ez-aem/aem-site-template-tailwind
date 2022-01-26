@@ -38,6 +38,13 @@
           sling:resourceType="core/wcm/components/container/v1/container"
           layout="responsiveGrid"
         >
+          <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/title/v2/title"
+            layout="responsiveGrid"
+            cq:styleIds="[09812749219313]"
+          />
+
           <container
             jcr:created="{Date}2022-01-06T09:17:29.978-03:00"
             jcr:createdBy="admin"

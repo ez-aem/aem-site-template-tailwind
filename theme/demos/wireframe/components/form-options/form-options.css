@@ -82,4 +82,9 @@
   @apply hover:border-shade-2 hover:cursor-pointer hover:bg-background;
   @apply focus:border-focus focus:text-foreground focus:bg-background focus:ring-offset-background;
   @apply dark:hover:text-shade-1;
+  @apply dark:focus:text-foreground;
+
+  &:active {
+    @apply dark:hover:text-foreground;
+  }
 }
