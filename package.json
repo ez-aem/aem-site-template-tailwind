@@ -1,6 +1,6 @@
 {
   "name": "aem-site-template-tailwind",
-  "version": "1.23.1",
+  "version": "1.23.2",
   "description": "AEM Site Template built with Tailwind CSS. Includes an easy-to-remove Wireframe Theme as an example of best-practices for theming site templates",
   "license": "MIT License, Copyright 2022 headwire.com",
   "scripts": {
@@ -16,7 +16,7 @@
     "stub": "aem-site-template-builder stub"
   },
   "devDependencies": {
-    "@adobe/aem-site-template-builder": "^0.1.4",
+    "@adobe/aem-site-template-builder": "^2.3.0",
     "@prettier/plugin-xml": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
