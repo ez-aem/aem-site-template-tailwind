@@ -13,13 +13,23 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+        <div className={styles.buttonContainer}>
+          <div className={styles.buttons}>
+            <Link
+              className="button button--secondary button--lg"
+              to="https://github.com/ez-aem/aem-site-template-tailwind/releases/latest"
+            >
+              Download️
+            </Link>
+          </div>
+          <div className={styles.buttons}>
+            <Link
+              className="button button--outline button--lg"
+              to="/docs/quick-start/intro"
+            >
+              Quick Start Guide - 5min ⏱️
+            </Link>
+          </div>
         </div>
       </div>
     </header>
@@ -30,8 +40,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`${siteConfig.title}`}
+      description="Learn Best Practices for AEM Site Templates"
     >
       <HomepageHeader />
       <main>

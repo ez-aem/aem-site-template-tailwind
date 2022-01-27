@@ -16,6 +16,13 @@
   }
 }
 
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
 .buttons {
   display: flex;
   align-items: center;
