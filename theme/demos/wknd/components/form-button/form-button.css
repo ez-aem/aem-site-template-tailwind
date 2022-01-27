@@ -1,0 +1,9 @@
+.cmp-form-button {
+  @apply rounded-full px-4 py-2 font-semibold border-2 bg-accent text-background border-accent transition-colors duration-300 text-center inline-flex shrink-0;
+  @apply hover:bg-accent-darker hover:border-accent-darker hover:no-underline;
+  @apply focus:bg-accent-darker focus:border-background focus:ring-2 focus:ring-focus focus:ring-offset-background focus:outline-none;
+
+  @apply dark:text-link;
+  @apply dark:hover:text-foreground;
+  @apply dark:focus:text-foreground;
+}

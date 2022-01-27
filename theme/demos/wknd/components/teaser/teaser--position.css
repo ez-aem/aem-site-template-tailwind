@@ -1,0 +1,60 @@
+.teaser--text-bottom,
+.teaser--text-right,
+.teaser--text-left {
+  .cmp-teaser {
+    @apply flex flex-col;
+  }
+  .cmp-teaser__content {
+    @apply py-6;
+  }
+}
+
+.teaser--text-left {
+  .cmp-teaser {
+    @apply default:flex-row-reverse;
+  }
+  .cmp-teaser__content {
+    @apply p-6;
+    @apply default:p-8;
+  }
+  &:not(.teaser--dark) {
+    .cmp-teaser__content {
+      @apply pl-0;
+      @apply default:pl-0;
+    }
+  }
+}
+
+.teaser--text-right {
+  @screen default {
+    .cmp-teaser {
+      @apply flex-row;
+    }
+    .cmp-teaser__content {
+      @apply p-6;
+      @apply default:p-6;
+    }
+  }
+}
+
+.teaser--text-right,
+.teaser--text-left {
+  .cmp-teaser__image {
+    @apply basis-2/3 aspect-2/1;
+    @apply default:aspect-3/1;
+
+    .cmp-image {
+      @apply w-full h-full aspect-2/1;
+      @apply default:aspect-3/1;
+    }
+
+    .cmp-image__image {
+      @apply aspect-2/1 object-cover h-full;
+      @apply default:aspect-3/1;
+    }
+  }
+
+  .cmp-teaser__content {
+    @apply basis-1/3;
+  }
+}

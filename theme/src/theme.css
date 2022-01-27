@@ -3,7 +3,7 @@
 @import "./site/base.css";
 
 /* Wireframe Demo CSS Theme - For Removal */
-@import "../demos/wireframe/theme.css";
+@import "../demos/wknd/theme.css";
 
 /* Site global */
 @import "./site/fonts.css";
