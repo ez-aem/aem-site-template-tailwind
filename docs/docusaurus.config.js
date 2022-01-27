@@ -6,15 +6,16 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Tailwind AEM Site Template",
+  tagline: "Learn Best Practices for AEM Site Templates",
+  url: "https://ez-aem.github.io/aem-site-template-tailwind/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "ez-aem", // Usually your GitHub org/user name.
+  projectName: "aem-site-template-tailwind", // Usually your repo name.
+  deploymentBranch: "gh-pages",
 
   presets: [
     [
@@ -44,7 +45,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Tailwind AEM Site Template",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -58,7 +59,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/ez-aem/aem-site-template-tailwind",
             label: "GitHub",
             position: "right",
           },
