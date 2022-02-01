@@ -4,7 +4,7 @@
   :root *::after {
     --color-background: 255, 255, 255;
     --color-foreground: 32, 32, 32;
-    --color-link: 32, 255, 255;
+    --color-link: 32, 32, 32;
     --color-focus: 67, 110, 255;
     --color-accent: 255, 234, 0;
     --color-accent-lighter: 67, 110, 255;
@@ -20,12 +20,13 @@
     --color-shadow: "rgba(0, 0, 0, 0.16)";
   }
 
-  .dark,
+  /* .dark,
   .dark *::before,
   .dark *::after {
     --color-link: 32, 32, 32;
     -color-accent: 255, 234, 0;
-  }
+  } */
+
 /*
   .dark,
   .dark *::before,

@@ -27,8 +27,8 @@
 }
 
 .cmp-teaser__action-link {
-  @apply rounded-full px-4 py-2 font-semibold border-2 border-shade-4 text-shade-4 transition-colors duration-300 text-center inline-flex shrink-0;
-  @apply hover:bg-shade-4 hover:text-background hover:no-underline;
+  @apply px-4 py-2 font-semibold border-2 border-shade-4 text-shade-4 transition-colors duration-300 text-center inline-flex shrink-0;
+  @apply hover:text-background hover:no-underline;
   @apply focus:rounded-full focus:border-background focus:bg-shade-4 focus:text-background focus:ring-offset-0 focus:ring-offset-transparent;
 
   @apply dark:border-link dark:text-link;

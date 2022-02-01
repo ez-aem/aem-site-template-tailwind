@@ -5,7 +5,6 @@ module.exports = {
     "./src/**/**/*.{html,js,jsx,ts,tsx}",
     "./demos/wknd/**/**/**/*.{html,js,ts,tsx}",
   ],
-  darkMode: "class",
   theme: {
     aemGrid: [
       {

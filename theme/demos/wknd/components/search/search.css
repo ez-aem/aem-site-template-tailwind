@@ -1,9 +1,9 @@
 .cmp-search__field {
-  @apply h-[2.5em] rounded py-2 px-3 relative flex flex-row justify-between items-center overflow-hidden;
+  @apply h-[3.5rem] px-3 relative flex flex-row justify-between items-center overflow-hidden;
 }
 
 .cmp-search__input {
-  @apply border-2 border-shade-1 bg-shade-1 absolute inset-0 pl-9 rounded text-foreground transition-colors duration-200;
+  @apply border-2 py-8 border-shade-1 bg-shade-1 absolute inset-0 pl-9 rounded text-foreground transition-colors duration-200;
   @apply hover:bg-background;
   @apply focus:outline-none focus:border-focus focus:bg-background focus:text-foreground;
 

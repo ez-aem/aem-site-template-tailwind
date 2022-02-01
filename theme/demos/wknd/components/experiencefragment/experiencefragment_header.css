@@ -1,10 +1,10 @@
 /* XF Header style, used on page template */
 #utility-header {
-  @apply bg-black flex justify-end mb-4;
+  @apply bg-black flex justify-end;
 }
 
 #utility-header-login {
-  @apply border-none bg-transparent;
+  @apply border-none bg-transparent text-background;
 }
 
 #utility-header-language {
@@ -23,7 +23,6 @@
 
 
 #main-header-wrapper {
-  @apply border-b-2 border-solid border-shade-1 z-50;
 
   @screen phone {
     & > .aem-Grid {
@@ -45,7 +44,7 @@
 }
 
 #main-header {
-  @apply p-0;
+  @apply p-0 my-8;
   @apply h-20 flex items-end bg-background content-center;
 
   .cmp-image {
