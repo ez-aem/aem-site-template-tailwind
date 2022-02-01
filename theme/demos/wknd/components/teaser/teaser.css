@@ -40,6 +40,6 @@
     @apply hover:bg-accent-darker hover:border-accent-darker;
     @apply focus:bg-accent-darker focus:border-background;
 
-    @apply dark:text-foreground;
+    /* @apply dark:text-foreground; */
   }
 }

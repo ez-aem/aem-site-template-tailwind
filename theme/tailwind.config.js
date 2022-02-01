@@ -1,9 +1,9 @@
 module.exports = {
-  presets: [require("./demos/wireframe/wireframe.tailwind.preset.js")],
+  presets: [require("./demos/wknd/tailwind.preset.js")],
   content: [
     "./src/index.html",
     "./src/**/**/*.{html,js,jsx,ts,tsx}",
-    "./demos/wireframe/**/**/**/*.{html,js,ts,tsx}",
+    "./demos/wknd/**/**/**/*.{html,js,ts,tsx}",
   ],
   darkMode: "class",
   theme: {

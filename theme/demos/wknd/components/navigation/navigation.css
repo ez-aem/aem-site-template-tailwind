@@ -16,7 +16,10 @@
 }
 
 .cmp-navigation__item-link {
-  @apply px-4 py-2 rounded inline-flex text-shade-3 font-semibold;
+
+  @apply text-xl font-extralight;
+  @apply px-4 py-2 inline-flex text-shade-3 font-semibold;
+  @apply uppercase;
   @apply hover:text-shade-4;
   @apply focus:ring-focus focus:text-shade-4 focus:ring-offset-2;
 
@@ -29,14 +32,11 @@
 .cmp-navigation__item--active
   > .cmp-navigation__item-link-wrapper
   > .cmp-navigation__item-link {
-  @apply bg-accent text-background;
-  @apply hover:bg-accent hover:text-background;
+  @apply bg-accent;
+  @apply hover:bg-accent;
 
   /* @apply dark:text-link;
   @apply dark:hover:text-foreground; */
-
-  @apply dark:bg-link dark:text-shade-4;
-  @apply dark:hover:text-background;
 }
 
 .cmp-navigation__item--level-1:not(.cmp-navigation__item--active)

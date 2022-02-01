@@ -1,4 +1,27 @@
 /* XF Header style, used on page template */
+#utility-header {
+  @apply bg-black flex justify-end mb-4;
+}
+
+#utility-header-login {
+  @apply border-none bg-transparent;
+}
+
+#utility-header-language {
+  @apply text-background;
+
+  .cmp-languagenavigation__button {
+    @apply border-none;
+  }
+}
+
+
+.cmp-navigation-__group {
+  @apply text-foreground;
+  @apply flex justify-end content-center;
+}
+
+
 #main-header-wrapper {
   @apply border-b-2 border-solid border-shade-1 z-50;
 
@@ -8,9 +31,9 @@
     }
   }
 
-  /* 
-   * Fixes mobile webkit issue with 100vh and the browser bar 
-   * covering the language navigation dropdown 
+  /*
+   * Fixes mobile webkit issue with 100vh and the browser bar
+   * covering the language navigation dropdown
   */
   &.open {
     @apply fixed inset-0 mb-0;
@@ -22,11 +45,12 @@
 }
 
 #main-header {
-  @apply h-20 flex items-center bg-background;
+  @apply p-0;
+  @apply h-20 flex items-end bg-background content-center;
 
   .cmp-image {
     @apply flex h-full items-center justify-center;
-    @apply dark:invert dark:hue-rotate-180;
+    @apply dark:hue-rotate-180;
   }
 
   & > .aem-Grid {

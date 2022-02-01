@@ -1,18 +1,18 @@
 a {
-  @apply text-link no-underline;
-  @apply hover:underline;
+  @apply text-foreground no-underline;
+  @apply text-foreground;
   @apply focus:ring-2 focus:ring-focus focus:outline-none focus:rounded focus:ring-offset-2 focus:ring-offset-background;
 }
 
-button,
+/* button,
 input,
 optgroup,
 select,
 textarea {
   @apply font-inherit;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -29,7 +29,7 @@ h3 {
   a {
     @apply hover:decoration-2;
   }
-}
+} */
 
 h1,
 .title--h1 .cmp-title__text {

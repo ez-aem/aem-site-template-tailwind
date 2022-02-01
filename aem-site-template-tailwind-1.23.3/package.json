@@ -1,0 +1,59 @@
+{
+  "name": "aem-site-template-tailwind",
+  "version": "1.23.3",
+  "description": "AEM Site Template built with Tailwind CSS. Includes an easy-to-remove Wireframe Theme as an example of best-practices for theming site templates",
+  "license": "MIT License, Copyright 2022 headwire.com",
+  "scripts": {
+    "build": "aem-site-template-builder",
+    "build:theme": "cd theme && npm run build",
+    "deploy": "curl -u admin:admin -F file=@aem-site-template-tailwind-latest.zip http://localhost:4502/conf/global/site-templates.import.html",
+    "lint:check": "eslint -c theme/.eslintrc.json theme --ext .ts,.js,.jsx,.tsx",
+    "lint:fix": "eslint -c theme/.eslintrc.json --fix theme --ext .ts,.js,.jsx,.tsx",
+    "live": "cd theme && npm run live",
+    "prepare": "husky install",
+    "prettier:check": "prettier --check ./theme/**/*.{css,html,js,ts}",
+    "prettier:fix": "prettier --write ./theme/**/*.{css,html,js,ts}",
+    "stub": "aem-site-template-builder stub"
+  },
+  "devDependencies": {
+    "@adobe/aem-site-template-builder": "^2.3.0",
+    "@prettier/plugin-xml": "^1.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.5",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "siteTemplate": {
+    "title": "Tailwind AEM Site Template",
+    "createdBy": "headwire.com",
+    "useCases": [
+      "General purpose sites, corporate marketing sites, landing pages, blog sites, content marketing, demos, dark-mode"
+    ],
+    "docsUrl": "",
+    "showcaseUrl": "",
+    "sourceRepositoryUrl": "https://github.com/ez-aem/aem-site-template-tailwind",
+    "openAction": "viewAsPublished",
+    "openItem": "{Path}/onboarding"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint -c ./theme/.eslintrc.json --cache --fix",
+      "prettier --write"
+    ],
+    "*.css": [
+      "prettier --write"
+    ],
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.xml": [
+      "prettier --write"
+    ]
+  },
+  "prettier": "./theme/.prettierrc.json"
+}
