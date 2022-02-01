@@ -6,6 +6,7 @@ const withOpacity = (variable) => {
 };
 
 module.exports = {
+  darkMode: "class",
   theme: {
     aemGrid: [
       {
