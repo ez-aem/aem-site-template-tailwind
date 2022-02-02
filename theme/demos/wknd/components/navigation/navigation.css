@@ -1,5 +1,5 @@
 .cmp-navigation__group {
-  @apply flex flex-row gap-x-2;
+  @apply flex flex-row;
 
   .cmp-navigation__group {
     @apply absolute mt-2 w-full bg-background border-2 border-shade-2 shadow-md rounded-md overflow-hidden delay-75 opacity-0 -translate-y-2 flex flex-col z-20;
@@ -9,7 +9,7 @@
 
     .cmp-navigation__item-link {
       @apply rounded-none flex-1 w-full;
-      @apply hover:no-underline;
+      @apply hover:no-underline hover:bg-accent;
       @apply focus:ring-0;
     }
   }
@@ -18,9 +18,9 @@
 .cmp-navigation__item-link {
 
   @apply text-xl font-extralight;
-  @apply px-4 py-2 inline-flex text-shade-3 font-semibold;
+  @apply px-4 py-2 inline-flex text-shade-3;
   @apply uppercase;
-  @apply hover:text-shade-4;
+  @apply hover:bg-accent;
   @apply focus:ring-focus focus:text-shade-4 focus:ring-offset-2;
 
   @apply dark:text-link;
