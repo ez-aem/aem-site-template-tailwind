@@ -27,7 +27,7 @@
   }
 
   .navigation {
-    @apply pr-4;
+    @apply pr-8;
   }
 
 }
