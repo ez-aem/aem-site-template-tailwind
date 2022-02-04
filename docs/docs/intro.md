@@ -4,44 +4,30 @@ sidebar_position: 1
 
 # Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover the **Tailwind AEM Site Template in less than 5 minutes**.
 
 ## Getting Started
 
 Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- A copy of **[the latest Tailwind AEM Site Template](https://github.com/ez-aem/aem-site-template-tailwind/releases/latest)**
+- An AEM Cloud Service environment with Sites enabled
+- Permissions in that environment to create Sites
 
 ## Generate a new site
 
-Generate a new Docusaurus site using the **classic template**.
+1. Navigate to the Sites main screen, and click the **'Create'** button. Select **'Site from Template'**.
+2. Click on the **'Import'** button, and upload the Tailwind AEM Site Template you've downloaded.
+3. Select the **Tailwind AEM Site Template** checkbox and hit **'Next'**
+4. Give your new site a name and hit **'Create'**
+5. Once your new site has been created, click **'Open'** to see the documentation for your new site
 
-The classic template will automatically be added to your project after you run the command:
+## Next Steps
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+**Congratulations!** You've created your new site and now you get to choose your own adventure:
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- [Manage the content of your site](/docs/manage/intro)
+- [Customize the theme](/docs/customize/intro)
+- [Extend the functionality of your new site](/docs/extend/intro)

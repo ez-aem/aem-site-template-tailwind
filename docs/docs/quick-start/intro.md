@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Intro
 
+Welcome to the Tailwind AEM Site Template Quick Start guide. This is meant for people who like to learn by doing.
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at semper augue, eget mollis enim. Sed mattis dui in volutpat feugiat. Ut at eleifend dolor. Praesent non egestas leo. Pellentesque condimentum mi sed molestie consequat. Sed porta orci id dolor porttitor, sit amet vestibulum mauris fermentum. Pellentesque placerat faucibus dui vel venenatis. Phasellus at urna leo.
 
 Maecenas pretium nulla ac augue eleifend, quis tempus velit ultricies. Ut blandit non leo nec pharetra. Duis dolor nulla, lobortis sit amet fringilla a, posuere ac mauris. Maecenas vel elit eu erat sollicitudin fermentum vel vel risus. Nulla id rhoncus enim. Pellentesque iaculis malesuada libero, at gravida leo. Ut elit magna, facilisis vel nisl tempus, posuere posuere sapien. Proin sit amet pharetra magna. Nulla sagittis massa vel sem egestas, et varius quam tempus.
