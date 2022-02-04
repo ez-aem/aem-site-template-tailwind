@@ -1,7 +1,7 @@
 a {
   @apply text-link no-underline;
   @apply hover:underline;
-  @apply focus:ring-2 focus:ring-focus focus:outline-none focus:rounded focus:ring-offset-2 focus:ring-offset-background;
+  @apply focus:rounded focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
 }
 
 button,
@@ -33,31 +33,31 @@ h3 {
 
 h1,
 .title--h1 .cmp-title__text {
-  @apply text-5xl font-serif font-normal text-foreground;
+  @apply font-serif text-5xl font-normal text-foreground;
 }
 
 h2,
 .title--h2 .cmp-title__text {
-  @apply text-4xl font-serif font-medium text-foreground;
+  @apply font-serif text-4xl font-medium text-foreground;
 }
 
 h3,
 .title--h3 .cmp-title__text {
-  @apply text-2xl font-serif font-medium text-foreground;
+  @apply font-serif text-2xl font-medium text-foreground;
 }
 
 h4,
 .title--h4 .cmp-title__text {
-  @apply text-xl font-serif font-medium text-foreground;
+  @apply font-serif text-xl font-medium text-foreground;
 }
 
 h5,
 .title--h5 .cmp-title__text {
-  @apply text-base font-serif font-medium text-foreground;
+  @apply font-serif text-base font-medium text-foreground;
 }
 
 h6,
 .title--h6 .cmp-title__text {
-  @apply text-xs font-sans font-normal text-shade-4 uppercase;
+  @apply font-sans text-xs font-normal uppercase text-shade-4;
   @apply dark:text-foreground;
 }

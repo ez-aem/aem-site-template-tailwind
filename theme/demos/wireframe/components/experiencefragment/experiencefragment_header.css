@@ -1,6 +1,6 @@
 /* XF Header style, used on page template */
 #main-header-wrapper {
-  @apply border-b-2 border-solid border-shade-1 z-50;
+  @apply z-50 border-b-2 border-solid border-shade-1;
 
   @screen phone {
     & > .aem-Grid {
@@ -22,11 +22,11 @@
 }
 
 #main-header {
-  @apply h-20 flex items-center bg-background;
+  @apply flex h-20 items-center bg-background;
 
   .cmp-image {
     @apply flex h-full items-center justify-center;
-    @apply dark:invert dark:hue-rotate-180;
+    @apply dark:hue-rotate-180 dark:invert;
   }
 
   & > .aem-Grid {
@@ -56,10 +56,10 @@
     }
 
     .button {
-      @apply w-8 h-20 self-center mx-4 flex items-center z-10;
+      @apply z-10 mx-4 flex h-20 w-8 items-center self-center;
 
       .cmp-button {
-        @apply bg-transparent rounded bg-no-repeat border-0 h-8 w-8 bg-center;
+        @apply h-8 w-8 rounded border-0 bg-transparent bg-center bg-no-repeat;
         background-image: url("../../resources/images/hamburger-menu.png");
       }
     }
@@ -74,12 +74,12 @@
   }
 
   #mobile-header {
-    @apply h-full p-4 border-t-2 border-shade-1 delay-75 opacity-0 translate-y-2 bg-background;
+    @apply h-full translate-y-2 border-t-2 border-shade-1 bg-background p-4 opacity-0 delay-75;
     transition: transform 250ms, opacity 100ms, visibility 50ms;
     visibility: collapse;
 
     & > .aem-Grid {
-      @apply h-full justify-start items-start;
+      @apply h-full items-start justify-start;
       grid-template-rows: auto auto 1fr;
     }
 

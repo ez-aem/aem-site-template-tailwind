@@ -2,13 +2,13 @@
   @apply flex flex-row gap-x-2;
 
   .cmp-navigation__group {
-    @apply absolute mt-2 w-full bg-background border-2 border-shade-2 shadow-md rounded-md overflow-hidden delay-75 opacity-0 -translate-y-2 flex flex-col z-20;
+    @apply absolute z-20 mt-2 flex w-full -translate-y-2 flex-col overflow-hidden rounded-md border-2 border-shade-2 bg-background opacity-0 shadow-md delay-75;
     width: max-content;
     transition: transform 250ms, opacity 100ms, visibility 50ms;
     visibility: collapse;
 
     .cmp-navigation__item-link {
-      @apply rounded-none flex-1 w-full;
+      @apply w-full flex-1 rounded-none;
       @apply hover:no-underline;
       @apply focus:ring-0;
     }
@@ -16,9 +16,9 @@
 }
 
 .cmp-navigation__item-link {
-  @apply px-4 py-2 rounded inline-flex text-shade-3 font-semibold;
+  @apply inline-flex rounded px-4 py-2 font-semibold text-shade-3;
   @apply hover:text-shade-4;
-  @apply focus:ring-focus focus:text-shade-4 focus:ring-offset-2;
+  @apply focus:text-shade-4 focus:ring-focus focus:ring-offset-2;
 
   @apply dark:text-link;
   @apply dark:hover:text-foreground;
@@ -42,10 +42,10 @@
 .cmp-navigation__item--level-1:not(.cmp-navigation__item--active)
   > .cmp-navigation__item-link {
   @apply border-2 border-background;
-  @apply hover:bg-shade-1 hover:border-shade-1;
+  @apply hover:border-shade-1 hover:bg-shade-1;
   @apply focus:border-accent;
 
-  @apply dark:hover:bg-shade-3 dark:hover:border-shade-3;
+  @apply dark:hover:border-shade-3 dark:hover:bg-shade-3;
   @apply dark:focus:border-focus;
 }
 
@@ -60,15 +60,15 @@
 .cmp-navigation__item--level-0
   .cmp-navigation__item-link-wrapper
   > .cmp-navigation__item-link {
-  @apply pr-2 rounded-r-none;
+  @apply rounded-r-none pr-2;
 }
 
 .cmp-navigation__item__icon {
-  @apply rounded-r w-6 h-full py-2 relative border-0 flex justify-center;
+  @apply relative flex h-full w-6 justify-center rounded-r border-0 py-2;
   @apply focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
 
   &::after {
-    @apply block w-5 h-6 bg-shade-3 bg-no-repeat transition-transform duration-200;
+    @apply block h-6 w-5 bg-shade-3 bg-no-repeat transition-transform duration-200;
     content: "";
     mask-size: 1.25rem;
     mask-repeat: no-repeat;
