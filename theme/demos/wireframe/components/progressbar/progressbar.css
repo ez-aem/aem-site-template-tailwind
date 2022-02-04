@@ -2,7 +2,7 @@
   @apply relative flex flex-col;
 
   &::after {
-    @apply bg-shade-2 rounded-full absolute block h-2 bottom-0 right-0 left-0;
+    @apply absolute bottom-0 right-0 left-0 block h-2 rounded-full bg-shade-2;
     content: "";
   }
 }
@@ -12,7 +12,7 @@
 }
 
 .cmp-progressbar__label--completed {
-  @apply text-xl font-semibold text-foreground text-center font-serif mb-1;
+  @apply mb-1 text-center font-serif text-xl font-semibold text-foreground;
   &::after {
     @apply text-xl font-semibold text-inherit;
     content: "%";
@@ -20,7 +20,7 @@
 }
 
 .cmp-progressbar__bar {
-  @apply rounded-full bg-accent h-2 relative z-10 -indent-[999999999rem];
+  @apply relative z-10 h-2 rounded-full bg-accent -indent-[999999999rem];
 
   &:not([aria-valuenow="100"]) {
     @apply rounded-r-none;

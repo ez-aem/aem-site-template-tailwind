@@ -2,6 +2,6 @@
   @apply mt-6 mb-20;
 
   label {
-    @apply uppercase text-shade-4 text-xs font-semibold;
+    @apply text-xs font-semibold uppercase text-shade-4;
   }
 }

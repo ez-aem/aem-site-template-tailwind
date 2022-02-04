@@ -1,7 +1,7 @@
 .cmp-accordion__button {
-  @apply p-4 border-b-1 border-b-shade-2 font-sans font-semibold text-shade-3 text-base flex flex-row justify-between items-center;
-  @apply hover:text-foreground hover:border-b-shade-4;
-  @apply focus:outline-none focus:ring-2 focus:ring-focus focus:border-b-transparent focus:rounded focus:text-foreground;
+  @apply flex flex-row items-center justify-between border-b-1 border-b-shade-2 p-4 font-sans text-base font-semibold text-shade-3;
+  @apply hover:border-b-shade-4 hover:text-foreground;
+  @apply focus:rounded focus:border-b-transparent focus:text-foreground focus:outline-none focus:ring-2 focus:ring-focus;
   @apply dark:text-link;
   @apply dark:hover:border-b-link dark:hover:text-foreground;
   @apply dark:focus:text-foreground;
@@ -12,7 +12,7 @@
 }
 
 .cmp-accordion__icon {
-  @apply block w-5 h-5 bg-shade-3 bg-no-repeat transition-transform duration-200;
+  @apply block h-5 w-5 bg-shade-3 bg-no-repeat transition-transform duration-200;
   mask-size: 1.25rem;
   mask-repeat: no-repeat;
   mask-position: right;

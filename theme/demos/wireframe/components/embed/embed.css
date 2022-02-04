@@ -1,9 +1,9 @@
 .embed.aspect-video {
   .cmp-embed {
-    @apply w-full h-full;
+    @apply h-full w-full;
 
     iframe {
-      @apply w-full h-full;
+      @apply h-full w-full;
     }
   }
 }

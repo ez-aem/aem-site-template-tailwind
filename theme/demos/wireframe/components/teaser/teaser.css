@@ -1,5 +1,5 @@
 .cmp-teaser__content {
-  @apply text-foreground flex flex-col gap-y-4 justify-center;
+  @apply flex flex-col justify-center gap-y-4 text-foreground;
 }
 
 .cmp-teaser__image {
@@ -9,11 +9,11 @@
 }
 
 .cmp-teaser__pretitle {
-  @apply text-xs text-shade-4 uppercase font-semibold;
+  @apply text-xs font-semibold uppercase text-shade-4;
 }
 
 .cmp-teaser__title {
-  @apply text-4xl no-underline font-normal font-sans;
+  @apply font-sans text-4xl font-normal no-underline;
 
   a {
     @apply text-foreground;
@@ -27,18 +27,18 @@
 }
 
 .cmp-teaser__action-link {
-  @apply rounded-full px-4 py-2 font-semibold border-2 border-shade-4 text-shade-4 transition-colors duration-300 text-center inline-flex shrink-0;
+  @apply inline-flex shrink-0 rounded-full border-2 border-shade-4 px-4 py-2 text-center font-semibold text-shade-4 transition-colors duration-300;
   @apply hover:bg-shade-4 hover:text-background hover:no-underline;
   @apply focus:rounded-full focus:border-background focus:bg-shade-4 focus:text-background focus:ring-offset-0 focus:ring-offset-transparent;
 
   @apply dark:border-link dark:text-link;
   @apply dark:hover:bg-link dark:hover:text-background;
-  @apply dark:focus:bg-link dark:focus:border-background dark:focus:text-background;
+  @apply dark:focus:border-background dark:focus:bg-link dark:focus:text-background;
 
   &:first-child {
-    @apply bg-accent text-background border-accent;
-    @apply hover:bg-accent-darker hover:border-accent-darker;
-    @apply focus:bg-accent-darker focus:border-background;
+    @apply border-accent bg-accent text-background;
+    @apply hover:border-accent-darker hover:bg-accent-darker;
+    @apply focus:border-background focus:bg-accent-darker;
 
     @apply dark:text-foreground;
   }

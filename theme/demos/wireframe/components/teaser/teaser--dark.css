@@ -1,6 +1,6 @@
 .teaser--dark {
   .cmp-teaser__content {
-    @apply bg-shade-4 text-background p-4;
+    @apply bg-shade-4 p-4 text-background;
   }
 
   .cmp-teaser__pretitle {
@@ -13,7 +13,7 @@
   }
 
   .cmp-teaser__title a {
-    @apply focus:ring-focus focus:ring-2 focus:ring-offset-shade-4;
+    @apply focus:ring-2 focus:ring-focus focus:ring-offset-shade-4;
   }
 
   .cmp-teaser__action-link {

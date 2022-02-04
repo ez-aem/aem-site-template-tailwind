@@ -7,19 +7,19 @@
   }
 
   .title {
-    @apply flex justify-center items-center;
+    @apply flex items-center justify-center;
   }
 
   .image {
     @apply flex;
-    @apply dark:invert dark:hue-rotate-180;
+    @apply dark:hue-rotate-180 dark:invert;
   }
 }
 
 @screen phone {
   #main-footer {
     & > .aem-Grid {
-      @apply justify-center items-center gap-x-0;
+      @apply items-center justify-center gap-x-0;
       grid-template-areas:
         "separator separator"
         "logo logo"
@@ -30,12 +30,12 @@
     }
 
     .image {
-      @apply self-center justify-self-center max-w-[13rem];
+      @apply max-w-[13rem] self-center justify-self-center;
     }
 
     .text {
       &:not(:last-child) {
-        @apply m-0 justify-end flex pr-4;
+        @apply m-0 flex justify-end pr-4;
         grid-area: terms;
       }
 
