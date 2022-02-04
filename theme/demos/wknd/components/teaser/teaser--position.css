@@ -2,10 +2,10 @@
 .teaser--text-right,
 .teaser--text-left {
   .cmp-teaser {
-    @apply flex flex-col;
+    @apply flex flex-col mb-4 bg-shade-1;
   }
   .cmp-teaser__content {
-    @apply py-6;
+    @apply p-9 pt-16;
   }
 }
 
@@ -16,12 +16,6 @@
   .cmp-teaser__content {
     @apply p-6;
     @apply default:p-8;
-  }
-  &:not(.teaser--dark) {
-    .cmp-teaser__content {
-      @apply pl-0;
-      @apply default:pl-0;
-    }
   }
 }
 

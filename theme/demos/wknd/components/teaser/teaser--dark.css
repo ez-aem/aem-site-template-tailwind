@@ -1,6 +1,6 @@
 .teaser--dark {
   .cmp-teaser__content {
-    @apply bg-shade-4 text-background p-4;
+    @apply bg-foreground text-background p-4;
   }
 
   .cmp-teaser__pretitle {
@@ -17,11 +17,11 @@
   }
 
   .cmp-teaser__action-link {
-    @apply text-background;
+    @apply text-foreground hover:text-background;
 
     &:not(:first-child) {
-      @apply border-background;
-      @apply hover:bg-background hover:text-shade-4;
+      @apply border-background text-background;
+      @apply hover:bg-background hover:text-foreground;
       @apply focus:border-shade-4 focus:bg-background focus:text-shade-4 focus:ring-focus;
     }
 

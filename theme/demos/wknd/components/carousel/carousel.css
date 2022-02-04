@@ -1,4 +1,5 @@
 .cmp-carousel {
+  @apply mb-24;
 }
 .cmp-carousel__content {
   @apply relative;

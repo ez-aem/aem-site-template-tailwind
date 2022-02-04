@@ -5,7 +5,7 @@
   }
 
   .cmp-teaser__content {
-    @apply bg-white py-4 px-7 items-start max-w-6xl w-full -mt-52;
+    @apply bg-background py-4 px-7 items-start max-w-6xl w-full -mt-52;
 
     p {
       text-align: left;
