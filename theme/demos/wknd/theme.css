@@ -34,6 +34,7 @@
 @import "./components/socialmediasharing/socialmediasharing.css";
 @import "./components/tabs/tabs.css";
 @import "./components/teaser/teaser.css";
+@import "./components/teaser/teaser--default.css";
 @import "./components/teaser/teaser--dark.css";
 @import "./components/teaser/teaser--overlay.css";
 @import "./components/teaser/teaser--position.css";
