@@ -6,20 +6,9 @@
   }
 }
 
-
-.experiencefragment {
-  &.header {
-   @apply sticky top-0 z-10 w-full;
-  }
+.experiencefragment.header {
+    @apply sticky top-0 z-10 w-full;
 }
-
-.header-shadow {
-  @apply shadow-header;
-}
-
-/* #main-header-wrapper {
-  @apply fixed top-0 z-10 w-full;
-} */
 
 #utility-header-wrapper {
   @apply bg-foreground;
@@ -40,8 +29,6 @@
     @apply border-none;
   }
 }
-
-
 
 .cmp-search__field {
   @apply w-[325px];
@@ -91,7 +78,6 @@
 #main-header-wrapper {
 
   .experiencefragment {
-
       @apply absolute top-0 z-10;
       @apply bg-foreground left-[-275px] transition-transform duration-500 max-w-[275px] w-full h-[140vh];
   }
@@ -159,7 +145,6 @@
     @apply w-[175px];
   }
 
-
   #header-max-w {
 
     >.aem-Grid--default--12 {
@@ -193,7 +178,6 @@
     }
 
     .image {
-
 
       .cmp-image__image {
         @apply max-h-12;
