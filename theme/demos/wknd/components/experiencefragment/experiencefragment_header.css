@@ -57,6 +57,11 @@
 }
 
  #mobile-menu .cmp-navigation__item .cmp-navigation__item-link {
+
+  &:hover {
+    @apply text-accent;
+  }
+
   @apply text-background;
   @apply bg-transparent;
 }
