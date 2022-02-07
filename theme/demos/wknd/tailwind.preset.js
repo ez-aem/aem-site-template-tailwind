@@ -36,6 +36,7 @@ module.exports = {
       },
       boxShadow: {
         DEFAULT: "0 0.25em 0.5em 0.2em",
+        header: "0 20px 0 rgba(0, 0, 0, 26%)",
       },
       colors: {
         background: withOpacity("color-background"),
