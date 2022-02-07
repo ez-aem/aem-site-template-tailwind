@@ -14,5 +14,11 @@
   },
   "ignorePatterns": [
     "theme/dist/js/theme.js"
+  ],
+  "prettier/prettier": [
+    "error",
+    {
+      "endOfLine": "auto"
+    }
   ]
 }

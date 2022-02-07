@@ -1,28 +1,33 @@
-.teaser--overlay {
+.teaser:not(.teaser--text-bottom):not(.teaser--text-right):not(.teaser--text-left):not(.teaser--overlay):not(.teaser--mini) {
   .cmp-teaser {
-    @apply grid default:aspect-4/1;
-    grid-template-areas: "overlay";
+    @apply flex flex-col overflow-y-hidden;
+    max-height: 680px;
   }
 
-  .cmp-teaser__image,
   .cmp-teaser__content {
-    grid-area: overlay;
+    @apply bg-background py-4 px-7 items-start max-w-6xl w-full -mt-52;
+
+    p {
+      text-align: left;
+    }
   }
 
   .cmp-teaser__image {
-    @apply min-h-full;
+    @apply w-full;
+    flex: 1;
+    min-height: 400px;
 
     .cmp-image {
-      @apply h-full;
+      @apply w-full h-full block;
 
       .cmp-image__image {
-        @apply object-cover h-full;
+        @apply object-center h-full w-full object-cover;
       }
     }
   }
 
   .cmp-teaser__content {
-    @apply p-10 text-center justify-center text-background gap-y-6 place-self-center;
+    @apply text-center justify-center text-background gap-y-6 place-self-center;
     max-width: var(--aem-grid-max-width, 60rem);
 
     @apply dark:text-foreground;

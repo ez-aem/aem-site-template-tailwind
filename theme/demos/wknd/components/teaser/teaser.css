@@ -1,6 +1,18 @@
 .cmp-teaser__content {
   @apply text-foreground flex flex-col gap-y-4 justify-center;
 }
+.cmp-teaser__pretitle,
+.cmp-teaser__title,
+.cmp-teaser__title a {
+  @apply text-foreground;
+  @apply focus:ring-offset-transparent;
+
+  @apply dark:text-foreground;
+}
+
+.cmp-teaser__title {
+  @apply font-serif !important;
+}
 
 .cmp-teaser__image {
   .cmp-image__image {
@@ -9,7 +21,7 @@
 }
 
 .cmp-teaser__pretitle {
-  @apply text-xs text-shade-4 uppercase font-semibold;
+  @apply text-xs uppercase font-semibold;
 }
 
 .cmp-teaser__title {
@@ -28,15 +40,21 @@
 
 .cmp-teaser__action-link {
   @apply px-4 py-2 font-semibold border-2 border-shade-4 text-shade-4 transition-colors duration-300 text-center inline-flex shrink-0;
-  @apply hover:text-background hover:no-underline;
-  @apply focus:rounded-full focus:border-background focus:bg-shade-4 focus:text-background focus:ring-offset-0 focus:ring-offset-transparent;
+  @apply hover:text-foreground hover:no-underline;
+  transition-property: border, border-radius, outline, color, background-color,
+    border-color, text-decoration-color, fill, stroke, box-shadow;
+  @apply focus:border-background focus:bg-shade-4 focus:text-background focus:ring-offset-0 focus:ring-offset-transparent;
+  &:focus {
+    /* using TW rounded-full breaks the animation */
+    border-radius: 100px;
+  }
 
   @apply dark:border-link dark:text-link;
   @apply dark:hover:bg-link dark:hover:text-background;
   @apply dark:focus:bg-link dark:focus:border-background dark:focus:text-background;
 
   &:first-child {
-    @apply bg-accent text-background border-accent;
+    @apply bg-accent border-accent;
     @apply hover:bg-accent-darker hover:border-accent-darker;
     @apply focus:bg-accent-darker focus:border-background;
 
