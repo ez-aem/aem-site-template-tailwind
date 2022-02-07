@@ -10,9 +10,6 @@ const xfHeader = () => {
     $elWrapper.classList.toggle("open");
   };
   $button.addEventListener("click", toggleEl);
-  document.addEventListener("scroll", function () {
-    console.log(document.querySelector("body").getBoundingClientRect());
-  });
 };
 
 export default xfHeader;

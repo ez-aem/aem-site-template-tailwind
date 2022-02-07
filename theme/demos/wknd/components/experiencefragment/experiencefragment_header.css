@@ -1,10 +1,15 @@
 .root {
-  @apply pt-[125px] transition-transform duration-500;
-}
+  @apply transition-transform duration-500;
 
-.root {
   &.open {
     @apply translate-x-[275px] transition-transform duration-500;
+  }
+}
+
+
+.experiencefragment {
+  &.header {
+   @apply sticky top-0 z-10 w-full;
   }
 }
 
@@ -12,9 +17,9 @@
   @apply shadow-header;
 }
 
-#main-header-wrapper {
+/* #main-header-wrapper {
   @apply fixed top-0 z-10 w-full;
-}
+} */
 
 #utility-header-wrapper {
   @apply bg-foreground;
@@ -36,9 +41,7 @@
   }
 }
 
-#mobile-menu-header {
-  @apply bg-foreground fixed top-0 translate-x-[-275px] transition-transform duration-500 min-w-[275px] h-screen;
-}
+
 
 .cmp-search__field {
   @apply w-[325px];
@@ -59,11 +62,11 @@
 }
 
 #mobile-menu .cmp-navigation__group {
-  @apply flex flex-col items-start pt-4 border-y-shadow;
+  @apply flex flex-col items-start justify-start pt-4 border-y-shadow;
 }
 
 #mobile-menu .cmp-navigation__group .cmp-navigation__item:not(:last-child) {
-  @apply border-b-1 border-gray-700 w-full border-t-1;
+  @apply border-b-1 border-gray-700 w-full;
 }
 
  #mobile-menu .cmp-navigation__item .cmp-navigation__item-link {
@@ -86,6 +89,12 @@
 
 
 #main-header-wrapper {
+
+  .experiencefragment {
+
+      @apply absolute top-0 z-10;
+      @apply bg-foreground left-[-275px] transition-transform duration-500 max-w-[275px] w-full h-[140vh];
+  }
 
   &.open {
     #header-max-w {
@@ -128,18 +137,15 @@
   }
 }
 
-@media screen and (max-width: 1100px) {
-  .root {
-    @apply pt-[80px];
+@media screen and (max-width: 1150px) {
+  #mobile-menu {
+    @apply h-full;
   }
 
   #utility-header {
     @apply justify-between;
   }
 
-  #mobile-menu {
-    @apply block;
-  }
   #header-nav .navigation{
     @apply hidden ;
   }
@@ -171,9 +177,6 @@
     }
 
     &.open {
-      #mobile-menu-header {
-        @apply mb-0 bg-foreground z-10;
-      }
 
       .button .cmp-button {
         background-image: url("../../resources/images/x-icon.png");
