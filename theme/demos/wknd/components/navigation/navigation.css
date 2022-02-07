@@ -17,8 +17,8 @@
 
 .cmp-navigation__item-link {
 
-  @apply text-xl font-extralight;
-  @apply px-6 py-4 inline-flex text-shade-3;
+  @apply text-[.85rem] font-extralight;
+  @apply px-6 py-[.85rem] inline-flex text-shade-3;
   @apply uppercase;
   @apply hover:bg-accent;
   @apply focus:ring-focus focus:text-shade-4 focus:ring-offset-2;

@@ -14,7 +14,7 @@
   @apply bg-foreground;
 
   #utility-header {
-    @apply flex justify-end max-w-[1600px] mx-auto;
+    @apply flex justify-end max-w-[1200px] mx-auto;
   }
 }
 
@@ -31,7 +31,7 @@
 }
 
 .cmp-search__field {
-  @apply w-[325px];
+  @apply w-[175px];
 }
 
 #header-nav {
@@ -65,7 +65,7 @@
   @apply w-full bg-background;
 
   .aem-Grid--default--12 {
-   @apply p-0 max-w-[1600px];
+   @apply p-0 max-w-[1200px];
   }
 }
 
@@ -102,7 +102,7 @@
   @apply flex bg-background justify-between content-center;
 
   .cmp-image {
-    @apply flex w-[175px] h-full items-center justify-center;
+    @apply flex h-full items-center justify-center w-[125px];;
     @apply dark:hue-rotate-180;
   }
 
@@ -175,13 +175,7 @@
         @apply bg-transparent rounded bg-no-repeat border-0 h-8 w-8 bg-center;
         background-image: url("../../resources/images/hamburger-menu.png");
       }
-    }
 
-    .image {
-
-      .cmp-image__image {
-        @apply max-h-12;
-      }
     }
   }
 }
