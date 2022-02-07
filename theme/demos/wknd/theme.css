@@ -38,6 +38,7 @@
 @import "./components/teaser/teaser--dark.css";
 @import "./components/teaser/teaser--overlay.css";
 @import "./components/teaser/teaser--position.css";
+@import "./components/teaser/teaser--mini.css";
 @import "./components/text/text.css";
 @import "./components/title/title.css";
 @import "./components/title/title--mt-8.css";

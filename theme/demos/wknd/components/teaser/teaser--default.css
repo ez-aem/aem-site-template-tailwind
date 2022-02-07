@@ -1,4 +1,4 @@
-.teaser:not(.teaser--text-bottom):not(.teaser--text-right):not(.teaser--text-left):not(.teaser--overlay) {
+.teaser:not(.teaser--text-bottom):not(.teaser--text-right):not(.teaser--text-left):not(.teaser--overlay):not(.teaser--mini) {
   .cmp-teaser {
     @apply flex flex-col overflow-y-hidden;
     max-height: 680px;

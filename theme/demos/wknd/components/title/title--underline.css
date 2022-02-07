@@ -1,4 +1,4 @@
-.title-underline {
+.title--underline {
   .cmp-title__text {
     &:after {
       content: "";

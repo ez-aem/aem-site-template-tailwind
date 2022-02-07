@@ -2,6 +2,9 @@
   .cmp-teaser__content {
     @apply bg-foreground text-background p-4;
   }
+  .cmp-teaser__description {
+    @apply text-background;
+  }
 
   .cmp-teaser__pretitle {
     @apply text-background;
