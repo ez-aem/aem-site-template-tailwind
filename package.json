@@ -7,6 +7,7 @@
     "build": "aem-site-template-builder",
     "build:theme": "cd theme && npm run build",
     "deploy": "curl -u admin:admin -F file=@aem-site-template-tailwind-latest.zip http://localhost:4502/conf/global/site-templates.import.html",
+    "postinstall": "cd theme && npm install",
     "lint:check": "eslint -c theme/.eslintrc.json theme --ext .ts,.js,.jsx,.tsx",
     "lint:fix": "eslint -c theme/.eslintrc.json --fix theme --ext .ts,.js,.jsx,.tsx",
     "live": "cd theme && npm run live",
