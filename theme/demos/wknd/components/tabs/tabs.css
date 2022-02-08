@@ -1,19 +1,15 @@
 .cmp-tabs {
 }
 
-.cmp-tabs__tablist {
-  @apply border-b-1 border-shade-2;
-}
-
 .cmp-tabs__tab {
-  @apply text-shade-4 border-b-2 border-transparent transition-colors duration-200;
-  @apply hover:text-foreground hover:border-shade-2;
-  @apply focus:ring-2 focus:ring-focus focus:outline-none focus:text-foreground focus:border-transparent focus:rounded;
-  @apply hover:focus:border-transparent;
+  @apply text-shade-5 duration-200 px-5 py-3;
+  @apply hover:bg-shade-2 hover:text-foreground;
+  @apply focus-visible:ring-2 focus-visible:ring-focus focus-visible:outline-none focus-visible:text-foreground focus-visible:border-transparent focus-visible:rounded;
 }
 .cmp-tabs__tab--active {
-  @apply border-foreground text-foreground;
-  @apply hover:border-foreground;
+  @apply bg-foreground text-background;
+  @apply hover:bg-foreground hover:text-background;
+  @apply focus-visible:text-background;
 }
 .cmp-tabs__tabpanel {
   @apply my-4;

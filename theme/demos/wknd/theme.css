@@ -17,6 +17,7 @@
 @import "./components/container/container--dark.css";
 @import "./components/contentfragment/contentfragment.css";
 @import "./components/contentfragmentlist/contentfragmentlist.css";
+@import "./components/contentfragmentlist/contentfragmentlist--variations.css";
 @import "./components/download/download.css";
 @import "./components/embed/embed.css";
 @import "./components/experiencefragment/experiencefragment.css";
@@ -37,6 +38,7 @@
 @import "./components/separator/separator.css";
 @import "./components/socialmediasharing/socialmediasharing.css";
 @import "./components/tabs/tabs.css";
+@import "./components/tabs/tabs--secondary.css";
 @import "./components/teaser/teaser.css";
 @import "./components/teaser/teaser--default.css";
 @import "./components/teaser/teaser--dark.css";

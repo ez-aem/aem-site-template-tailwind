@@ -13,6 +13,7 @@
     --color-shade-2: 207, 216, 220;
     --color-shade-3: 255, 255, 255;
     --color-shade-4: 255, 255, 255;
+    --color-shade-5: 128, 128, 128;
     --color-error: 215, 55, 63;
     --color-error-darker: 190, 30, 38;
     --color-success: 38, 142, 108;
@@ -27,7 +28,7 @@
     -color-accent: 255, 234, 0;
   } */
 
-/*
+  /*
   .dark,
   .dark *::before,
   .dark *::after {
