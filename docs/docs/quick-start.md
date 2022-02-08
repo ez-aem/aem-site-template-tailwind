@@ -1,10 +1,11 @@
 ---
 sidebar_position: 2
+slug: /quick-start
 ---
 
 # Quick Start
 
-Let's discover the **Tailwind AEM Site Template** by creating a new site _in less than 5 minutes_.
+Let's discover the **Tailwind AEM Site Template** by creating a new Site _in less than 5 minutes_.
 
 ## What you'll need
 

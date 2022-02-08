@@ -23,6 +23,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
             "https://github.com/ez-aem/aem-site-template-tailwind/tree/gh-pages/packages/create-docusaurus/templates/shared/",
@@ -53,14 +54,32 @@ const config = {
             type: "doc",
             docId: "quick-start",
             position: "left",
-            label: "Quick Start",
+            label: "Docs",
           },
           {
             type: "doc",
-            docId: "tutorial/intro",
+            docId: "tutorial",
             position: "left",
-            label: "Documentation",
+            label: "Tutorial",
           },
+          // {
+          //   type: "doc",
+          //   docId: "manage/intro",
+          //   position: "left",
+          //   label: "Manage",
+          // },
+          // {
+          //   type: "doc",
+          //   docId: "customize/intro",
+          //   position: "left",
+          //   label: "Customize",
+          // },
+          // {
+          //   type: "doc",
+          //   docId: "extend/intro",
+          //   position: "left",
+          //   label: "Extend",
+          // },
           {
             to: "/showcase",
             label: "Showcase",
