@@ -4,6 +4,8 @@
 @import "./site/typography.css";
 
 @import "./components/accordion/accordion.css";
+@import "./components/accordion/accordion--arrow.css";
+@import "./components/accordion/accordion--rotate-anim.css";
 @import "./components/breadcrumb/breadcrumb.css";
 @import "./components/button/button.css";
 @import "./components/button/button--quiet.css";

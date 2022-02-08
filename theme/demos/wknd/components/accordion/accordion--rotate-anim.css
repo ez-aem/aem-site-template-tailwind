@@ -1,0 +1,5 @@
+.accordion.accordion--rotate-anim {
+  .cmp-accordion__button--expanded .cmp-accordion__icon {
+    @apply rotate-180;
+  }
+}
