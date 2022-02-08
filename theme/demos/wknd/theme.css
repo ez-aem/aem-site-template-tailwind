@@ -7,6 +7,7 @@
 @import "./components/accordion/accordion--arrow.css";
 @import "./components/accordion/accordion--rotate-anim.css";
 @import "./components/breadcrumb/breadcrumb.css";
+@import "./components/breadcrumb/breadcrumb--secondary.css";
 @import "./components/button/button.css";
 @import "./components/button/button--quiet.css";
 @import "./components/button/button--background.css";
