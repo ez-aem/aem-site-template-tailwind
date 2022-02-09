@@ -1,0 +1,30 @@
+.experiencefragment > .cmp-experiencefragment--author-card {
+  .image {
+    .cmp-image {
+      @apply flex justify-center;
+    }
+    img {
+      @apply object-cover rounded-full h-40 w-40 m-0;
+    }
+  }
+
+  .title {
+    .cmp-title__text {
+      @apply font-normal text-center text-2xl;
+    }
+
+    h5.cmp-title__text {
+      @apply text-sm uppercase font-sans font-semibold;
+    }
+  }
+
+  .buildingblock > .aem-Grid {
+    @apply flex justify-center gap-0;
+  }
+  .cmp-button__icon--facebook {
+  }
+  .cmp-button__icon--twitter {
+  }
+  .cmp-button__icon--instagram {
+  }
+}

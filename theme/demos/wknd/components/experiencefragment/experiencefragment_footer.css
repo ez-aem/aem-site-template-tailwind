@@ -1,6 +1,6 @@
 /*== XF Footer style, used on page template */
 #main-footer {
-  @apply py-4;
+  @apply py-4 bg-foreground mt-12;
 
   .cmp-container > .aem-Grid {
     @apply items-center;
@@ -8,25 +8,36 @@
 
   .title {
     @apply flex justify-center items-center;
+    .cmp-title__text {
+      @apply text-background;
+    }
+  }
+
+  .text .cmp-text * {
+    @apply text-background text-xs mb-3 text-justify;
+  }
+  .text .cmp-text a {
+    @apply underline;
   }
 
   .image {
     @apply flex;
-    @apply dark:invert dark:hue-rotate-180;
+    .cmp-image__image {
+      max-width: 8rem;
+      @apply w-full;
+    }
   }
 }
 
 @screen phone {
   #main-footer {
     & > .aem-Grid {
-      @apply justify-center items-center gap-x-0;
-      grid-template-areas:
-        "separator separator"
-        "logo logo"
-        "copyright copyright"
-        "terms privacy";
-      grid-template-rows: auto 3rem auto auto;
-      grid-template-columns: 1fr 1fr;
+      @apply flex flex-col justify-center items-center gap-x-0;
+    }
+    .navigation.navigation--secondary {
+      .cmp-navigation__group {
+        @apply flex justify-center flex-col;
+      }
     }
 
     .image {
@@ -35,7 +46,7 @@
 
     .text {
       &:not(:last-child) {
-        @apply m-0 justify-end flex pr-4;
+        @apply m-0 justify-end flex pr-4 text-background;
         grid-area: terms;
       }
 

@@ -59,5 +59,4 @@ h5,
 h6,
 .title--h6 .cmp-title__text {
   @apply text-xs font-sans font-normal text-shade-4 uppercase;
-  @apply dark:text-foreground;
 }

@@ -12,3 +12,9 @@
     @apply border-b-2 border-shade-2;
   }
 }
+
+.separator.separator--no-line {
+  .cmp-separator > hr {
+    @apply border-transparent !border-b-8;
+  }
+}

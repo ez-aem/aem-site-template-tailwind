@@ -7,7 +7,7 @@
 }
 
 .experiencefragment.header {
-    @apply sticky top-0 z-10 w-full;
+  @apply sticky top-0 z-10 w-full;
 }
 
 #utility-header-wrapper {
@@ -42,7 +42,7 @@
   }
 }
 
-#mobile-menu-header  {
+#mobile-menu-header {
   .aem-Grid--default--12 {
     @apply px-0;
   }
@@ -56,8 +56,7 @@
   @apply border-b-1 border-gray-700 w-full;
 }
 
- #mobile-menu .cmp-navigation__item .cmp-navigation__item-link {
-
+#mobile-menu .cmp-navigation__item .cmp-navigation__item-link {
   &:hover {
     @apply text-accent;
   }
@@ -70,7 +69,7 @@
   @apply w-full bg-background;
 
   .aem-Grid--default--12 {
-   @apply p-0 max-w-[1200px];
+    @apply p-0 max-w-[1200px];
   }
 }
 
@@ -79,12 +78,10 @@
   @apply flex justify-end items-center;
 }
 
-
 #main-header-wrapper {
-
   .experiencefragment {
-      @apply absolute top-0 z-10;
-      @apply bg-foreground left-[-275px] transition-transform duration-500 max-w-[275px] w-full h-[140vh];
+    @apply absolute top-0 z-10;
+    @apply bg-foreground left-[-275px] transition-transform duration-500 max-w-[275px] w-full h-[140vh];
   }
 
   &.open {
@@ -107,7 +104,7 @@
   @apply flex bg-background justify-between content-center;
 
   .cmp-image {
-    @apply flex h-full items-center justify-center w-[125px];;
+    @apply flex h-full items-center justify-center w-[125px];
     @apply dark:hue-rotate-180;
   }
 
@@ -118,7 +115,6 @@
   .button {
     @apply hidden;
   }
-
 }
 
 .aem-AuthorLayer-Preview.aem-Author--hidePlaceholder,
@@ -128,7 +124,14 @@
   }
 }
 
+#mobile-menu-header {
+  display: none;
+}
+
 @media screen and (max-width: 1150px) {
+  #mobile-menu-header {
+    display: block;
+  }
   #mobile-menu {
     @apply h-full;
   }
@@ -137,10 +140,9 @@
     @apply justify-between;
   }
 
-  #header-nav .navigation{
-    @apply hidden ;
+  #header-nav .navigation {
+    @apply hidden;
   }
-
 
   #header-nav .search {
     @apply absolute top-[50%] translate-y-[-50%] right-5;
@@ -151,11 +153,9 @@
   }
 
   #header-max-w {
-
-    >.aem-Grid--default--12 {
+    > .aem-Grid--default--12 {
       @apply p-0;
     }
-
   }
 
   #main-header {
@@ -167,7 +167,6 @@
     }
 
     &.open {
-
       .button .cmp-button {
         background-image: url("../../resources/images/x-icon.png");
       }
@@ -180,7 +179,6 @@
         @apply bg-transparent rounded bg-no-repeat border-0 h-8 w-8 bg-center;
         background-image: url("../../resources/images/hamburger-menu.png");
       }
-
     }
   }
 }

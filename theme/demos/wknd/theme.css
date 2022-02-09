@@ -21,6 +21,7 @@
 @import "./components/download/download.css";
 @import "./components/embed/embed.css";
 @import "./components/experiencefragment/experiencefragment.css";
+@import "./components/experiencefragment/experiencefragment_author-card.css";
 @import "./components/experiencefragment/experiencefragment_footer.css";
 @import "./components/experiencefragment/experiencefragment_header.css";
 @import "./components/form/form.css";
@@ -31,6 +32,7 @@
 @import "./components/list/list.css";
 @import "./components/languagenavigation/languagenavigation.css";
 @import "./components/navigation/navigation.css";
+@import "./components/navigation/navigation--secondary.css";
 @import "./components/page/page--article.css";
 @import "./components/pdfviewer/pdfviewer.css";
 @import "./components/progressbar/progressbar.css";
