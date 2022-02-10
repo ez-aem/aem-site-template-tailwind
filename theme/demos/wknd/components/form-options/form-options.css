@@ -1,4 +1,7 @@
 .cmp-form-options {
+  :placeholder {
+    @apply text-rose-600;
+  }
 }
 .cmp-form-options__legend {
 }
@@ -42,12 +45,9 @@
 
   .cmp-form-options__field--radio,
   .cmp-form-options__field--checkbox {
-    @apply rounded border-2 border-shade-1 bg-shade-1 inline-flex h-6 w-6;
+    @apply border-2 border-shade-1 bg-shade-1 inline-flex h-6 w-6 transition-all duration-300;
     @apply hover:bg-background hover:border-shade-2 hover:cursor-pointer;
-
-    &:not(:checked) {
-      @apply focus:border-focus focus:ring-0 focus:ring-offset-background focus:bg-background;
-    }
+    @apply focus:border-focus focus:ring-0 focus:ring-offset-background focus:bg-background;
 
     &:checked {
       @apply bg-accent border-accent ring-0;
@@ -56,7 +56,6 @@
   }
 
   .cmp-form-options__field--radio {
-    @apply rounded-full;
   }
 }
 
@@ -78,13 +77,21 @@
   @apply flex flex-col gap-y-2;
 }
 .cmp-form-options__field--drop-down {
-  @apply bg-shade-1 relative w-full h-10 border-2 border-solid border-shade-1 rounded-md flex-row flex justify-start items-center text-shade-4 transition-colors duration-200 leading-4;
+  @apply bg-shade-1 relative w-full h-10 border-2 border-solid border-shade-1 flex-row flex justify-start items-center text-foreground transition-colors duration-200 leading-4;
   @apply hover:border-shade-2 hover:cursor-pointer hover:bg-background;
-  @apply focus:border-focus focus:text-foreground focus:bg-background focus:ring-offset-background;
-  @apply dark:hover:text-shade-1;
-  @apply dark:focus:text-foreground;
+}
 
-  &:active {
-    @apply dark:hover:text-foreground;
+.options.form-options--hidden {
+  option {
+    @apply disabled:hidden;
+  }
+}
+
+.options.form-options--placeholder {
+  .cmp-form-options__field--drop-down {
+    @apply invalid:text-shade-5;
+    option {
+      @apply text-foreground;
+    }
   }
 }

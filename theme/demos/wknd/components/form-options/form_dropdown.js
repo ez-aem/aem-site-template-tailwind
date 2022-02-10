@@ -1,3 +1,30 @@
+const dropdownPlaceholder = () => {
+  const dropdownMenuParents = document.getElementsByClassName(
+    "form-options--placeholder"
+  );
+  const dropdownMenus = [];
+  const firstOptions = [];
+
+  for (let i = 0; i < dropdownMenuParents.length; i++) {
+    dropdownMenus.push(
+      dropdownMenuParents[i]
+        .getElementsByClassName("cmp-form-options--drop-down")[0]
+        .getElementsByClassName("cmp-form-options__field--drop-down")[0]
+    );
+  }
+
+  dropdownMenus.forEach((dropdown) => {
+    dropdown.setAttribute("required", "");
+    firstOptions.push(dropdown.getElementsByTagName("option")[0]);
+  });
+
+  firstOptions.forEach((option) => {
+    option.setAttribute("disabled", "");
+    option.setAttribute("value", "");
+  });
+};
+export default dropdownPlaceholder;
+
 /*
 document.addEventListener('DOMContentLoaded', function (event) {
   var x, i, j, l, ll, selElmnt, a, b, c
