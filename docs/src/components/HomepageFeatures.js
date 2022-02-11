@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: "Powered by Tailwind CSS",
-    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("../../static/img/tailwindcss.svg").default,
     description: (
       <>
         Extend or customize your website layout by reusing Tailwind CSS. EZ-AEM
