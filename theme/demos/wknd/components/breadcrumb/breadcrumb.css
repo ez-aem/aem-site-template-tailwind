@@ -7,7 +7,6 @@
 }
 .cmp-breadcrumb__list {
   @apply flex flex-row flex-wrap gap-x-2;
-  /* @apply -ml-3; */
 }
 .cmp-breadcrumb__item {
   @apply inline-flex items-center align-middle;
@@ -15,11 +14,10 @@
 }
 
 .cmp-breadcrumb__item-link {
-  @apply text-shade-4 px-3 py-1 inline-flex;
-  @apply hover:text-foreground;
-  @apply focus:text-foreground focus:ring-2 focus:ring-focus focus:ring-offset-2;
-  @apply dark:text-link;
-  @apply dark:hover:text-foreground;
+  transition: box-shadow;
+  @apply text-foreground px-3 py-1 inline-flex duration-300 rounded-none;
+  @apply hover:text-foreground hover:underline;
+  @apply focus:text-foreground focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:rounded-none;
 }
 
 .cmp-breadcrumb__item--active {
@@ -29,6 +27,4 @@
 .breadcrumb .cmp-breadcrumb__item:not(:last-of-type):after {
   @apply h-6 w-6 inline-flex text-accent justify-center;
   content: "▶";
-  /* mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZD0iTTMwLjcwNy0zLjU2NWExIDEgMCAwIDEgMC0xLjQxNGw0Ljk0OS00Ljk1LTQuOTQ5LTQuOTVhMSAxIDAgMCAxIDAtMS40MTQgMSAxIDAgMCAxIDEuNDE0IDBsNS42NTcgNS42NTZhMSAxIDAgMCAxIC4yOTMuNzA3IDEgMSAwIDAgMS0uMjkzLjcwN2wtNS42NTcgNS42NThhMSAxIDAgMCAxLS43MDcuMjkzIDEgMSAwIDAgMS0uNzA3LS4yOTN6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjIuMDcxIDIxLjkyOSkiIHN0eWxlPSJmaWxsOiM2MDdkOGIiLz48L3N2Zz4=");
-  mask-size: cover; */
 }

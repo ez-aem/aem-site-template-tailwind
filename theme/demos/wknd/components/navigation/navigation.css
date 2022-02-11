@@ -2,7 +2,7 @@
   @apply flex flex-row;
 
   .cmp-navigation__group {
-    @apply absolute mt-2 w-full bg-background border-2 border-shade-2 shadow-md rounded-md overflow-hidden delay-75 opacity-0 -translate-y-2 flex flex-col z-20;
+    @apply absolute mt-2 w-full bg-background border-2 border-shade-2 shadow-md rounded-none overflow-hidden delay-75 opacity-0 -translate-y-2 flex flex-col z-20;
     width: max-content;
     transition: transform 250ms, opacity 100ms, visibility 50ms;
     visibility: collapse;
@@ -16,12 +16,14 @@
 }
 
 .cmp-navigation__item-link {
+  transition-property: border, border-radius, outline, color, background-color,
+    border-color, text-decoration-color, fill, stroke, box-shadow;
 
   @apply text-[.85rem] font-extralight;
-  @apply px-6 py-[.85rem] inline-flex text-shade-3;
+  @apply px-6 py-[.85rem] inline-flex text-shade-3 duration-300;
   @apply uppercase;
   @apply hover:bg-accent;
-  @apply focus:ring-focus focus:text-shade-4 focus:ring-offset-2;
+  @apply focus:ring-focus focus:text-shade-4 focus:ring-offset-2 focus:rounded-none;
 
   @apply dark:text-link;
   @apply dark:hover:text-foreground;
@@ -33,7 +35,6 @@
   > .cmp-navigation__item-link-wrapper
   > .cmp-navigation__item-link {
   @apply bg-accent;
-  @apply hover:bg-accent;
 
   /* @apply dark:text-link;
   @apply dark:hover:text-foreground; */
@@ -60,11 +61,11 @@
 .cmp-navigation__item--level-0
   .cmp-navigation__item-link-wrapper
   > .cmp-navigation__item-link {
-  @apply pr-2 rounded-r-none;
+  @apply pr-2;
 }
 
 .cmp-navigation__item__icon {
-  @apply rounded-r w-6 h-full py-2 relative border-0 flex justify-center;
+  @apply w-6 h-full py-2 relative border-0 flex justify-center;
   @apply focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
 
   &::after {

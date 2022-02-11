@@ -45,13 +45,33 @@
 
   .cmp-form-options__field--radio,
   .cmp-form-options__field--checkbox {
-    @apply border-2 border-shade-1 bg-shade-1 inline-flex h-6 w-6 transition-all duration-300;
-    @apply hover:bg-background hover:border-shade-2 hover:cursor-pointer;
-    @apply focus:border-focus focus:ring-0 focus:ring-offset-background focus:bg-background;
+    @apply border-2 border-shade-1 bg-shade-1 inline-flex h-6 w-6 transition-all duration-300 relative;
+    @apply hover:bg-background hover:cursor-pointer;
+    @apply focus:border-focus focus:ring-0 focus:ring-offset-background focus:bg-background focus:ring-offset-2;
+
+    &:before {
+      @apply opacity-0 bg-foreground transition-opacity duration-300 absolute top-0 left-0 w-full h-full;
+      content: "";
+      -webkit-mask-size: 90%;
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-position: center;
+      mask-size: 90%;
+      mask-repeat: no-repeat;
+      mask-position: center;
+
+      -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxpbmUgcG9pbnRzPSIyMCA2IDkgMTcgNCAxMiI+PC9wb2x5bGluZT48L3N2Zz4=");
+      mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxpbmUgcG9pbnRzPSIyMCA2IDkgMTcgNCAxMiI+PC9wb2x5bGluZT48L3N2Zz4=");
+    }
 
     &:checked {
+      background-image: none;
+
       @apply bg-accent border-accent ring-0;
       @apply focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
+
+      &:before {
+        @apply opacity-100;
+      }
     }
   }
 
@@ -61,8 +81,7 @@
 
 .cmp-form-options__field-label {
 }
-.cmp-form-options__field--checkbox {
-}
+
 .cmp-form-options__field--radio {
 }
 .cmp-form-options__field-description {

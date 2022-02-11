@@ -26,7 +26,6 @@
 
   .cmp-image {
     @apply flex h-full items-center justify-center;
-    @apply dark:invert dark:hue-rotate-180;
   }
 
   & > .aem-Grid {
