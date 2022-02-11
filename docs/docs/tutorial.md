@@ -71,4 +71,14 @@ You should see a button to **Import** your Site Template. Click on **Import** wh
 
 Now that the Site Template is installed in your AEM Environment, you can create as many Sites as you want. Let's begin by making our demo site. Select the Tailwind Site Template from the list of templates, and click **Next**. For the Site title, add the name **Demo** and click **Create**.
 
-AEM will create your site
+AEM will create your site.
+
+> NOTE: The AEM Site creation has been updated to be completed as an asynchronous background job. Therefore it's probable that after you create the site you will have to wait for some time before being able to see your site within AEM. This hopefully will change in the future.
+
+## Choose your Adventure
+
+Now that you've created a new Site with the Tailwind AEM Site Template, it's time to move on to the next step: Choose your Adventure!
+
+- **[Manage](/manage/)** the content of your Site
+- **[Customize](/customize/)** the look and feel of your Site
+- **[Extend](/extend/)** the functionality of your new Site

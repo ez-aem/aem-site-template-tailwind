@@ -1,8 +1,4 @@
----
-sidebar_position: 1
----
-
-# Intro
+# Custom Components
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at semper augue, eget mollis enim. Sed mattis dui in volutpat feugiat. Ut at eleifend dolor. Praesent non egestas leo. Pellentesque condimentum mi sed molestie consequat. Sed porta orci id dolor porttitor, sit amet vestibulum mauris fermentum. Pellentesque placerat faucibus dui vel venenatis. Phasellus at urna leo.
 
