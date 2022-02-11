@@ -1,10 +1,10 @@
 # Page Templates
 
-Page Templates are foundational to building your website. Without Page Templates, you canâ€™t have pages, and without Pages, you donâ€™t have a Site.
+Page Templates are foundational to building your website. Without Page Templates, you can't have pages, and without Pages, you don't have a Site.
 
 The Tailwind AEM Site Template comes with 6 Page Templates for you to choose from. You can also create your own Page Templates as you need.
 
-## What youâ€™ll need
+## What you'll need
 
 In order to create or edit Page Templates, you must have the Template Author permissions. Speak with your AEM System Administrator to grant you access.
 
