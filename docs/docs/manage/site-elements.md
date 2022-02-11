@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Site Elements - Header/Footer
+# Site Elements
 
 The Header & Footer are complex and crucial elements of your Site. The Tailwind AEM Site Template comes with one responsively designed Header & Footer that look great on your phone, tablet, and PC.
 
