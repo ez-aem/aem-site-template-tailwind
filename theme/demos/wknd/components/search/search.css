@@ -1,5 +1,5 @@
 .cmp-search__field {
-  @apply h-12 px-3 relative flex flex-row justify-between items-center overflow-hidden;
+  @apply h-10 px-3 relative flex flex-row justify-between items-center overflow-hidden;
 }
 
 .cmp-search__input {

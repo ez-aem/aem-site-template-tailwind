@@ -22,7 +22,7 @@
 }
 
 #main-header {
-  @apply flex h-20 items-center bg-background;
+  @apply flex h-28 items-center bg-background duration-300 transition-all;
 
   .cmp-image {
     @apply flex h-full items-center justify-center;
@@ -60,6 +60,7 @@
       .cmp-button {
         @apply h-8 w-8 border-0 bg-transparent bg-center bg-no-repeat;
         background-image: url("../../resources/images/hamburger-menu.png");
+        background-size: 1.875rem;
       }
     }
 
@@ -127,5 +128,13 @@
     #mobile-header {
       @apply hidden;
     }
+  }
+}
+
+.scrolled .experiencefragment.header {
+  @apply sticky top-0 bg-background shadow-2xl;
+
+  #main-header {
+    @apply h-20;
   }
 }

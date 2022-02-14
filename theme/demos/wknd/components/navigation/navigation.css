@@ -18,8 +18,8 @@
   transition-property: border, border-radius, outline, color, background-color,
     border-color, text-decoration-color, fill, stroke, box-shadow;
 
-  @apply text-[.85rem] font-extralight relative;
-  @apply px-6 py-[.85rem] inline-flex text-shade-3 duration-300;
+  @apply text-sm font-extralight relative;
+  @apply px-4 py-3 inline-flex text-shade-3 duration-300;
   @apply uppercase text-foreground whitespace-nowrap;
   @apply hover:bg-accent;
   @apply focus:z-30;
