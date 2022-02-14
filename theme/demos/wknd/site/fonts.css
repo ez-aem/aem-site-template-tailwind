@@ -161,3 +161,14 @@
   src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-SemiBoldItalic.ttf")
     format("truetype");
 }
+/* @font-face {
+  font-family: wknd-icon-font;
+  src: url(clientlib-site/resources/fonts/wknd-icon-font.ttf) format("truetype"),url(clientlib-site/resources/fonts/wknd-icon-font.woff) format("woff"),url(clientlib-site/resources/fonts/wknd-icon-font.svg#wknd-icon-font) format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block
+}
+
+[class$=-icon],[class$=__icon],[class*=-icon],[class*=__icon] {
+  font-family: wknd-icon-font!important;
+} */

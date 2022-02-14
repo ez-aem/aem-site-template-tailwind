@@ -8,12 +8,12 @@
   @apply absolute bottom-0 right-0 flex flex-row gap-1;
 }
 .cmp-carousel__action {
-  @apply w-8 h-8 rounded bg-none border-2 border-transparent transition-colors duration-200 flex justify-center items-center;
-  @apply focus:border-accent focus:outline-none;
+  @apply w-8 h-8 bg-none border-2 border-transparent transition-colors duration-200 flex justify-center items-center;
+  @apply focus:border-focus focus:outline-none;
 }
 .cmp-carousel__action-icon {
   @apply w-6 h-6 block bg-black transition;
-  mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZGVmcz48c3R5bGU+LmEsLmJ7ZmlsbDojNjA3ZDhiO30uYXtvcGFjaXR5OjA7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01NjUgLTgwKSI+PHJlY3QgY2xhc3M9ImEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTY1IDgwKSIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNLjI5MywxMy4wMjFhMSwxLDAsMCwxLDAtMS40MTRsNC45NS00Ljk1TC4yOTMsMS43MDdBMSwxLDAsMCwxLDEuNzA3LjI5M0w3LjM2NCw1Ljk1YTEsMSwwLDAsMSwwLDEuNDE1TDEuNzA3LDEzLjAyMWExLDEsMCwwLDEtMS40MTUsMFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU4My44MjkgODguMTcxKSByb3RhdGUoOTApIi8+PC9nPjwvc3ZnPg==");
+  mask-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAwIDEwMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPG1ldGFkYXRhPiBTdmcgVmVjdG9yIEljb25zIDogaHR0cDovL3d3dy5vbmxpbmV3ZWJmb250cy5jb20vaWNvbiA8L21ldGFkYXRhPg0KPGc+PHBhdGggZD0iTTM4MC41LDEwMC41bC0zNTAsMzUwYy0yNy4zLDI3LjMtMjcuMyw3MS42LDAsOTlsMzUwLDM1MGMyNy4zLDI3LjMsNzEuNiwyNy4zLDk5LDBjMjcuMy0yNy4zLDI3LjMtNzEuNiwwLTk5TDI0OSw1NzBoNjcxYzM4LjcsMCw3MC0zMS4zLDcwLTcwYzAtMzguNy0zMS4zLTcwLTcwLTcwSDI0OWwyMzAuNS0yMzAuNWMxMy43LTEzLjcsMjAuNS0zMS42LDIwLjUtNDkuNWMwLTE3LjktNi44LTM1LjgtMjAuNS00OS41QzQ1Mi4xLDczLjIsNDA3LjgsNzMuMiwzODAuNSwxMDAuNXoiLz48L2c+DQo8L3N2Zz4=");
   mask-size: 1.25rem;
   mask-repeat: no-repeat;
   mask-position: center;
@@ -50,4 +50,5 @@
 }
 .cmp-carousel__indicator--active {
   @apply bg-foreground;
+  @apply focus-visible:ring-focus;
 }

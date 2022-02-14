@@ -1,7 +1,4 @@
 .cmp-form-options {
-  :placeholder {
-    @apply text-rose-600;
-  }
 }
 .cmp-form-options__legend {
 }
@@ -29,7 +26,7 @@
 
 .cmp-form-options--radio,
 .cmp-form-options--checkbox {
-  @apply mx-3 my-2;
+  @apply mx-3 my-2 text-background;
 
   .cmp-form-options__legend {
     @apply hidden;
@@ -47,7 +44,7 @@
   .cmp-form-options__field--checkbox {
     @apply border-2 border-shade-1 bg-shade-1 inline-flex h-6 w-6 transition-all duration-300 relative;
     @apply hover:bg-background hover:cursor-pointer;
-    @apply focus:border-focus focus:ring-0 focus:ring-offset-background focus:bg-background focus:ring-offset-2;
+    @apply focus:border-focus focus:ring-0 focus:ring-offset-background focus:bg-background focus:ring-offset-2 focus:ring-focus;
 
     &:before {
       @apply opacity-0 bg-foreground transition-opacity duration-300 absolute top-0 left-0 w-full h-full;
@@ -97,7 +94,7 @@
 }
 .cmp-form-options__field--drop-down {
   @apply bg-shade-1 relative w-full h-10 border-2 border-solid border-shade-1 flex-row flex justify-start items-center text-foreground transition-colors duration-200 leading-4;
-  @apply hover:border-shade-2 hover:cursor-pointer hover:bg-background;
+  @apply hover:border-shade-2 hover:cursor-pointer hover:bg-background focus:ring-focus focus:border-focus;
 }
 
 .options.form-options--hidden {

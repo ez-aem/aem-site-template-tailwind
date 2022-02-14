@@ -24,7 +24,7 @@
     @apply flex;
     .cmp-image__image {
       max-width: 8rem;
-      @apply w-full;
+      @apply w-full invert hue-rotate-180;
     }
   }
 

@@ -30,7 +30,7 @@
   a {
     @apply text-foreground;
     @apply hover:text-foreground;
-    @apply focus:ring-offset-background;
+    @apply focus:ring-offset-shade-1;
   }
 }
 

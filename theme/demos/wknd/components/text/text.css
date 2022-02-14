@@ -14,6 +14,7 @@
   }
 
   a {
+    @apply text-accent-lighter;
     @apply hover:underline;
     @apply focus:rounded-none focus:ring-2 focus:ring-focus focus:outline-none focus:ring-offset-2 focus:ring-offset-background;
   }

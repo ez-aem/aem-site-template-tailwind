@@ -1,7 +1,7 @@
 a {
   @apply text-foreground no-underline;
   @apply text-foreground;
-  @apply focus:ring-2 focus:ring-focus focus:outline-none focus:rounded focus:ring-offset-2 focus:ring-offset-background;
+  @apply focus:ring-2 focus:ring-focus focus:outline-none focus:rounded-none focus:ring-offset-2 focus:ring-offset-background;
 }
 
 /* button,
