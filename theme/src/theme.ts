@@ -5,4 +5,4 @@ import "./resources/images/favicon.png";
 // Component Javascript
 
 // Wireframe Demo JavaScript
-import "../demos/wknd/theme";
+import "../demos/wireframe/theme";
