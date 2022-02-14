@@ -130,7 +130,7 @@
 }
 
 .scrolled .experiencefragment.header {
-  @apply sticky top-0 bg-background shadow-2xl;
+  @apply sticky top-0 bg-background shadow-xl;
 
   #main-header {
     @apply h-20;
@@ -141,10 +141,12 @@ body > .root {
   @apply transition-transform duration-300 translate-x-0;
 }
 
-body > .root.open {
-  @apply translate-x-72;
-}
+@screen phone {
+  body > .root.open {
+    @apply translate-x-72;
+  }
 
-html.open body {
-  @apply overflow-hidden;
+  html.open body {
+    @apply overflow-hidden;
+  }
 }

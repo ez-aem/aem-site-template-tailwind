@@ -5,9 +5,8 @@
 .cmp-teaser__title,
 .cmp-teaser__title a {
   @apply text-foreground;
+  @apply hover:text-foreground;
   @apply focus:ring-offset-transparent;
-
-  @apply text-foreground;
 }
 
 .cmp-teaser__title {
@@ -39,15 +38,18 @@
 }
 
 .cmp-teaser__action-link {
-  @apply font-sans uppercase font-semibold text-sm px-4 py-2 border-2 border-foreground text-foreground duration-300 text-center inline-flex shrink-0 rounded-none;
-  @apply hover:text-background hover:no-underline hover:bg-foreground;
-  transition-property: border, border-radius, outline, color, background-color,
-    border-color, text-decoration-color, fill, stroke, box-shadow;
-  @apply focus:text-background focus:border-foreground focus:bg-foreground focus:ring-offset-2 focus:ring-offset-background focus:rounded-none;
+  @apply font-sans uppercase font-semibold text-sm px-4 py-2 border-2 border-foreground text-foreground duration-300 text-center inline-flex shrink-0 rounded-none transition-all;
+  @apply hover:text-foreground hover:no-underline hover:bg-foreground;
+  @apply focus:text-foreground focus:border-foreground focus:bg-foreground focus:ring-offset-2 focus:ring-offset-background focus:rounded-none;
 
   &:first-child {
     @apply bg-accent border-accent;
-    @apply hover:bg-accent-darker hover:border-accent-darker hover:text-background;
-    @apply focus:bg-accent-darker focus:border-accent-darker focus:text-background;
+    @apply hover:bg-accent-darker hover:border-accent-darker hover:text-foreground;
+    @apply focus:bg-accent-darker focus:border-accent-darker focus:text-foreground;
+  }
+
+  @screen default {
+    @apply hover:text-background;
+    @apply focus:text-background;
   }
 }

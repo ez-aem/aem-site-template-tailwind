@@ -112,10 +112,6 @@
   > .cmp-navigation__item__icon {
   @apply bg-accent;
   &::after {
-    @apply bg-background;
-
-    @screen default {
-      @apply bg-foreground;
-    }
+    @apply bg-foreground;
   }
 }

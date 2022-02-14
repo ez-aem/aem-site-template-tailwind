@@ -11,5 +11,5 @@
   @apply w-auto;
 }
 .cmp-image__title {
-  @apply flex uppercase text-xs text-shade-4 my-2 leading-snug;
+  @apply flex uppercase text-xs text-foreground my-2 leading-snug;
 }

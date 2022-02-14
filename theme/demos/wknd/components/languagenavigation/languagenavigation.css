@@ -83,6 +83,10 @@
     @apply text-background;
     @apply hover:text-foreground;
     @apply focus:text-foreground;
+
+    @screen default {
+      @apply text-foreground;
+    }
   }
 }
 
