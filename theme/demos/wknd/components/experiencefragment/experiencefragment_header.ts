@@ -1,5 +1,4 @@
 const xfHeader = () => {
-  const $xfWrapper = document.querySelector("#header").parentElement;
   const $elWrapper = document.querySelector("#main-header-wrapper");
   const $el = document.querySelector("#main-header");
   const $button = document.querySelector("#mobile-header-button");
@@ -9,6 +8,7 @@ const xfHeader = () => {
     $root.classList.toggle("open");
     $el.classList.toggle("open");
     $elWrapper.classList.toggle("open");
+    document.documentElement.classList.toggle("open");
   };
   $button.addEventListener("click", toggleEl);
 

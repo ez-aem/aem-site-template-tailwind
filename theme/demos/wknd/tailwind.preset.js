@@ -37,6 +37,10 @@ module.exports = {
       boxShadow: {
         DEFAULT: "0 0.25em 0.5em 0.2em",
         header: "0 20px 0 rgba(0, 0, 0, 26%)",
+        insetTop: "inset 0 7px 9px -7px rgba(0,0,0,0.4)",
+        insetRight: "inset -7px 0 9px -7px rgba(0,0,0,0.4)",
+        insetBottom: "inset 0 -7px 9px -7px rgba(0,0,0,0.4)",
+        insetLeft: "inset 7px 0 9px -7px rgba(0,0,0,0.4)",
       },
       colors: {
         background: withOpacity("color-background"),

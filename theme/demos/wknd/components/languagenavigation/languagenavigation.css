@@ -2,19 +2,16 @@
   @apply relative z-10;
   @apply focus:ring-2;
 }
-.languagenavigation {
+/* .languagenavigation {
   .cmp-languagenavigation__button {
-    transition-property: border, border-radius, outline, color, background-color,
-      border-color, text-decoration-color, fill, stroke, box-shadow;
-    @apply border-shade-2 ring-focus rounded-none duration-300;
+    @apply border-shade-2 ring-focus rounded-none duration-300 transition-all;
     @apply focus:ring-2 focus:border-background focus:ring-offset-2 focus:ring-offset-background;
+
   }
-}
+} */
 
 .languagenavigation.open {
   .cmp-languagenavigation__button {
-    @apply bg-shade-1;
-
     &::after {
       @apply rotate-180;
 
@@ -36,9 +33,14 @@
 }
 
 .cmp-languagenavigation__button {
-  @apply relative w-full h-10 border-2 border-solid border-shade-1 flex-row flex justify-start items-center transition-colors duration-200 outline-none;
+  @apply relative w-full h-10 border-2 border-solid border-shade-1 flex-row flex justify-start items-center transition-colors duration-200 outline-none text-background;
   @apply hover:cursor-pointer;
-  @apply focus:border-focus;
+  @apply focus:border-accent;
+
+  @screen default {
+    @apply text-foreground;
+    @apply focus:border-focus;
+  }
 
   span {
     @apply flex-1 flex justify-start items-center ml-10;
@@ -61,12 +63,12 @@
 
   /* Flip upside down for mobile. As the menu goes up instead of down */
   @screen phone {
-    @apply rotate-180;
+    @apply rotate-180 bg-background;
   }
 }
 
 .cmp-languagenavigation__group {
-  @apply absolute w-full bg-transparent border-none mt-2 delay-75 opacity-0 -translate-y-2;
+  @apply absolute w-full bg-transparent border-1 border-shade-1 mt-2 delay-75 opacity-0 -translate-y-2 shadow-md;
   transition: transform 250ms, opacity 100ms, visibility 50ms;
   visibility: collapse;
   > .cmp-languagenavigation__item {
@@ -75,6 +77,12 @@
     &:last-child {
       @apply border-b-0;
     }
+  }
+
+  .cmp-languagenavigation__item-link {
+    @apply text-background;
+    @apply hover:text-foreground;
+    @apply focus:text-foreground;
   }
 }
 
@@ -135,15 +143,13 @@ span[class^="cmp-languagenavigation__item--langcode"]::before,
 }
 
 .cmp-languagenavigation__item-link {
-  transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke, box-shadow;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  @apply text-foreground outline-none relative flex-1 flex flex-row justify-between items-center py-2 pl-8 pr-1 font-medium bg-background border-0 duration-300;
-  @apply hover:underline hover:bg-accent;
+  @apply text-background outline-none relative flex-1 flex flex-row justify-between items-center py-2 pl-10 pr-1 font-medium bg-foreground border-0 duration-300 transition-all ease-in-out gap-2;
+  @apply hover:underline hover:bg-accent text-foreground;
   @apply focus:bg-accent focus:border-0 focus:outline-none focus:ring-2 focus:rounded-none focus:ring-offset-0 focus:z-10;
-  /* &:first-of-type {
-    @apply border-t-0;
-  } */
+
+  @screen default {
+    @apply text-foreground bg-background;
+  }
 }
 
 .cmp-languagenavigation__item--active .cmp-languagenavigation__item-link {
