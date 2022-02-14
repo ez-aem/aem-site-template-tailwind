@@ -7,6 +7,10 @@
   @apply w-auto;
 }
 .cmp-image__title {
-  @apply flex uppercase text-xs text-shade-4 my-2 leading-snug;
+  @apply my-2 flex text-xs uppercase leading-snug text-shade-4;
   @apply dark:text-foreground;
+}
+
+.cmp-carousel__item .cmp-image__image {
+  @apply w-full object-cover;
 }

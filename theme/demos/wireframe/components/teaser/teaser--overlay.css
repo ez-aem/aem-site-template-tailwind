@@ -16,13 +16,13 @@
       @apply h-full;
 
       .cmp-image__image {
-        @apply object-cover h-full;
+        @apply h-full object-cover;
       }
     }
   }
 
   .cmp-teaser__content {
-    @apply p-10 text-center justify-center text-background gap-y-6 place-self-center;
+    @apply justify-center gap-y-6 place-self-center p-10 text-center text-background;
     max-width: var(--aem-grid-max-width, 60rem);
 
     @apply dark:text-foreground;
@@ -48,16 +48,16 @@
   .cmp-teaser__action-link {
     &:not(:first-child) {
       @apply border-background text-background;
-      @apply hover:bg-background hover:text-shade-4 hover:border-background;
-      @apply focus:bg-background focus:text-shade-4 focus:border-focus focus:ring-0;
+      @apply hover:border-background hover:bg-background hover:text-shade-4;
+      @apply focus:border-focus focus:bg-background focus:text-shade-4 focus:ring-0;
 
-      @apply dark:text-foreground dark:border-foreground;
-      @apply dark:hover:text-foreground dark:hover:border-background;
-      @apply dark:focus:text-foreground dark:focus:border-focus;
+      @apply dark:border-foreground dark:text-foreground;
+      @apply dark:hover:border-background dark:hover:text-foreground;
+      @apply dark:focus:border-focus dark:focus:text-foreground;
     }
 
     &:first-child {
-      @apply focus:ring-offset-transparent focus:border-transparent focus:ring-focus;
+      @apply focus:border-transparent focus:ring-focus focus:ring-offset-transparent;
     }
   }
 }

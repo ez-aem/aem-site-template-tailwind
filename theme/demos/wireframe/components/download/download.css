@@ -1,28 +1,28 @@
 .cmp-download {
-  @apply border-2 border-shade-2 p-4 flex flex-col gap-1 items-start rounded-md;
+  @apply flex flex-col items-start gap-1 rounded-md border-2 border-shade-2 p-4;
 }
 .cmp-download__title {
-  @apply text-xl text-foreground font-semibold;
+  @apply text-xl font-semibold text-foreground;
 }
 .cmp-download__title-link {
   @apply text-foreground;
 }
 .cmp-download__properties {
-  @apply flex flex-row gap-4 my-1;
+  @apply my-1 flex flex-row gap-4;
 }
 .cmp-download__property {
-  @apply text-shade-4 text-xs font-semibold;
+  @apply text-xs font-semibold text-shade-4;
 }
 .cmp-download__property-label {
   @apply hidden;
 }
 .cmp-download__action {
-  @apply mt-2 rounded-full pl-3 pr-4 py-2 font-semibold transition-colors duration-300 text-center inline-flex gap-2 items-center bg-accent text-background border-accent;
-  @apply hover:bg-accent-darker hover:border-accent-darker hover:no-underline;
-  @apply focus:bg-accent-darker focus:border-background focus:rounded-full focus:no-underline;
+  @apply mt-2 inline-flex items-center gap-2 rounded-full border-accent bg-accent py-2 pl-3 pr-4 text-center font-semibold text-background transition-colors duration-300;
+  @apply hover:border-accent-darker hover:bg-accent-darker hover:no-underline;
+  @apply focus:rounded-full focus:border-background focus:bg-accent-darker focus:no-underline;
 
   &::before {
-    @apply w-5 h-5 bg-no-repeat bg-center;
+    @apply h-5 w-5 bg-center bg-no-repeat;
     content: "";
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="13.314" height="14.828" viewBox="0 0 13.314 14.828"><path d="M4.293,13.122a1,1,0,0,1,0-1.415L8.172,7.828H-2.171a1,1,0,0,1-1-1,1,1,0,0,1,1-1H8.314L4.293,1.808A1,1,0,0,1,5.708.393L11.364,6.05a1,1,0,0,1,0,1.414L5.708,13.122a1,1,0,0,1-1.414,0Z" transform="translate(13.414 3.17) rotate(90)" fill="%23fff"/></svg>');
   }
@@ -42,7 +42,7 @@
   .cmp-download__title,
   .cmp-download__title-link {
     @apply text-background;
-    @apply focus:ring-offset-shade-4 focus:ring-focus;
+    @apply focus:ring-focus focus:ring-offset-shade-4;
   }
 
   .cmp-download__property {
@@ -50,6 +50,6 @@
   }
 
   .cmp-download__action {
-    @apply focus:ring-offset-shade-4 focus:ring-focus;
+    @apply focus:ring-focus focus:ring-offset-shade-4;
   }
 }
