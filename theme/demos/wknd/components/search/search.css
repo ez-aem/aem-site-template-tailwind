@@ -1,0 +1,29 @@
+.cmp-search__field {
+  @apply h-10 px-3 relative flex flex-row justify-between items-center overflow-hidden;
+}
+
+.cmp-search__input {
+  @apply border-2 border-shade-1 bg-shade-1 absolute inset-0 pl-9 text-foreground transition-colors duration-200;
+  @apply hover:bg-background;
+  @apply focus:outline-none focus:border-focus focus:bg-background focus:text-foreground;
+
+  &::placeholder {
+    @apply text-shade-3;
+    @apply dark:text-foreground;
+  }
+  &:active {
+    @apply outline-none border-focus bg-background text-foreground;
+  }
+}
+
+.cmp-search__loading-indicator,
+.cmp-search__icon,
+.cmp-search__clear-icon {
+  @apply z-10 relative top-[unset] left-[unset] right-[unset];
+}
+
+.cmp-search__loading-indicator[aria-hidden="false"],
+.cmp-search__icon[aria-hidden="false"],
+.cmp-search__clear[aria-hidden="false"] .cmp-search__clear-icon {
+  @apply block;
+}

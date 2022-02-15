@@ -1,0 +1,53 @@
+.cmp-download {
+  @apply border-2 border-shade-2 p-4 flex flex-col gap-1 items-start font-sans;
+}
+.cmp-download__title {
+  @apply text-xl font-semibold font-inherit;
+}
+.cmp-download__title-link {
+  @apply text-foreground transition-all duration-300;
+}
+.cmp-download__description {
+  @apply text-foreground font-inherit;
+  * {
+    @apply font-inherit transition-all duration-300;
+  }
+}
+.cmp-download__properties {
+  @apply flex flex-row gap-4 my-1;
+}
+.cmp-download__property {
+  @apply text-xs font-semibold text-foreground;
+}
+.cmp-download__property-label {
+  @apply hidden;
+}
+.cmp-download__action {
+  @apply mt-2 pl-3 pr-4 py-2 font-semibold transition-all duration-300 text-center inline-flex gap-2 items-center bg-accent text-foreground border-accent;
+  @apply hover:bg-accent-darker hover:border-accent-darker hover:no-underline;
+  @apply focus:bg-accent-darker focus:border-background focus:no-underline;
+
+  &::before {
+    @apply h-6 w-6 bg-foreground;
+    content: "";
+    -webkit-mask-size: 90%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-size: 90%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+
+    -webkit-mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAY0lEQVRIiWNgGOqAkQS1/8nRy0SCBWSBUQtGLRjiFpQzQDIXDKMDZLl6ch2Abgk2TLbhxFhCseH4LKGa4dgsIdpwZhIsOMoAKUEPMjAwNJLktFGADyDXStgyE8Vm07yoGPoAAH1UItbw1O5lAAAAAElFTkSuQmCC");
+    mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAY0lEQVRIiWNgGOqAkQS1/8nRy0SCBWSBUQtGLRjiFpQzQDIXDKMDZLl6ch2Abgk2TLbhxFhCseH4LKGa4dgsIdpwZhIsOMoAKUEPMjAwNJLktFGADyDXStgyE8Vm07yoGPoAAH1UItbw1O5lAAAAAElFTkSuQmCC");
+  }
+
+  &:hover::before {
+    @apply animate-bounce;
+  }
+  &:focus::before {
+    @apply animate-bounce;
+  }
+}
+.cmp-download__action-text {
+  @apply text-foreground font-inherit;
+}

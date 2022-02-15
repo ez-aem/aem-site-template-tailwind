@@ -1,0 +1,15 @@
+.contentfragmentlist.contentfragmentlist--show-title {
+  .cmp-contentfragment__title {
+    @apply block mb-6;
+  }
+}
+.contentfragmentlist.contentfragmentlist--title-uppercase {
+  .cmp-contentfragment__title {
+    @apply uppercase;
+  }
+}
+.contentfragmentlist.contentfragmentlist--item-uppercase {
+  .cmp-contentfragment__element {
+    @apply uppercase;
+  }
+}

@@ -1,0 +1,62 @@
+a {
+  @apply text-foreground no-underline;
+  @apply text-foreground;
+  @apply focus:ring-2 focus:ring-focus focus:outline-none focus:rounded-none focus:ring-offset-2 focus:ring-offset-background;
+}
+
+/* button,
+input,
+optgroup,
+select,
+textarea {
+  @apply font-inherit;
+} */
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  a {
+    @apply hover:underline hover:decoration-1 hover:underline-offset-2;
+  }
+}
+
+h1,
+h2,
+h3 {
+  a {
+    @apply hover:decoration-2;
+  }
+} */
+
+h1,
+.title--h1 .cmp-title__text {
+  @apply text-5xl font-serif font-normal text-foreground;
+}
+
+h2,
+.title--h2 .cmp-title__text {
+  @apply text-4xl font-serif font-medium text-foreground;
+}
+
+h3,
+.title--h3 .cmp-title__text {
+  @apply text-2xl font-serif font-medium text-foreground;
+}
+
+h4,
+.title--h4 .cmp-title__text {
+  @apply text-xl font-serif font-medium text-foreground;
+}
+
+h5,
+.title--h5 .cmp-title__text {
+  @apply text-base font-serif font-medium text-foreground;
+}
+
+h6,
+.title--h6 .cmp-title__text {
+  @apply text-xs font-sans font-normal text-shade-4 uppercase;
+}

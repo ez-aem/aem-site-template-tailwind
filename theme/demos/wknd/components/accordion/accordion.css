@@ -1,0 +1,35 @@
+.cmp-accordion__item {
+  @apply border-b-2 border-b-shade-2;
+  @apply hover:border-b-foreground;
+}
+.cmp-accordion__item[data-cmp-expanded] {
+  @apply border-b-transparent;
+}
+
+.cmp-accordion__button {
+  @apply p-4 font-sans font-semibold text-foreground text-base flex flex-row justify-between items-center outline-none rounded-none transition-shadow duration-300;
+  @apply focus-visible:ring-2 focus-visible:ring-focus focus-visible:border-b-transparent focus-visible:text-foreground focus-visible:rounded-none;
+}
+
+.cmp-accordion__panel {
+  @apply p-4;
+}
+.accordion:not(.accordion--arrow) {
+  .cmp-accordion__icon {
+    @apply block w-6 h-6 transition-transform duration-200 relative;
+
+    &:before {
+      content: "+";
+      color: red;
+      margin: 50% 0 0 50%;
+      @apply text-5xl text-foreground absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 font-light;
+    }
+  }
+  .cmp-accordion__button.cmp-accordion__button--expanded {
+    .cmp-accordion__icon {
+      &:before {
+        content: "-";
+      }
+    }
+  }
+}

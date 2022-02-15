@@ -1,0 +1,4 @@
+html,
+body {
+  @apply m-0 bg-background text-foreground text-base leading-normal font-sans;
+}
