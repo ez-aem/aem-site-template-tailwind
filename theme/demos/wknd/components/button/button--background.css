@@ -1,10 +1,20 @@
-.button.button--background {
-  .cmp-button {
-    @apply bg-background text-foreground border-none;
-    @apply hover:bg-foreground hover:text-background border-none;
-    @apply focus:rounded-none focus:bg-foreground focus:text-background focus:border-foreground focus:no-underline focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
-  }
-}
+@layer utilities {
+  .button.button--background {
+    .cmp-button {
+      @apply bg-shade-1 text-foreground border-none;
+      @apply hover:bg-foreground hover:text-background border-none;
+      @apply focus:rounded-none focus:bg-foreground focus:text-background focus:border-foreground focus:no-underline focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
+    }
+    .cmp-button__icon {
+      @apply bg-foreground;
 
-.dark-container {
+      .cmp-button:hover .cmp-button__icon,
+      .cmp-button:focus .cmp-button__icon {
+        @apply bg-background;
+      }
+    }
+  }
+
+  .dark-container {
+  }
 }

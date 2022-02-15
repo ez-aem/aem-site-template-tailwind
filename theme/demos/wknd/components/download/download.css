@@ -5,12 +5,12 @@
   @apply text-xl font-semibold font-inherit;
 }
 .cmp-download__title-link {
-  @apply text-foreground;
+  @apply text-foreground transition-all duration-300;
 }
 .cmp-download__description {
   @apply text-foreground font-inherit;
   * {
-    @apply font-inherit;
+    @apply font-inherit transition-all duration-300;
   }
 }
 .cmp-download__properties {
@@ -23,17 +23,17 @@
   @apply hidden;
 }
 .cmp-download__action {
-  @apply mt-2 rounded-full pl-3 pr-4 py-2 font-semibold transition-colors duration-300 text-center inline-flex gap-2 items-center bg-accent text-foreground border-accent;
+  @apply mt-2 pl-3 pr-4 py-2 font-semibold transition-all duration-300 text-center inline-flex gap-2 items-center bg-accent text-foreground border-accent;
   @apply hover:bg-accent-darker hover:border-accent-darker hover:no-underline;
-  @apply focus:bg-accent-darker focus:border-background focus:rounded-full focus:no-underline;
+  @apply focus:bg-accent-darker focus:border-background focus:no-underline;
 
   &::before {
     @apply h-6 w-6 bg-foreground;
     content: "";
-    -webkit-mask-size: 100%;
+    -webkit-mask-size: 90%;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
-    mask-size: 100%;
+    mask-size: 90%;
     mask-repeat: no-repeat;
     mask-position: center;
 
@@ -42,6 +42,9 @@
   }
 
   &:hover::before {
+    @apply animate-bounce;
+  }
+  &:focus::before {
     @apply animate-bounce;
   }
 }

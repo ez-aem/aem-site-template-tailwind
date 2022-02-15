@@ -26,8 +26,8 @@
 
     &:first-child {
       @apply bg-accent border-accent text-foreground;
-      @apply hover:bg-accent-darker hover:border-accent-darker hover:text-background;
-      @apply focus:bg-accent-darker focus:border-accent-darker focus:text-background;
+      @apply hover:bg-accent-darker hover:border-accent-darker;
+      @apply focus:bg-accent-darker focus:border-accent-darker;
     }
   }
 }

@@ -9,19 +9,17 @@
   @apply flex flex-row flex-wrap gap-x-2;
 }
 .cmp-breadcrumb__item {
-  @apply inline-flex items-center align-middle;
-  @apply last-of-type:font-normal;
+  @apply inline-flex items-center align-middle text-sm uppercase;
 }
 
 .cmp-breadcrumb__item-link {
-  transition: box-shadow;
-  @apply text-foreground px-3 py-1 inline-flex duration-300 rounded-none;
+  @apply text-foreground px-3 py-1 font-semibold inline-flex duration-300 transition-shadow rounded-none;
   @apply hover:text-foreground hover:underline;
   @apply focus:text-foreground focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:rounded-none;
 }
 
 .cmp-breadcrumb__item--active {
-  @apply px-3 py-2 inline-flex text-foreground pl-0;
+  @apply font-normal uppercase px-3 py-2 inline-flex text-foreground pl-0;
 }
 
 .breadcrumb .cmp-breadcrumb__item:not(:last-of-type):after {

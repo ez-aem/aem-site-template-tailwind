@@ -13,20 +13,12 @@
   .cmp-teaser {
     @apply default:flex-row-reverse;
   }
-  .cmp-teaser__content {
-    @apply p-6;
-    @apply default:p-8;
-  }
 }
 
 .teaser--text-right {
   @screen default {
     .cmp-teaser {
       @apply flex-row;
-    }
-    .cmp-teaser__content {
-      @apply p-6;
-      @apply default:p-6;
     }
   }
 }

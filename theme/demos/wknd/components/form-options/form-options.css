@@ -11,6 +11,9 @@
 }
 .cmp-form-options__field--drop-down {
 }
+.cmp-form-options__field {
+  @apply z-0;
+}
 .select-selected {
 }
 .select-arrow-active {
@@ -42,9 +45,9 @@
 
   .cmp-form-options__field--radio,
   .cmp-form-options__field--checkbox {
-    @apply border-2 border-shade-1 bg-shade-1 inline-flex h-6 w-6 transition-all duration-300 relative;
+    @apply border-2 border-shade-1 bg-shade-1 inline-flex h-6 w-6 transition-all duration-300 relative ring-focus ring-offset-background text-foreground;
     @apply hover:bg-background hover:cursor-pointer;
-    @apply focus:border-focus focus:ring-0 focus:ring-offset-background focus:bg-background focus:ring-offset-2 focus:ring-focus;
+    @apply focus:ring-2 focus:bg-background focus:ring-offset-2;
 
     &:before {
       @apply opacity-0 bg-foreground transition-opacity duration-300 absolute top-0 left-0 w-full h-full;
