@@ -7,8 +7,8 @@
 }
 
 .cmp-accordion__button {
-  @apply p-4 font-sans font-semibold text-foreground text-base flex flex-row justify-between items-center outline-none;
-  @apply focus-visible:ring-2 focus-visible:ring-focus focus-visible:border-b-transparent focus-visible:rounded focus-visible:text-foreground;
+  @apply p-4 font-sans font-semibold text-foreground text-base flex flex-row justify-between items-center outline-none rounded-none transition-shadow duration-300;
+  @apply focus-visible:ring-2 focus-visible:ring-focus focus-visible:border-b-transparent focus-visible:text-foreground focus-visible:rounded-none;
 }
 
 .cmp-accordion__panel {

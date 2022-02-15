@@ -23,7 +23,6 @@
 }
 .cmp-carousel__action--previous {
   .cmp-carousel__action-icon {
-    @apply rotate-90;
   }
 
   &:hover {
@@ -34,7 +33,7 @@
 }
 .cmp-carousel__action--next {
   .cmp-carousel__action-icon {
-    @apply -rotate-90;
+    @apply rotate-180;
   }
   &:hover {
     .cmp-carousel__action-icon {

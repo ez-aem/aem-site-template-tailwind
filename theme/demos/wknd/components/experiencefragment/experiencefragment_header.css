@@ -130,7 +130,7 @@
 }
 
 .scrolled .experiencefragment.header {
-  @apply sticky top-0 bg-background shadow-xl;
+  @apply sticky top-0 bg-background shadow-xl z-10;
 
   #main-header {
     @apply h-20;
