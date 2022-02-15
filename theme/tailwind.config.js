@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./src/index.html",
     "./src/**/**/*.{html,js,jsx,ts,tsx}",
-    "./demos/wknd/**/**/**/*.{html,js,ts,tsx}",
+    "./demos/**/**/**/**/*.{html,js,ts,tsx}",
   ],
   theme: {
     aemGrid: [
