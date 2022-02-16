@@ -1,16 +1,18 @@
-.navigation.navigation--secondary {
-  .cmp-navigation__group {
-    @apply flex justify-center;
-  }
-  .cmp-navigation__item-link {
-    @apply bg-transparent text-background p-4 whitespace-nowrap;
-    @apply hover:underline;
-  }
-  .cmp-navigation__item--active > .cmp-navigation__item-link,
-  .cmp-navigation__item--active {
-    @apply underline;
-  }
-  .cmp-navigation__item__icon {
-    @apply hidden;
+@layer utilities {
+  .navigation.navigation--secondary {
+    .cmp-navigation__group {
+      @apply flex justify-center;
+    }
+    .cmp-navigation__item-link {
+      @apply bg-transparent text-background p-4 whitespace-nowrap;
+      @apply hover:underline;
+    }
+    .cmp-navigation__item--active > .cmp-navigation__item-link,
+    .cmp-navigation__item--active {
+      @apply underline;
+    }
+    .cmp-navigation__item__icon {
+      @apply hidden;
+    }
   }
 }

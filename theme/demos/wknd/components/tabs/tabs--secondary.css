@@ -1,17 +1,19 @@
-.tabs.tabs--secondary {
-  .cmp-tabs__tablist {
-    @apply border-b-1 border-shade-2;
-  }
-  .cmp-tabs__tab {
-    @apply text-link border-b-2 border-shade-1 transition-colors bg-transparent duration-200;
-    @apply hover:border-shade-2 text-foreground;
-    @apply focus-visible:ring-2 focus-visible:ring-focus focus-visible:outline-none focus-visible:text-foreground focus-visible:border-transparent focus-visible:rounded;
-  }
-  .cmp-tabs__tab--active {
-    @apply border-foreground text-foreground font-bold;
-    @apply hover:border-foreground;
-  }
-  .cmp-tabs__tabpanel {
-    @apply my-4;
+@layer utilities {
+  .tabs.tabs--secondary {
+    .cmp-tabs__tablist {
+      @apply border-b-1 border-shade-2;
+    }
+    .cmp-tabs__tab {
+      @apply text-link border-b-2 border-shade-1 transition-colors bg-transparent duration-200;
+      @apply hover:border-shade-2 text-foreground;
+      @apply focus-visible:ring-2 focus-visible:ring-focus focus-visible:outline-none focus-visible:text-foreground focus-visible:border-transparent focus-visible:rounded;
+    }
+    .cmp-tabs__tab--active {
+      @apply border-foreground text-foreground font-bold;
+      @apply hover:border-foreground;
+    }
+    .cmp-tabs__tabpanel {
+      @apply my-4;
+    }
   }
 }

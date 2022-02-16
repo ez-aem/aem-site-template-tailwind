@@ -1,2 +1,4 @@
-.cmp-container {
+@layer components {
+  .cmp-container {
+  }
 }

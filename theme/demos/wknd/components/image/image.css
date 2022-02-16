@@ -1,15 +1,17 @@
-.cmp-image {
-}
-.cmp-image__link {
-  filter: unset;
-  transition-property: border, border-radius, outline, color, background-color,
-    border-color, text-decoration-color, fill, stroke, box-shadow;
-  @apply flex duration-300;
-  @apply focus:rounded-none focus:ring-2 focus:ring-focus;
-}
-.cmp-image__image {
-  @apply w-auto;
-}
-.cmp-image__title {
-  @apply flex uppercase text-xs text-shade-5 my-2 leading-snug;
+@layer components {
+  .cmp-image {
+  }
+  .cmp-image__link {
+    filter: unset;
+    transition-property: border, border-radius, outline, color, background-color,
+      border-color, text-decoration-color, fill, stroke, box-shadow;
+    @apply flex duration-300;
+    @apply focus:rounded-none focus:ring-2 focus:ring-focus;
+  }
+  .cmp-image__image {
+    @apply w-auto;
+  }
+  .cmp-image__title {
+    @apply flex uppercase text-xs text-shade-5 my-2 leading-snug;
+  }
 }
