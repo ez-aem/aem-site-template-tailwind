@@ -1,31 +1,33 @@
-.cmp-text {
-  @apply prose max-w-none;
-  @apply dark:prose-invert;
+@layer components {
+  .cmp-text {
+    @apply prose max-w-none;
+    @apply dark:prose-invert;
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    a {
-      font-weight: unset;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      a {
+        font-weight: unset;
+      }
     }
-  }
 
-  p {
-    line-height: 2.5;
-    @apply text-lg text-justify mt-3;
-  }
+    p {
+      @apply text-lg text-justify mt-3;
+      line-height: 2.5;
+    }
 
-  a {
-    @apply text-accent-lighter transition-all duration-300;
-    @apply hover:underline;
-    @apply focus:rounded-none focus:ring-2 focus:ring-focus focus:outline-none focus:ring-offset-2 focus:ring-offset-background;
-  }
+    a {
+      @apply text-accent-lighter transition-all duration-300;
+      @apply hover:underline;
+      @apply focus:rounded-none focus:ring-2 focus:ring-focus focus:outline-none focus:ring-offset-2 focus:ring-offset-background;
+    }
 
-  tbody th:first-child,
-  tbody td:first-child {
-    @apply pl-2;
+    tbody th:first-child,
+    tbody td:first-child {
+      @apply pl-2;
+    }
   }
 }

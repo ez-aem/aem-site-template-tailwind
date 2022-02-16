@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: "class",
   presets: [require("./demos/wknd/tailwind.preset.js")],
   content: [
     "./src/index.html",

@@ -1,4 +1,6 @@
-.dark-container {
-  @apply bg-shade-3 text-shade-1;
-  padding-inline: calc(var(--aem-grid-gap) / 2);
+@layer utilities {
+  .dark-container {
+    @apply bg-shade-3 text-shade-1;
+    padding-inline: calc(var(--aem-grid-gap) / 2);
+  }
 }

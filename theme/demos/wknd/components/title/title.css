@@ -1,6 +1,12 @@
-.cmp-title {
-}
-.cmp-title__text {
-}
-.cmp-title__link {
+@layer components {
+  .cmp-title {
+  }
+  .cmp-title__text {
+    &:after {
+      content: "";
+      @apply w-24 pt-2 block border-b-2 border-accent border-solid;
+    }
+  }
+  .cmp-title__link {
+  }
 }
