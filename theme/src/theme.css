@@ -2,7 +2,7 @@
 @import "./site/tailwind.css";
 @import "./site/base.css";
 
-/* Wireframe Demo CSS Theme - For Removal */
+/* Demo CSS Theme - For Removal */
 @import "../demos/wireframe/theme.css";
 
 /* Site global */
@@ -20,6 +20,7 @@
 @import "./components/download/download.css";
 
 /* Lists and Navigation components */
+
 @import "./components/list/list.css";
 @import "./components/navigation/navigation.css";
 @import "./components/languagenavigation/languagenavigation.css";
