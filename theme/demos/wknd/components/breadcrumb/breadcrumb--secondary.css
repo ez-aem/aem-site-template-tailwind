@@ -1,0 +1,9 @@
+@layer utilities {
+  .breadcrumb.breadcrumb--secondary
+    .cmp-breadcrumb__item:not(:last-of-type):after {
+    @apply bg-accent;
+    content: "";
+    mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZD0iTTMwLjcwNy0zLjU2NWExIDEgMCAwIDEgMC0xLjQxNGw0Ljk0OS00Ljk1LTQuOTQ5LTQuOTVhMSAxIDAgMCAxIDAtMS40MTQgMSAxIDAgMCAxIDEuNDE0IDBsNS42NTcgNS42NTZhMSAxIDAgMCAxIC4yOTMuNzA3IDEgMSAwIDAgMS0uMjkzLjcwN2wtNS42NTcgNS42NThhMSAxIDAgMCAxLS43MDcuMjkzIDEgMSAwIDAgMS0uNzA3LS4yOTN6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjIuMDcxIDIxLjkyOSkiIHN0eWxlPSJmaWxsOiM2MDdkOGIiLz48L3N2Zz4=");
+    mask-size: cover;
+  }
+}

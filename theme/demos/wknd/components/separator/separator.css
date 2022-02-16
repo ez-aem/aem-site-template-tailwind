@@ -1,0 +1,22 @@
+@layer components {
+  .cmp-separator {
+    @apply my-4;
+  }
+  .cmp-separator__horizontal-rule {
+    @apply border-0 border-b-[1px] border-shade-2;
+  }
+
+  .standard .cmp-separator {
+    @apply my-8;
+
+    .cmp-separator__horizontal-rule {
+      @apply border-b-2 border-shade-2;
+    }
+  }
+
+  .separator.separator--no-line {
+    .cmp-separator > hr {
+      @apply border-transparent !border-b-8;
+    }
+  }
+}

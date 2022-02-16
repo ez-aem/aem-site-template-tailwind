@@ -1,0 +1,35 @@
+@layer utilities {
+  .teaser--dark {
+    .cmp-teaser__content {
+      @apply bg-foreground text-background p-4;
+    }
+    .cmp-teaser__description {
+      @apply text-background;
+    }
+
+    .cmp-teaser__pretitle {
+      @apply text-background;
+    }
+
+    .cmp-teaser__title,
+    .cmp-teaser__title a {
+      @apply text-background;
+    }
+
+    .cmp-teaser__title a {
+      @apply focus:ring-focus focus:ring-2 focus:ring-offset-shade-4;
+    }
+
+    .cmp-teaser__action-link {
+      @apply text-background border-background;
+      @apply hover:text-foreground hover:bg-background;
+      @apply focus:bg-background focus:text-foreground;
+
+      &:first-child {
+        @apply bg-accent border-accent text-foreground;
+        @apply hover:bg-accent-darker hover:border-accent-darker;
+        @apply focus:bg-accent-darker focus:border-accent-darker;
+      }
+    }
+  }
+}

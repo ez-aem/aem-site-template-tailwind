@@ -1,0 +1,48 @@
+@layer utilities {
+  .teaser--text-bottom,
+  .teaser--text-right,
+  .teaser--text-left {
+    .cmp-teaser {
+      @apply flex flex-col mb-4 bg-shade-1;
+    }
+    .cmp-teaser__content {
+      @apply p-9 pt-16;
+    }
+  }
+
+  .teaser--text-left {
+    .cmp-teaser {
+      @apply default:flex-row-reverse;
+    }
+  }
+
+  .teaser--text-right {
+    @screen default {
+      .cmp-teaser {
+        @apply flex-row;
+      }
+    }
+  }
+
+  .teaser--text-right,
+  .teaser--text-left {
+    .cmp-teaser__image {
+      @apply basis-2/3 aspect-2/1;
+      @apply default:aspect-3/1;
+
+      .cmp-image {
+        @apply w-full h-full aspect-2/1;
+        @apply default:aspect-3/1;
+      }
+
+      .cmp-image__image {
+        @apply aspect-2/1 object-cover h-full;
+        @apply default:aspect-3/1;
+      }
+    }
+
+    .cmp-teaser__content {
+      @apply basis-1/3;
+    }
+  }
+}

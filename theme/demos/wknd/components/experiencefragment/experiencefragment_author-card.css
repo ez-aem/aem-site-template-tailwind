@@ -1,0 +1,34 @@
+@layer components {
+  .experiencefragment > .cmp-experiencefragment--author-card {
+    @apply h-full w-full;
+    .image {
+      .cmp-image {
+        @apply flex justify-center;
+      }
+      img {
+        @apply object-cover rounded-full h-40 w-40 m-0;
+      }
+    }
+
+    .title {
+      .cmp-title__text {
+        @apply font-normal text-center text-2xl;
+      }
+
+      h5.cmp-title__text {
+        @apply text-sm uppercase font-sans font-semibold;
+      }
+    }
+
+    /* following two blocks are required to line up buttons if one card is taller then the others */
+    .xf-content-height,
+    .root.container.responsivegrid,
+    .cmp-container,
+    .aem-Grid {
+      @apply h-full;
+    }
+    .experiencefragment {
+      @apply self-end;
+    }
+  }
+}

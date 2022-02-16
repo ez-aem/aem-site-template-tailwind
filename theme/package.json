@@ -7,15 +7,16 @@
     "build": "cross-env NODE_ENV=production run-s build:*",
     "build:clean": "rimraf dist",
     "build:color-scheme": "parcel build src/color-scheme.ts",
-    "build:js": "parcel build src/theme.ts",
+    "build:theme": "parcel build src/theme.ts",
     "lint:check": "eslint --ext .ts,.js,.jsx,.tsx",
     "lint:fix": "eslint --fix --ext .ts,.js,.jsx,.tsx",
     "live": "run-p watch proxy",
     "prettier:check": "prettier --check **/*.{css,html,js,ts}",
     "prettier:fix": "prettier --write **/*.{css,html,js,ts}",
     "proxy": "aem-site-theme-builder live",
-    "watch": "run-s watch:*",
-    "watch:js": "parcel watch src/theme.ts"
+    "watch": "run-p watch:*",
+    "watch:color-scheme": "parcel watch src/color-scheme.ts",
+    "watch:theme": "parcel watch src/theme.ts"
   },
   "devDependencies": {
     "@adobe/aem-site-theme-builder": "5.2.1",

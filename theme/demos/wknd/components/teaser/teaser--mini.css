@@ -1,0 +1,21 @@
+@layer utilities {
+  .teaser--mini {
+    .cmp-teaser__content {
+      @apply text-foreground p-2 pb-3;
+      row-gap: 0;
+    }
+
+    .cmp-teaser__description {
+      > p {
+        @apply block uppercase text-sm mt-4 overflow-hidden text-ellipsis whitespace-nowrap mb-2;
+      }
+    }
+
+    .cmp-teaser__title {
+      @apply uppercase text-lg font-semibold !font-sans overflow-hidden text-ellipsis whitespace-nowrap;
+    }
+    .cmp-teaser__pretitle {
+      @apply mt-2;
+    }
+  }
+}

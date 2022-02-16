@@ -1,0 +1,43 @@
+@layer utilities {
+  .teaser:not(.teaser--text-bottom):not(.teaser--text-right):not(.teaser--text-left):not(.teaser--overlay):not(.teaser--mini) {
+    .cmp-teaser {
+      @apply flex flex-col overflow-y-hidden;
+      max-height: 680px;
+    }
+
+    .cmp-teaser__content {
+      @apply bg-background py-4 px-7 items-start max-w-6xl w-full -mt-52;
+
+      p {
+        text-align: left;
+      }
+    }
+
+    .cmp-teaser__image {
+      @apply w-full;
+      flex: 1;
+      min-height: 400px;
+
+      .cmp-image {
+        @apply w-full h-full block;
+
+        .cmp-image__image {
+          @apply object-center h-full w-full object-cover;
+        }
+      }
+    }
+
+    .cmp-teaser__title-link {
+      @apply focus:ring-offset-background;
+    }
+
+    .cmp-teaser__content {
+      @apply text-center justify-center gap-y-6 place-self-center text-foreground pt-8;
+      max-width: var(--aem-grid-max-width, 60rem);
+
+      .cmp-teaser__action-container {
+        @apply justify-center;
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-  <jcr:content
+    <jcr:content
     cq:deviceGroups="[mobile/groups/responsive]"
     cq:lastModified="{Date}2022-01-06T13:45:52.415-03:00"
     cq:lastModifiedBy="admin"
@@ -14,12 +14,13 @@
     jcr:primaryType="cq:PageContent"
     sling:resourceType="core/wcm/components/page/v2/page"
   >
-    <root
+        <root
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
       layout="simple"
     >
-      <experiencefragment
+            <experiencefragment
+        cq:styleIds="[1613072653183909]"
         jcr:created="{Date}2022-01-06T08:23:02.199-03:00"
         jcr:createdBy="admin"
         jcr:lastModified="{Date}2022-01-06T08:23:19.407-03:00"
@@ -28,9 +29,8 @@
         sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
         fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/header/master"
         id="header"
-        cq:styleIds="[1613072653183909]"
       />
-      <container
+            <container
         jcr:created="{Date}2022-01-06T09:17:26.934-03:00"
         jcr:createdBy="admin"
         jcr:lastModified="{Date}2022-01-06T09:18:16.583-03:00"
@@ -39,7 +39,7 @@
         sling:resourceType="core/wcm/components/container/v1/container"
         layout="responsiveGrid"
       >
-        <breadcrumb
+                <breadcrumb
           jcr:created="{Date}2022-01-06T11:14:17.657-03:00"
           jcr:createdBy="admin"
           jcr:lastModified="{Date}2022-01-06T11:14:23.869-03:00"
@@ -51,12 +51,20 @@
           showHidden="false"
           startLevel="2"
         >
-          <cq:responsive jcr:primaryType="nt:unstructured">
-            <default jcr:primaryType="nt:unstructured" offset="1" width="10" />
-            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
-          </cq:responsive>
-        </breadcrumb>
-        <container_1125714356
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+              jcr:primaryType="nt:unstructured"
+              offset="1"
+              width="10"
+            />
+                        <phone
+              jcr:primaryType="nt:unstructured"
+              offset="0"
+              width="12"
+            />
+                    </cq:responsive>
+                </breadcrumb>
+                <container_1125714356
           jcr:created="{Date}2022-01-06T11:25:04.291-03:00"
           jcr:createdBy="admin"
           jcr:lastModified="{Date}2022-01-06T11:25:10.693-03:00"
@@ -65,11 +73,19 @@
           sling:resourceType="core/wcm/components/container/v1/container"
           layout="responsiveGrid"
         >
-          <cq:responsive jcr:primaryType="nt:unstructured">
-            <default jcr:primaryType="nt:unstructured" offset="2" width="8" />
-            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
-          </cq:responsive>
-          <title
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+              jcr:primaryType="nt:unstructured"
+              offset="2"
+              width="8"
+            />
+                        <phone
+              jcr:primaryType="nt:unstructured"
+              offset="0"
+              width="12"
+            />
+                    </cq:responsive>
+                    <title
             jcr:created="{Date}2022-01-06T13:45:18.791-03:00"
             jcr:createdBy="admin"
             jcr:lastModified="{Date}2022-01-06T13:45:18.791-03:00"
@@ -78,12 +94,20 @@
             sling:resourceType="core/wcm/components/title/v2/title"
             editable="{Boolean}true"
           >
-            <cq:responsive jcr:primaryType="nt:unstructured">
-              <default jcr:primaryType="nt:unstructured" offset="0" width="8" />
-              <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
-            </cq:responsive>
-          </title>
-          <container
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                jcr:primaryType="nt:unstructured"
+                offset="0"
+                width="8"
+              />
+                            <phone
+                jcr:primaryType="nt:unstructured"
+                offset="0"
+                width="12"
+              />
+                        </cq:responsive>
+                    </title>
+                    <container
             jcr:created="{Date}2022-01-06T09:17:29.978-03:00"
             jcr:createdBy="admin"
             jcr:lastModified="{Date}2022-01-06T11:27:08.809-03:00"
@@ -92,12 +116,20 @@
             sling:resourceType="core/wcm/components/container/v1/container"
             editable="{Boolean}true"
           >
-            <cq:responsive jcr:primaryType="nt:unstructured">
-              <default jcr:primaryType="nt:unstructured" offset="0" width="8" />
-              <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
-            </cq:responsive>
-          </container>
-          <sharing
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                jcr:primaryType="nt:unstructured"
+                offset="0"
+                width="8"
+              />
+                            <phone
+                jcr:primaryType="nt:unstructured"
+                offset="0"
+                width="12"
+              />
+                        </cq:responsive>
+                    </container>
+                    <sharing
             jcr:created="{Date}2022-01-06T11:34:32.277-03:00"
             jcr:createdBy="admin"
             jcr:lastModified="{Date}2022-01-06T11:34:32.277-03:00"
@@ -105,8 +137,8 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/sharing/v1/sharing"
           />
-        </container_1125714356>
-        <experiencefragment
+                </container_1125714356>
+                <experiencefragment
           jcr:created="{Date}2022-01-06T11:30:29.150-03:00"
           jcr:createdBy="admin"
           jcr:lastModified="{Date}2022-01-06T11:30:39.140-03:00"
@@ -115,8 +147,9 @@
           sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
           fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/article-recommendations/master"
         />
-      </container>
-      <experiencefragment_1351464162
+            </container>
+            <experiencefragment_1351464162
+        cq:styleIds="[11613072653183900]"
         jcr:created="{Date}2022-01-06T08:23:23.616-03:00"
         jcr:createdBy="admin"
         jcr:lastModified="{Date}2022-01-06T08:23:35.295-03:00"
@@ -125,17 +158,16 @@
         sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
         fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/footer/master"
         id="footer"
-        cq:styleIds="[11613072653183900]"
       />
-    </root>
-    <cq:responsive jcr:primaryType="nt:unstructured">
-      <breakpoints jcr:primaryType="nt:unstructured">
-        <phone
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
           jcr:primaryType="nt:unstructured"
           title="Smaller Screen"
           width="{Long}768"
         />
-      </breakpoints>
-    </cq:responsive>
-  </jcr:content>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
 </jcr:root>

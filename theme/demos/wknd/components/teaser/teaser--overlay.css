@@ -1,0 +1,49 @@
+@layer utilities {
+  .teaser--overlay {
+    .cmp-teaser {
+      @apply grid default:aspect-4/1;
+      grid-template-areas: "overlay";
+    }
+
+    .cmp-teaser__image,
+    .cmp-teaser__content {
+      grid-area: overlay;
+    }
+
+    .cmp-teaser__image {
+      @apply min-h-full;
+
+      .cmp-image {
+        @apply h-full;
+
+        .cmp-image__image {
+          @apply object-cover h-full;
+        }
+      }
+    }
+
+    .cmp-teaser__content {
+      @apply p-10 text-center justify-center text-background gap-y-6 place-self-center;
+      max-width: var(--aem-grid-max-width, 60rem);
+
+      @apply dark:text-foreground;
+
+      .cmp-teaser__pretitle,
+      .cmp-teaser__title,
+      .cmp-teaser__title a {
+        @apply text-background;
+        @apply focus:ring-offset-transparent;
+
+        @apply dark:text-foreground;
+      }
+
+      .cmp-teaser__title {
+        @apply font-serif;
+      }
+
+      .cmp-teaser__action-container {
+        @apply justify-center;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@layer components {
+  .experiencefragment > .cmp-experiencefragment--button-list {
+    .root.container > .cmp-container > .aem-Grid {
+      @apply flex justify-center gap-0;
+
+      .cmp-button {
+        @apply w-12 h-12 p-0 border-0 z-0 relative;
+        @apply focus:z-10;
+      }
+    }
+  }
+}

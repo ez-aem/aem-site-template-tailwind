@@ -1,0 +1,24 @@
+@layer components {
+  .cmp-button {
+    @apply w-fit pl-3 pr-4 py-2 duration-300 text-center inline-flex gap-2 items-center bg-accent text-foreground rounded-none border-2 border-accent shadow-none ring-0 ring-focus ring-offset-0 ring-offset-background transition-all;
+    @apply hover:bg-accent-darker hover:border-accent-darker hover:no-underline;
+    @apply focus:outline-none focus:bg-accent-darker focus:border-accent-darker focus:no-underline focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
+  }
+
+  .cmp-button__icon {
+    @apply w-full h-full bg-cover bg-no-repeat bg-center bg-background p-2 transition-colors duration-300;
+    mask-size: 60%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+
+  .cmp-button__text {
+    @apply no-underline text-inherit font-sans uppercase font-semibold text-sm;
+  }
+
+  .dark-container {
+    .cmp-button {
+      @apply focus:ring-offset-shade-3;
+    }
+  }
+}

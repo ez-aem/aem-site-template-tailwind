@@ -1,11 +1,11 @@
 module.exports = {
-  presets: [require("./demos/wireframe/tailwind.preset.js")],
+  darkMode: "class",
+  presets: [require("./demos/wknd/tailwind.preset.js")],
   content: [
     "./src/index.html",
     "./src/**/**/*.{html,js,jsx,ts,tsx}",
-    "./demos/wireframe/**/**/**/*.{html,js,ts,tsx}",
+    "./demos/**/**/**/**/*.{html,js,ts,tsx}",
   ],
-  darkMode: "class",
   theme: {
     aemGrid: [
       {

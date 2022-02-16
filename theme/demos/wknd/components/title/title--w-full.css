@@ -1,0 +1,5 @@
+@layer utilities {
+  .title--w-full {
+    @apply w-full;
+  }
+}
