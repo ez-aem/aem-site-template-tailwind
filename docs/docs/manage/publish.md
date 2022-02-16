@@ -4,8 +4,26 @@ sidebar_position: 5
 
 # Publishing
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at semper augue, eget mollis enim. Sed mattis dui in volutpat feugiat. Ut at eleifend dolor. Praesent non egestas leo. Pellentesque condimentum mi sed molestie consequat. Sed porta orci id dolor porttitor, sit amet vestibulum mauris fermentum. Pellentesque placerat faucibus dui vel venenatis. Phasellus at urna leo.
+Publishing your Site for the first time will take a few simple steps. Let's start by navigating to the root of your Site and selecting the checkbox for your Demo site. This will bring up the context menu at the top of the page, select **Manage Publication**.
 
-Maecenas pretium nulla ac augue eleifend, quis tempus velit ultricies. Ut blandit non leo nec pharetra. Duis dolor nulla, lobortis sit amet fringilla a, posuere ac mauris. Maecenas vel elit eu erat sollicitudin fermentum vel vel risus. Nulla id rhoncus enim. Pellentesque iaculis malesuada libero, at gravida leo. Ut elit magna, facilisis vel nisl tempus, posuere posuere sapien. Proin sit amet pharetra magna. Nulla sagittis massa vel sem egestas, et varius quam tempus.
+The next screen will ask if you want to preview or publish, and now or later. Choose publish and now, click **Next**.
 
-Aliquam ac fringilla felis. Duis faucibus, dolor id tincidunt posuere, tellus sem accumsan risus, non dapibus ipsum dolor et ligula. Vivamus non sapien id ipsum commodo vulputate. Donec finibus ultricies orci, blandit maximus tortor dictum nec. Nulla a eros neque. Nulla facilisi. Morbi bibendum malesuada enim, sed tristique tellus consequat id. Sed laoreet lacus euismod odio volutpat, sed volutpat erat consequat. Suspendisse non blandit nisi. Nunc vitae fringilla leo, sit amet iaculis metus. Donec pellentesque tempus libero id tincidunt. Nullam condimentum felis sit amet interdum faucibus. Nunc viverra elementum tristique. Fusce euismod nec risus venenatis semper.
+The next screen we will configure to publish all of the site at once. Click on the **Include Children Settings** button which brings up a modal. Click to **Include children** and deselect all the other options. Click **OK**.
+
+This is our first publish, so we want to publish _everything_. On subsequent publishing, you might want to be more specific about what you're publishing.
+
+Next, select the checkbox of the Demo site to bring up the **Published References** button and click it. This will provide a list of all the references connected with the site. Leave everything selected, and click **Done**. Then click **Publish**.
+
+AEM Cloud Service will begin publishing your site, which may take a moment depending upong environment performance and caching.
+
+## Experience Fragments
+
+We also need to publish Experience Fragments - i.e. Site Elements - separately. So let's navigate to the Experience Fragments. Click on the folder for your Demo site, and the checkbox to bring up the context menu. Select **Publish**.
+
+## Check it out!
+
+Your site has now been published. Navigate to the en > Home page, and click Edit. Then once in edit mode, we can edit the URL to see your site. Change author to publish and remove /editor.html and you can see the live published version of your site. For example: http://author-p5128372-e8923745.adobeaemcloud.com/editor.html/content/demo/en/home.html becomes http://publish.p5128372-e8923745.adobeaemcloud.com/conteent/demo/en/home.html.
+
+## Congratulations!
+
+You've now learned the basics for how you can manage your new Site with AEM and the Tailwind AEM Site Template!
