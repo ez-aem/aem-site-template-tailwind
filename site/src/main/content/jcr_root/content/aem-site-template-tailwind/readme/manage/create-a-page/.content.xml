@@ -7,7 +7,7 @@
   jcr:primaryType="cq:Page"
 >
     <jcr:content
-    cq:lastModified="{Date}2022-02-16T14:31:52.985-03:00"
+    cq:lastModified="{Date}2022-02-16T17:37:34.515-03:00"
     cq:lastModifiedBy="admin"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/article-page"
     jcr:description="Learn how to create your own pages in AEM. "
@@ -48,7 +48,50 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container"
             layout="responsiveGrid"
-          />
+          >
+                        <text
+              jcr:created="{Date}2022-02-16T17:29:14.932-03:00"
+              jcr:createdBy="admin"
+              jcr:lastModified="{Date}2022-02-16T17:36:19.396-03:00"
+              jcr:lastModifiedBy="admin"
+              jcr:primaryType="nt:unstructured"
+              sling:resourceType="core/wcm/components/text/v2/text"
+              text="&lt;p>Creating a Page is one of the most fundamental aspects of authoring in AEM. Navigate to the root of your Demo site, then 'en'. Click the &lt;b>Create&lt;/b> button in the top right, and select &lt;b>Page&lt;/b>. We're going to make an FAQ page.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;h2>Page Templates&lt;/h2>&#xd;&#xa;&lt;p>You'll see there are several Page Templates for you to choose from here. Each has it's own layout and purpose you'll discover as you continue to use the Site Template. For now, let's choose the &lt;i>'Two Column, Grid Width Content Page - 75/25'&lt;/i>.&lt;/p>&#xd;&#xa;&lt;h2>Adding Components&lt;/h2>&#xd;&#xa;&lt;p>In the large column on the left, let's add a Title component and an Accordion component.&lt;/p>&#xd;&#xa;&lt;h3>Title component&lt;/h3>&#xd;&#xa;&lt;p>The Title component will automatically populate with the Title of the Page. But if you'd like to change it, click on the component to bring up the context menu, and then click the wrench &lt;b>Configure&lt;/b> button. Here you can update the Title text, as well as change the heading type. Once you're happy with your changes, hit the &lt;b>Done&lt;/b>&amp;nbsp;button to return to editing the page.&lt;/p>&#xd;&#xa;&lt;h3>Accordion component&lt;/h3>&#xd;&#xa;&lt;p>Next let's edit the accordion component. Click to bring up the context menu and select the wrench to &lt;b>Configure&lt;/b>. Click &lt;b>Add&lt;/b>&amp;nbsp;to add several Text components. Give each a name - or use filler &lt;a href=&quot;https://lipsum.com/feed/html&quot;>text&lt;/a> - and then hit &lt;b>Done&lt;/b>.&lt;/p>&#xd;&#xa;&lt;p>Now that you've added the Accordion titles, let's add some text to each. Click on the Accordion again to bring up the context menu, you'll now see a new button to &lt;b>Select Panel&lt;/b>. Clicking on the &lt;b>Select Panel&lt;/b> button and select the first option. You'll see that this opens the Accordion to edit the first panel component.&lt;/p>&#xd;&#xa;&lt;h3>Editing the Text component&lt;/h3>&#xd;&#xa;&lt;p>Click on the Text component to bring up the context menu, and select the pencil to &lt;b>Edit&lt;/b>. Here you have an inline text editor. Feel free to copy/paste &lt;a href=&quot;https://lipsum.com/feed/html&quot;>filler&lt;/a> text for this exercise. Once you're happy with what you've written, click the checkmark &lt;b>Save&lt;/b> button to return to normal edit mode. You can also select the wrench &lt;b>Configure&lt;/b> button to edit in the modal and fullscreen interface.&lt;/p>&#xd;&#xa;&lt;p>Repeat this for all the items of the Accordion you've added.&lt;/p>&#xd;&#xa;&lt;h3>Download component&lt;/h3>&#xd;&#xa;&lt;p>In the right column, we're going to add an Embed and Download component to help fill out our FAQ Page.&lt;/p>&#xd;&#xa;&lt;p>Let's start with the Download component. Click to &lt;b>Configure&lt;/b> the component. Drag an image from the Assets Side Panel as the file to be downloaded. Next select the &lt;b>Properties&lt;/b> tab, and uncheck &lt;i>'Get title from DAM asset'&lt;/i> to add your own title. Update the title text, perhaps something like &lt;i>'Download the blueprint for your next site'&lt;/i>. You can edit the description the same way, by unchecking the &lt;i>'Get description'&lt;/i> button, and adding the text of your choice. Next add some Action Text, this will display on the button. Then click &lt;b>Done&lt;/b> to save and return to editing.&lt;/p>&#xd;&#xa;&lt;h3>Embed component&lt;/h3>&#xd;&#xa;&lt;p>Go to &lt;a href=&quot;https://youtube.com&quot;>YouTube&lt;/a>, and copy the URL of a video you'd like to add to the site. Back in the AEM Editor, click on the Embed component to bring up the context menu and &lt;b>Configure&lt;/b>. Paste the link into the URL field, and click &lt;b>Done&lt;/b>. Now you'll see the video start to load into AEM, but the size looks a bit funny. Bring up the context menu, and click on the paintbrush &lt;b>Styles&lt;/b>. Select &lt;i>'16/9 Video'&lt;/i> which will add a new style to the component that's more appropriate for a video.&lt;/p>&#xd;&#xa;"
+              textIsRich="true"
+            />
+                        <separator
+              jcr:created="{Date}2022-02-16T17:37:33.243-03:00"
+              jcr:createdBy="admin"
+              jcr:lastModified="{Date}2022-02-16T17:37:33.243-03:00"
+              jcr:lastModifiedBy="admin"
+              jcr:primaryType="nt:unstructured"
+              sling:resourceType="core/wcm/components/separator/v1/separator"
+            />
+                        <teaser
+              cq:styleIds="[1612897454978,1612897513127]"
+              jcr:created="{Date}2022-02-16T17:31:30.930-03:00"
+              jcr:createdBy="admin"
+              jcr:description="&lt;p>Now that you've learned how to Create a Page and author some new components, it's time to learn about Publishing your Site.&lt;/p>&#xd;&#xa;"
+              jcr:lastModified="{Date}2022-02-16T17:32:50.267-03:00"
+              jcr:lastModifiedBy="admin"
+              jcr:primaryType="nt:unstructured"
+              jcr:title="Next Steps"
+              sling:resourceType="core/wcm/components/teaser/v1/teaser"
+              actionsEnabled="true"
+              descriptionFromPage="false"
+              fileReference="/content/dam/tw-1-23-8/Image@2x.png"
+              textIsRich="true"
+              titleFromPage="false"
+            >
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                  jcr:primaryType="nt:unstructured"
+                  link="/content/aem-site-template-tailwind/readme/manage/publish"
+                  text="Keep Reading"
+                />
+                            </actions>
+                        </teaser>
+                    </container>
                 </container_1125714356>
             </container>
         </root>

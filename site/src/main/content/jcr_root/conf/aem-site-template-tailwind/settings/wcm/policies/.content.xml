@@ -72,7 +72,7 @@
                         <download jcr:primaryType="nt:unstructured">
                             <policy_default
                 jcr:description="Sets the title size to H3."
-                jcr:lastModified="{Date}2022-02-16T15:52:14.741-03:00"
+                jcr:lastModified="{Date}2022-02-16T18:02:26.421-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Content Download"
@@ -430,7 +430,7 @@
                             </policy_xf_root>
                             <policy_1641470010395
                 jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                jcr:lastModified="{Date}2022-02-16T15:52:30.399-03:00"
+                jcr:lastModified="{Date}2022-02-16T18:02:52.148-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Page Content"
@@ -634,7 +634,7 @@
                             </policy_page>
                             <policy_default
                 jcr:description="Allows all sizes, but not H1, which is reserved for the main page title."
-                jcr:lastModified="{Date}2022-02-16T15:53:19.316-03:00"
+                jcr:lastModified="{Date}2022-02-16T18:01:58.535-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Content Title"
@@ -724,7 +724,7 @@
                     <v2 jcr:primaryType="nt:unstructured">
                         <text jcr:primaryType="nt:unstructured">
                             <policy_default
-                jcr:lastModified="{Date}2022-02-16T15:53:08.779-03:00"
+                jcr:lastModified="{Date}2022-02-16T18:02:03.256-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Content Text"
@@ -1002,7 +1002,7 @@
                         <separator jcr:primaryType="nt:unstructured">
                             <policy_default
                 cq:styleDefaultClasses="standard"
-                jcr:lastModified="{Date}2022-02-16T15:53:02.042-03:00"
+                jcr:lastModified="{Date}2022-02-16T18:02:19.334-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Content Separator"
@@ -1086,7 +1086,7 @@
                         <button jcr:primaryType="nt:unstructured">
                             <policy_default
                 cq:styleDefaultClasses="call-to-action"
-                jcr:lastModified="{Date}2022-02-16T15:52:08.639-03:00"
+                jcr:lastModified="{Date}2022-02-16T18:02:39.057-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Content Button"
@@ -1147,7 +1147,7 @@
                         <tabs jcr:primaryType="nt:unstructured">
                             <policy_default
                 cq:styleDefaultClasses="horizontal"
-                jcr:lastModified="{Date}2022-02-16T15:53:33.646-03:00"
+                jcr:lastModified="{Date}2022-02-16T18:02:13.880-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Content Tabs"
@@ -1189,7 +1189,7 @@
                     <v1 jcr:primaryType="nt:unstructured">
                         <embed jcr:primaryType="nt:unstructured">
                             <policy_default
-                jcr:lastModified="{Date}2022-02-16T15:52:04.006-03:00"
+                jcr:lastModified="{Date}2022-02-16T18:02:32.303-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Default Embed Policy"

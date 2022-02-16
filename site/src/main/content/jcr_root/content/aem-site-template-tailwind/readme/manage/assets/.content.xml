@@ -7,7 +7,7 @@
   jcr:primaryType="cq:Page"
 >
     <jcr:content
-    cq:lastModified="{Date}2022-02-16T14:31:08.938-03:00"
+    cq:lastModified="{Date}2022-02-16T17:48:29.707-03:00"
     cq:lastModifiedBy="admin"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/article-page"
     jcr:description="Images, videos, graphics -- learn how to work with the Digital Asset Management area of AEM. "
@@ -53,11 +53,11 @@
                         <text_1115671692_copy
               jcr:created="{Date}2022-02-15T15:20:32.611-03:00"
               jcr:createdBy="admin"
-              jcr:lastModified="{Date}2022-02-15T15:46:14.263-03:00"
+              jcr:lastModified="{Date}2022-02-16T17:48:29.704-03:00"
               jcr:lastModifiedBy="admin"
               jcr:primaryType="nt:unstructured"
               sling:resourceType="core/wcm/components/text/v2/text"
-              text="&lt;p>Adobe Experience Manager (AEM) Assets is a digital asset management tool on AEM Platform that allows users to create, manage, and share their digital assets (images, videos, documents, and audio clips) in a web-based repository.&lt;/p>&#xd;&#xa;&lt;p>There is far more to AEM Assets than can be explained here, so make sure you follow up with Adobe Experience League&amp;nbsp;&lt;a href=&quot;https://experienceleague.adobe.com/docs/experience-manager-learn/assets/overview.html?lang=en&quot;>tutorials and documentation&lt;/a>.&lt;/p>&#xd;&#xa;&lt;h2>&lt;a href=&quot;https://github.com/ez-aem/aem-site-template-tailwind/blob/gh-pages/docs/docs/manage/assets.md#add-your-logo&quot;>&lt;/a>Add your Logo&lt;/h2>&#xd;&#xa;&lt;p>After you've created your Site, the first thing you will want to do is to upload your logo, and any images you know you want to use.&lt;/p>&#xd;&#xa;&lt;p>In your AEM Cloud Service environment, navigate to the home screen, and select Assets &amp;gt; Files, and then the folder with the name of your site.&lt;/p>&#xd;&#xa;&lt;p>By default, the Tailwind AEM Site Template ships with minimal images for easy customization.&lt;/p>&#xd;&#xa;&lt;p>Once in your Site Assets folder, click on the&amp;nbsp;Create&amp;nbsp;button, and select&amp;nbsp;Files. Navigate to your logo files - and any other images you want to use - on your computer and select them for upload. This will take a moment, depending upon the speed of your internet connection.&lt;/p>&#xd;&#xa;"
+              text="&lt;p>Adobe Experience Manager (AEM) Assets is a digital asset management tool on the AEM Platform that allows users to create, manage, and share their digital assets (images, videos, documents, and audio clips) in a web-based repository.&lt;/p>&#xd;&#xa;&lt;p>There's lots more to AEM Assets than can be explained here, so make sure to follow up with Adobe Experience League&amp;nbsp;&lt;a href=&quot;https://experienceleague.adobe.com/docs/experience-manager-learn/assets/overview.html?lang=en&quot;>tutorials and documentation&lt;/a>.&lt;/p>&#xd;&#xa;&lt;h2>&lt;a href=&quot;https://github.com/ez-aem/aem-site-template-tailwind/blob/gh-pages/docs/docs/manage/assets.md#add-your-logo&quot;>&lt;/a>Add your Logo&lt;/h2>&#xd;&#xa;&lt;p>After you've created your site, the first thing you'll want to do is to upload your logo and any other images you might want to use.&lt;/p>&#xd;&#xa;&lt;p>In your AEM Cloud Service environment, navigate to the home screen, and select Assets &amp;gt; Files. Then select the folder with your site name.&lt;/p>&#xd;&#xa;&lt;p>By default, the Tailwind AEM Site Template ships with a small set of placeholder images for easy customization.&lt;/p>&#xd;&#xa;&lt;p>Once in your Site Assets folder, click on the&amp;nbsp;Create&amp;nbsp;button and select&amp;nbsp;Files. Navigate to your logo files - and any other images you want to use - on your computer and select them for upload. This will take a moment, depending on the speed of your internet connection.&lt;/p>&#xd;&#xa;"
               textIsRich="true"
             />
                         <separator_copy
