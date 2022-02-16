@@ -6,7 +6,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-  <jcr:content
+    <jcr:content
     cq:lastModified="{Date}2022-01-06T11:34:48.728-03:00"
     cq:lastModifiedBy="admin"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/article-page"
@@ -17,11 +17,11 @@
     pwaOrientation="any"
     socialMedia="[facebook,pinterest]"
   >
-    <root
+        <root
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
     >
-      <container
+            <container
         jcr:created="{Date}2022-01-06T09:17:26.934-03:00"
         jcr:createdBy="admin"
         jcr:lastModified="{Date}2022-01-06T09:17:26.934-03:00"
@@ -29,7 +29,7 @@
         jcr:primaryType="nt:unstructured"
         sling:resourceType="core/wcm/components/container/v1/container"
       >
-        <container_1125714356
+                <container_1125714356
           jcr:created="{Date}2022-01-06T11:25:04.291-03:00"
           jcr:createdBy="admin"
           jcr:lastModified="{Date}2022-01-06T11:25:10.693-03:00"
@@ -38,7 +38,7 @@
           sling:resourceType="core/wcm/components/container/v1/container"
           layout="responsiveGrid"
         >
-          <container
+                    <container
             jcr:created="{Date}2022-01-06T09:17:29.978-03:00"
             jcr:createdBy="admin"
             jcr:lastModified="{Date}2022-01-06T11:27:16.626-03:00"
@@ -47,8 +47,8 @@
             sling:resourceType="core/wcm/components/container/v1/container"
             layout="responsiveGrid"
           />
-        </container_1125714356>
-      </container>
-    </root>
-  </jcr:content>
+                </container_1125714356>
+            </container>
+        </root>
+    </jcr:content>
 </jcr:root>

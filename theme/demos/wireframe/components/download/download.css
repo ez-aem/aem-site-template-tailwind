@@ -12,6 +12,8 @@
 }
 .cmp-download__property {
   @apply text-xs font-semibold text-shade-4;
+
+  @apply dark:text-foreground;
 }
 .cmp-download__property-label {
   @apply hidden;
@@ -20,6 +22,8 @@
   @apply mt-2 inline-flex items-center gap-2 rounded-full border-accent bg-accent py-2 pl-3 pr-4 text-center font-semibold text-background transition-colors duration-300;
   @apply hover:border-accent-darker hover:bg-accent-darker hover:no-underline;
   @apply focus:rounded-full focus:border-background focus:bg-accent-darker focus:no-underline;
+
+  @apply dark:text-foreground;
 
   &::before {
     @apply h-5 w-5 bg-center bg-no-repeat;

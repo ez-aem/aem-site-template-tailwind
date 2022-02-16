@@ -14,7 +14,7 @@
     "prettier:check": "prettier --check **/*.{css,html,js,ts}",
     "prettier:fix": "prettier --write **/*.{css,html,js,ts}",
     "proxy": "aem-site-theme-builder live",
-    "watch": "run-s watch:*",
+    "watch": "run-p watch:*",
     "watch:color-scheme": "parcel watch src/color-scheme.ts",
     "watch:theme": "parcel watch src/theme.ts"
   },

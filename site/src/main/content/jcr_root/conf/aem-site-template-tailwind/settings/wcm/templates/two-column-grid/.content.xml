@@ -5,7 +5,7 @@
   jcr:primaryType="cq:Template"
 >
     <jcr:content
-    cq:lastModified="{Date}2022-01-06T10:59:57.245-03:00"
+    cq:lastModified="{Date}2022-02-15T14:45:53.115-03:00"
     cq:lastModifiedBy="admin"
     cq:templateType="/conf/aem-site-template-tailwind/settings/wcm/template-types/page"
     jcr:primaryType="cq:PageContent"

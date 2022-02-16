@@ -150,12 +150,12 @@ module.exports = {
         },
         invert: {
           css: {
-            "--tw-prose-invert-headings": theme("colors.background"),
+            "--tw-prose-invert-headings": theme("colors.foreground"),
             "--tw-prose-invert-links": theme("colors.link"),
             "--tw-prose-pre-code": theme("colors.shade-1"),
             "--tw-prose-pre-bg": theme("colors.shade-4"),
-            "--tw-prose-td-borders": theme("colors.background"),
-            "--tw-prose-bullets": theme("colors.background"),
+            "--tw-prose-td-borders": theme("colors.shade-4"),
+            "--tw-prose-bullets": theme("colors.shade-1"),
             "--tw-prose-body": theme("colors.foreground"),
             h6: {
               color: theme("colors.shade-1"),

@@ -7,7 +7,7 @@
   jcr:primaryType="cq:Page"
 >
     <jcr:content
-    cq:lastModified="{Date}2022-01-06T10:59:57.245-03:00"
+    cq:lastModified="{Date}2022-02-15T14:45:53.115-03:00"
     cq:lastModifiedBy="admin"
     cq:policy="core/wcm/components/page/v2/page/policy_default"
     jcr:primaryType="nt:unstructured"
@@ -377,7 +377,23 @@
             cq:policy="core/wcm/components/container/v1/container/policy_1641470010395"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/core/components/policies/mapping"
-          />
+          >
+                        <core jcr:primaryType="nt:unstructured">
+                            <wcm jcr:primaryType="nt:unstructured">
+                                <components jcr:primaryType="nt:unstructured">
+                                    <teaser jcr:primaryType="nt:unstructured">
+                                        <v1 jcr:primaryType="nt:unstructured">
+                                            <teaser
+                        cq:policy="core/wcm/components/teaser/v1/teaser/policy_default"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"
+                      />
+                                        </v1>
+                                    </teaser>
+                                </components>
+                            </wcm>
+                        </core>
+                    </container_copy>
                     <breadcrumb
             cq:policy="core/wcm/components/breadcrumb/v2/breadcrumb/policy_default"
             jcr:primaryType="nt:unstructured"
