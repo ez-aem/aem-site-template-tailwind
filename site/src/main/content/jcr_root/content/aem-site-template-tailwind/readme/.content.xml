@@ -7,13 +7,12 @@
   jcr:primaryType="cq:Page"
 >
     <jcr:content
-    cq:lastModified="{Date}2022-02-15T16:44:40.225-03:00"
+    cq:lastModified="{Date}2022-02-17T13:39:17.740+01:00"
     cq:lastModifiedBy="admin"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/two-column-grid1"
     jcr:primaryType="cq:PageContent"
     jcr:title="README"
     sling:resourceType="core/wcm/components/page/v2/page"
-    hideInNav="true"
     pwaCachestrategy="staleWhileRevalidate"
     pwaDisplay="standalone"
     pwaOrientation="any"
@@ -175,6 +174,29 @@
                 />
                             </actions>
                         </teaser_1553495489_co>
+                        <teaser_983666080
+              cq:styleIds="[1612830658386,1612897513127]"
+              jcr:created="{Date}2022-02-17T13:30:38.239+01:00"
+              jcr:createdBy="admin"
+              jcr:description="&lt;p>Want to build the template for yourself? Get the code from GitHub!&lt;/p>&#xd;&#xa;"
+              jcr:lastModified="{Date}2022-02-17T13:31:22.201+01:00"
+              jcr:lastModifiedBy="admin"
+              jcr:primaryType="nt:unstructured"
+              jcr:title="Download Template"
+              sling:resourceType="core/wcm/components/teaser/v1/teaser"
+              actionsEnabled="true"
+              descriptionFromPage="false"
+              textIsRich="true"
+              titleFromPage="false"
+            >
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                  jcr:primaryType="nt:unstructured"
+                  link="https://github.com/adobe/aem-site-template-standard"
+                  text="Get the code"
+                />
+                            </actions>
+                        </teaser_983666080>
                     </container_copy>
                 </container>
             </container_1134415548>

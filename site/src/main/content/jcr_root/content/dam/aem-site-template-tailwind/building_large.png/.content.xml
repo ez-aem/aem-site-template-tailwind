@@ -9,7 +9,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:mixinTypes="[mix:referenceable]"
   jcr:primaryType="dam:Asset"
-  jcr:uuid="3284df1c-22b2-4fae-a9be-63e47eac9372"
+  jcr:uuid="43162027-fb9c-41d7-8c15-d1e7a9b0fdef"
 >
     <jcr:content
     dam:assetState="processed"
@@ -17,13 +17,13 @@
     dam:processingRenditions="[cqdam.machine.metadata.json,cq5dam.thumbnail.140.100.png,cqdam.text.txt,cqdam.metadata.xml,cq5dam.thumbnail.48.48.png,cq5dam.thumbnail.319.319.png,cq5dam.web.1280.1280.jpeg]"
     dam:processingRequestedDate="{Date}2021-02-06T00:32:39.739Z"
     dam:runPostProcess="{Boolean}true"
-    jcr:lastModified="{Date}2022-02-15T14:05:03.942-03:00"
+    jcr:lastModified="{Date}2022-02-17T09:51:57.504+01:00"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="dam:AssetContent"
   >
         <metadata
       dam:Bitsperpixel="{Long}32"
-      dam:extracted="{Date}2022-02-15T14:05:02.490-03:00"
+      dam:extracted="{Date}2022-02-17T09:51:56.925+01:00"
       dam:Fileformat="PNG"
       dam:MIMEtype="image/png"
       dam:Numberofimages="{Long}1"

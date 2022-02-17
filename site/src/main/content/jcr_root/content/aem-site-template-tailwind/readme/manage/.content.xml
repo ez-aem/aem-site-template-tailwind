@@ -7,13 +7,12 @@
   jcr:primaryType="cq:Page"
 >
     <jcr:content
-    cq:lastModified="{Date}2022-02-16T14:30:48.691-03:00"
+    cq:lastModified="{Date}2022-02-17T10:23:46.197+01:00"
     cq:lastModifiedBy="admin"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/two-column-grid"
     jcr:primaryType="cq:PageContent"
     jcr:title="Manage"
     sling:resourceType="core/wcm/components/page/v2/page"
-    hideInNav="true"
     pwaCachestrategy="staleWhileRevalidate"
     pwaDisplay="standalone"
     pwaOrientation="any"

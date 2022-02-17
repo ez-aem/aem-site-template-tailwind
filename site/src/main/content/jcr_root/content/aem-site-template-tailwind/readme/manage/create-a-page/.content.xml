@@ -7,14 +7,13 @@
   jcr:primaryType="cq:Page"
 >
     <jcr:content
-    cq:lastModified="{Date}2022-02-16T18:07:29.025-03:00"
+    cq:lastModified="{Date}2022-02-17T10:24:12.133+01:00"
     cq:lastModifiedBy="admin"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/article-page"
     jcr:description="Learn how to create your own pages in AEM. "
     jcr:primaryType="cq:PageContent"
     jcr:title="Create a Page"
     sling:resourceType="core/wcm/components/page/v2/page"
-    hideInNav="true"
     pwaCachestrategy="staleWhileRevalidate"
     pwaDisplay="standalone"
     pwaOrientation="any"
@@ -68,8 +67,38 @@
               jcr:primaryType="nt:unstructured"
               sling:resourceType="core/wcm/components/separator/v1/separator"
             />
+                        <teaser_copy_copy_cop
+              cq:styleIds="[1612830658386,1612897513127]"
+              jcr:created="{Date}2022-02-15T15:43:27.877-03:00"
+              jcr:createdBy="admin"
+              jcr:description="&lt;p>Now that we've added your logo to the Site Assets, let's make use of it by updating the Site Elements - Header &amp;amp; Footer.&lt;/p>&#xd;&#xa;"
+              jcr:lastModified="{Date}2022-02-17T10:18:18.076+01:00"
+              jcr:lastModifiedBy="admin"
+              jcr:primaryType="nt:unstructured"
+              jcr:title="Previous Step"
+              sling:resourceType="core/wcm/components/teaser/v1/teaser"
+              actionsEnabled="true"
+              descriptionFromPage="true"
+              textIsRich="true"
+              titleFromPage="false"
+            >
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                  jcr:primaryType="nt:unstructured"
+                  offset="0"
+                  width="4"
+                />
+                            </cq:responsive>
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                  jcr:primaryType="nt:unstructured"
+                  link="/content/aem-site-template-tailwind/readme/manage/authoring"
+                  text="Keep Reading"
+                />
+                            </actions>
+                        </teaser_copy_copy_cop>
                         <teaser
-              cq:styleIds="[1612897454978,1612897513127]"
+              cq:styleIds="[1612897513127,1612830658386]"
               jcr:created="{Date}2022-02-16T17:31:30.930-03:00"
               jcr:createdBy="admin"
               jcr:description="&lt;p>Now that you've learned how to Create a Page and author some new components, it's time to learn about Publishing your Site.&lt;/p>&#xd;&#xa;"
@@ -91,6 +120,13 @@
                   text="Keep Reading"
                 />
                             </actions>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                  jcr:primaryType="nt:unstructured"
+                  offset="0"
+                  width="4"
+                />
+                            </cq:responsive>
                         </teaser>
                     </container>
                 </container_1125714356>

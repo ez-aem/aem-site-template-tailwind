@@ -7,14 +7,13 @@
   jcr:primaryType="cq:Page"
 >
     <jcr:content
-    cq:lastModified="{Date}2022-02-16T17:48:29.707-03:00"
+    cq:lastModified="{Date}2022-02-17T13:19:24.846+01:00"
     cq:lastModifiedBy="admin"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/article-page"
     jcr:description="Images, videos, graphics -- learn how to work with the Digital Asset Management area of AEM. "
     jcr:primaryType="cq:PageContent"
     jcr:title="Assets"
     sling:resourceType="core/wcm/components/page/v2/page"
-    hideInNav="true"
     pwaCachestrategy="staleWhileRevalidate"
     pwaDisplay="standalone"
     pwaOrientation="any"
@@ -69,21 +68,27 @@
               sling:resourceType="core/wcm/components/separator/v1/separator"
             />
                         <teaser_copy
-              cq:styleIds="[1612897454978,1612897513127]"
+              cq:styleIds="[1612897513127,1612830658386]"
               jcr:created="{Date}2022-02-15T15:43:27.877-03:00"
               jcr:createdBy="admin"
               jcr:description="&lt;p>Now that we've added your logo to the Site Assets, let's make use of it by updating the Site Elements - Header &amp;amp; Footer.&lt;/p>&#xd;&#xa;"
-              jcr:lastModified="{Date}2022-02-15T15:46:29.495-03:00"
+              jcr:lastModified="{Date}2022-02-17T10:09:50.545+01:00"
               jcr:lastModifiedBy="admin"
               jcr:primaryType="nt:unstructured"
               jcr:title="Next Steps"
               sling:resourceType="core/wcm/components/teaser/v1/teaser"
               actionsEnabled="true"
               descriptionFromPage="false"
-              fileReference="/content/dam/aem-site-template-tailwind/Image@2x.png"
               textIsRich="true"
               titleFromPage="false"
             >
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                  jcr:primaryType="nt:unstructured"
+                  offset="0"
+                  width="8"
+                />
+                            </cq:responsive>
                             <actions jcr:primaryType="nt:unstructured">
                                 <item0
                   jcr:primaryType="nt:unstructured"
