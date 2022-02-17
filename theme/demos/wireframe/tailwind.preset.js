@@ -150,6 +150,7 @@ module.exports = {
         },
         invert: {
           css: {
+            "--tw-prose-headings": theme("colors.foreground"),
             "--tw-prose-invert-headings": theme("colors.foreground"),
             "--tw-prose-invert-links": theme("colors.link"),
             "--tw-prose-pre-code": theme("colors.shade-1"),
@@ -165,8 +166,8 @@ module.exports = {
       }),
     },
     screens: {
-      phone: { max: "768px" },
-      default: "769px",
+      phone: { max: "860px" },
+      default: "861px",
     },
   },
   variants: {
