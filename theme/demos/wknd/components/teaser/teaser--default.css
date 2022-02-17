@@ -1,12 +1,15 @@
 @layer utilities {
   .teaser:not(.teaser--text-bottom):not(.teaser--text-right):not(.teaser--text-left):not(.teaser--overlay):not(.teaser--mini) {
-    .cmp-teaser {
-      @apply flex flex-col overflow-y-hidden;
+    .cmp-teaser.cq-dd-image {
+      @apply flex flex-col overflow-y-hidden relative;
       max-height: 680px;
+      .cmp-teaser__content {
+        @apply absolute bottom-0 left-1/2 -translate-x-1/2;
+      }
     }
 
     .cmp-teaser__content {
-      @apply bg-background py-4 px-7 items-start max-w-6xl w-full -mt-52;
+      @apply bg-background py-4 px-7 items-start max-w-6xl w-full;
 
       p {
         text-align: left;
