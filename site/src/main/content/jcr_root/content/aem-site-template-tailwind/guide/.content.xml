@@ -11,7 +11,7 @@
     cq:lastModifiedBy="admin"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/two-column-grid1"
     jcr:primaryType="cq:PageContent"
-    jcr:title="README"
+    jcr:title="Guide"
     sling:resourceType="core/wcm/components/page/v2/page"
     pwaCachestrategy="staleWhileRevalidate"
     pwaDisplay="standalone"

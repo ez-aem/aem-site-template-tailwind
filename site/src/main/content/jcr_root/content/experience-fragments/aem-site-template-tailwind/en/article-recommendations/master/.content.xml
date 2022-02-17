@@ -70,8 +70,8 @@
                     <actions jcr:primaryType="nt:unstructured">
                         <item0
               jcr:primaryType="nt:unstructured"
-              link="/content/aem-site-template-tailwind/readme"
-              text="Read Me"
+              link="/content/aem-site-template-tailwind/guide"
+              text="Guide"
             />
                     </actions>
                 </teaser_copy_74296013_1715082336>
