@@ -18,7 +18,7 @@ module.exports = {
         name: "phone",
         columns: 12,
         gap: "1rem",
-        breakpoint: "768px",
+        breakpoint: "860px",
         breakpointType: "max-width",
         horizontalPadding: true,
       },
