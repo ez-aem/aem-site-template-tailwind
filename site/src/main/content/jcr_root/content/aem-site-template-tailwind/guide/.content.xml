@@ -134,7 +134,7 @@
                             <actions jcr:primaryType="nt:unstructured">
                                 <item0
                   jcr:primaryType="nt:unstructured"
-                  link="/content/aem-site-template-tailwind/readme/manage"
+                  link="/content/aem-site-template-tailwind/guide/manage"
                   text="Learn More"
                 />
                             </actions>
@@ -169,7 +169,7 @@
                             <actions jcr:primaryType="nt:unstructured">
                                 <item0
                   jcr:primaryType="nt:unstructured"
-                  link="/content/aem-site-template-tailwind/readme/customize"
+                  link="/content/aem-site-template-tailwind/guide/customize"
                   text="Learn More"
                 />
                             </actions>

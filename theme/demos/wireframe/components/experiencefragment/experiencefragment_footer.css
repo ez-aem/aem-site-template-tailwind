@@ -7,7 +7,7 @@
       @apply items-center;
     }
 
-    .title {
+    #copyright {
       @apply flex items-center justify-center;
     }
 

@@ -92,7 +92,7 @@
                             <actions jcr:primaryType="nt:unstructured">
                                 <item0
                   jcr:primaryType="nt:unstructured"
-                  link="/content/aem-site-template-tailwind/readme/manage/assets"
+                  link="/content/aem-site-template-tailwind/guide/manage/assets"
                   text="Keep Reading"
                 />
                             </actions>
@@ -115,7 +115,7 @@
                             <actions jcr:primaryType="nt:unstructured">
                                 <item0
                   jcr:primaryType="nt:unstructured"
-                  link="/content/aem-site-template-tailwind/readme/manage/authoring"
+                  link="/content/aem-site-template-tailwind/guide/manage/authoring"
                   text="Keep Reading"
                 />
                             </actions>

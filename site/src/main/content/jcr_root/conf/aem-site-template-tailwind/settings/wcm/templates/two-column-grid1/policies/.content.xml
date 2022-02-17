@@ -88,6 +88,13 @@
                     sling:resourceType="wcm/core/components/policies/mapping"
                   />
                                 </v2>
+                                        <v3 jcr:primaryType="nt:unstructured">
+                                            <image
+                    cq:policy="core/wcm/components/image/v3/image/policy_default"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"
+                  />
+                                        </v3>
                             </image>
                             <download jcr:primaryType="nt:unstructured">
                                 <v1 jcr:primaryType="nt:unstructured">
@@ -216,6 +223,13 @@
                       sling:resourceType="wcm/core/components/policies/mapping"
                     />
                                     </v2>
+                                        <v3 jcr:primaryType="nt:unstructured">
+                                            <image
+                      cq:policy="core/wcm/components/image/v3/image/policy_default"
+                      jcr:primaryType="nt:unstructured"
+                      sling:resourceType="wcm/core/components/policies/mapping"
+                    />
+                                        </v3>
                                 </image>
                                 <download jcr:primaryType="nt:unstructured">
                                     <v1 jcr:primaryType="nt:unstructured">
@@ -319,6 +333,13 @@
                         sling:resourceType="wcm/core/components/policies/mapping"
                       />
                                         </v2>
+                                        <v3 jcr:primaryType="nt:unstructured">
+                                            <image
+                        cq:policy="core/wcm/components/image/v3/image/policy_default"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"
+                      />
+                                        </v3>
                                     </image>
                                     <embed jcr:primaryType="nt:unstructured">
                                         <v1 jcr:primaryType="nt:unstructured">
@@ -474,6 +495,13 @@
                         sling:resourceType="wcm/core/components/policies/mapping"
                       />
                                         </v2>
+                                        <v3 jcr:primaryType="nt:unstructured">
+                                            <image
+                        cq:policy="core/wcm/components/image/v3/image/policy_default"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"
+                      />
+                                        </v3>
                                     </image>
                                 </components>
                             </wcm>

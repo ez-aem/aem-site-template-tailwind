@@ -74,7 +74,7 @@
               jcr:primaryType="nt:unstructured"
               jcr:title="Keep Reading"
               sling:resourceType="core/wcm/components/button/v1/button"
-              link="/content/aem-site-template-tailwind/readme/manage/assets"
+              link="/content/aem-site-template-tailwind/guide/manage/assets"
             />
                     </container>
                     <container_copy
@@ -96,7 +96,7 @@
               childDepth="1"
               linkItems="true"
               listFrom="children"
-              parentPage="/content/aem-site-template-tailwind/readme/manage"
+              parentPage="/content/aem-site-template-tailwind/guide/manage"
               showDescription="true"
               showModificationDate="false"
               sortOrder="asc"
