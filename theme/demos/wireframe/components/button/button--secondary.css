@@ -1,18 +1,20 @@
-.button.button--secondary {
-  .cmp-button {
-    @apply border-shade-4 bg-transparent text-shade-4;
-    @apply hover:bg-shade-4 hover:text-background;
-    @apply focus:rounded-full focus:border-background focus:bg-shade-4 focus:text-background focus:ring-offset-0 focus:ring-offset-transparent;
-  }
-}
-
-.dark,
-.dark-container {
+@layer utilities {
   .button.button--secondary {
     .cmp-button {
-      @apply border-background bg-transparent text-background;
-      @apply hover:bg-background hover:text-foreground;
-      @apply focus:rounded-full focus:border-shade-3 focus:bg-background focus:text-foreground focus:ring-focus focus:ring-offset-0 focus:ring-offset-transparent;
+      @apply border-shade-4 bg-transparent text-shade-4;
+      @apply hover:bg-shade-4 hover:text-background;
+      @apply focus:rounded-full focus:border-background focus:bg-shade-4 focus:text-background focus:ring-offset-0 focus:ring-offset-transparent;
+    }
+  }
+
+  .dark,
+  .dark-container {
+    .button.button--secondary {
+      .cmp-button {
+        @apply border-background bg-transparent text-background;
+        @apply hover:bg-background hover:text-foreground;
+        @apply focus:rounded-full focus:border-shade-3 focus:bg-background focus:text-foreground focus:ring-focus focus:ring-offset-0 focus:ring-offset-transparent;
+      }
     }
   }
 }

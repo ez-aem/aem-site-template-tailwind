@@ -1,2 +1,4 @@
-.cmp-contentfragmentlist {
+@layer components {
+  .cmp-contentfragmentlist {
+  }
 }

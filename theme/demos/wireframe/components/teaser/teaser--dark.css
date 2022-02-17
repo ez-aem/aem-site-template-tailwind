@@ -1,5 +1,7 @@
-.teaser--dark {
-  .cmp-teaser__content {
-    @apply p-4 bg-background;
+@layer utilities {
+  .teaser--dark {
+    .cmp-teaser__content {
+      @apply p-4 bg-background;
+    }
   }
 }

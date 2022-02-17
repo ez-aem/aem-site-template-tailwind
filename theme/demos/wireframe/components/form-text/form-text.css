@@ -1,24 +1,26 @@
-.cmp-form-text {
-  @apply flex flex-col gap-y-2;
+@layer components {
+  .cmp-form-text {
+    @apply flex flex-col gap-y-2;
 
-  label {
-    @apply text-foreground;
-  }
-}
-
-.cmp-form-text__help-block {
-}
-.cmp-form-text__textarea,
-.cmp-form-text__text {
-  @apply rounded border-2 border-shade-1 bg-shade-1 font-sans transition-colors duration-200;
-  @apply hover:bg-background;
-  @apply focus:border-focus focus:bg-background focus:text-foreground;
-
-  &::placeholder {
-    @apply dark:text-shade-4;
+    label {
+      @apply text-foreground;
+    }
   }
 
-  &:hover::placeholder {
-    @apply dark:text-shade-1;
+  .cmp-form-text__help-block {
+  }
+  .cmp-form-text__textarea,
+  .cmp-form-text__text {
+    @apply rounded border-2 border-shade-1 bg-shade-1 font-sans transition-colors duration-200;
+    @apply hover:bg-background;
+    @apply focus:border-focus focus:bg-background focus:text-foreground;
+
+    &::placeholder {
+      @apply dark:text-shade-4;
+    }
+
+    &:hover::placeholder {
+      @apply dark:text-shade-1;
+    }
   }
 }

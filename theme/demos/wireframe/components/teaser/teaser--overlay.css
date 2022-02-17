@@ -1,63 +1,65 @@
-.teaser:not(.teaser--text-bottom):not(.teaser--text-right):not(.teaser--text-left) {
-  .cmp-teaser {
-    @apply grid default:aspect-4/1;
-    grid-template-areas: "overlay";
-  }
+@layer utilities {
+  .teaser:not(.teaser--text-bottom):not(.teaser--text-right):not(.teaser--text-left) {
+    .cmp-teaser {
+      @apply grid default:aspect-4/1;
+      grid-template-areas: "overlay";
+    }
 
-  .cmp-teaser__image,
-  .cmp-teaser__content {
-    grid-area: overlay;
-  }
+    .cmp-teaser__image,
+    .cmp-teaser__content {
+      grid-area: overlay;
+    }
 
-  .cmp-teaser__image {
-    @apply min-h-full;
+    .cmp-teaser__image {
+      @apply min-h-full;
 
-    .cmp-image {
-      @apply h-full;
+      .cmp-image {
+        @apply h-full;
 
-      .cmp-image__image {
-        @apply h-full object-cover;
+        .cmp-image__image {
+          @apply h-full object-cover;
+        }
       }
     }
-  }
 
-  .cmp-teaser__content {
-    @apply justify-center gap-y-6 place-self-center p-10 text-center text-background;
-    max-width: var(--aem-grid-max-width, 60rem);
-
-    @apply dark:text-foreground;
-
-    .cmp-teaser__pretitle,
-    .cmp-teaser__title,
-    .cmp-teaser__title a {
-      @apply text-background;
-      @apply focus:ring-offset-transparent;
+    .cmp-teaser__content {
+      @apply justify-center gap-y-6 place-self-center p-10 text-center text-background;
+      max-width: var(--aem-grid-max-width, 60rem);
 
       @apply dark:text-foreground;
+
+      .cmp-teaser__pretitle,
+      .cmp-teaser__title,
+      .cmp-teaser__title a {
+        @apply text-background;
+        @apply focus:ring-offset-transparent;
+
+        @apply dark:text-foreground;
+      }
+
+      .cmp-teaser__title {
+        @apply font-serif;
+      }
+
+      .cmp-teaser__action-container {
+        @apply justify-center;
+      }
     }
 
-    .cmp-teaser__title {
-      @apply font-serif;
-    }
+    .cmp-teaser__action-link {
+      &:not(:first-child) {
+        @apply border-background text-background;
+        @apply hover:border-background hover:bg-background hover:text-shade-4;
+        @apply focus:border-focus focus:bg-background focus:text-shade-4 focus:ring-0;
 
-    .cmp-teaser__action-container {
-      @apply justify-center;
-    }
-  }
+        @apply dark:border-foreground dark:text-foreground;
+        @apply dark:hover:border-background dark:hover:text-foreground;
+        @apply dark:focus:border-focus dark:focus:text-foreground;
+      }
 
-  .cmp-teaser__action-link {
-    &:not(:first-child) {
-      @apply border-background text-background;
-      @apply hover:border-background hover:bg-background hover:text-shade-4;
-      @apply focus:border-focus focus:bg-background focus:text-shade-4 focus:ring-0;
-
-      @apply dark:border-foreground dark:text-foreground;
-      @apply dark:hover:border-background dark:hover:text-foreground;
-      @apply dark:focus:border-focus dark:focus:text-foreground;
-    }
-
-    &:first-child {
-      @apply focus:border-transparent focus:ring-focus focus:ring-offset-transparent;
+      &:first-child {
+        @apply focus:border-transparent focus:ring-focus focus:ring-offset-transparent;
+      }
     }
   }
 }

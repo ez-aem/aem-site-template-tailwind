@@ -1,16 +1,18 @@
-.cmp-image {
-}
-.cmp-image__link {
-  @apply flex;
-}
-.cmp-image__image {
-  @apply w-auto;
-}
-.cmp-image__title {
-  @apply my-2 flex text-xs uppercase leading-snug text-shade-4;
-  @apply dark:text-foreground;
-}
+@layer components {
+  .cmp-image {
+  }
+  .cmp-image__link {
+    @apply flex;
+  }
+  .cmp-image__image {
+    @apply w-auto;
+  }
+  .cmp-image__title {
+    @apply my-2 flex text-xs uppercase leading-snug text-shade-4;
+    @apply dark:text-foreground;
+  }
 
-.cmp-carousel__item .cmp-image__image {
-  @apply w-full object-cover;
+  .cmp-carousel__item .cmp-image__image {
+    @apply w-full object-cover;
+  }
 }
