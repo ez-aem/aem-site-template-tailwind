@@ -23,7 +23,6 @@ This template is an opinionated version of the [Adobe standard site template for
 - [TypeScript](https://https://www.typescriptlang.org/)
 - [Prettier](https://https://prettier.io/)
 - [ESLint](https://https://eslint.org/)
-- [Links to EZ-AEM upselling opportunities](https://)
 - [Tailwind VSCode Plugin](https://https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Tailwind Class Name Completion for (neo)vim](https://github.com/iamcco/coc-tailwindcss)
 - [Headwind VSCode Plugin](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)

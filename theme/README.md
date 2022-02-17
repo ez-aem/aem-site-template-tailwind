@@ -47,7 +47,6 @@ npm run live
 - [TypeScript](https://https://www.typescriptlang.org/)
 - [Prettier](https://https://prettier.io/)
 - [ESLint](https://https://eslint.org/)
-- [Links to EZ-AEM upselling opportunities](https://)
 
 ## Removing the Wireframe Theme
 
