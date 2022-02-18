@@ -1,4 +1,4 @@
-@layer utilities {
+@layer components {
   /* XF Header style, used on page template */
   #main-header-wrapper {
     @apply z-50 border-b-2 border-solid border-shade-1;
@@ -85,7 +85,7 @@
       }
 
       .navigation {
-        @apply order-3;
+        @apply order-2;
 
         .cmp-navigation {
           @apply py-2;
@@ -101,22 +101,19 @@
       }
 
       .languagenavigation {
-        @apply order-2;
+        @apply order-3 self-end;
       }
     }
   }
+}
 
-  .aem-AuthorLayer-Preview.aem-Author--hidePlaceholder,
-  .aem-AuthorLayer-Edit {
-    #main-header {
-      @apply h-auto min-h-[5rem];
-    }
-  }
-
+@layer utilities {
   @screen phone {
     .aem-AuthorLayer-Preview.aem-Author--hidePlaceholder,
     .aem-AuthorLayer-Edit {
       #main-header {
+        @apply h-auto min-h-[5rem];
+
         &.open {
           @apply h-full;
 
@@ -128,6 +125,10 @@
 
       #mobile-header {
         @apply hidden;
+
+        .languagenavigation {
+          @apply self-start;
+        }
       }
     }
   }
