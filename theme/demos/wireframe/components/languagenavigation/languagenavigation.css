@@ -9,12 +9,21 @@
 
       &::after {
         @apply rotate-180;
+
+        /* Flip upside down for mobile. As the menu goes up instead of down */
+        @screen phone {
+          @apply rotate-0;
+        }
       }
     }
 
     .cmp-languagenavigation__group {
       @apply translate-y-0 opacity-100;
       visibility: visible;
+
+      @screen phone {
+        --tw-translate-y: calc(-100% - 4rem);
+      }
     }
   }
 
@@ -42,6 +51,11 @@
     @apply mr-2 bg-shade-3 transition-transform duration-200;
     mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZGVmcz48c3R5bGU+LmEsLmJ7ZmlsbDojNjA3ZDhiO30uYXtvcGFjaXR5OjA7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01NjUgLTgwKSI+PHJlY3QgY2xhc3M9ImEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTY1IDgwKSIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNLjI5MywxMy4wMjFhMSwxLDAsMCwxLDAtMS40MTRsNC45NS00Ljk1TC4yOTMsMS43MDdBMSwxLDAsMCwxLDEuNzA3LjI5M0w3LjM2NCw1Ljk1YTEsMSwwLDAsMSwwLDEuNDE1TDEuNzA3LDEzLjAyMWExLDEsMCwwLDEtMS40MTUsMFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU4My44MjkgODguMTcxKSByb3RhdGUoOTApIi8+PC9nPjwvc3ZnPg==");
     @apply dark:bg-foreground;
+
+    /* Flip upside down for mobile. As the menu goes up instead of down */
+    @screen phone {
+      @apply rotate-180;
+    }
   }
 
   .cmp-languagenavigation__group {

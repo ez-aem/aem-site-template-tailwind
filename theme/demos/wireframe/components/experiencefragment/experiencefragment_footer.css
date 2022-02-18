@@ -1,4 +1,4 @@
-@layer utilities {
+@layer components {
   /*== XF Footer style, used on page template */
   #main-footer {
     @apply py-4;
