@@ -1,151 +1,151 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jcr:root
-  xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-  xmlns:cq="http://www.day.com/jcr/cq/1.0"
-  xmlns:jcr="http://www.jcp.org/jcr/1.0"
-  xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-  jcr:primaryType="cq:Page"
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page"
 >
     <jcr:content
-    cq:lastModified="{Date}2022-01-06T10:45:31.266-03:00"
-    cq:lastModifiedBy="admin"
-    cq:tags="[]"
-    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/xf-web-variation"
-    cq:xfMasterVariation="{Boolean}true"
-    cq:xfVariantType="web"
-    jcr:primaryType="cq:PageContent"
-    jcr:title="Header"
-    sling:resourceType="cq/experience-fragments/components/xfpage"
-  >
-        <root
-      jcr:lastModified="{Date}2022-01-06T10:45:31.202-03:00"
-      jcr:lastModifiedBy="admin"
-      jcr:primaryType="nt:unstructured"
-      sling:resourceType="core/wcm/components/container/v1/container"
-      id="main-header-wrapper"
-      layout="responsiveGrid"
+        cq:lastModified="{Date}2022-01-06T10:45:31.266-03:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header"
+        sling:resourceType="cq/experience-fragments/components/xfpage"
     >
-            <container_1356041374
-        jcr:created="{Date}2022-01-06T10:29:52.560-03:00"
-        jcr:createdBy="admin"
-        jcr:lastModified="{Date}2022-01-06T10:45:11.041-03:00"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="nt:unstructured"
-        sling:resourceType="core/wcm/components/container/v1/container"
-        id="main-header"
-        layout="responsiveGrid"
-      >
-                <image_271092066
-          jcr:created="{Date}2022-01-06T10:30:18.743-03:00"
-          jcr:createdBy="admin"
-          jcr:lastModified="{Date}2022-01-06T10:30:18.743-03:00"
-          jcr:lastModifiedBy="admin"
-          jcr:primaryType="nt:unstructured"
-          sling:resourceType="core/wcm/components/image/v3/image"
-          alt="Wireframe"
-          altValueFromDAM="false"
-          displayPopupTitle="false"
-          fileReference="/content/dam/aem-site-template-tailwind/Group 3458@2x.png"
-          linkURL="/content/aem-site-template-tailwind/en/home"
-          titleValueFromDAM="true"
+        <root
+            jcr:lastModified="{Date}2022-01-06T10:45:31.202-03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+            id="main-header-wrapper"
+            layout="responsiveGrid"
         >
+            <container_1356041374
+                jcr:created="{Date}2022-01-06T10:29:52.560-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-01-06T10:45:11.041-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                id="main-header"
+                layout="responsiveGrid"
+            >
+                <image_271092066
+                    jcr:created="{Date}2022-01-06T10:30:18.743-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-06T10:30:18.743-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/image/v3/image"
+                    alt="Wireframe"
+                    altValueFromDAM="false"
+                    displayPopupTitle="false"
+                    fileReference="/content/dam/aem-site-template-tailwind/Group 3458@2x.png"
+                    linkURL="/content/aem-site-template-tailwind/en/home"
+                    titleValueFromDAM="true"
+                >
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
-              jcr:primaryType="nt:unstructured"
-              offset="1"
-              width="1"
-            />
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="1"
+                        />
                     </cq:responsive>
                 </image_271092066>
                 <button
-          jcr:primaryType="nt:unstructured"
-          sling:resourceType="core/wcm/components/button/v1/button"
-          accessibilityLabel="Toggle Main Menu"
-          id="mobile-header-button"
-        >
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/button/v1/button"
+                    accessibilityLabel="Toggle Main Menu"
+                    id="mobile-header-button"
+                >
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
-              jcr:primaryType="nt:unstructured"
-              behavior="hide"
-            />
+                            jcr:primaryType="nt:unstructured"
+                            behavior="hide"
+                        />
                     </cq:responsive>
                 </button>
                 <container
-          jcr:primaryType="nt:unstructured"
-          sling:resourceType="core/wcm/components/container/v1/container"
-          id="mobile-header"
-          layout="responsiveGrid"
-        >
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="mobile-header"
+                    layout="responsiveGrid"
+                >
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="9"
-            />
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="9"
+                        />
                         <phone
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="12"
-            />
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"
+                        />
                     </cq:responsive>
                     <navigation
-            jcr:lastModified="{Date}2022-01-06T10:34:20.208-03:00"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="core/wcm/components/navigation/v1/navigation"
-            collectAllPages="true"
-            disableShadowing="false"
-            navigationRoot="/content/aem-site-template-tailwind/en"
-            structureDepth="1"
-            structureStart="1"
-          >
+                        jcr:lastModified="{Date}2022-01-06T10:34:20.208-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/navigation/v1/navigation"
+                        collectAllPages="true"
+                        disableShadowing="false"
+                        navigationRoot="/content/aem-site-template-tailwind/en"
+                        structureDepth="1"
+                        structureStart="1"
+                    >
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="5"
-              />
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="5"
+                            />
                             <phone
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="12"
-              />
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"
+                            />
                         </cq:responsive>
                     </navigation>
                     <search
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="core/wcm/components/search/v1/search"
-          >
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/search/v1/search"
+                    >
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="2"
-              />
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="2"
+                            />
                             <phone
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="12"
-              />
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"
+                            />
                         </cq:responsive>
                     </search>
                     <languagenavigation
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="core/wcm/components/languagenavigation/v1/languagenavigation"
-            navigationRoot="/content/aem-site-template-tailwind"
-            structureDepth="1"
-          >
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/languagenavigation/v1/languagenavigation"
+                        navigationRoot="/content/aem-site-template-tailwind"
+                        structureDepth="1"
+                    >
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="2"
-              />
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="2"
+                            />
                             <phone
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="12"
-              />
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"
+                            />
                         </cq:responsive>
                     </languagenavigation>
                 </container>

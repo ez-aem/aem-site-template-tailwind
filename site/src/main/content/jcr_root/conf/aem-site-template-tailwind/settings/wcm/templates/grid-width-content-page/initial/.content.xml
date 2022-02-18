@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jcr:root
-  xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-  xmlns:cq="http://www.day.com/jcr/cq/1.0"
-  xmlns:jcr="http://www.jcp.org/jcr/1.0"
-  xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-  jcr:primaryType="cq:Page"
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page"
 >
     <jcr:content
-    cq:lastModified="{Date}2022-01-06T09:14:00.056-03:00"
-    cq:lastModifiedBy="admin"
-    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/grid-width-content-page"
-    jcr:primaryType="cq:PageContent"
-    sling:resourceType="core/wcm/components/page/v2/page"
-  >
-        <root
-      jcr:primaryType="nt:unstructured"
-      sling:resourceType="core/wcm/components/container/v1/container"
+        cq:lastModified="{Date}2022-01-06T09:14:00.056-03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/grid-width-content-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="core/wcm/components/page/v2/page"
     >
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+        >
             <container
-        jcr:created="{Date}2022-01-06T09:17:26.934-03:00"
-        jcr:createdBy="admin"
-        jcr:lastModified="{Date}2022-01-06T09:17:26.934-03:00"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="nt:unstructured"
-        sling:resourceType="core/wcm/components/container/v1/container"
-      >
+                jcr:created="{Date}2022-01-06T09:17:26.934-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-01-06T09:17:26.934-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+            >
                 <container
-          jcr:created="{Date}2022-01-06T09:17:29.978-03:00"
-          jcr:createdBy="admin"
-          jcr:lastModified="{Date}2022-01-06T09:18:09.647-03:00"
-          jcr:lastModifiedBy="admin"
-          jcr:primaryType="nt:unstructured"
-          sling:resourceType="core/wcm/components/container/v1/container"
-          layout="responsiveGrid"
-        />
+                    jcr:created="{Date}2022-01-06T09:17:29.978-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-06T09:18:09.647-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid"
+                />
             </container>
         </root>
     </jcr:content>
