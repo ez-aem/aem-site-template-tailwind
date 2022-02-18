@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[343],{1786:function(e){e.exports=JSON.parse('{"allTagsPath":"/aem-site-template-tailwind/blog/tags","slug":"/aem-site-template-tailwind/blog/tags/hello","name":"hello","count":2,"permalink":"/aem-site-template-tailwind/blog/tags/hello"}')}}]);

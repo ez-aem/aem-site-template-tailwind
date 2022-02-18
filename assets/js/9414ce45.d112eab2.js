@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[350],{2221:function(e){e.exports=JSON.parse('{"allTagsPath":"/aem-site-template-tailwind/blog/tags","slug":"/aem-site-template-tailwind/blog/tags/facebook","name":"facebook","count":1,"permalink":"/aem-site-template-tailwind/blog/tags/facebook"}')}}]);

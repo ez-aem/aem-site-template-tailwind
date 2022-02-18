@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[945],{257:function(a){a.exports=JSON.parse('{"allTagsPath":"/aem-site-template-tailwind/blog/tags","slug":"/aem-site-template-tailwind/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/aem-site-template-tailwind/blog/tags/docusaurus"}')}}]);
