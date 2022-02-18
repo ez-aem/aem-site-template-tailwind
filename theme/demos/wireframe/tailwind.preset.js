@@ -20,7 +20,7 @@ module.exports = {
         columns: 4,
         gap: "1rem",
         maxWidth: "100%",
-        breakpoint: "768px",
+        breakpoint: "860px",
         breakpointType: "max-width",
       },
     ],
@@ -165,8 +165,8 @@ module.exports = {
       }),
     },
     screens: {
-      phone: { max: "768px" },
-      default: "769px",
+      phone: { max: "860px" },
+      default: "861px",
     },
   },
   variants: {

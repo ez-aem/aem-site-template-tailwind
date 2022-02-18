@@ -85,7 +85,7 @@
       }
 
       .navigation {
-        @apply order-2;
+        @apply order-3;
 
         .cmp-navigation {
           @apply py-2;
@@ -101,7 +101,7 @@
       }
 
       .languagenavigation {
-        @apply order-3 self-end;
+        @apply order-2;
       }
     }
   }

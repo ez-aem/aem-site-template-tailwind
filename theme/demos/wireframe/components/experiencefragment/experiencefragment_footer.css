@@ -15,6 +15,10 @@
       @apply flex;
       @apply dark:hue-rotate-180 dark:invert;
     }
+
+    .cmp-title__text {
+      @apply text-center;
+    }
   }
 
   @screen phone {
