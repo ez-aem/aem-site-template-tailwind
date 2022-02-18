@@ -7,8 +7,6 @@
     jcr:primaryType="cq:Page"
 >
     <jcr:content
-        cq:lastModified="{Date}2022-01-06T08:59:32.114-03:00"
-        cq:lastModifiedBy="admin"
         cq:policy="core/wcm/components/page/v2/page/policy_default"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="wcm/core/components/policies/mappings"

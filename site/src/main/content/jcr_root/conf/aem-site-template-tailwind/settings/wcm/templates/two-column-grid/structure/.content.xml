@@ -8,8 +8,6 @@
 >
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2022-01-06T10:58:15.940-03:00"
-        cq:lastModifiedBy="admin"
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/two-column-grid"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="core/wcm/components/page/v2/page"
@@ -20,38 +18,22 @@
             layout="simple"
         >
             <experiencefragment
-                jcr:created="{Date}2022-01-06T08:23:02.199-03:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-01-06T08:23:19.407-03:00"
-                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/header/master"
                 id="header"
             />
             <container_1134415548
-                jcr:created="{Date}2022-01-06T08:47:59.708-03:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-01-06T09:44:45.753-03:00"
-                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 layout="responsiveGrid"
             >
                 <container
-                    jcr:created="{Date}2022-01-06T09:44:52.629-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-06T09:45:24.612-03:00"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid"
                 >
                     <breadcrumb
-                        jcr:created="{Date}2022-01-06T10:58:02.251-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-01-06T10:58:15.937-03:00"
-                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"
                         disableShadowing="false"
@@ -73,10 +55,6 @@
                         </cq:responsive>
                     </breadcrumb>
                     <container
-                        jcr:created="{Date}2022-01-06T09:44:58.490-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-01-06T09:47:41.584-03:00"
-                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         editable="{Boolean}true"
@@ -95,10 +73,6 @@
                         </cq:responsive>
                     </container>
                     <container_copy
-                        jcr:created="{Date}2022-01-06T09:44:58.490-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-01-06T09:47:41.584-03:00"
-                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         editable="{Boolean}true"
@@ -119,10 +93,6 @@
                 </container>
             </container_1134415548>
             <experiencefragment_1351464162
-                jcr:created="{Date}2022-01-06T08:23:23.616-03:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-01-06T08:23:35.295-03:00"
-                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/footer/master"

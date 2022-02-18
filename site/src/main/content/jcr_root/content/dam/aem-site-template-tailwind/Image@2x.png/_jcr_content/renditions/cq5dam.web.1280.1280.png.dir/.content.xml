@@ -5,8 +5,5 @@
     xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:file"
 >
-    <jcr:content
-        jcr:lastModifiedBy="workflow-process-service"
-        jcr:primaryType="oak:Resource"
-    />
+    <jcr:content jcr:primaryType="oak:Resource" />
 </jcr:root>

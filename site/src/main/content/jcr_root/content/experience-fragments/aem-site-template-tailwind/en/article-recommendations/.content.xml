@@ -6,8 +6,6 @@
     jcr:primaryType="cq:Page"
 >
     <jcr:content
-        cq:lastModified="{Date}2022-01-06T11:19:41.345-03:00"
-        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/libs/cq/experience-fragments/components/experiencefragment/template"
         jcr:primaryType="cq:PageContent"

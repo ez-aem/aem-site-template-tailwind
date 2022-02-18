@@ -6,7 +6,6 @@
     jcr:primaryType="nt:file"
 >
     <jcr:content
-        jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[dam:Thumbnails]"
         jcr:primaryType="nt:resource"
     />

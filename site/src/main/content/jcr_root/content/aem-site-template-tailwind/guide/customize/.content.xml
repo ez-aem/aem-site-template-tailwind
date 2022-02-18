@@ -7,8 +7,6 @@
     jcr:primaryType="cq:Page"
 >
     <jcr:content
-        cq:lastModified="{Date}2022-02-17T13:10:47.211+01:00"
-        cq:lastModifiedBy="admin"
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/two-column-grid"
         jcr:primaryType="cq:PageContent"
         jcr:title="Customize"
@@ -22,46 +20,26 @@
             sling:resourceType="core/wcm/components/container/v1/container"
         >
             <container_1134415548
-                jcr:created="{Date}2022-01-06T08:47:59.708-03:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-01-06T09:44:45.753-03:00"
-                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 layout="responsiveGrid"
             >
                 <container
-                    jcr:created="{Date}2022-01-06T09:44:52.629-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-06T09:45:24.612-03:00"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid"
                 >
                     <container
-                        jcr:created="{Date}2022-01-06T09:44:58.490-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-01-06T09:47:51.669-03:00"
-                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         layout="responsiveGrid"
                     >
                         <title
-                            jcr:created="{Date}2022-02-16T18:01:18.157-03:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-02-16T18:01:18.157-03:00"
-                            jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/title/v2/title"
                         />
                         <embed
                             cq:styleIds="[16130982314089]"
-                            jcr:created="{Date}2022-02-16T17:59:14.566-03:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-02-16T17:59:48.656-03:00"
-                            jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/embed/v1/embed"
                             type="url"
@@ -69,29 +47,17 @@
                         />
                     </container>
                     <container_copy
-                        jcr:created="{Date}2022-01-06T09:44:58.490-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-01-06T09:47:54.911-03:00"
-                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         layout="responsiveGrid"
                     >
                         <title
-                            jcr:created="{Date}2022-02-16T18:01:38.806-03:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-02-16T18:01:47.165-03:00"
-                            jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Helpful Links"
                             sling:resourceType="core/wcm/components/title/v2/title"
                             type="h3"
                         />
                         <text
-                            jcr:created="{Date}2022-02-16T18:00:20.384-03:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-02-17T13:10:47.209+01:00"
-                            jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
                             text="&lt;ul>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/overview.html?lang=en&quot;>AEM Quick Site Creation Journey&lt;/a>&lt;br>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;a>Video Overview of Quick Sites&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://business.adobe.com/summit/2021/sessions/fasttrack-your-site-design-workflow-for-adobe-expe-s504.html&quot;>Designing for Core Components&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://aemcomponents.dev/&quot;>aemcomponents.dev&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://wknd.site/&quot;>WKND.site&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://github.com/adobe/aem-site-template-builder&quot;>AEM Site Template Builder&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://github.com/adobe/aem-site-template-standard&quot;>Adobe's AEM Site Template Standard&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a>Tailwind&lt;/a>&lt;ul>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://www.youtube.com/watch?v=cZc4Jn5nK3k&quot;>Translating a Custom Design System to Tailwind CSS&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a>Tailwind VSCode Plugin&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://github.com/iamcco/coc-tailwindcss&quot;>Tailwind Class Name Completion for (neo)vim&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://www.npmjs.com/package/prettier-plugin-tailwind&quot;>Tailwind Prettier Plugin&lt;/a>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;a>Parcel&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a>PostCSS&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a>TypeScript&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a>Prettier&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a>ESLint&lt;/a>&lt;/li>&#xd;&#xa;&lt;li>&lt;a title=&quot;GitHub Repo&quot; href=&quot;https://github.com/adobe/aem-site-template-standard&quot;>Template GitHub Repo&lt;/a>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"

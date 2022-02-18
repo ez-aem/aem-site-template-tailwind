@@ -7,8 +7,6 @@
     jcr:primaryType="cq:Page"
 >
     <jcr:content
-        cq:lastModified="{Date}2022-02-17T13:46:53.465+01:00"
-        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -23,29 +21,17 @@
             layout="responsiveGrid"
         >
             <container
-                jcr:created="{Date}2022-01-06T11:21:16.278-03:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-01-06T11:21:22.254-03:00"
-                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 layout="responsiveGrid"
             >
                 <separator_copy
-                    jcr:created="{Date}2022-01-06T09:39:18.932-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-06T09:39:18.932-03:00"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/separator/v1/separator"
                 />
                 <teaser_copy_74296013_1715082336
                     cq:styleIds="[1612897379772]"
-                    jcr:created="{Date}2022-01-06T09:38:13.794-03:00"
-                    jcr:createdBy="admin"
                     jcr:description="&lt;p>Get started using your Tailwind template with our helpful guide.&lt;/p>&#xd;&#xa;"
-                    jcr:lastModified="{Date}2022-02-17T13:46:29.623+01:00"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Guide"
                     sling:resourceType="core/wcm/components/teaser/v1/teaser"
@@ -77,11 +63,7 @@
                 </teaser_copy_74296013_1715082336>
                 <teaser_copy_copy
                     cq:styleIds="[1612897454978]"
-                    jcr:created="{Date}2022-01-06T09:38:13.794-03:00"
-                    jcr:createdBy="admin"
                     jcr:description="&lt;p>Check out our guide to get the most from the Tailwind theme and to make your own.&lt;/p>&#xd;&#xa;"
-                    jcr:lastModified="{Date}2022-02-17T13:42:25.652+01:00"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Manage"
                     sling:resourceType="core/wcm/components/teaser/v1/teaser"
@@ -113,11 +95,7 @@
                 </teaser_copy_copy>
                 <teaser_copy_74296013
                     cq:styleIds="[1612897379772]"
-                    jcr:created="{Date}2022-01-06T09:38:13.794-03:00"
-                    jcr:createdBy="admin"
                     jcr:description="&lt;p>Learn how to make the Theme to match your brand with our customization guide.&lt;/p>&#xd;&#xa;"
-                    jcr:lastModified="{Date}2022-02-15T14:37:18.917-03:00"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Customize"
                     sling:resourceType="core/wcm/components/teaser/v1/teaser"

@@ -7,8 +7,6 @@
     jcr:primaryType="cq:Page"
 >
     <jcr:content
-        cq:lastModified="{Date}2022-01-06T08:47:21.049-03:00"
-        cq:lastModifiedBy="admin"
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-w-hero"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="core/wcm/components/page/v2/page"
@@ -23,19 +21,11 @@
                 layout="responsiveGrid"
             />
             <container_1134415548
-                jcr:created="{Date}2022-01-06T08:47:59.708-03:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-01-06T08:52:51.644-03:00"
-                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 layout="responsiveGrid"
             >
                 <container
-                    jcr:created="{Date}2022-01-06T08:52:54.820-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-06T08:52:58.492-03:00"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                 />
