@@ -1,6 +1,6 @@
 module.exports = {
   darkMode: "class",
-  presets: [require("./demos/wknd/tailwind.preset.js")],
+  presets: [require("./demos/wireframe/tailwind.preset.js")],
   content: [
     "./src/index.html",
     "./src/**/**/*.{html,js,jsx,ts,tsx}",

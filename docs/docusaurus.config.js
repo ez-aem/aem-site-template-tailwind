@@ -63,28 +63,10 @@ const config = {
             label: "Tutorial",
           },
           // {
-          //   type: "doc",
-          //   docId: "manage/intro",
+          //   to: "/showcase",
+          //   label: "Showcase",
           //   position: "left",
-          //   label: "Manage",
           // },
-          // {
-          //   type: "doc",
-          //   docId: "customize/intro",
-          //   position: "left",
-          //   label: "Customize",
-          // },
-          // {
-          //   type: "doc",
-          //   docId: "extend/intro",
-          //   position: "left",
-          //   label: "Extend",
-          // },
-          {
-            to: "/showcase",
-            label: "Showcase",
-            position: "left",
-          },
           /*
           {
             to: "/blog",
