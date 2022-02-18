@@ -7,7 +7,6 @@
     jcr:primaryType="nt:file"
 >
     <jcr:content
-        jcr:lastModifiedBy="dam-writer-service"
         jcr:mixinTypes="[dam:Metadata]"
         jcr:primaryType="oak:Resource"
     />

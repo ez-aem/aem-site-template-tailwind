@@ -7,8 +7,6 @@
     jcr:primaryType="cq:Page"
 >
     <jcr:content
-        cq:lastModified="{Date}2022-01-06T10:20:46.911-03:00"
-        cq:lastModifiedBy="admin"
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/two-column-grid"
         jcr:primaryType="cq:PageContent"
         jcr:title="Contact Us"
@@ -19,37 +17,21 @@
             sling:resourceType="core/wcm/components/container/v1/container"
         >
             <container_1134415548
-                jcr:created="{Date}2022-01-06T08:47:59.708-03:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-01-06T09:44:45.753-03:00"
-                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 layout="responsiveGrid"
             >
                 <container
-                    jcr:created="{Date}2022-01-06T09:44:52.629-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-01-06T09:45:24.612-03:00"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid"
                 >
                     <container
-                        jcr:created="{Date}2022-01-06T09:44:58.490-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-01-06T09:47:51.669-03:00"
-                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         layout="responsiveGrid"
                     >
                         <title
-                            jcr:created="{Date}2022-01-06T09:59:39.158-03:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-01-06T09:59:39.158-03:00"
-                            jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/title/v2/title"
                         >
@@ -308,26 +290,16 @@
                         </container_copy>
                     </container>
                     <container_copy
-                        jcr:created="{Date}2022-01-06T09:44:58.490-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-01-06T09:47:54.911-03:00"
-                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         layout="responsiveGrid"
                     >
                         <container
-                            jcr:created="{Date}2022-01-06T09:55:18.492-03:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-01-06T09:55:53.843-03:00"
-                            jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
                             layout="responsiveGrid"
                         >
                             <text_copy
-                                jcr:lastModified="{Date}2022-01-06T09:56:14.129-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 text="&lt;h4>Find Us&lt;/h4>&#xd;&#xa;&lt;p>Wireframe&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>1251 Harrison Street&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>San Francisco, CA, 94108&lt;/a>&lt;/p>&#xd;&#xa;"
@@ -364,10 +336,6 @@
                                 </cq:responsive>
                             </separator_copy_copy>
                             <text
-                                jcr:created="{Date}2022-01-06T09:56:32.602-03:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2022-01-06T09:57:28.112-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 text="&lt;h4>Need more help?&lt;/h4>&#xd;&#xa;&lt;p>Give us a call at&amp;nbsp;&lt;a href=&quot;tel:415-591-1416&quot; target=&quot;_blank&quot;>415-591-1416&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>E-mail us at&amp;nbsp;&lt;a href=&quot;mailto:info@wireframe.site&quot;>info@wireframe.site&lt;/a>&lt;/p>&#xd;&#xa;"

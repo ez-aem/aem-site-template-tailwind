@@ -5,8 +5,6 @@
     jcr:primaryType="cq:Template"
 >
     <jcr:content
-        cq:lastModified="{Date}2022-01-06T09:37:26.806-03:00"
-        cq:lastModifiedBy="admin"
         cq:templateType="/conf/aem-site-template-tailwind/settings/wcm/template-types/page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Full Width Hero, Grid Width Content Page"

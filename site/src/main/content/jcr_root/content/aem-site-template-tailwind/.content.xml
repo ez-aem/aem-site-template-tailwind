@@ -9,8 +9,6 @@
     <jcr:content
         cq:allowedTemplates="/conf/aem-site-template-tailwind/settings/wcm/templates/(?!xf-).*"
         cq:conf="/conf/aem-site-template-tailwind"
-        cq:lastModified="{Date}2022-02-17T10:58:01.067+01:00"
-        cq:lastModifiedBy="admin"
         cq:redirectTarget="/content/aem-site-template-tailwind/en"
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/blank-page"
         jcr:primaryType="cq:PageContent"

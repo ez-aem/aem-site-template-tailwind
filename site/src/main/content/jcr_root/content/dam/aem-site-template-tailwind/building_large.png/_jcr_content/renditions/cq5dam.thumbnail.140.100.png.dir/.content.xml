@@ -7,7 +7,6 @@
     jcr:primaryType="nt:file"
 >
     <jcr:content
-        jcr:lastModifiedBy="workflow-process-service"
         jcr:mixinTypes="[dam:Metadata]"
         jcr:primaryType="oak:Resource"
     />

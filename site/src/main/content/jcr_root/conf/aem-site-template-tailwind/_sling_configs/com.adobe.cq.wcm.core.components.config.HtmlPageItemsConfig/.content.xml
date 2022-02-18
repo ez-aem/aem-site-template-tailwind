@@ -6,8 +6,6 @@
     jcr:primaryType="cq:Page"
 >
     <jcr:content
-        jcr:lastModified="{Date}2022-02-15T14:04:59.059-03:00"
-        jcr:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
         prefixPath="/content/aem-site-template-tailwind.theme/_default"
     >

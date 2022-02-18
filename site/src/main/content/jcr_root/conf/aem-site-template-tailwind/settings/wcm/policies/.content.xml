@@ -18,8 +18,6 @@
                             <policy_default
                                 cq:styleDefaultClasses="generic-page"
                                 jcr:description="Includes the required client libraries."
-                                jcr:lastModified="{Date}2022-01-06T11:08:37.807-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Generic Page"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -72,8 +70,6 @@
                         <download jcr:primaryType="nt:unstructured">
                             <policy_default
                                 jcr:description="Sets the title size to H3."
-                                jcr:lastModified="{Date}2022-02-16T18:02:26.421-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Download"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -96,8 +92,6 @@
                         <teaser jcr:primaryType="nt:unstructured">
                             <policy_default
                                 jcr:description="Sets the title size to H3."
-                                jcr:lastModified="{Date}2022-02-15T14:45:53.106-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Teaser"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -162,8 +156,6 @@
                         <container jcr:primaryType="nt:unstructured">
                             <policy_root
                                 jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                                jcr:lastModified="{Date}2022-01-06T11:14:02.900-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Root"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -203,8 +195,6 @@
                             </policy_root>
                             <policy_default
                                 jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                                jcr:lastModified="{Date}2022-01-06T08:59:32.107-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Hero"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -287,8 +277,6 @@
                                 cq:styleDefaultClasses="main"
                                 cq:styleDefaultElement="main"
                                 jcr:description="Sets a &lt;main> element on the page content area."
-                                jcr:lastModified="{Date}2022-01-06T09:17:19.156-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Main"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -430,8 +418,6 @@
                             </policy_xf_root>
                             <policy_1641470010395
                                 jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                                jcr:lastModified="{Date}2022-02-16T18:02:52.148-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Content"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -521,8 +507,6 @@
                                 cq:styleDefaultClasses="header"
                                 cq:styleElement="header"
                                 jcr:description="Sets a &lt;header> element on the page header experience fragment."
-                                jcr:lastModified="{Date}2022-01-06T08:27:30.434-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Header"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -555,8 +539,6 @@
                                 cq:styleDefaultClasses="footer"
                                 cq:styleElement="footer"
                                 jcr:description="Sets a &lt;footer> element on the page footer experience fragment."
-                                jcr:lastModified="{Date}2022-01-06T08:27:36.722-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Footer"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -594,8 +576,6 @@
                             <policy_page
                                 cq:styleDefaultClasses="h1_style"
                                 jcr:description="Allows only H1 and disallows links for the main page title."
-                                jcr:lastModified="{Date}2022-01-06T13:45:31.263-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Title"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -634,8 +614,6 @@
                             </policy_page>
                             <policy_default
                                 jcr:description="Allows all sizes, but not H1, which is reserved for the main page title."
-                                jcr:lastModified="{Date}2022-02-16T18:01:58.535-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Title"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -724,8 +702,6 @@
                     <v2 jcr:primaryType="nt:unstructured">
                         <text jcr:primaryType="nt:unstructured">
                             <policy_default
-                                jcr:lastModified="{Date}2022-02-16T18:02:03.256-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Text"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -873,8 +849,6 @@
                             <policy_default
                                 cq:styleDefaultClasses="standard"
                                 jcr:description="- Enable lazy loading for faster page loading.&#xd;&#xa;- Define allowed image widths for automatic loading of the image in the most optimal resolution, given the size at which each image is displayed on the page, and the visitor's pixel density.&#xd;&#xa;- Disallow direct asset upload, to force authors to first upload the images to Assets."
-                                jcr:lastModified="{Date}2022-02-16T15:54:30.983-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Image"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -963,8 +937,6 @@
                             <policy_default
                                 cq:styleDefaultClasses="standard"
                                 jcr:description="- Enable lazy loading for faster page loading.&#xd;&#xa;- Define allowed image widths for automatic loading of the image in the most optimal resolution, given the size at which each image is displayed on the page, and the visitor's pixel density.&#xd;&#xa;- Disallow direct asset upload, to force authors to first upload the images to Assets."
-                                jcr:lastModified="{Date}2022-02-16T15:54:30.983-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Image"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -1072,8 +1044,6 @@
                             <container jcr:primaryType="nt:unstructured">
                                 <policy_default
                                     jcr:description="Allows the form components to be dropped into this form container."
-                                    jcr:lastModified="{Date}2022-01-06T08:28:02.168-03:00"
-                                    jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Content Form"
                                     sling:resourceType="wcm/core/components/policy/policy"
@@ -1092,8 +1062,6 @@
                         <separator jcr:primaryType="nt:unstructured">
                             <policy_default
                                 cq:styleDefaultClasses="standard"
-                                jcr:lastModified="{Date}2022-02-16T18:02:19.334-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Separator"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -1135,8 +1103,6 @@
                         <breadcrumb jcr:primaryType="nt:unstructured">
                             <policy_default
                                 cq:styleDefaultClasses="standard"
-                                jcr:lastModified="{Date}2022-01-06T11:29:00.692-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Breadcrumb"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -1176,8 +1142,6 @@
                         <button jcr:primaryType="nt:unstructured">
                             <policy_default
                                 cq:styleDefaultClasses="call-to-action"
-                                jcr:lastModified="{Date}2022-02-16T18:02:39.057-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Button"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -1237,8 +1201,6 @@
                         <tabs jcr:primaryType="nt:unstructured">
                             <policy_default
                                 cq:styleDefaultClasses="horizontal"
-                                jcr:lastModified="{Date}2022-02-16T18:02:13.880-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Tabs"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -1279,8 +1241,6 @@
                     <v1 jcr:primaryType="nt:unstructured">
                         <embed jcr:primaryType="nt:unstructured">
                             <policy_default
-                                jcr:lastModified="{Date}2022-02-16T18:02:32.303-03:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Default Embed Policy"
                                 sling:resourceType="wcm/core/components/policy/policy"

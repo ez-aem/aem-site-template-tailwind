@@ -8,8 +8,6 @@
 >
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2022-01-06T11:06:30.187-03:00"
-        cq:lastModifiedBy="admin"
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/blank-page"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="core/wcm/components/page/v2/page"
