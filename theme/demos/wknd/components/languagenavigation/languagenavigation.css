@@ -37,7 +37,7 @@
     }
 
     span {
-      @apply flex-1 flex justify-start items-center ml-10;
+      @apply flex-1 flex justify-start items-center ml-10 whitespace-nowrap;
     }
   }
 
@@ -142,7 +142,7 @@
   }
 
   .cmp-languagenavigation__item-link {
-    @apply text-sm uppercase text-background outline-none relative flex-1 flex flex-row justify-between items-center py-2 pl-10 pr-1 font-medium bg-foreground border-0 duration-300 transition-all ease-in-out gap-2;
+    @apply text-sm uppercase text-background outline-none relative flex-1 flex flex-row justify-between items-center py-2 pl-10 pr-1 font-medium bg-foreground border-0 duration-300 transition-all ease-in-out gap-2 whitespace-nowrap;
     @apply hover:underline hover:bg-accent text-foreground;
     @apply focus:bg-accent focus:border-0 focus:outline-none focus:ring-2 focus:rounded-none focus:ring-offset-0 focus:z-10;
 
