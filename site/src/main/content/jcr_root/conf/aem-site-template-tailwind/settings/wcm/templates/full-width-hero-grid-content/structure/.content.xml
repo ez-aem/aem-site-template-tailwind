@@ -64,7 +64,7 @@
                 <phone
                     jcr:primaryType="nt:unstructured"
                     title="Smaller Screen"
-                    width="{Long}768"
+                    width="{Long}860"
                 />
             </breakpoints>
         </cq:responsive>

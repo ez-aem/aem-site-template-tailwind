@@ -72,13 +72,13 @@
                                     sling:resourceType="wcm/core/components/policies/mappings"
                                 />
                             </v2>
-                                        <v3 jcr:primaryType="nt:unstructured">
-                                            <image
+                            <v3 jcr:primaryType="nt:unstructured">
+                                <image
                                     cq:policy="core/wcm/components/image/v3/image/policy_default"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wcm/core/components/policies/mapping"
                                 />
-                                        </v3>
+                            </v3>
                         </image>
                         <form jcr:primaryType="nt:unstructured">
                             <container jcr:primaryType="nt:unstructured">
