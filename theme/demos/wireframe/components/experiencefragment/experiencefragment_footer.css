@@ -1,4 +1,4 @@
-@layer utilities {
+@layer components {
   /*== XF Footer style, used on page template */
   #main-footer {
     @apply py-4;
@@ -14,6 +14,10 @@
     .image {
       @apply flex;
       @apply dark:hue-rotate-180 dark:invert;
+    }
+
+    .cmp-title__text {
+      @apply text-center;
     }
   }
 

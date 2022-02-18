@@ -65,7 +65,7 @@
   }
 
   .cmp-languagenavigation__item {
-    @apply flex flex-1 flex-row items-center gap-x-2;
+    @apply flex flex-1 flex-row items-center gap-x-2 whitespace-nowrap;
 
     &:not(.cmp-languagenavigation__item--active):hover {
       @apply cursor-pointer bg-shade-1;
