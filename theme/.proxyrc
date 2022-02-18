@@ -1,8 +1,0 @@
-{
-  "/content": {
-    "target": "http://localhost:4502/"
-  },
-  "/etc.clientlibs": {
-    "target": "http://localhost:4502/"
-  }
-}

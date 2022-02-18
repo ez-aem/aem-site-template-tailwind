@@ -1,7 +1,0 @@
-@layer components {
-  .cmp-form-button {
-    @apply ring-offset-background ring-focus font-sans uppercase font-semibold text-sm px-4 py-2 border-2 bg-accent text-foreground border-accent transition-all duration-300 text-center inline-flex shrink-0;
-    @apply hover:bg-accent-darker hover:border-accent-darker hover:no-underline;
-    @apply focus:bg-accent-darker focus:border-accent-darker focus:ring-2 focus:outline-none focus:ring-offset-2;
-  }
-}
