@@ -170,8 +170,8 @@ module.exports = {
       }),
     },
     screens: {
-      phone: { max: "768px" },
-      default: "769px",
+      phone: { max: "860px" },
+      default: "861px",
     },
   },
   variants: {

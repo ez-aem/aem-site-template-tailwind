@@ -6,7 +6,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-  <jcr:content
+    <jcr:content
     cq:tags="[]"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/xf-web-variation"
     cq:xfMasterVariation="{Boolean}true"
@@ -15,68 +15,101 @@
     jcr:title="Footer"
     sling:resourceType="cq/experience-fragments/components/xfpage"
   >
-    <root
+        <root
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
       id="main-footer"
       layout="responsiveGrid"
     >
-      <separator
+            <separator
         jcr:primaryType="nt:unstructured"
         sling:resourceType="core/wcm/components/separator/v1/separator"
       />
-      <image
+            <image
         jcr:primaryType="nt:unstructured"
-        sling:resourceType="core/wcm/components/image/v2/image"
-        fileReference="/content/dam/aem-site-template-tailwind/Group 3458@2x.png"
+        sling:resourceType="core/wcm/components/image/v3/image"
         alt="Wireframe"
         altValueFromDAM="false"
         displayPopupTitle="false"
+        fileReference="/content/dam/aem-site-template-tailwind/Group 3458@2x.png"
         isDecorative="false"
         linkURL="/content/aem-site-template-tailwind/en/home"
         titleValueFromDAM="true"
       >
-        <cq:responsive jcr:primaryType="nt:unstructured">
-          <default jcr:primaryType="nt:unstructured" offset="1" width="1" />
-          <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
-        </cq:responsive>
-      </image>
-      <title
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+            jcr:primaryType="nt:unstructured"
+            offset="1"
+            width="1"
+          />
+                    <phone
+            jcr:primaryType="nt:unstructured"
+            offset="0"
+            width="12"
+          />
+                </cq:responsive>
+            </image>
+            <text
         cq:styleIds="[1612988098073]"
         jcr:primaryType="nt:unstructured"
-        jcr:title="© Company Name Address Ave, City Name, State ZIP"
-        sling:resourceType="core/wcm/components/title/v2/title"
-        type="h6"
+        text="&lt;p>© COMPANY NAME ADDRESS AVE, CITY NAME, STATE ZIP&lt;/p>"
+        sling:resourceType="core/wcm/components/text/v2/text"
+        id="copyright"
+        textIsRich="true"
       >
-        <cq:responsive jcr:primaryType="nt:unstructured">
-          <default jcr:primaryType="nt:unstructured" offset="0" width="7" />
-          <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
-        </cq:responsive>
-      </title>
-      <text_835927192
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+            jcr:primaryType="nt:unstructured"
+            offset="0"
+            width="7"
+          />
+                    <phone
+            jcr:primaryType="nt:unstructured"
+            offset="0"
+            width="12"
+          />
+                </cq:responsive>
+            </text>
+            <text_835927192
         cq:styleIds="[1612907922119]"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="core/wcm/components/text/v2/text"
         text="&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>Terms of Use&lt;/a>&lt;/p>&#xd;&#xa;"
         textIsRich="true"
       >
-        <cq:responsive jcr:primaryType="nt:unstructured">
-          <default jcr:primaryType="nt:unstructured" offset="0" width="1" />
-          <phone jcr:primaryType="nt:unstructured" offset="1" width="5" />
-        </cq:responsive>
-      </text_835927192>
-      <text_626570102
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+            jcr:primaryType="nt:unstructured"
+            offset="0"
+            width="1"
+          />
+                    <phone
+            jcr:primaryType="nt:unstructured"
+            offset="1"
+            width="5"
+          />
+                </cq:responsive>
+            </text_835927192>
+            <text_626570102
         cq:styleIds="[1612907922119]"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="core/wcm/components/text/v2/text"
         text="&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>Privacy Policy&lt;/a>&lt;/p>&#xd;&#xa;"
         textIsRich="true"
       >
-        <cq:responsive jcr:primaryType="nt:unstructured">
-          <default jcr:primaryType="nt:unstructured" offset="0" width="2" />
-          <phone jcr:primaryType="nt:unstructured" offset="0" width="5" />
-        </cq:responsive>
-      </text_626570102>
-    </root>
-  </jcr:content>
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+            jcr:primaryType="nt:unstructured"
+            offset="0"
+            width="2"
+          />
+                    <phone
+            jcr:primaryType="nt:unstructured"
+            offset="0"
+            width="5"
+          />
+                </cq:responsive>
+            </text_626570102>
+        </root>
+    </jcr:content>
 </jcr:root>

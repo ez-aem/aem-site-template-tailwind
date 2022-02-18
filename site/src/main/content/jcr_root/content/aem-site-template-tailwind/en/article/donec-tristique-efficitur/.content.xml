@@ -6,7 +6,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-  <jcr:content
+    <jcr:content
     cq:lastModified="{Date}2022-01-06T13:46:17.114-03:00"
     cq:lastModifiedBy="admin"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/article-page"
@@ -17,11 +17,11 @@
     pwaDisplay="standalone"
     pwaOrientation="any"
   >
-    <root
+        <root
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
     >
-      <container
+            <container
         jcr:created="{Date}2022-01-06T09:17:26.934-03:00"
         jcr:createdBy="admin"
         jcr:lastModified="{Date}2022-01-06T09:17:26.934-03:00"
@@ -29,7 +29,7 @@
         jcr:primaryType="nt:unstructured"
         sling:resourceType="core/wcm/components/container/v1/container"
       >
-        <container_1125714356
+                <container_1125714356
           jcr:created="{Date}2022-01-06T11:25:04.291-03:00"
           jcr:createdBy="admin"
           jcr:lastModified="{Date}2022-01-06T11:25:10.693-03:00"
@@ -38,7 +38,7 @@
           sling:resourceType="core/wcm/components/container/v1/container"
           layout="responsiveGrid"
         >
-          <container
+                    <container
             jcr:created="{Date}2022-01-06T09:17:29.978-03:00"
             jcr:createdBy="admin"
             jcr:lastModified="{Date}2022-01-06T11:27:16.626-03:00"
@@ -47,7 +47,7 @@
             sling:resourceType="core/wcm/components/container/v1/container"
             layout="responsiveGrid"
           >
-            <text
+                        <text
               jcr:created="{Date}2022-01-06T11:33:08.436-03:00"
               jcr:createdBy="admin"
               jcr:lastModified="{Date}2022-01-06T11:35:20.965-03:00"
@@ -57,14 +57,14 @@
               text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat rutrum eros non consectetur. Quisque tincidunt id felis sit amet pretium. Nunc sit amet ornare quam, sed vestibulum felis. Curabitur mauris ante, blandit a lacus in, finibus viverra tortor. Proin nec ligula et metus lobortis auctor eu vel quam. Nunc aliquet viverra pellentesque. Donec ultricies ante ut mi imperdiet tincidunt.&lt;/p>&#xd;&#xa;"
               textIsRich="true"
             />
-            <image
+                        <image
               jcr:created="{Date}2022-01-06T11:33:20.327-03:00"
               jcr:createdBy="admin"
               jcr:lastModified="{Date}2022-01-06T11:37:53.590-03:00"
               jcr:lastModifiedBy="admin"
               jcr:primaryType="nt:unstructured"
               jcr:title=" Pellentesque tortor tellus, venenatis sodales scelerisque quis, auctor eu nisl"
-              sling:resourceType="core/wcm/components/image/v2/image"
+              sling:resourceType="core/wcm/components/image/v3/image"
               alt=" Pellentesque tortor tellus, venenatis sodales scelerisque quis, auctor eu nisl"
               altValueFromDAM="false"
               displayPopupTitle="false"
@@ -72,7 +72,7 @@
               isDecorative="false"
               titleValueFromDAM="false"
             />
-            <text_copy
+                        <text_copy
               jcr:created="{Date}2022-01-06T11:33:08.436-03:00"
               jcr:createdBy="admin"
               jcr:lastModified="{Date}2022-01-06T11:35:27.986-03:00"
@@ -82,14 +82,14 @@
               text="&lt;p>In suscipit metus ligula, nec suscipit est ullamcorper euismod. Quisque nulla turpis, venenatis quis auctor et, dignissim quis metus. Aliquam erat volutpat. Etiam venenatis, massa in hendrerit fringilla, dolor sapien auctor mi, sed pretium velit nisl ac purus. Nunc id ligula vel est pharetra faucibus. Vivamus ultrices lectus sed ultricies tempus. Duis in egestas magna. Integer eget diam ut felis consectetur porta. Praesent posuere et tellus ut dictum. Fusce fringilla sapien ligula, quis posuere risus tristique laoreet.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>Quisque nunc nibh, molestie maximus urna vel, condimentum mattis risus. Pellentesque tortor tellus, venenatis sodales scelerisque quis, auctor eu nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur nec tortor nulla. Suspendisse eu elementum lorem, sit amet eleifend tortor. Nulla varius lectus id finibus porta. Curabitur sit amet velit nibh.&lt;/p>&#xd;&#xa;&lt;p>Aliquam vel elit id sem gravida tristique nec non lorem. Donec a lacus quis tortor dignissim facilisis. Integer fringilla neque non ligula lacinia, a aliquam nibh pharetra. Etiam ullamcorper libero ac neque tempus molestie. Integer quis lobortis mi. Donec quis tellus aliquet, dignissim eros at, dictum est. Praesent ullamcorper sagittis tortor, mattis molestie felis. Aenean vulputate sed orci sit amet auctor. Nullam vitae commodo risus. Etiam eu orci quam. Ut eget nulla blandit, tincidunt orci ac, ultrices mi. Cras varius, nulla ac placerat rutrum, odio massa commodo justo, sed varius purus lorem non mauris. Phasellus ut nibh sapien. Sed fringilla sem sit amet purus fermentum, ut euismod lacus euismod. Cras sed eros commodo, aliquam sapien at, consectetur enim. Donec vel leo leo.&lt;/p>&#xd;&#xa;&lt;p>Aliquam et interdum quam. Curabitur vulputate ligula turpis, et semper felis porta non. Nunc lobortis ligula tortor, at egestas est eleifend sit amet. Ut ac nisi rhoncus, finibus arcu ut, semper lectus. Nam eros lorem, egestas in neque id, hendrerit ullamcorper tellus. Proin at laoreet arcu, sit amet luctus purus. Donec sed sapien in est dignissim imperdiet. Etiam nec convallis ante. Integer leo nulla, consequat in mollis vitae, ornare non mi.&lt;/p>&#xd;&#xa;"
               textIsRich="true"
             />
-            <image_498847049
+                        <image_498847049
               jcr:created="{Date}2022-01-06T11:37:36.310-03:00"
               jcr:createdBy="admin"
               jcr:lastModified="{Date}2022-01-06T11:38:15.503-03:00"
               jcr:lastModifiedBy="admin"
               jcr:primaryType="nt:unstructured"
               jcr:title="Curabitur nec tortor nulla. Suspendisse eu elementum lorem, sit amet eleifend tortor. Nulla varius lectus id finibus porta. Curabitur sit amet velit nibh."
-              sling:resourceType="core/wcm/components/image/v2/image"
+              sling:resourceType="core/wcm/components/image/v3/image"
               alt="Curabitur nec tortor nulla. Suspendisse eu elementum lorem, sit amet eleifend tortor. Nulla varius lectus id finibus porta. Curabitur sit amet velit nibh."
               altValueFromDAM="false"
               displayPopupTitle="false"
@@ -97,27 +97,27 @@
               isDecorative="false"
               titleValueFromDAM="false"
             >
-              <cq:responsive jcr:primaryType="nt:unstructured">
-                <default
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
                   jcr:primaryType="nt:unstructured"
                   offset="0"
                   width="4"
                 />
-                <phone
+                                <phone
                   jcr:primaryType="nt:unstructured"
                   offset="0"
                   width="12"
                 />
-              </cq:responsive>
-            </image_498847049>
-            <image_498847049_copy
+                            </cq:responsive>
+                        </image_498847049>
+                        <image_498847049_copy
               jcr:created="{Date}2022-01-06T11:37:36.310-03:00"
               jcr:createdBy="admin"
               jcr:lastModified="{Date}2022-01-06T11:39:01.893-03:00"
               jcr:lastModifiedBy="admin"
               jcr:primaryType="nt:unstructured"
               jcr:title="Integer fringilla neque non ligula lacinia, a aliquam nibh pharetra. Etiam ullamcorper libero ac neque tempus molestie. Integer quis lobortis mi. "
-              sling:resourceType="core/wcm/components/image/v2/image"
+              sling:resourceType="core/wcm/components/image/v3/image"
               alt="Integer fringilla neque non ligula lacinia, a aliquam nibh pharetra. Etiam ullamcorper libero ac neque tempus molestie. Integer quis lobortis mi. "
               altValueFromDAM="false"
               displayPopupTitle="false"
@@ -125,20 +125,20 @@
               isDecorative="false"
               titleValueFromDAM="false"
             >
-              <cq:responsive jcr:primaryType="nt:unstructured">
-                <default
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
                   jcr:primaryType="nt:unstructured"
                   offset="0"
                   width="4"
                 />
-                <phone
+                                <phone
                   jcr:primaryType="nt:unstructured"
                   offset="0"
                   width="12"
                 />
-              </cq:responsive>
-            </image_498847049_copy>
-            <text_copy_copy
+                            </cq:responsive>
+                        </image_498847049_copy>
+                        <text_copy_copy
               jcr:created="{Date}2022-01-06T11:33:08.436-03:00"
               jcr:createdBy="admin"
               jcr:lastModified="{Date}2022-01-06T11:39:41.197-03:00"
@@ -148,9 +148,9 @@
               text="&lt;p>Sed ornare eget eros a gravida. Donec tristique efficitur quam eget placerat. Fusce facilisis diam ex, eu cursus ligula feugiat non. Morbi quis sem accumsan, euismod tellus sit amet, ullamcorper erat. Proin at diam vitae diam sagittis placerat. Nunc suscipit pellentesque nisi, a euismod orci fermentum non. Vestibulum imperdiet venenatis condimentum. Sed tristique risus dui, et varius quam fermentum non. Praesent hendrerit accumsan purus ut sagittis. Ut finibus congue iaculis. Suspendisse blandit ipsum ac orci lacinia, sed elementum augue eleifend. Sed porttitor mauris ac ultricies tristique. Sed ut mi ac ex convallis mattis. Nullam varius sit amet libero ut sagittis.&lt;/p>&#xd;&#xa;&lt;p>Aliquam erat volutpat. Aliquam erat volutpat. Nam dapibus quis justo vel vulputate. Cras ante nibh, volutpat eu ligula ac, bibendum aliquam odio. Quisque quis ipsum turpis. Pellentesque non diam nec nisl iaculis volutpat a eget nunc. Ut eget felis eros.&lt;/p>&#xd;&#xa;&lt;p>Integer semper ut ex in lobortis. Cras eget orci lacus. Donec consequat mauris eu dapibus varius. Phasellus sapien massa, fringilla sit amet feugiat at, pellentesque eget ipsum. Nulla ultricies luctus ipsum, elementum semper diam laoreet ut. Praesent tempor odio purus, eu viverra justo sollicitudin a. Quisque consectetur sapien faucibus enim egestas, eget varius sapien suscipit.&lt;/p>&#xd;&#xa;&lt;p>Nam sit amet finibus nunc, eu pharetra nulla. Sed pulvinar massa vitae purus rhoncus, a maximus neque interdum. Vivamus efficitur eros sed cursus ultrices. Nullam aliquet placerat nibh, in aliquam odio tempus nec. In viverra molestie mauris, cursus pulvinar erat aliquam in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla mattis turpis, quis feugiat mi vestibulum eu. Integer dictum nibh fermentum, hendrerit nulla in, convallis lacus. Nullam nisl est, ornare eget dolor quis, pharetra iaculis mi. Sed id leo nec lectus suscipit mollis. Morbi tristique nunc quis est feugiat vulputate. Sed efficitur nibh accumsan, ultrices urna et, rhoncus sapien.&lt;/p>&#xd;&#xa;&lt;p>Quisque sed arcu eu lectus luctus vehicula eget at enim. Curabitur tristique ligula lectus, a rhoncus nibh accumsan ut. Sed a imperdiet metus, sit amet tristique orci. Donec in mauris quis nulla cursus blandit eu ut lacus. Nullam vestibulum, magna maximus ultrices suscipit, dolor purus accumsan ligula, nec placerat magna diam nec turpis. Nullam ante mi, molestie quis ligula non, convallis interdum augue. Maecenas condimentum lorem sit amet magna congue dictum. Ut vel volutpat leo. Maecenas rutrum nec metus id laoreet. Aliquam sem dolor, iaculis nec augue et, viverra facilisis urna. Ut pulvinar sapien felis. Nullam quis lectus tellus.&lt;/p>&#xd;&#xa;"
               textIsRich="true"
             />
-          </container>
-        </container_1125714356>
-      </container>
-    </root>
-  </jcr:content>
+                    </container>
+                </container_1125714356>
+            </container>
+        </root>
+    </jcr:content>
 </jcr:root>

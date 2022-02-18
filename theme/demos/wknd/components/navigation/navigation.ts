@@ -29,6 +29,7 @@ const navigation = () => {
       };
 
       $wrapper.classList.add("cmp-navigation__item-link-wrapper");
+      $button.setAttribute("aria-label", "Toggle Dropdown");
       $button.classList.add("cmp-navigation__item__icon");
       $button.addEventListener("click", toggleNavigationGroup);
       $wrapper.appendChild($a);

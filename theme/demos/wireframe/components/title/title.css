@@ -1,6 +1,8 @@
-.cmp-title {
-}
-.cmp-title__text {
-}
-.cmp-title__link {
+@layer components {
+  .cmp-title {
+  }
+  .cmp-title__text {
+  }
+  .cmp-title__link {
+  }
 }

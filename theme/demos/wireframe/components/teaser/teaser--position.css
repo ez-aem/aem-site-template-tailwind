@@ -1,60 +1,62 @@
-.teaser--text-bottom,
-.teaser--text-right,
-.teaser--text-left {
-  .cmp-teaser {
-    @apply flex flex-col;
-  }
-  .cmp-teaser__content {
-    @apply py-6;
-  }
-}
-
-.teaser--text-left {
-  .cmp-teaser {
-    @apply default:flex-row-reverse;
-  }
-  .cmp-teaser__content {
-    @apply p-6;
-    @apply default:p-8;
-  }
-  &:not(.teaser--dark) {
+@layer utilities {
+  .teaser--text-bottom,
+  .teaser--text-right,
+  .teaser--text-left {
+    .cmp-teaser {
+      @apply flex flex-col;
+    }
     .cmp-teaser__content {
-      @apply pl-0;
-      @apply default:pl-0;
+      @apply py-6;
     }
   }
-}
 
-.teaser--text-right {
-  @screen default {
+  .teaser--text-left {
     .cmp-teaser {
-      @apply flex-row;
+      @apply default:flex-row-reverse;
     }
     .cmp-teaser__content {
       @apply p-6;
-      @apply default:p-6;
+      @apply default:p-8;
     }
-  }
-}
-
-.teaser--text-right,
-.teaser--text-left {
-  .cmp-teaser__image {
-    @apply aspect-2/1 basis-2/3;
-    @apply default:aspect-3/1;
-
-    .cmp-image {
-      @apply aspect-2/1 h-full w-full;
-      @apply default:aspect-3/1;
-    }
-
-    .cmp-image__image {
-      @apply aspect-2/1 h-full object-cover;
-      @apply default:aspect-3/1;
+    &:not(.teaser--dark) {
+      .cmp-teaser__content {
+        @apply pl-0;
+        @apply default:pl-0;
+      }
     }
   }
 
-  .cmp-teaser__content {
-    @apply basis-1/3;
+  .teaser--text-right {
+    @screen default {
+      .cmp-teaser {
+        @apply flex-row;
+      }
+      .cmp-teaser__content {
+        @apply p-6;
+        @apply default:p-6;
+      }
+    }
+  }
+
+  .teaser--text-right,
+  .teaser--text-left {
+    .cmp-teaser__image {
+      @apply aspect-2/1 basis-2/3;
+      @apply default:aspect-3/1;
+
+      .cmp-image {
+        @apply aspect-2/1 h-full w-full;
+        @apply default:aspect-3/1;
+      }
+
+      .cmp-image__image {
+        @apply aspect-2/1 h-full object-cover;
+        @apply default:aspect-3/1;
+      }
+    }
+
+    .cmp-teaser__content {
+      @apply basis-1/3;
+    }
   }
 }

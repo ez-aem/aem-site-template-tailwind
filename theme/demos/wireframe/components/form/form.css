@@ -1,7 +1,9 @@
-.cmp-form {
-  @apply mt-6 mb-20;
+@layer components {
+  .cmp-form {
+    @apply mt-6 mb-20;
 
-  label {
-    @apply text-xs font-semibold uppercase text-shade-4;
+    label {
+      @apply text-xs font-semibold uppercase text-shade-4;
+    }
   }
 }

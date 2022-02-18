@@ -1,10 +1,19 @@
-.cmp-list {
-}
-.cmp-list__item {
-}
-.cmp-list__item-link {
-}
-.cmp-list__item-title {
-}
-.cmp-list__item-date {
+@layer components {
+  .cmp-list {
+    @apply list-outside ml-6 list-disc;
+  }
+  .cmp-list__item {
+    @apply list-item mb-2;
+  }
+  .cmp-list__item article {
+    @apply flex flex-col;
+  }
+
+  .cmp-list__item-link {
+    @apply font-semibold inline-flex;
+  }
+  .cmp-list__item-title {
+  }
+  .cmp-list__item-date {
+  }
 }

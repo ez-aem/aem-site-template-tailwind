@@ -1,10 +1,12 @@
-.button.button--quiet {
-  .cmp-button {
-    @apply bg-transparent border-foreground text-foreground;
-    @apply hover:bg-foreground hover:text-background;
-    @apply focus:bg-foreground focus:text-background focus:border-foreground focus:no-underline focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
+@layer utilities {
+  .button.button--quiet {
+    .cmp-button {
+      @apply bg-transparent border-foreground text-foreground;
+      @apply hover:bg-foreground hover:text-background;
+      @apply focus:bg-foreground focus:text-background focus:border-foreground focus:no-underline focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
+    }
   }
-}
 
-.dark-container {
+  .dark-container {
+  }
 }

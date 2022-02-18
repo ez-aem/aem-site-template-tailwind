@@ -6,7 +6,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-  <jcr:content
+    <jcr:content
     cq:deviceGroups="[mobile/groups/responsive]"
     cq:lastModified="{Date}2022-01-06T11:06:30.187-03:00"
     cq:lastModifiedBy="admin"
@@ -14,26 +14,26 @@
     jcr:primaryType="cq:PageContent"
     sling:resourceType="core/wcm/components/page/v2/page"
   >
-    <root
+        <root
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
       layout="simple"
     >
-      <container
+            <container
         jcr:primaryType="nt:unstructured"
         sling:resourceType="core/wcm/components/container/v1/container"
         editable="{Boolean}true"
         layout="responsiveGrid"
       />
-    </root>
-    <cq:responsive jcr:primaryType="nt:unstructured">
-      <breakpoints jcr:primaryType="nt:unstructured">
-        <phone
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
           jcr:primaryType="nt:unstructured"
           title="Smaller Screen"
           width="{Long}768"
         />
-      </breakpoints>
-    </cq:responsive>
-  </jcr:content>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
 </jcr:root>

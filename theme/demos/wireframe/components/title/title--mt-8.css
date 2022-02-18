@@ -1,3 +1,5 @@
-.title--mt-8 {
-  @apply mt-8;
+@layer utilities {
+  .title--mt-8 {
+    @apply mt-8;
+  }
 }

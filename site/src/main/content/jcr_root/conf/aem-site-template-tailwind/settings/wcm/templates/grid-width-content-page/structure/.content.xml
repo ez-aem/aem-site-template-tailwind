@@ -6,7 +6,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-  <jcr:content
+    <jcr:content
     cq:deviceGroups="[mobile/groups/responsive]"
     cq:lastModified="{Date}2022-01-06T11:14:23.872-03:00"
     cq:lastModifiedBy="admin"
@@ -14,12 +14,12 @@
     jcr:primaryType="cq:PageContent"
     sling:resourceType="core/wcm/components/page/v2/page"
   >
-    <root
+        <root
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
       layout="simple"
     >
-      <experiencefragment
+            <experiencefragment
         jcr:created="{Date}2022-01-06T08:23:02.199-03:00"
         jcr:createdBy="admin"
         jcr:lastModified="{Date}2022-01-06T08:23:19.407-03:00"
@@ -29,7 +29,7 @@
         fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/header/master"
         id="header"
       />
-      <container
+            <container
         jcr:created="{Date}2022-01-06T09:17:26.934-03:00"
         jcr:createdBy="admin"
         jcr:lastModified="{Date}2022-01-06T09:18:16.583-03:00"
@@ -38,7 +38,7 @@
         sling:resourceType="core/wcm/components/container/v1/container"
         layout="responsiveGrid"
       >
-        <breadcrumb
+                <breadcrumb
           jcr:created="{Date}2022-01-06T11:14:17.657-03:00"
           jcr:createdBy="admin"
           jcr:lastModified="{Date}2022-01-06T11:14:23.869-03:00"
@@ -50,7 +50,7 @@
           showHidden="false"
           startLevel="2"
         />
-        <container
+                <container
           jcr:created="{Date}2022-01-06T09:17:29.978-03:00"
           jcr:createdBy="admin"
           jcr:lastModified="{Date}2022-01-06T09:17:38.923-03:00"
@@ -59,13 +59,21 @@
           sling:resourceType="core/wcm/components/container/v1/container"
           editable="{Boolean}true"
         >
-          <cq:responsive jcr:primaryType="nt:unstructured">
-            <default jcr:primaryType="nt:unstructured" offset="1" width="10" />
-            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
-          </cq:responsive>
-        </container>
-      </container>
-      <experiencefragment_1351464162
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+              jcr:primaryType="nt:unstructured"
+              offset="1"
+              width="10"
+            />
+                        <phone
+              jcr:primaryType="nt:unstructured"
+              offset="0"
+              width="12"
+            />
+                    </cq:responsive>
+                </container>
+            </container>
+            <experiencefragment_1351464162
         jcr:created="{Date}2022-01-06T08:23:23.616-03:00"
         jcr:createdBy="admin"
         jcr:lastModified="{Date}2022-01-06T08:23:35.295-03:00"
@@ -75,15 +83,15 @@
         fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/footer/master"
         id="footer"
       />
-    </root>
-    <cq:responsive jcr:primaryType="nt:unstructured">
-      <breakpoints jcr:primaryType="nt:unstructured">
-        <phone
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
           jcr:primaryType="nt:unstructured"
           title="Smaller Screen"
           width="{Long}768"
         />
-      </breakpoints>
-    </cq:responsive>
-  </jcr:content>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
 </jcr:root>

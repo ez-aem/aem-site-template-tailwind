@@ -1,90 +1,92 @@
-.cmp-form-options {
-}
-.cmp-form-options__legend {
-}
-.cmp-form-options__help-message {
-}
-.cmp-form-options__label {
-  @apply text-foreground;
-}
-.cmp-form-options--drop-down {
-}
-.cmp-form-options__field--drop-down {
-}
-.select-selected {
-}
-.select-arrow-active {
-}
-.select-items {
-}
-.select-hide {
-}
-.select-items div {
-}
-.same-as-selected {
-}
-
-.cmp-form-options--radio,
-.cmp-form-options--checkbox {
-  @apply mx-3 my-2;
-
+@layer components {
+  .cmp-form-options {
+  }
   .cmp-form-options__legend {
-    @apply hidden;
+  }
+  .cmp-form-options__help-message {
+  }
+  .cmp-form-options__label {
+    @apply text-foreground;
+  }
+  .cmp-form-options--drop-down {
+  }
+  .cmp-form-options__field--drop-down {
+  }
+  .select-selected {
+  }
+  .select-arrow-active {
+  }
+  .select-items {
+  }
+  .select-hide {
+  }
+  .select-items div {
+  }
+  .same-as-selected {
+  }
+
+  .cmp-form-options--radio,
+  .cmp-form-options--checkbox {
+    @apply mx-3 my-2;
+
+    .cmp-form-options__legend {
+      @apply hidden;
+    }
+
+    .cmp-form-options__field-label {
+      @apply flex flex-row items-center gap-x-3;
+    }
+
+    .cmp-form-options__field-description {
+      @apply inline-flex text-base font-normal normal-case text-foreground;
+    }
+
+    .cmp-form-options__field--radio,
+    .cmp-form-options__field--checkbox {
+      @apply inline-flex h-6 w-6 rounded border-2 border-shade-1 bg-shade-1;
+      @apply hover:cursor-pointer hover:border-shade-2 hover:bg-background;
+
+      &:not(:checked) {
+        @apply focus:border-focus focus:bg-background focus:ring-0 focus:ring-offset-background;
+      }
+
+      &:checked {
+        @apply border-accent bg-accent ring-0;
+        @apply focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
+      }
+    }
+
+    .cmp-form-options__field--radio {
+      @apply rounded-full;
+    }
   }
 
   .cmp-form-options__field-label {
-    @apply flex flex-row items-center gap-x-3;
   }
-
-  .cmp-form-options__field-description {
-    @apply inline-flex text-base font-normal normal-case text-foreground;
-  }
-
-  .cmp-form-options__field--radio,
   .cmp-form-options__field--checkbox {
-    @apply inline-flex h-6 w-6 rounded border-2 border-shade-1 bg-shade-1;
-    @apply hover:cursor-pointer hover:border-shade-2 hover:bg-background;
-
-    &:not(:checked) {
-      @apply focus:border-focus focus:bg-background focus:ring-0 focus:ring-offset-background;
-    }
-
-    &:checked {
-      @apply border-accent bg-accent ring-0;
-      @apply focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
-    }
   }
-
   .cmp-form-options__field--radio {
-    @apply rounded-full;
   }
-}
+  .cmp-form-options__field-description {
+    @apply hover:cursor-pointer;
+  }
+  .cmp-form-options__drop-down-field {
+  }
+  .cmp-form-options__multi-drop-down-field {
+  }
 
-.cmp-form-options__field-label {
-}
-.cmp-form-options__field--checkbox {
-}
-.cmp-form-options__field--radio {
-}
-.cmp-form-options__field-description {
-  @apply hover:cursor-pointer;
-}
-.cmp-form-options__drop-down-field {
-}
-.cmp-form-options__multi-drop-down-field {
-}
+  .cmp-form-options {
+    @apply flex flex-col gap-y-2;
+  }
+  .cmp-form-options__field--drop-down {
+    @apply relative flex h-10 w-full flex-row items-center justify-start rounded-md border-2 border-solid border-shade-1 bg-shade-1 leading-4 text-shade-4 transition-colors duration-200;
+    @apply hover:cursor-pointer hover:border-shade-2 hover:bg-background;
+    @apply focus:border-focus focus:bg-background focus:text-foreground focus:ring-offset-background;
+    @apply dark:hover:text-shade-1;
+    @apply dark:focus:text-foreground;
 
-.cmp-form-options {
-  @apply flex flex-col gap-y-2;
-}
-.cmp-form-options__field--drop-down {
-  @apply relative flex h-10 w-full flex-row items-center justify-start rounded-md border-2 border-solid border-shade-1 bg-shade-1 leading-4 text-shade-4 transition-colors duration-200;
-  @apply hover:cursor-pointer hover:border-shade-2 hover:bg-background;
-  @apply focus:border-focus focus:bg-background focus:text-foreground focus:ring-offset-background;
-  @apply dark:hover:text-shade-1;
-  @apply dark:focus:text-foreground;
-
-  &:active {
-    @apply dark:hover:text-foreground;
+    &:active {
+      @apply dark:hover:text-foreground;
+    }
   }
 }

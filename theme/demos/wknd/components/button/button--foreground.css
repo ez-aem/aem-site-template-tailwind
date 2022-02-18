@@ -1,10 +1,12 @@
-.button.button--foreground {
-  .cmp-button {
-    @apply bg-foreground text-background border-none;
-    @apply hover:bg-background hover:text-foreground border-none;
-    @apply focus:rounded-none focus:bg-background focus:text-foreground focus:border-background focus:no-underline focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
+@layer utilities {
+  .button.button--foreground {
+    .cmp-button {
+      @apply bg-foreground text-background border-none;
+      @apply hover:bg-background hover:text-foreground border-none;
+      @apply focus:rounded-none focus:bg-background focus:text-foreground focus:border-background focus:no-underline focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
+    }
   }
-}
 
-.dark-container {
+  .dark-container {
+  }
 }

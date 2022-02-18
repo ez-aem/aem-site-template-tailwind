@@ -1,65 +1,64 @@
-/*== XF Footer style, used on page template */
-#main-footer {
-  @apply py-4 bg-foreground mt-12;
-
-  .cmp-container > .aem-Grid {
-    @apply items-center;
-  }
-
-  .title {
-    @apply flex justify-center items-center w-full;
-    .cmp-title__text {
-      @apply text-background;
-    }
-  }
-
-  .text .cmp-text * {
-    @apply text-background text-xs mb-3 text-justify;
-  }
-  .text .cmp-text a {
-    @apply underline;
-  }
-
-  .image {
-    @apply flex;
-    .cmp-image__image {
-      max-width: 8rem;
-      @apply w-full invert hue-rotate-180;
-    }
-  }
-
-  #follow {
-    @apply justify-self-end;
-    .cmp-title__text {
-      @apply text-base font-semibold font-sans;
-    }
-  }
-}
-
-@screen phone {
+@layer components {
+  /*== XF Footer style, used on page template */
   #main-footer {
-    & > .aem-Grid {
-      @apply flex flex-col justify-center items-center gap-x-0;
+    @apply py-4 bg-foreground mt-12;
+
+    .cmp-container > .aem-Grid {
+      @apply items-center;
     }
-    .navigation.navigation--secondary {
-      .cmp-navigation__group {
-        @apply flex justify-center flex-col;
-      }
+
+    #copyright {
+      @apply flex justify-center items-center w-full apply text-background;
+    }
+
+    .text .cmp-text * {
+      @apply text-background text-xs mb-3 text-justify;
+    }
+    .text .cmp-text a {
+      @apply underline;
     }
 
     .image {
-      @apply self-center justify-self-center max-w-[13rem];
+      @apply flex;
+      .cmp-image__image {
+        max-width: 8rem;
+        @apply w-full invert hue-rotate-180;
+      }
     }
 
-    .text {
-      &:not(:last-child) {
-        @apply m-0 justify-end flex pr-4 text-background;
-        grid-area: terms;
+    #follow {
+      @apply justify-self-end;
+      .cmp-title__text {
+        @apply text-base font-semibold font-sans;
+      }
+    }
+  }
+
+  @screen phone {
+    #main-footer {
+      & > .aem-Grid {
+        @apply flex flex-col justify-center items-center gap-x-0;
+      }
+      .navigation.navigation--secondary {
+        .cmp-navigation__group {
+          @apply flex justify-center flex-col;
+        }
       }
 
-      &:last-child {
-        @apply justify-start pl-4;
-        grid-area: privacy;
+      .image {
+        @apply self-center justify-self-center max-w-[13rem];
+      }
+
+      .text {
+        &:not(:last-child) {
+          @apply m-0 justify-end flex pr-4 text-background;
+          grid-area: terms;
+        }
+
+        &:last-child {
+          @apply justify-start pl-4;
+          grid-area: privacy;
+        }
       }
     }
   }

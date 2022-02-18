@@ -1,5 +1,6 @@
 module.exports = {
-  presets: [require("./demos/wireframe/tailwind.preset.js")],
+  darkMode: "class",
+  presets: [require("./demos/wknd/tailwind.preset.js")],
   content: [
     "./src/index.html",
     "./src/**/**/*.{html,js,jsx,ts,tsx}",
@@ -17,7 +18,7 @@ module.exports = {
         name: "phone",
         columns: 12,
         gap: "1rem",
-        breakpoint: "768px",
+        breakpoint: "860px",
         breakpointType: "max-width",
         horizontalPadding: true,
       },

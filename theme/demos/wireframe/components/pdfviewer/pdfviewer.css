@@ -1,4 +1,6 @@
-.cmp-pdfviewer {
-}
-.cmp-pdfviewer__content {
+@layer components {
+  .cmp-pdfviewer {
+  }
+  .cmp-pdfviewer__content {
+  }
 }

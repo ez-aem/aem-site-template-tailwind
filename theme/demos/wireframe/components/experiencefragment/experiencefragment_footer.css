@@ -1,47 +1,53 @@
-/*== XF Footer style, used on page template */
-#main-footer {
-  @apply py-4;
-
-  .cmp-container > .aem-Grid {
-    @apply items-center;
-  }
-
-  .title {
-    @apply flex items-center justify-center;
-  }
-
-  .image {
-    @apply flex;
-    @apply dark:hue-rotate-180 dark:invert;
-  }
-}
-
-@screen phone {
+@layer utilities {
+  /*== XF Footer style, used on page template */
   #main-footer {
-    & > .aem-Grid {
-      @apply items-center justify-center gap-x-0;
-      grid-template-areas:
-        "separator separator"
-        "logo logo"
-        "copyright copyright"
-        "terms privacy";
-      grid-template-rows: auto 3rem auto auto;
-      grid-template-columns: 1fr 1fr;
+    @apply py-4;
+
+    .cmp-container > .aem-Grid {
+      @apply items-center;
+    }
+
+    #copyright {
+      @apply flex items-center justify-center;
     }
 
     .image {
-      @apply max-w-[13rem] self-center justify-self-center;
+      @apply flex;
+      @apply dark:hue-rotate-180 dark:invert;
     }
 
-    .text {
-      &:not(:last-child) {
-        @apply m-0 flex justify-end pr-4;
-        grid-area: terms;
+    .cmp-title__text {
+      @apply text-center;
+    }
+  }
+
+  @screen phone {
+    #main-footer {
+      & > .aem-Grid {
+        @apply items-center justify-center gap-x-0;
+        grid-template-areas:
+          "separator separator"
+          "logo logo"
+          "copyright copyright"
+          "terms privacy";
+        grid-template-rows: auto 3rem auto auto;
+        grid-template-columns: 1fr 1fr;
       }
 
-      &:last-child {
-        @apply justify-start pl-4;
-        grid-area: privacy;
+      .image {
+        @apply max-w-[13rem] self-center justify-self-center;
+      }
+
+      .text {
+        &:not(:last-child) {
+          @apply m-0 flex justify-end pr-4;
+          grid-area: terms;
+        }
+
+        &:last-child {
+          @apply justify-start pl-4;
+          grid-area: privacy;
+        }
       }
     }
   }

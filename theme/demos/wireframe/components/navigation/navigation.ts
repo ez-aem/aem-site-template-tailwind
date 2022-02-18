@@ -30,6 +30,7 @@ const navigation = () => {
 
       $wrapper.classList.add("cmp-navigation__item-link-wrapper");
       $button.classList.add("cmp-navigation__item__icon");
+      $button.setAttribute("aria-label", "Toggle Dropdown");
       $button.addEventListener("click", toggleNavigationGroup);
       $wrapper.appendChild($a);
       $wrapper.appendChild($button);
