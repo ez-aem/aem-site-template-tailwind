@@ -56,7 +56,6 @@
       "prettier --write"
     ],
     "*.xml": [
-      "node cleanup-xml.js",
       "prettier --write"
     ]
   },
