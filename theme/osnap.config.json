@@ -1,0 +1,22 @@
+{
+    "baseUrl": "http://admin:admin@localhost:7001",
+    "fullScreen": true,
+    "threshold": 3,
+    "parallelism": 20,
+    "testPattern": "src/**.osnap.json",
+    "ignorePatterns": ["node_modules", "vendor", "dist"],
+    "defaultSizes": [
+      { "name": "xxl", "width": 1600, "height": 900 },
+      { "name": "xl", "width": 1366, "height": 768 },
+      { "name": "md", "width": 1024, "height": 576 },
+      { "name": "sm", "width": 768, "height": 432 },
+      { "name": "xs", "width": 640, "height": 360 },
+      { "name": "xxs", "width": 320, "height": 180 }
+    ],
+    "snapshotDirectory": "./__image-snapshots__",
+    "diffPixelColor": {
+      "r": 0,
+      "g": 255,
+      "b": 0
+    }
+  }

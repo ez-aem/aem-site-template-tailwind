@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Home-mobile",
+    "url": "/content/aem-site-template-tailwind/en/home.html",
+    "threshold": 20,
+    "actions": [
+      { "action": "type", "selector": "#username", "text": "admin" },
+      { "action": "type", "selector": "#password", "text": "admin" },
+      { "action": "click", "selector": "#submit-button" },
+      { "action": "wait", "timeout": 2000 }
+    ]
+  }
+]

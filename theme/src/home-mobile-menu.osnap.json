@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Home-mobile-menu",
+        "url": "/content/aem-site-template-tailwind/en/home.html",
+        "threshold": 20,
+        "sizes": [
+            { "width": 768, "height": 432 },
+            { "width": 640, "height": 360 },
+            { "width": 320, "height": 180 }
+        ],
+        "actions": [
+            { "action": "type", "selector": "#username", "text": "admin" },
+            { "action": "type", "selector": "#password", "text": "admin" },
+            { "action": "click", "selector": "#submit-button" },
+            {  "action": "click", "selector": "#mobile-header-button" },
+            { "action": "wait", "timeout": 2000 }
+        ]
+    }
+]
