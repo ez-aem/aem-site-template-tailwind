@@ -9,7 +9,7 @@ const config = {
   title: "Tailwind AEM Site Template",
   tagline: "Learn Best Practices for AEM Site Templates",
   url: "https://ez-aem.github.io/",
-  baseUrl: "/",
+  baseUrl: "/aem-site-template-tailwind/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
