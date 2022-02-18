@@ -26,6 +26,7 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.1.5",
     "prettier": "^2.5.1",
+    "replace-in-file": "^6.3.2",
     "typescript": "^4.5.4"
   },
   "siteTemplate": {
@@ -52,6 +53,7 @@
       "prettier --write"
     ],
     "*.xml": [
+      "node cleanup-xml.js",
       "prettier --write"
     ]
   },
