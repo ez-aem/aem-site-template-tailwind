@@ -16,6 +16,7 @@ const config = {
   organizationName: "ez-aem", // Usually your GitHub org/user name.
   projectName: "aem-site-template-tailwind", // Usually your repo name.
   deploymentBranch: "gh-pages",
+  trailingSlash: false,
 
   presets: [
     [

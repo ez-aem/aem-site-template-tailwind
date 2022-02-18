@@ -26,6 +26,5 @@ Let's discover the **Tailwind AEM Site Template** by creating a new Site _in les
 
 _**Congratulations!**_ You've created your new Site and now you get to choose your own adventure:
 
-- [Manage the content of your Site](/docs/manage/intro)
-- [Customize the theme](/docs/customize/intro)
-- [Extend the functionality of your new Site](/docs/extend/intro)
+- [Manage the content of your Site](/manage)
+- [Customize the theme](/customize/theme-sources)

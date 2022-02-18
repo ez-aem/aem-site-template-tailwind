@@ -79,6 +79,5 @@ AEM will create your site.
 
 Now that you've created a new Site with the Tailwind AEM Site Template, it's time to move on to the next step: Choose your Adventure!
 
-- **[Manage](/manage/)** the content of your Site
-- **[Customize](/customize/)** the look and feel of your Site
-- **[Extend](/extend/)** the functionality of your new Site
+- **[Manage](/manage)** the content of your Site
+- **[Customize](/customize/theme-sources)** the look and feel of your Site
