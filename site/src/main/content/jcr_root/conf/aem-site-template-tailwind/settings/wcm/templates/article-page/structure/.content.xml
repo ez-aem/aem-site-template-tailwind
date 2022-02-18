@@ -37,18 +37,6 @@
                     showHidden="false"
                     startLevel="2"
                 >
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="1"
-                            width="10"
-                        />
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="12"
-                        />
-                    </cq:responsive>
                 </breadcrumb>
                 <container_1125714356
                     jcr:primaryType="nt:unstructured"
@@ -127,7 +115,7 @@
                 <phone
                     jcr:primaryType="nt:unstructured"
                     title="Smaller Screen"
-                    width="{Long}768"
+                    width="{Long}860"
                 />
             </breakpoints>
         </cq:responsive>

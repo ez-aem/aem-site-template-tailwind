@@ -41,8 +41,8 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="1"
-                            width="10"
+                            offset="0"
+                            width="12"
                         />
                         <phone
                             jcr:primaryType="nt:unstructured"

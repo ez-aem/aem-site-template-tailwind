@@ -1,13 +1,21 @@
 @layer base {
-  .page > .root > .cmp-container {
+  .root > .cmp-container {
     @apply grid;
     grid-template-rows: auto 1fr auto;
+    grid-template-columns: calc(100% / 12) 1fr calc(100% / 12);
+
+    & > * {
+      grid-column: 2;
+    }
+  }
+
+  .page > .root > .cmp-container {
     min-height: 100vh;
   }
 
   .aem-AuthorLayer-Preview.aem-Author--hidePlaceholder,
   .aem-AuthorLayer-Edit {
-    .page > .root > .cmp-container {
+    .root > .cmp-container {
       @apply grid;
       grid-template-rows: auto 1fr auto;
       min-height: auto;

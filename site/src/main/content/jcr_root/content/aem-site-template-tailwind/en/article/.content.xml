@@ -55,7 +55,7 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
-                                    width="10"
+                                    width="12"
                                 />
                                 <phone
                                     jcr:primaryType="nt:unstructured"

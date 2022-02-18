@@ -30,7 +30,7 @@
                     sling:resourceType="core/wcm/components/separator/v1/separator"
                 />
                 <teaser_copy_74296013_1715082336
-                    cq:styleIds="[1612897379772]"
+                    cq:styleIds="[1612830658386]"
                     jcr:description="&lt;p>Get started using your Tailwind template with our helpful guide.&lt;/p>&#xd;&#xa;"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Guide"
@@ -44,8 +44,8 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="2"
-                            width="8"
+                            offset="0"
+                            width="4"
                         />
                         <phone
                             jcr:primaryType="nt:unstructured"
@@ -62,7 +62,7 @@
                     </actions>
                 </teaser_copy_74296013_1715082336>
                 <teaser_copy_copy
-                    cq:styleIds="[1612897454978]"
+                    cq:styleIds="[1612830658386]"
                     jcr:description="&lt;p>Check out our guide to get the most from the Tailwind theme and to make your own.&lt;/p>&#xd;&#xa;"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Manage"
@@ -76,8 +76,8 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="2"
-                            width="8"
+                            offset="0"
+                            width="4"
                         />
                         <phone
                             jcr:primaryType="nt:unstructured"
@@ -94,7 +94,7 @@
                     </actions>
                 </teaser_copy_copy>
                 <teaser_copy_74296013
-                    cq:styleIds="[1612897379772]"
+                    cq:styleIds="[1612830658386]"
                     jcr:description="&lt;p>Learn how to make the Theme to match your brand with our customization guide.&lt;/p>&#xd;&#xa;"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Customize"
@@ -108,8 +108,8 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="2"
-                            width="8"
+                            offset="0"
+                            width="4"
                         />
                         <phone
                             jcr:primaryType="nt:unstructured"

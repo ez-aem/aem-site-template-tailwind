@@ -269,6 +269,12 @@
                                                 cq:styleLabel="Gap as Padding"
                                                 jcr:primaryType="nt:unstructured"
                                             />
+                                            <item3
+                                                cq:styleClasses="aem-Grid--full-width"
+                                                cq:styleId="container-full-width"
+                                                cq:styleLabel="Full Width"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
                                         </cq:styles>
                                     </item1>
                                 </cq:styleGroups>
@@ -330,6 +336,12 @@
                                                 cq:styleClasses="aem-Grid--gap-padding"
                                                 cq:styleId="1209842340914"
                                                 cq:styleLabel="Gap as Padding"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="aem-Grid--full-width"
+                                                cq:styleId="container-full-width"
+                                                cq:styleLabel="Full Width"
                                                 jcr:primaryType="nt:unstructured"
                                             />
                                         </cq:styles>
@@ -412,6 +424,12 @@
                                                 cq:styleLabel="Gap as Padding"
                                                 jcr:primaryType="nt:unstructured"
                                             />
+                                            <item3
+                                                cq:styleClasses="aem-Grid--full-width"
+                                                cq:styleId="container-full-width"
+                                                cq:styleLabel="Full Width"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
                                         </cq:styles>
                                     </item1>
                                 </cq:styleGroups>
@@ -490,6 +508,12 @@
                                                 cq:styleClasses="aem-Grid--gap-padding"
                                                 cq:styleId="1209842340914"
                                                 cq:styleLabel="Gap as Padding"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="aem-Grid--full-width"
+                                                cq:styleId="container-full-width"
+                                                cq:styleLabel="Full Width"
                                                 jcr:primaryType="nt:unstructured"
                                             />
                                         </cq:styles>

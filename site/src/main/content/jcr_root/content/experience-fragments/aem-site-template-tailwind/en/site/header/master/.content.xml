@@ -40,8 +40,8 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="1"
-                            width="1"
+                            offset="0"
+                            width="2"
                         />
                     </cq:responsive>
                 </image_271092066>
@@ -68,7 +68,7 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="9"
+                            width="10"
                         />
                         <phone
                             jcr:primaryType="nt:unstructured"
@@ -89,7 +89,7 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
-                                width="5"
+                                width="6"
                             />
                             <phone
                                 jcr:primaryType="nt:unstructured"

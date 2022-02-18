@@ -1,4 +1,9 @@
 @layer components {
+  /* Make the footer full width */
+  .experiencefragment.header {
+    grid-column: 1 / -1;
+  }
+
   /* XF Header style, used on page template */
   #main-header-wrapper {
     @apply z-50 border-b-2 border-solid border-shade-1;

@@ -1,6 +1,6 @@
 const plugin = require("tailwindcss/plugin");
 
-module.exports = plugin(({ addBase, theme }) => {
+module.exports = plugin(({ addBase, addUtilities, theme }) => {
   const aemGridSettings = theme("aemGrid", []);
 
   addBase({
@@ -45,6 +45,12 @@ module.exports = plugin(({ addBase, theme }) => {
     ".aem-Grid--gap-padding .aem-Grid .aem-Grid": {
       "--aem-grid-column-padding": "0",
       gap: 0,
+    },
+  });
+
+  addUtilities({
+    ".root > .cmp-container .aem-Grid--full-width": {
+      "grid-column": "1 / -1",
     },
   });
 
