@@ -1,8 +1,8 @@
 {
-    "baseUrl": "http://admin:admin@localhost:7001",
+    "baseUrl": "http://localhost:7001",
     "fullScreen": true,
     "threshold": 3,
-    "parallelism": 20,
+    "parallelism": 1,
     "testPattern": "src/**.osnap.json",
     "ignorePatterns": ["node_modules", "vendor", "dist"],
     "defaultSizes": [
@@ -15,8 +15,8 @@
     ],
     "snapshotDirectory": "./__image-snapshots__",
     "diffPixelColor": {
-      "r": 0,
-      "g": 255,
+      "r": 255,
+      "g": 0,
       "b": 0
     }
   }
