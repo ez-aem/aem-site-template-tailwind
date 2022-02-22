@@ -1,8 +1,9 @@
-const { liveServerDetails, loginAndLazyLoadScroll } = require("./utilities");
+const { loginAndLazyLoadScroll } = require("./utilities");
 const { test, expect } = require("@playwright/test");
+const { aemSite } = require("../playwright.config");
 
 test("home", async ({ page }) => {
-  await page.goto(`/content/${liveServerDetails.aemSite}/en/home.html`);
+  await page.goto(`/content/${aemSite}/en/home.html`);
 
   await loginAndLazyLoadScroll(page);
 
