@@ -93,6 +93,7 @@ aem-site-template-tailwind-*.zip
 site-template
 
 theme/.env
+theme/test-results
 
 ### ESLint ###
 .eslintcache

@@ -1,10 +1,12 @@
-const { devices } = require("@playwright/test");
-
 const config = {
   timeout: 30000, // Timeout is shared between all tests.
+  webServer: {
+    command: "npm run live",
+    port: 7000,
+  },
   use: {
-    fullPage: true,
-    headless: false,
+    headless: true,
+    baseURL: "http://localhost:7001",
   },
   projects: [
     // {
@@ -28,7 +30,7 @@ const config = {
       testMatch: "home-mobile.spec.js",
       retries: 0,
       use: {
-        viewport: { width: 640, height: 1136 },
+        viewport: { width: 640, height: 900 },
       },
     },
     // {
