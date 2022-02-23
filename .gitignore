@@ -95,5 +95,8 @@ site-template
 theme/.env
 theme/test-results/
 
+theme/tests/utilities-login-info.js
+theme/tests/*-snapshots/
+
 ### ESLint ###
 .eslintcache

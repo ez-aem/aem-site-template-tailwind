@@ -1,6 +1,13 @@
+const { username, password } = require("./utilities-login-info");
+
 const loginAndLazyLoadScroll = async (page) => {
-  await page.fill("#username", "admin");
-  await page.fill("#password", "admin");
+  // #coral-id-0
+  const loginDiv = await page.$$("button#coral-id-0");
+  if (loginDiv.length) {
+    await page.click("button#coral-id-0");
+  }
+  await page.fill("#username", username);
+  await page.fill("#password", password);
   await page.click("#submit-button");
   await page.waitForLoadState();
 
@@ -14,8 +21,8 @@ const loginAndLazyLoadScroll = async (page) => {
   });
   await page.waitForLoadState();
 
-  // waiting for browser sync notification to go away
-  await page.waitForTimeout(3000);
+  // waiting for browser sync notification to go away #__bs_notify__
+  await page.waitForSelector("#__bs_notify__", { state: "detached" });
 };
 
 module.exports = {
