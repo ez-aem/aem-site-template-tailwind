@@ -47,7 +47,7 @@
                     </actions>
                 </teaser>
             </container>
-            <container_1134415548
+            <main
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 layout="responsiveGrid"
@@ -188,7 +188,7 @@
                         </cq:responsive>
                     </teaser_copy_742960135>
                 </container>
-            </container_1134415548>
+            </main>
         </root>
     </jcr:content>
 </jcr:root>

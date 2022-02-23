@@ -1,6 +1,6 @@
 {
   "name": "aem-site-template-tailwind",
-  "version": "1.23.11",
+  "version": "1.23.18",
   "description": "AEM Site Template built with Tailwind CSS. Includes an easy-to-remove Wireframe Theme as an example of best-practices for theming site templates",
   "license": "MIT License, Copyright 2022 headwire.com",
   "scripts": {
@@ -8,7 +8,8 @@
     "build:theme": "cd theme && npm run build",
     "cleanup": "run-s cleanup-xml prettier:fix",
     "cleanup-xml": "node cleanup-xml.js",
-    "deploy": "curl -u admin:admin -F file=@aem-site-template-tailwind-latest.zip http://localhost:4502/conf/global/site-templates.import.html",
+    "deploy": "node -r dotenv/config ./redeploy.js dotenv_config_path=./theme/.env",
+    "undeploy:local": "node -r dotenv/config ./undeploy.js dotenv_config_path=./theme/.env",
     "lint:check": "eslint -c theme/.eslintrc.json theme --ext .ts,.js,.jsx,.tsx",
     "lint:fix": "eslint -c theme/.eslintrc.json --fix theme --ext .ts,.js,.jsx,.tsx",
     "live": "cd theme && npm run live",
@@ -22,6 +23,7 @@
     "@prettier/plugin-xml": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
+    "dotenv": "^16.0.0",
     "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",

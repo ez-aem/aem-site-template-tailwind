@@ -49,7 +49,17 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
   });
 
   addUtilities({
-    ".root > .cmp-container .aem-Grid--full-width": {
+    ".root > .cmp-container, .cmp-container": {
+      display: "grid",
+      "grid-template-columns": "calc(100% / 12) 1fr calc(100% / 12)",
+    },
+    ".cmp-container > *": {
+      "grid-column": "2",
+    },
+    ":where(.cmp-container) .cmp-container": {
+      "grid-template-columns": "1fr",
+    },
+    ".cmp-container .aem-Grid--full-width": {
       "grid-column": "1 / -1",
     },
   });

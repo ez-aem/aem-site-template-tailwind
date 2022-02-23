@@ -13,8 +13,7 @@
     min-height: 100vh;
   }
 
-  .aem-AuthorLayer-Preview.aem-Author--hidePlaceholder,
-  .aem-AuthorLayer-Edit {
+  html[class*="aem-AuthorLayer"] {
     .root > .cmp-container {
       @apply grid;
       grid-template-rows: auto 1fr auto;

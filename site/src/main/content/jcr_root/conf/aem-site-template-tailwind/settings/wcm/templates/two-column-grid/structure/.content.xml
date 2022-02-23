@@ -23,7 +23,7 @@
                 fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/header/master"
                 id="header"
             />
-            <container_1134415548
+            <main
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 layout="responsiveGrid"
@@ -91,7 +91,7 @@
                         </cq:responsive>
                     </container_copy>
                 </container>
-            </container_1134415548>
+            </main>
             <experiencefragment_1351464162
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
