@@ -17,8 +17,8 @@
     "watch": "run-p watch:*",
     "watch:color-scheme": "parcel watch src/color-scheme.ts",
     "watch:theme": "parcel watch src/theme.ts",
-    "test:live": "playwright test",
-    "test:update": "playwright test --update-snapshots"
+    "test:live": "playwright test --config live.playwright.config.js",
+    "test:update": "playwright test --config live.playwright.config.js --update-snapshots"
   },
   "devDependencies": {
     "@adobe/aem-site-theme-builder": "5.2.1",
