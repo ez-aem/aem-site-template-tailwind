@@ -17,9 +17,9 @@
     "watch": "run-p watch:*",
     "watch:color-scheme": "parcel watch src/color-scheme.ts",
     "watch:theme": "parcel watch src/theme.ts",
-    "test:live": "playwright test --config live.playwright.config.js",
-    "test:local": "playwright test --config local.playwright.config.js",
-    "test:update": "playwright test --config live.playwright.config.js --update-snapshots"
+    "test": "backstop test --config=backstop.config.js",
+    "test:live": "run-p live test",
+    "test:replace-refrence": "backstop approve"
   },
   "devDependencies": {
     "@adobe/aem-site-theme-builder": "5.2.1",
@@ -61,6 +61,7 @@
     }
   },
   "dependencies": {
+    "backstopjs": "^6.0.4",
     "inquirer": "^8.2.0"
   }
 }

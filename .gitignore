@@ -91,12 +91,12 @@ npm-debug.log
 ### Generated Files from AEM Template Builder ###
 aem-site-template-tailwind-*.zip
 site-template
-
 theme/.env
-theme/test-results/
 
-theme/tests/utilities-login-info.js
-theme/tests/*-snapshots/
+### BackstopJS Files ###
+theme/backstop_data/bitmaps_test/
+theme/backstop_data/html_report/
+theme/backstop_data/backstop-login-info.js
 
 ### ESLint ###
 .eslintcache

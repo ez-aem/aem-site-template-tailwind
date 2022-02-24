@@ -1,4 +1,4 @@
-// utilities-login-info.js
+// backstop-login-info.js
 
 const username = 'admin'
 const password = 'admin'
