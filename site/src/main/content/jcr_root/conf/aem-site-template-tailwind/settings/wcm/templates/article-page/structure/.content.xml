@@ -1,172 +1,134 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jcr:root
-  xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-  xmlns:cq="http://www.day.com/jcr/cq/1.0"
-  xmlns:jcr="http://www.jcp.org/jcr/1.0"
-  xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-  jcr:primaryType="cq:Page"
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page"
 >
     <jcr:content
-    cq:deviceGroups="[mobile/groups/responsive]"
-    cq:lastModified="{Date}2022-01-06T13:45:52.415-03:00"
-    cq:lastModifiedBy="admin"
-    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/article-page"
-    jcr:primaryType="cq:PageContent"
-    sling:resourceType="core/wcm/components/page/v2/page"
-  >
-        <root
-      jcr:primaryType="nt:unstructured"
-      sling:resourceType="core/wcm/components/container/v1/container"
-      layout="simple"
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/article-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="core/wcm/components/page/v2/page"
     >
-            <experiencefragment
-        cq:styleIds="[1613072653183909]"
-        jcr:created="{Date}2022-01-06T08:23:02.199-03:00"
-        jcr:createdBy="admin"
-        jcr:lastModified="{Date}2022-01-06T08:23:19.407-03:00"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="nt:unstructured"
-        sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-        fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/header/master"
-        id="header"
-      />
-            <container
-        jcr:created="{Date}2022-01-06T09:17:26.934-03:00"
-        jcr:createdBy="admin"
-        jcr:lastModified="{Date}2022-01-06T09:18:16.583-03:00"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="nt:unstructured"
-        sling:resourceType="core/wcm/components/container/v1/container"
-        layout="responsiveGrid"
-      >
-                <breadcrumb
-          jcr:created="{Date}2022-01-06T11:14:17.657-03:00"
-          jcr:createdBy="admin"
-          jcr:lastModified="{Date}2022-01-06T11:14:23.869-03:00"
-          jcr:lastModifiedBy="admin"
-          jcr:primaryType="nt:unstructured"
-          sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"
-          disableShadowing="false"
-          hideCurrent="false"
-          showHidden="false"
-          startLevel="2"
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+            layout="simple"
         >
+            <experiencefragment
+                cq:styleIds="[1613072653183909]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/header/master"
+                id="header"
+            />
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="responsiveGrid"
+            >
+                <breadcrumb
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"
+                    disableShadowing="false"
+                    hideCurrent="false"
+                    showHidden="false"
+                    startLevel="2"
+                >
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
-              jcr:primaryType="nt:unstructured"
-              offset="1"
-              width="10"
-            />
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"
+                        />
                         <phone
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="12"
-            />
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"
+                        />
                     </cq:responsive>
                 </breadcrumb>
                 <container_1125714356
-          jcr:created="{Date}2022-01-06T11:25:04.291-03:00"
-          jcr:createdBy="admin"
-          jcr:lastModified="{Date}2022-01-06T11:25:10.693-03:00"
-          jcr:lastModifiedBy="admin"
-          jcr:primaryType="nt:unstructured"
-          sling:resourceType="core/wcm/components/container/v1/container"
-          layout="responsiveGrid"
-        >
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid"
+                >
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
-              jcr:primaryType="nt:unstructured"
-              offset="2"
-              width="8"
-            />
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="8"
+                        />
                         <phone
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="12"
-            />
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"
+                        />
                     </cq:responsive>
                     <title
-            jcr:created="{Date}2022-01-06T13:45:18.791-03:00"
-            jcr:createdBy="admin"
-            jcr:lastModified="{Date}2022-01-06T13:45:18.791-03:00"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="core/wcm/components/title/v2/title"
-            editable="{Boolean}true"
-          >
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/title/v2/title"
+                        editable="{Boolean}true"
+                    >
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="8"
-              />
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="8"
+                            />
                             <phone
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="12"
-              />
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"
+                            />
                         </cq:responsive>
                     </title>
                     <container
-            jcr:created="{Date}2022-01-06T09:17:29.978-03:00"
-            jcr:createdBy="admin"
-            jcr:lastModified="{Date}2022-01-06T11:27:08.809-03:00"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="core/wcm/components/container/v1/container"
-            editable="{Boolean}true"
-          >
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        editable="{Boolean}true"
+                    >
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="8"
-              />
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="8"
+                            />
                             <phone
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="12"
-              />
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"
+                            />
                         </cq:responsive>
                     </container>
                     <sharing
-            jcr:created="{Date}2022-01-06T11:34:32.277-03:00"
-            jcr:createdBy="admin"
-            jcr:lastModified="{Date}2022-01-06T11:34:32.277-03:00"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="core/wcm/components/sharing/v1/sharing"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/sharing/v1/sharing"
+                    />
                 </container_1125714356>
                 <experiencefragment
-          jcr:created="{Date}2022-01-06T11:30:29.150-03:00"
-          jcr:createdBy="admin"
-          jcr:lastModified="{Date}2022-01-06T11:30:39.140-03:00"
-          jcr:lastModifiedBy="admin"
-          jcr:primaryType="nt:unstructured"
-          sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-          fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/article-recommendations/master"
-        />
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/article-recommendations/master"
+                />
             </container>
             <experiencefragment_1351464162
-        cq:styleIds="[11613072653183900]"
-        jcr:created="{Date}2022-01-06T08:23:23.616-03:00"
-        jcr:createdBy="admin"
-        jcr:lastModified="{Date}2022-01-06T08:23:35.295-03:00"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="nt:unstructured"
-        sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-        fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/footer/master"
-        id="footer"
-      />
+                cq:styleIds="[11613072653183900]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/footer/master"
+                id="footer"
+            />
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
                 <phone
-          jcr:primaryType="nt:unstructured"
-          title="Smaller Screen"
-          width="{Long}768"
-        />
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"
+                />
             </breakpoints>
         </cq:responsive>
     </jcr:content>

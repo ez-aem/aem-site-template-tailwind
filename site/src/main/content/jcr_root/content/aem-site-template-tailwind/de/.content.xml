@@ -1,56 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jcr:root
-  xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-  xmlns:cq="http://www.day.com/jcr/cq/1.0"
-  xmlns:jcr="http://www.jcp.org/jcr/1.0"
-  xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-  jcr:primaryType="cq:Page"
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page"
 >
     <jcr:content
-    cq:isLanguageRoot="true"
-    cq:lastModified="{Date}2022-01-06T13:33:44.367-03:00"
-    cq:lastModifiedBy="admin"
-    cq:redirectTarget="/content/aem-site-template-tailwind/de/home"
-    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/full-width-hero-grid-content"
-    jcr:language="de"
-    jcr:primaryType="cq:PageContent"
-    jcr:title="Deutsch"
-    sling:resourceType="core/wcm/components/page/v2/page"
-    pageTitle="Startseite"
-    pwaCachestrategy="staleWhileRevalidate"
-    pwaDisplay="standalone"
-    pwaOrientation="any"
-  >
-        <root
-      jcr:primaryType="nt:unstructured"
-      sling:resourceType="core/wcm/components/container/v1/container"
+        cq:isLanguageRoot="true"
+        cq:redirectTarget="/content/aem-site-template-tailwind/de/home"
+        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/full-width-hero-grid-content"
+        jcr:language="de"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Deutsch"
+        sling:resourceType="core/wcm/components/page/v2/page"
+        pageTitle="Startseite"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any"
     >
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+        >
             <container_1134415548
-        jcr:created="{Date}2022-01-06T08:47:59.708-03:00"
-        jcr:createdBy="admin"
-        jcr:lastModified="{Date}2022-01-06T08:52:51.644-03:00"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="nt:unstructured"
-        sling:resourceType="core/wcm/components/container/v1/container"
-        layout="responsiveGrid"
-      >
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="responsiveGrid"
+            >
                 <container
-          jcr:created="{Date}2022-01-06T08:52:54.820-03:00"
-          jcr:createdBy="admin"
-          jcr:lastModified="{Date}2022-01-06T09:36:54.684-03:00"
-          jcr:lastModifiedBy="admin"
-          jcr:primaryType="nt:unstructured"
-          sling:resourceType="core/wcm/components/container/v1/container"
-          layout="responsiveGrid"
-        />
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid"
+                />
             </container_1134415548>
             <container
-        jcr:lastModified="{Date}2022-01-06T09:36:28.964-03:00"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="nt:unstructured"
-        sling:resourceType="core/wcm/components/container/v1/container"
-        layout="simple"
-      />
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="simple"
+            />
         </root>
     </jcr:content>
     <home />

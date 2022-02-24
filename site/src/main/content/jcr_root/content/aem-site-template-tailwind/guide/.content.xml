@@ -1,200 +1,162 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jcr:root
-  xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-  xmlns:cq="http://www.day.com/jcr/cq/1.0"
-  xmlns:jcr="http://www.jcp.org/jcr/1.0"
-  xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-  jcr:primaryType="cq:Page"
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page"
 >
     <jcr:content
-    cq:lastModified="{Date}2022-02-17T13:39:17.740+01:00"
-    cq:lastModifiedBy="admin"
-    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/two-column-grid1"
-    jcr:primaryType="cq:PageContent"
-    jcr:title="Guide"
-    sling:resourceType="core/wcm/components/page/v2/page"
-    pwaCachestrategy="staleWhileRevalidate"
-    pwaDisplay="standalone"
-    pwaOrientation="any"
-  >
-        <root
-      jcr:primaryType="nt:unstructured"
-      sling:resourceType="core/wcm/components/container/v1/container"
+        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/two-column-grid1"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Guide"
+        sling:resourceType="core/wcm/components/page/v2/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any"
     >
-            <container_1134415548
-        jcr:created="{Date}2022-01-06T08:47:59.708-03:00"
-        jcr:createdBy="admin"
-        jcr:lastModified="{Date}2022-01-06T09:44:45.753-03:00"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="nt:unstructured"
-        sling:resourceType="core/wcm/components/container/v1/container"
-        layout="responsiveGrid"
-      >
-                <container
-          jcr:created="{Date}2022-01-06T09:44:52.629-03:00"
-          jcr:createdBy="admin"
-          jcr:lastModified="{Date}2022-01-06T09:45:24.612-03:00"
-          jcr:lastModifiedBy="admin"
-          jcr:primaryType="nt:unstructured"
-          sling:resourceType="core/wcm/components/container/v1/container"
-          layout="responsiveGrid"
-        >
-                    <container
-            jcr:created="{Date}2022-01-06T09:44:58.490-03:00"
-            jcr:createdBy="admin"
-            jcr:lastModified="{Date}2022-01-06T09:47:51.669-03:00"
-            jcr:lastModifiedBy="admin"
+        <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container"
-            layout="responsiveGrid"
-          >
-                        <title_copy_copy
-              jcr:created="{Date}2022-02-15T14:45:06.908-03:00"
-              jcr:createdBy="admin"
-              jcr:lastModified="{Date}2022-02-15T14:45:11.222-03:00"
-              jcr:lastModifiedBy="admin"
-              jcr:primaryType="nt:unstructured"
-              jcr:title="Welcome to the Tailwind AEM Site Template"
-              sling:resourceType="core/wcm/components/title/v2/title"
-              type="h2"
+        >
+            <container_1134415548
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="responsiveGrid"
             >
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid"
+                >
+                    <container
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        layout="responsiveGrid"
+                    >
+                        <title_copy_copy
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Welcome to the Tailwind AEM Site Template"
+                            sling:resourceType="core/wcm/components/title/v2/title"
+                            type="h2"
+                        >
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
-                  jcr:primaryType="nt:unstructured"
-                  offset="0"
-                  width="5"
-                />
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="5"
+                                />
                                 <phone
-                  jcr:primaryType="nt:unstructured"
-                  offset="0"
-                  width="12"
-                />
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"
+                                />
                             </cq:responsive>
                         </title_copy_copy>
                         <text_copy_2062140294
-              jcr:created="{Date}2022-02-15T14:17:32.881-03:00"
-              jcr:createdBy="admin"
-              jcr:lastModified="{Date}2022-02-15T16:44:40.222-03:00"
-              jcr:lastModifiedBy="admin"
-              jcr:primaryType="nt:unstructured"
-              sling:resourceType="core/wcm/components/text/v2/text"
-              text="&lt;p>Let's jumpstart your website journey. These guides will get you up and running as quickly as possible, and help you achieve your goals, no matter what your technical background or experience may be.&lt;/p>&#xd;&#xa;&lt;p>If you're just looking to dive right into content creation and management, using the Tailwind AEM Site Template out of the box with no customization, check out the Manage guide.&lt;/p>&#xd;&#xa;&lt;p>Customization more your style? Go right into the Customize guide where you'll get insights into theming, styling and branding.&lt;/p>&#xd;&#xa;&lt;p>Let the building begin!&lt;/p>&#xd;&#xa;"
-              textIsRich="true"
-            >
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p>Let's jumpstart your website journey. These guides will get you up and running as quickly as possible, and help you achieve your goals, no matter what your technical background or experience may be.&lt;/p>&#xd;&#xa;&lt;p>If you're just looking to dive right into content creation and management, using the Tailwind AEM Site Template out of the box with no customization, check out the Manage guide.&lt;/p>&#xd;&#xa;&lt;p>Customization more your style? Go right into the Customize guide where you'll get insights into theming, styling and branding.&lt;/p>&#xd;&#xa;&lt;p>Let the building begin!&lt;/p>&#xd;&#xa;"
+                            textIsRich="true"
+                        >
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
-                  jcr:primaryType="nt:unstructured"
-                  offset="0"
-                  width="5"
-                />
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="5"
+                                />
                                 <phone
-                  jcr:primaryType="nt:unstructured"
-                  offset="0"
-                  width="12"
-                />
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"
+                                />
                             </cq:responsive>
                         </text_copy_2062140294>
                     </container>
                     <container_copy
-            jcr:created="{Date}2022-01-06T09:44:58.490-03:00"
-            jcr:createdBy="admin"
-            jcr:lastModified="{Date}2022-01-06T09:47:54.911-03:00"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="core/wcm/components/container/v1/container"
-            layout="responsiveGrid"
-          >
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        layout="responsiveGrid"
+                    >
                         <teaser_copy_copy_cop
-              cq:styleIds="[1612897513127,1612830658386]"
-              jcr:created="{Date}2022-02-15T14:06:52.463-03:00"
-              jcr:createdBy="admin"
-              jcr:description="&lt;p>Get the most from the Wireframe theme without in-depth customization.&lt;/p>&#xd;&#xa;"
-              jcr:lastModified="{Date}2022-02-15T16:41:20.893-03:00"
-              jcr:lastModifiedBy="admin"
-              jcr:primaryType="nt:unstructured"
-              jcr:title="Manage"
-              sling:resourceType="core/wcm/components/teaser/v1/teaser"
-              actionsEnabled="true"
-              descriptionFromPage="false"
-              textIsRich="true"
-              titleFromPage="false"
-            >
+                            cq:styleIds="[1612897513127,1612830658386]"
+                            jcr:description="&lt;p>Get the most from the Wireframe theme without in-depth customization.&lt;/p>&#xd;&#xa;"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Manage"
+                            sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            textIsRich="true"
+                            titleFromPage="false"
+                        >
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
-                  jcr:primaryType="nt:unstructured"
-                  offset="0"
-                  width="6"
-                />
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="6"
+                                />
                                 <phone
-                  jcr:primaryType="nt:unstructured"
-                  offset="0"
-                  width="12"
-                />
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"
+                                />
                             </cq:responsive>
                             <actions jcr:primaryType="nt:unstructured">
                                 <item0
-                  jcr:primaryType="nt:unstructured"
-                  link="/content/aem-site-template-tailwind/guide/manage"
-                  text="Learn More"
-                />
+                                    jcr:primaryType="nt:unstructured"
+                                    link="/content/aem-site-template-tailwind/guide/manage"
+                                    text="Learn More"
+                                />
                             </actions>
                         </teaser_copy_copy_cop>
                         <teaser_1553495489_co
-              cq:styleIds="[1612897513127,1612830658386]"
-              jcr:created="{Date}2022-02-15T14:06:57.430-03:00"
-              jcr:createdBy="admin"
-              jcr:description="&lt;p>Make the Wireframe theme match your brand and style with this detailed customization guide. &lt;/p>&#xd;&#xa;"
-              jcr:lastModified="{Date}2022-02-15T16:41:28.589-03:00"
-              jcr:lastModifiedBy="admin"
-              jcr:primaryType="nt:unstructured"
-              jcr:title="Customize"
-              sling:resourceType="core/wcm/components/teaser/v1/teaser"
-              actionsEnabled="true"
-              descriptionFromPage="false"
-              textIsRich="true"
-              titleFromPage="false"
-            >
+                            cq:styleIds="[1612897513127,1612830658386]"
+                            jcr:description="&lt;p>Make the Wireframe theme match your brand and style with this detailed customization guide. &lt;/p>&#xd;&#xa;"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Customize"
+                            sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            textIsRich="true"
+                            titleFromPage="false"
+                        >
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
-                  jcr:primaryType="nt:unstructured"
-                  offset="0"
-                  width="6"
-                />
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="6"
+                                />
                                 <phone
-                  jcr:primaryType="nt:unstructured"
-                  offset="0"
-                  width="12"
-                />
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"
+                                />
                             </cq:responsive>
                             <actions jcr:primaryType="nt:unstructured">
                                 <item0
-                  jcr:primaryType="nt:unstructured"
-                  link="/content/aem-site-template-tailwind/guide/customize"
-                  text="Learn More"
-                />
+                                    jcr:primaryType="nt:unstructured"
+                                    link="/content/aem-site-template-tailwind/guide/customize"
+                                    text="Learn More"
+                                />
                             </actions>
                         </teaser_1553495489_co>
                         <teaser_983666080
-              cq:styleIds="[1612830658386,1612897513127]"
-              jcr:created="{Date}2022-02-17T13:30:38.239+01:00"
-              jcr:createdBy="admin"
-              jcr:description="&lt;p>Want to build the template for yourself? Get the code from GitHub!&lt;/p>&#xd;&#xa;"
-              jcr:lastModified="{Date}2022-02-17T13:31:22.201+01:00"
-              jcr:lastModifiedBy="admin"
-              jcr:primaryType="nt:unstructured"
-              jcr:title="Download Template"
-              sling:resourceType="core/wcm/components/teaser/v1/teaser"
-              actionsEnabled="true"
-              descriptionFromPage="false"
-              textIsRich="true"
-              titleFromPage="false"
-            >
+                            cq:styleIds="[1612830658386,1612897513127]"
+                            jcr:description="&lt;p>Want to build the template for yourself? Get the code from GitHub!&lt;/p>&#xd;&#xa;"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Download Template"
+                            sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            textIsRich="true"
+                            titleFromPage="false"
+                        >
                             <actions jcr:primaryType="nt:unstructured">
                                 <item0
-                  jcr:primaryType="nt:unstructured"
-                  link="https://github.com/adobe/aem-site-template-standard"
-                  text="Get the code"
-                />
+                                    jcr:primaryType="nt:unstructured"
+                                    link="https://github.com/adobe/aem-site-template-standard"
+                                    text="Get the code"
+                                />
                             </actions>
                         </teaser_983666080>
                     </container_copy>

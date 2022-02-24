@@ -1,112 +1,110 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jcr:root
-  xmlns:cq="http://www.day.com/jcr/cq/1.0"
-  xmlns:jcr="http://www.jcp.org/jcr/1.0"
-  xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-  jcr:primaryType="cq:Page"
+    xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page"
 >
     <jcr:content
-    jcr:lastModified="{Date}2022-02-15T14:04:59.059-03:00"
-    jcr:lastModifiedBy="admin"
-    jcr:primaryType="cq:PageContent"
-    prefixPath="/content/aem-site-template-tailwind.theme/_default"
-  >
+        jcr:primaryType="cq:PageContent"
+        prefixPath="/content/aem-site-template-tailwind.theme/_default"
+    >
         <items jcr:primaryType="nt:unstructured">
             <css
-        jcr:primaryType="nt:unstructured"
-        element="link"
-        location="header"
-      >
+                jcr:primaryType="nt:unstructured"
+                element="link"
+                location="header"
+            >
                 <attributes jcr:primaryType="nt:unstructured">
                     <as
-            jcr:primaryType="nt:unstructured"
-            name="as"
-            value="style"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="as"
+                        value="style"
+                    />
                     <href
-            jcr:primaryType="nt:unstructured"
-            name="href"
-            value="/css/theme.css"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="href"
+                        value="/css/theme.css"
+                    />
                     <rel
-            jcr:primaryType="nt:unstructured"
-            name="rel"
-            value="preload stylesheet"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="rel"
+                        value="preload stylesheet"
+                    />
                     <type
-            jcr:primaryType="nt:unstructured"
-            name="type"
-            value="text/css"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="type"
+                        value="text/css"
+                    />
                 </attributes>
             </css>
             <colorscheme
-        jcr:primaryType="nt:unstructured"
-        element="script"
-        location="header"
-      >
+                jcr:primaryType="nt:unstructured"
+                element="script"
+                location="header"
+            >
                 <attributes jcr:primaryType="nt:unstructured">
                     <src
-            jcr:primaryType="nt:unstructured"
-            name="src"
-            value="/js/color-scheme.js"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="src"
+                        value="/js/color-scheme.js"
+                    />
                     <async
-            jcr:primaryType="nt:unstructured"
-            name="async"
-            value="false"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="async"
+                        value="false"
+                    />
                     <type
-            jcr:primaryType="nt:unstructured"
-            name="type"
-            value="text/javascript"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="type"
+                        value="text/javascript"
+                    />
                 </attributes>
             </colorscheme>
             <javascript
-        jcr:primaryType="nt:unstructured"
-        element="script"
-        location="footer"
-      >
+                jcr:primaryType="nt:unstructured"
+                element="script"
+                location="footer"
+            >
                 <attributes jcr:primaryType="nt:unstructured">
                     <src
-            jcr:primaryType="nt:unstructured"
-            name="src"
-            value="/js/theme.js"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="src"
+                        value="/js/theme.js"
+                    />
                     <async
-            jcr:primaryType="nt:unstructured"
-            name="async"
-            value="true"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="async"
+                        value="true"
+                    />
                     <type
-            jcr:primaryType="nt:unstructured"
-            name="type"
-            value="text/javascript"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="type"
+                        value="text/javascript"
+                    />
                 </attributes>
             </javascript>
             <favicon
-        jcr:primaryType="nt:unstructured"
-        element="link"
-        location="header"
-      >
+                jcr:primaryType="nt:unstructured"
+                element="link"
+                location="header"
+            >
                 <attributes jcr:primaryType="nt:unstructured">
                     <href
-            jcr:primaryType="nt:unstructured"
-            name="href"
-            value="/resources/images/favicon.png"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="href"
+                        value="/resources/images/favicon.png"
+                    />
                     <rel
-            jcr:primaryType="nt:unstructured"
-            name="rel"
-            value="icon"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="rel"
+                        value="icon"
+                    />
                     <type
-            jcr:primaryType="nt:unstructured"
-            name="type"
-            value="image/png"
-          />
+                        jcr:primaryType="nt:unstructured"
+                        name="type"
+                        value="image/png"
+                    />
                 </attributes>
             </favicon>
         </items>
