@@ -1,9 +1,0 @@
-// backstop-login-info.js
-
-const username = 'admin'
-const password = 'admin'
-
-module.exports = {
-    username,
-    password,
-}

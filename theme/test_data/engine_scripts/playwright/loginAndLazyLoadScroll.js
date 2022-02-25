@@ -1,13 +1,13 @@
 module.exports = async (page, scenario) => {
-  const { username, password } = scenario.login;
+  const { aemUsername, aemPassword } = scenario.login;
   // AEM-Cloud instances require this extra button press to login
   const loginDiv = await page.$$("button#coral-id-0");
   if (loginDiv.length) {
     await page.click("button#coral-id-0");
   }
 
-  await page.fill("#username", username);
-  await page.fill("#password", password);
+  await page.fill("#username", aemUsername);
+  await page.fill("#password", aemPassword);
   await page.click("#submit-button");
   await page.waitForLoadState();
 
