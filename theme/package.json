@@ -17,9 +17,11 @@
     "watch": "run-p watch:*",
     "watch:color-scheme": "parcel watch src/color-scheme.ts",
     "watch:theme": "parcel watch src/theme.ts",
-    "test": "backstop test --config=backstop.config.js",
-    "test:live": "run-p live test",
-    "test:replace-refrence": "backstop approve"
+    "test-live-config": "backstop test --config=live.backstop.config.js",
+    "test:local": "backstop test --config=local.backstop.config.js",
+    "test:live": "run-p live test-live-config",
+    "test:update-local": "backstop approve --config=local.backstop.config.js",
+    "test:update-live": "backstop approve --config=live.backstop.config.js"
   },
   "devDependencies": {
     "@adobe/aem-site-theme-builder": "5.2.1",
