@@ -235,7 +235,7 @@
                         <teaser jcr:primaryType="nt:unstructured">
                             <policy_default
                 jcr:description="Sets the title size to H3."
-                jcr:lastModified="{Date}2022-01-06T11:27:27.758-03:00"
+                jcr:lastModified="{Date}2022-02-28T10:58:28.789+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Content Teaser"
@@ -903,7 +903,7 @@
                             </policy_page>
                             <policy_default
                 jcr:description="Allows all sizes, but not H1, which is reserved for the main page title."
-                jcr:lastModified="{Date}2022-01-06T11:27:05.929-03:00"
+                jcr:lastModified="{Date}2022-02-28T10:58:39.674+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Content Title"
@@ -1312,6 +1312,8 @@
                     <v2 jcr:primaryType="nt:unstructured">
                         <languagenavigation jcr:primaryType="nt:unstructured">
                             <policy_xf
+                jcr:lastModified="{Date}2022-02-28T10:57:44.127+01:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="My Site Language Navigation - Experience Fragment"
                 sling:resourceType="wcm/core/components/policy/policy"
@@ -1533,7 +1535,7 @@
                         <button jcr:primaryType="nt:unstructured">
                             <policy_default
                 cq:styleDefaultClasses="call-to-action"
-                jcr:lastModified="{Date}2022-01-06T11:29:05.841-03:00"
+                jcr:lastModified="{Date}2022-02-28T10:52:42.367+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Content Button"
@@ -1684,7 +1686,7 @@
                     <v2 jcr:primaryType="nt:unstructured">
                         <embed jcr:primaryType="nt:unstructured">
                             <policy_default
-                jcr:lastModified="{Date}2022-01-06T11:29:29.538-03:00"
+                jcr:lastModified="{Date}2022-02-28T10:56:59.318+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Default Embed Policy"
