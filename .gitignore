@@ -94,5 +94,9 @@ site-template
 
 theme/.env
 
+### BackstopJS Files ###
+theme/test_data/bitmaps_test/
+theme/test_data/html_report/
+
 ### ESLint ###
 .eslintcache
