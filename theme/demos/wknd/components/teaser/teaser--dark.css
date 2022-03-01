@@ -1,19 +1,19 @@
 @layer utilities {
   .teaser--dark {
     .cmp-teaser__content {
-      @apply bg-foreground text-background p-4;
+      @apply bg-background text-background p-4;
     }
     .cmp-teaser__description {
-      @apply text-background;
+      @apply text-foreground;
     }
 
     .cmp-teaser__pretitle {
-      @apply text-background;
+      @apply text-foreground;
     }
 
     .cmp-teaser__title,
     .cmp-teaser__title a {
-      @apply text-background;
+      @apply text-foreground;
     }
 
     .cmp-teaser__title a {
@@ -21,12 +21,12 @@
     }
 
     .cmp-teaser__action-link {
-      @apply text-background border-background;
-      @apply hover:text-foreground hover:bg-background;
-      @apply focus:bg-background focus:text-foreground;
+      @apply text-foreground border-foreground;
+      @apply hover:text-background hover:bg-foreground;
+      @apply focus:bg-foreground focus:text-background;
 
       &:first-child {
-        @apply bg-accent border-accent text-foreground;
+        @apply bg-accent border-accent text-background;
         @apply hover:bg-accent-darker hover:border-accent-darker;
         @apply focus:bg-accent-darker focus:border-accent-darker;
       }
