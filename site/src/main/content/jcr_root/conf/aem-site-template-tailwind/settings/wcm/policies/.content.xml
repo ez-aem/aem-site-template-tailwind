@@ -307,14 +307,14 @@
                                             assetGroup="media"
                                             assetMimetype="image/*"
                                             droptarget="image"
-                                            resourceType="core/wcm/components/image/v2/image"
+                                            resourceType="core/wcm/components/image/v3/image"
                                         />
                                         <mapping_1575030843388
                                             jcr:primaryType="nt:unstructured"
                                             assetGroup="content"
                                             assetMimetype="text/html"
                                             droptarget="experiencefragment"
-                                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                                            resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"
                                         />
                                         <mapping_1575030853128
                                             jcr:primaryType="nt:unstructured"
@@ -331,7 +331,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Hero"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                components="[/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/experiencefragment/v1/experiencefragment,/libs/core/wcm/components/image/v2/image,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v1/teaser]"
+                                components="[/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v2/teaser]"
                                 layout="simple"
                                 layoutDisabled="false"
                             >
@@ -347,14 +347,14 @@
                                             assetGroup="media"
                                             assetMimetype="image/*"
                                             droptarget="image"
-                                            resourceType="core/wcm/components/image/v2/image"
+                                            resourceType="core/wcm/components/image/v3/image"
                                         />
                                         <mapping_1575030260142
                                             jcr:primaryType="nt:unstructured"
                                             assetGroup="content"
                                             assetMimetype="text/html"
                                             droptarget="experiencefragment"
-                                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                                            resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"
                                         />
                                         <mapping_1575030269139
                                             jcr:primaryType="nt:unstructured"
@@ -490,14 +490,14 @@
                                             assetGroup="media"
                                             assetMimetype="image/*"
                                             droptarget="image"
-                                            resourceType="core/wcm/components/image/v2/image"
+                                            resourceType="core/wcm/components/image/v3/image"
                                         />
                                         <mapping_1575030843388
                                             jcr:primaryType="nt:unstructured"
                                             assetGroup="content"
                                             assetMimetype="text/html"
                                             droptarget="experiencefragment"
-                                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                                            resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"
                                         />
                                         <mapping_1575030853128
                                             jcr:primaryType="nt:unstructured"
@@ -570,14 +570,14 @@
                                             assetGroup="media"
                                             assetMimetype="image/*"
                                             droptarget="image"
-                                            resourceType="core/wcm/components/image/v2/image"
+                                            resourceType="core/wcm/components/image/v3/image"
                                         />
                                         <mapping_1575030260142
                                             jcr:primaryType="nt:unstructured"
                                             assetGroup="content"
                                             assetMimetype="text/html"
                                             droptarget="experiencefragment"
-                                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                                            resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"
                                         />
                                         <mapping_1575030269139
                                             jcr:primaryType="nt:unstructured"
@@ -1587,7 +1587,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Default Embed Policy"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                allowedEmbeddables="core/wcm/components/embed/v1/embed/embeddable/youtube"
+                                allowedEmbeddables="core/wcm/components/embed/v2/embed/embeddable/youtube"
                                 embeddablesDisabled="false"
                                 htmlDisabled="false"
                                 urlDisabled="false"
@@ -1633,7 +1633,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Default Embed Policy"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                allowedEmbeddables="core/wcm/components/embed/v1/embed/embeddable/youtube"
+                                allowedEmbeddables="core/wcm/components/embed/v2/embed/embeddable/youtube"
                                 embeddablesDisabled="false"
                                 htmlDisabled="false"
                                 urlDisabled="false"
