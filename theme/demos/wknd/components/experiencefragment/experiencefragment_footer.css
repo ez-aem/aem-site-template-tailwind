@@ -8,7 +8,7 @@
     }
 
     #copyright {
-      @apply flex justify-center items-center w-full apply text-background;
+      @apply flex justify-center items-center w-full text-background;
     }
 
     .text .cmp-text * {
