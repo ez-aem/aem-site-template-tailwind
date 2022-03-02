@@ -72,16 +72,23 @@ updatePackageJSON();
 log(`Building  Site Template v${VERSION}`);
 runCmd(`npm run build`, true);
 log(`Deploying ${TMPL_NAME}-${VERSION}.zip to ${AEM_URL}`);
-// runCmd(`curl -u ${CREDENTIALS} -F 'file=@${TMPL_NAME}-${VERSION}.zip' ${AEM_URL}/conf/global/site-templates.import.html`);
 runCmd(
-  `curl -u ${CREDENTIALS} -F file=@${TMPL_NAME}-latest.zip ${AEM_URL}/conf/global/site-templates.import.html`
+  `curl -u ${CREDENTIALS} -F file=@${TMPL_NAME}-${VERSION}.zip ${AEM_URL}/bin/wcm/site-template/import`
 );
 log(`Re-generatinig '${SITE_NAME}' site from template`);
 runCmd(
-  `curl -u ${CREDENTIALS} -F 'cmd=createSiteFromSiteTemplate' -F '_charset_=utf-8' -F 'siteTemplate=/conf/global/site-templates/${TMPL_NAME}-${VERSION}' -F 'title=${SITE_NAME}' ${AEM_URL}/bin/wcmcommand`
+  `curl -u ${CREDENTIALS} -F 'cmd=createSiteFromSiteTemplate' -F 'operation=asyncCreateSiteFromSiteTemplate' -F '_charset_=utf-8' -F 'siteTemplate=/conf/global/site-templates/${TMPL_NAME}-${VERSION}' -F 'siteTitle=${SITE_NAME}' ${AEM_URL}/bin/asynccommand`
 );
 log(
   `Successfully redeployed Site Template v${VERSION} in ${
     (Date.now() - startTime) / 1000
   }s`
 );
+// /bin/asynccommand
+// cmd: createSiteFromSiteTemplate
+// operation: asyncCreateSiteFromSiteTemplate
+// _charset_: utf-8
+// siteTitle: aem-site-template-tailwind
+// siteName:
+// path: aem-site-template-tailwind
+// siteTemplatePath: /conf/global/site-templates/aem-site-template-tailwind-1.23.21

@@ -1,6 +1,6 @@
 {
   "name": "aem-site-template-tailwind",
-  "version": "1.23.18",
+  "version": "1.23.12",
   "description": "AEM Site Template built with Tailwind CSS. Includes an easy-to-remove Wireframe Theme as an example of best-practices for theming site templates",
   "license": "MIT License, Copyright 2022 headwire.com",
   "scripts": {
@@ -8,8 +8,7 @@
     "build:theme": "cd theme && npm run build",
     "cleanup": "run-s cleanup-xml prettier:fix",
     "cleanup-xml": "node cleanup-xml.js",
-    "deploy": "node -r dotenv/config ./redeploy.js dotenv_config_path=./theme/.env",
-    "undeploy:local": "node -r dotenv/config ./undeploy.js dotenv_config_path=./theme/.env",
+    "deploy": "curl -u admin:admin -F file=@aem-site-template-tailwind-latest.zip http://localhost:4502/conf/global/site-templates.import.html",
     "lint:check": "eslint -c theme/.eslintrc.json theme --ext .ts,.js,.jsx,.tsx",
     "lint:fix": "eslint -c theme/.eslintrc.json --fix theme --ext .ts,.js,.jsx,.tsx",
     "live": "cd theme && npm run live",
