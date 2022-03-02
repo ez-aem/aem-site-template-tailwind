@@ -10,6 +10,12 @@
       grid-area: overlay;
     }
 
+    .cmp-teaser__action-link:not(:first-child) {
+      @apply border-background text-background;
+      @apply hover:border-foreground hover:text-foreground hover:bg-background;
+      @apply focus:border-foreground focus:text-foreground focus:bg-background;
+    }
+
     .cmp-teaser__image {
       @apply min-h-full;
 
@@ -26,15 +32,11 @@
       @apply p-10 text-center justify-center text-background gap-y-6 place-self-center;
       max-width: var(--aem-grid-max-width, 60rem);
 
-      @apply dark:text-foreground;
-
       .cmp-teaser__pretitle,
       .cmp-teaser__title,
       .cmp-teaser__title a {
         @apply text-background;
         @apply focus:ring-offset-transparent;
-
-        @apply dark:text-foreground;
       }
 
       .cmp-teaser__title {

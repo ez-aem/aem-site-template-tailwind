@@ -83,6 +83,12 @@
         grid-template-rows: auto auto 1fr;
       }
 
+      .cmp-navigation__item:not(.cmp-navigation__item--active) {
+        @apply border-2 border-background;
+      }
+      .cmp-navigation__item__icon {
+        @apply focus:after:bg-foreground;
+      }
       .navigation {
         @apply order-2 col-span-full;
 

@@ -22,7 +22,7 @@
       @apply text-background text-xs mb-3 text-justify;
     }
     .text .cmp-text a {
-      @apply underline;
+      @apply underline text-center block;
     }
 
     .image {
@@ -58,12 +58,12 @@
 
       .text {
         &:not(:last-child) {
-          @apply m-0 justify-end flex pr-4 text-background;
+          @apply m-0 justify-end flex text-background;
           grid-area: terms;
         }
 
         &:last-child {
-          @apply justify-start pl-4;
+          @apply justify-start;
           grid-area: privacy;
         }
       }
