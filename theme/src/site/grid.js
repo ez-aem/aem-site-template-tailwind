@@ -4,14 +4,23 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
   const aemGridSettings = theme("aemGrid", []);
 
   addBase({
+    ":root": {
+      "--aem-grid-gutter": "calc(100% / var(--aem-grid-columns, 12)",
+    },
     ".aem-Grid": {
       "--aem-grid-column-offset": "0",
       "--aem-grid-column-padding": "0",
       display: "grid",
       "grid-template-columns": "repeat(var(--aem-grid-columns), 1fr)",
       gap: "var(--aem-grid-gap)",
-      "margin-inline": "auto",
-      width: "100%",
+      "margin-inline": "var(--aem-grid-gutter)",
+      width: "calc(100% - calc(var(--aem-grid-gutter) * 2))",
+
+      ".aem-Grid": {
+        "margin-inline": "0",
+        width: "100%",
+        "grid-column": "1",
+      },
     },
     ".aem-GridColumn": {
       "--aem-grid-margin-column-offset":
@@ -49,18 +58,36 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
   });
 
   addUtilities({
-    ".root > .cmp-container, .cmp-container": {
+    ".cmp-container": {
       display: "grid",
       "grid-template-columns": "calc(100% / 12) 1fr calc(100% / 12)",
     },
-    ".cmp-container > *": {
-      "grid-column": "2",
+    ".root > .cmp-container": {
+      "grid-template-columns": "1fr",
+
+      "& > *": {
+        "grid-column": "1",
+      },
+    },
+    ".aem-Grid--full-width > .cmp-container > *": {
+      "grid-column": "1",
     },
     ":where(.cmp-container) .cmp-container": {
       "grid-template-columns": "1fr",
     },
     ".cmp-container .aem-Grid--full-width": {
       "grid-column": "1 / -1",
+      "margin-inline": 0,
+      "--aem-grid-column-span": "12",
+    },
+    ".aem-Grid--full-width": {
+      "grid-column": "1 / -1",
+    },
+    ".aem-Grid--full-width > .cmp-container > .aem-Grid": {
+      "margin-inline": 0,
+      width: "100 %",
+      "padding-inline": 0,
+      "grid-column": 1,
     },
   });
 
