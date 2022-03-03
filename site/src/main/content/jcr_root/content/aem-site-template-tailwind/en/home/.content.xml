@@ -11,7 +11,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Home"
         jcr:description="EZ-AEM - Tailwind AEM Site Template"
-        sling:resourceType="core/wcm/components/page/v2/page"
+        sling:resourceType="core/wcm/components/page/v3/page"
     >
         <root
             jcr:primaryType="nt:unstructured"
@@ -26,7 +26,7 @@
                     jcr:description="&lt;p>Aliquam erat volutpat. Etiam venenatis, massa in hendrerit fringilla, dolor sapien auctor mi, sed pretium velit nisl ac purus. Nunc id ligula vel est pharetra faucibus. Vivamus ultrices lectus sed ultricies tempus.&lt;/p>&#xd;&#xa;"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="This is a Teaser"
-                    sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                    sling:resourceType="core/wcm/components/teaser/v2/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="false"
                     fileReference="/content/dam/aem-site-template-tailwind/Image@2x.png"
@@ -56,7 +56,7 @@
                     cq:styleIds="[09812749238742]"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Welcome to the Wireframe Site Template"
-                    sling:resourceType="core/wcm/components/title/v2/title"
+                    sling:resourceType="core/wcm/components/title/v3/title"
                     type="h2"
                 >
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -113,7 +113,7 @@
                     jcr:description="&lt;p>Nunc id ligula vel est pharetra faucibus. Vivamus ultrices lectus sed ultricies tempus. Duis in egestas magna. Integer eget diam ut felis consectetur porta. Praesent posuere et tellus ut dictum. Fusce fringilla sapien ligula, quis posuere risus tristique laoreet.&lt;/p>&#xd;&#xa;"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="This is a Teaser"
-                    sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                    sling:resourceType="core/wcm/components/teaser/v2/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="false"
                     fileReference="/content/dam/aem-site-template-tailwind/building_large.png"
@@ -150,7 +150,7 @@
                     jcr:description="&lt;p>Nunc id ligula vel est pharetra faucibus. Vivamus ultrices lectus sed ultricies tempus. Duis in egestas magna. Integer eget diam ut felis consectetur porta. Praesent posuere et tellus ut dictum. Fusce fringilla sapien ligula, quis posuere risus tristique laoreet.&lt;/p>&#xd;&#xa;"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="This is a Teaser"
-                    sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                    sling:resourceType="core/wcm/components/teaser/v2/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="false"
                     fileReference="/content/dam/aem-site-template-tailwind/building_large.png"

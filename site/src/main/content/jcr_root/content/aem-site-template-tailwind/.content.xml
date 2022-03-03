@@ -16,7 +16,7 @@
         sling:configRef="/conf/aem-site-template-tailwind"
         sling:redirect="true"
         sling:redirectStatus="{Long}302"
-        sling:resourceType="core/wcm/components/page/v2/page"
+        sling:resourceType="core/wcm/components/page/v3/page"
         brandSlug="EZ-AEM Tailwind AEM Site Template"
         brandSlug_override="true"
         pwaCachestrategy="staleWhileRevalidate"

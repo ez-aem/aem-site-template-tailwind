@@ -1,6 +1,6 @@
 @layer components {
   .cmp-teaser__content {
-    @apply flex flex-col justify-center gap-y-4 text-foreground;
+    @apply flex flex-col justify-center gap-y-4 text-foreground z-10;
   }
 
   .cmp-teaser__image {

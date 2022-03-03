@@ -3,17 +3,28 @@
   .teaser--text-right,
   .teaser--text-left {
     .cmp-teaser {
-      @apply flex flex-col;
+      @apply flex flex-row;
     }
     .cmp-teaser__content {
-      @apply py-6;
+      @apply order-1;
+    }
+    .cmp-teaser__image {
+      @apply order-2;
     }
   }
 
-  .teaser--text-left {
+  .teaser--text-bottom {
     .cmp-teaser {
-      @apply default:flex-row-reverse;
+      @apply flex-col-reverse;
     }
+  }
+
+  .teaser--text-bottom > .cmp-teaser,
+  .cmp-teaser__content {
+    @apply h-full justify-between py-6;
+  }
+
+  .teaser--text-left {
     .cmp-teaser__content {
       @apply p-6;
       @apply default:p-8;
@@ -27,13 +38,17 @@
   }
 
   .teaser--text-right {
-    @screen default {
-      .cmp-teaser {
-        @apply flex-row;
-      }
+    .cmp-teaser {
+      @apply flex-row-reverse;
+    }
+    .cmp-teaser__content {
+      @apply p-6;
+      @apply default:p-6;
+    }
+    &:not(.teaser--dark) {
       .cmp-teaser__content {
-        @apply p-6;
-        @apply default:p-6;
+        @apply pr-0;
+        @apply default:pr-0;
       }
     }
   }

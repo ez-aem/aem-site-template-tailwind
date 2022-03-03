@@ -35,7 +35,6 @@
 @import "./components/languagenavigation/languagenavigation.css";
 @import "./components/navigation/navigation.css";
 @import "./components/navigation/navigation--secondary.css";
-@import "./components/page/page.css";
 @import "./components/page/page--article.css";
 @import "./components/pdfviewer/pdfviewer.css";
 @import "./components/progressbar/progressbar.css";

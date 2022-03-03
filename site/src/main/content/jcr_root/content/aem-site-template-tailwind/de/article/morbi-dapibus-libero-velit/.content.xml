@@ -10,7 +10,7 @@
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/article-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Morbi dapibus libero velit"
-        sling:resourceType="core/wcm/components/page/v2/page"
+        sling:resourceType="core/wcm/components/page/v3/page"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
         pwaOrientation="any"

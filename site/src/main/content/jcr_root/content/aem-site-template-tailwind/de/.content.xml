@@ -13,7 +13,7 @@
         jcr:language="de"
         jcr:primaryType="cq:PageContent"
         jcr:title="Deutsch"
-        sling:resourceType="core/wcm/components/page/v2/page"
+        sling:resourceType="core/wcm/components/page/v3/page"
         pageTitle="Startseite"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"

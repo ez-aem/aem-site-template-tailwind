@@ -20,7 +20,7 @@ module.exports = {
         columns: 4,
         gap: "1rem",
         maxWidth: "100%",
-        breakpoint: "768px",
+        breakpoint: "860px",
         breakpointType: "max-width",
       },
     ],

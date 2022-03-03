@@ -45,7 +45,7 @@
 
       &.open {
         #mobile-header {
-          @apply visible opacity-100 fixed shadow-insetRight top-0 max-h-[100vh];
+          @apply visible opacity-100 shadow-insetRight;
         }
 
         .button .cmp-button {
@@ -73,7 +73,8 @@
     }
 
     #mobile-header {
-      @apply h-full p-4 opacity-0 delay-75 bg-foreground -translate-x-full w-72;
+      /* must use position absolute to follow scroll, fixed doesn't work properly because of the html boda transform */
+      @apply p-4 opacity-0 delay-75 bg-foreground w-72 max-h-[100vh] h-screen -translate-x-full absolute top-0 left-0;
       transition: transform 250ms, opacity 100ms, visibility 50ms;
       visibility: collapse;
 
@@ -82,8 +83,14 @@
         grid-template-rows: auto auto 1fr;
       }
 
+      .cmp-navigation__item:not(.cmp-navigation__item--active) {
+        @apply border-2 border-background;
+      }
+      .cmp-navigation__item__icon {
+        @apply focus:after:bg-foreground;
+      }
       .navigation {
-        @apply order-2;
+        @apply order-2 col-span-full;
 
         .cmp-navigation {
           @apply py-2;
@@ -93,13 +100,20 @@
           }
         }
       }
+      .navigation
+        > .cmp-navigation
+        > .cmp-navigation__group
+        > .cmp-navigation__item
+        .cmp-navigation__item-link {
+        @apply w-full;
+      }
 
       .search {
         @apply order-1;
       }
 
       .languagenavigation {
-        @apply order-3 self-end;
+        @apply order-3 col-span-full;
       }
     }
   }
