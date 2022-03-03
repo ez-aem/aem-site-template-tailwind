@@ -9,7 +9,7 @@
     <jcr:content
         cq:isLanguageRoot="true"
         cq:redirectTarget="/content/aem-site-template-tailwind/en/home"
-        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/full-width-hero-grid-content"
+        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-content"
         jcr:language="en"
         jcr:primaryType="cq:PageContent"
         jcr:title="English"

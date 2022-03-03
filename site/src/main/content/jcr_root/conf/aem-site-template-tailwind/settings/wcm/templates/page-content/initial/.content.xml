@@ -16,7 +16,6 @@
             sling:resourceType="core/wcm/components/container/v1/container"
         >
             <main
-                cq:styleIds="[container-full-width]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 layout="responsiveGrid"

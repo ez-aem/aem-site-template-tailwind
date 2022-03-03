@@ -2,19 +2,20 @@ const plugin = require("tailwindcss/plugin");
 
 module.exports = plugin(({ addBase, addUtilities, theme }) => {
   const aemGridSettings = theme("aemGrid", []);
+  console.log("aemGridSettings", aemGridSettings);
+
+  /*
+    The AEM Grid overlay uses the parent wrapping element to determine the width of the overlay, 
+    and therefore the logic of the column widths.
+  */
 
   addBase({
-    ":root": {
-      "--aem-grid-gutter": "calc(100% / var(--aem-grid-columns, 12)",
-    },
     ".aem-Grid": {
       "--aem-grid-column-offset": "0",
       "--aem-grid-column-padding": "0",
       display: "grid",
       "grid-template-columns": "repeat(var(--aem-grid-columns), 1fr)",
       gap: "var(--aem-grid-gap)",
-      "margin-inline": "var(--aem-grid-gutter)",
-      width: "calc(100% - calc(var(--aem-grid-gutter) * 2))",
     },
     ".aem-GridColumn": {
       "--aem-grid-margin-column-offset":
@@ -28,7 +29,7 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
       "grid-column-end": "span var(--aem-grid-columns-w-offset, -1)",
       "margin-inline-start":
         "calc(var(--aem-grid-margin-column-offset-percent) + calc(var(--aem-grid-gap) * var(--aem-grid-margin-column-offset)))",
-      "padding-inline": "var(--aem-grid-column-padding)", // Used for variant to place gap setting as padding
+      // "padding-inline": "var(--aem-grid-column-padding)", // Used for variant to place gap setting as padding
       "word-break": "break-word", // Prevents overflow with 12 columns on mobile
     },
     "html.aem-AuthorLayer-Edit .aem-Grid-newComponent": {
@@ -52,9 +53,16 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
   });
 
   addUtilities({
+    ".aem-Grid--grid-width": {
+      "margin-inline": "var(--aem-grid-max-width-gutter)",
+      width: "calc(100% - calc(var(--aem-grid-max-width-gutter) * 2))",
+    },
+  });
+  /*
+  addUtilities({
     ".cmp-container": {
       display: "grid",
-      "grid-template-columns": "calc(100% / 12) 1fr calc(100% / 12)",
+      "grid-template-columns": "1fr calc(100% / 12)",
     },
     ".root > .cmp-container": {
       "grid-template-columns": "1fr",
@@ -89,7 +97,7 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
       "margin-inline": "0",
     },
   });
-
+*/
   aemGridSettings.forEach((grid) => {
     const {
       columns,
@@ -99,6 +107,7 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
       breakpointType,
       maxWidth,
       horizontalPadding,
+      maxWidthGutter,
     } = grid;
     let styles = {};
     let mediaQuery = "";
@@ -140,6 +149,7 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
       };
 
       if (column === columns) {
+        /*
         if (horizontalPadding) {
           styles[`.aem-Grid--${name}--${column}`] = {
             ...styles[`.aem-Grid--${name}--${column}`],
@@ -150,6 +160,7 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
             },
           };
         }
+*/
 
         if (maxWidth) {
           styles[".aem-Grid"] = {
@@ -158,6 +169,9 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
           };
         }
       }
+      styles[":root"] = {
+        "--aem-grid-max-width-gutter": `${maxWidthGutter}`,
+      };
     }
 
     if (breakpoint) {

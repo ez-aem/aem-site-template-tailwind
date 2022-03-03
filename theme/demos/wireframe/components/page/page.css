@@ -1,23 +1,7 @@
 @layer base {
-  .root > .cmp-container {
+  :not(html[class*="aem-AuthorLayer"]) .page > .root > .cmp-container {
     @apply grid;
     grid-template-rows: auto 1fr auto;
-    grid-template-columns: calc(100% / 12) 1fr calc(100% / 12);
-
-    & > * {
-      grid-column: 2;
-    }
-  }
-
-  .page > .root > .cmp-container {
     min-height: 100vh;
-  }
-
-  html[class*="aem-AuthorLayer"] {
-    .root > .cmp-container {
-      @apply grid;
-      grid-template-rows: auto 1fr auto;
-      min-height: auto;
-    }
   }
 }

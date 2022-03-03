@@ -6,6 +6,7 @@
 >
     <jcr:content
         cq:templateType="/conf/aem-site-template-tailwind/settings/wcm/template-types/page"
+        jcr:description="General Purpose Content Page Template with support for Full-Width components that includes the Header and Footer Site Elements"
         jcr:primaryType="cq:PageContent"
         jcr:title="Content Page"
         status="enabled"

@@ -13,15 +13,15 @@ module.exports = {
         name: "default",
         columns: 12,
         gap: "1rem",
-        maxWidth: "1420px",
+        maxWidthGutter: "8vw",
       },
       {
         name: "phone",
-        columns: 4,
+        columns: 12,
         gap: "1rem",
-        maxWidth: "100%",
         breakpoint: "860px",
         breakpointType: "max-width",
+        maxWidthGutter: "1rem",
       },
     ],
     extend: {

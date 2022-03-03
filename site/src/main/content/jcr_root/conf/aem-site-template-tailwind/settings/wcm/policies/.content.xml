@@ -435,9 +435,9 @@
                                             jcr:primaryType="nt:unstructured"
                                         >
                                             <item0
-                                                cq:styleClasses="aem-Grid--full-width"
-                                                cq:styleId="container-full-width"
-                                                cq:styleLabel="Full Width"
+                                                cq:styleClasses="aem-Grid--grid-width"
+                                                cq:styleId="container-grid-width"
+                                                cq:styleLabel="Grid Max Width"
                                                 jcr:primaryType="nt:unstructured"
                                             />
                                             <item1
@@ -520,6 +520,12 @@
                                         <cq:styles
                                             jcr:primaryType="nt:unstructured"
                                         >
+                                            <item0
+                                                cq:styleClasses="aem-Grid--grid-width"
+                                                cq:styleId="container-grid-width"
+                                                cq:styleLabel="Grid Max Width"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
                                             <item1
                                                 cq:styleClasses="aem-Grid--gap-0"
                                                 cq:styleId="9831274298374"
