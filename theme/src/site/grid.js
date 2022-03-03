@@ -15,12 +15,6 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
       gap: "var(--aem-grid-gap)",
       "margin-inline": "var(--aem-grid-gutter)",
       width: "calc(100% - calc(var(--aem-grid-gutter) * 2))",
-
-      ".aem-Grid": {
-        "margin-inline": "0",
-        width: "100%",
-        "grid-column": "1",
-      },
     },
     ".aem-GridColumn": {
       "--aem-grid-margin-column-offset":
@@ -85,9 +79,14 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
     },
     ".aem-Grid--full-width > .cmp-container > .aem-Grid": {
       "margin-inline": 0,
-      width: "100 %",
+      width: "100%",
       "padding-inline": 0,
-      "grid-column": 1,
+      "grid-column": "1",
+    },
+    ":not(.aem-Grid--full-width) > .cmp-container > .aem-Grid .aem-Grid": {
+      width: "100%",
+      "grid-column": "1",
+      "margin-inline": "0",
     },
   });
 
