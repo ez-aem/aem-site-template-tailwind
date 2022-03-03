@@ -10,6 +10,10 @@
       grid-area: overlay;
     }
 
+    .cmp-teaser__content:only-child {
+      @apply bg-foreground;
+    }
+
     .cmp-teaser__action-link:not(:first-child) {
       @apply border-background text-background;
       @apply hover:border-foreground hover:text-foreground hover:bg-background;

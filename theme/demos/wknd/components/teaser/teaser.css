@@ -1,6 +1,6 @@
 @layer components {
   .teaser {
-    @apply flex-1;
+    @apply flex-1 mb-8;
   }
   .cmp-teaser__content {
     @apply text-foreground flex flex-col gap-y-4 justify-center order-2;

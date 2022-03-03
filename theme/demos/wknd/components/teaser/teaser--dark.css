@@ -1,5 +1,13 @@
 @layer utilities {
   .teaser--dark {
+    &.teaser--overlay {
+      .cmp-teaser__content {
+        .cmp-teaser__title,
+        .cmp-teaser__description {
+          @apply text-background;
+        }
+      }
+    }
     .cmp-teaser__content {
       @apply bg-background text-background p-4;
     }
