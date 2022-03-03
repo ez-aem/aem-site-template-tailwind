@@ -23,7 +23,7 @@
     @apply px-4 py-3 inline-flex text-shade-3 duration-300;
     @apply uppercase text-background whitespace-nowrap;
     @apply hover:bg-accent hover:text-foreground;
-    @apply focus:z-30;
+    @apply focus:z-30 focus:bg-accent focus:text-foreground;
 
     @screen default {
       @apply text-foreground;
@@ -78,7 +78,7 @@
   .cmp-navigation__item__icon {
     @apply w-6 self-stretch relative border-0 flex justify-center items-center duration-300 transition-all ease-in-out;
     @apply hover:bg-accent;
-    @apply focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-foreground focus:bg-accent;
+    @apply focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background focus:bg-accent;
 
     @screen default {
       @apply focus:ring-offset-background;

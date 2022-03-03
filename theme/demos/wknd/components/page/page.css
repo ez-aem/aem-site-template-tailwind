@@ -1,7 +1,0 @@
-@layer base {
-  .page > .root > .cmp-container {
-    @apply grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
-  }
-}

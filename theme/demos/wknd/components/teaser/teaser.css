@@ -1,9 +1,13 @@
 @layer components {
+  .teaser {
+    @apply flex-1 mb-8;
+  }
   .cmp-teaser__content {
-    @apply text-foreground flex flex-col gap-y-4 justify-center;
+    @apply text-foreground flex flex-col gap-y-4 justify-center order-2;
   }
 
   .cmp-teaser__image {
+    @apply order-1;
     .cmp-image__image {
       @apply w-full;
     }

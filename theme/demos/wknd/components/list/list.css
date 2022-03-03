@@ -11,6 +11,7 @@
 
   .cmp-list__item-link {
     @apply font-semibold inline-flex;
+    @apply hover:underline;
   }
   .cmp-list__item-title {
   }
