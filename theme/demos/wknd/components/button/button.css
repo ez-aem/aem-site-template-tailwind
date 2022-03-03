@@ -6,8 +6,8 @@
   }
 
   .cmp-button__icon {
-    @apply w-full h-full bg-cover bg-no-repeat bg-center bg-background p-2 transition-colors duration-300;
-    mask-size: 60%;
+    @apply w-7 h-7 bg-cover bg-no-repeat bg-center bg-background p-2 transition-colors duration-300;
+    mask-size: 100%;
     mask-repeat: no-repeat;
     mask-position: center;
   }

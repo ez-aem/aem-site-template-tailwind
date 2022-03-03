@@ -3,21 +3,18 @@
     font-family: defaultFont;
     font-weight: 400;
     font-style: italic;
-    font-display: swap;
     src: url("../resources/fonts/SourceSansPro/SourceSansPro-Italic.ttf")
       format("truetype");
   }
   @font-face {
     font-family: defaultFont;
     font-weight: 400;
-    font-display: swap;
     src: url("../resources/fonts/SourceSansPro/SourceSansPro-Regular.ttf")
       format("truetype");
   }
   @font-face {
     font-family: defaultFont;
     font-weight: 600;
-    font-display: swap;
     src: url("../resources/fonts/SourceSansPro/SourceSansPro-SemiBold.ttf")
       format("truetype");
   }
@@ -25,7 +22,6 @@
     font-family: defaultFont;
     font-weight: 600;
     font-style: italic;
-    font-display: swap;
     src: url("../resources/fonts/SourceSansPro/SourceSansPro-SemiBoldItalic.ttf")
       format("truetype");
   }
@@ -33,21 +29,18 @@
     font-family: titleFont;
     font-weight: 400;
     font-style: italic;
-    font-display: swap;
     src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Italic.ttf")
       format("truetype");
   }
   @font-face {
     font-family: titleFont;
     font-weight: 400;
-    font-display: swap;
     src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf")
       format("truetype");
   }
   @font-face {
     font-family: titleFont;
     font-weight: 600;
-    font-display: swap;
     src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-SemiBold.ttf")
       format("truetype");
   }
@@ -55,7 +48,6 @@
     font-family: titleFont;
     font-weight: 600;
     font-style: italic;
-    font-display: swap;
     src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-SemiBoldItalic.ttf")
       format("truetype");
   }

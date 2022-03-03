@@ -8,11 +8,6 @@
     .cmp-languagenavigation__button {
       &::after {
         @apply rotate-180;
-
-        /* Flip upside down for mobile. As the menu goes up instead of down */
-        @screen phone {
-          @apply rotate-0;
-        }
       }
     }
 
@@ -20,14 +15,14 @@
       @apply translate-y-0 opacity-100 z-50;
       visibility: visible;
 
-      @screen phone {
+      /* @screen phone {
         --tw-translate-y: calc(-100% - 4rem);
-      }
+      } */
     }
   }
 
   .cmp-languagenavigation__button {
-    @apply relative w-full h-10 border-2 border-solid border-shade-1 flex-row flex justify-start items-center transition-colors duration-200 outline-none text-background;
+    @apply relative w-full h-10 border-2 border-solid border-shade-1 flex-row flex justify-between items-center transition-colors duration-200 outline-none text-background;
     @apply hover:cursor-pointer;
     @apply focus:border-accent;
 
@@ -37,7 +32,7 @@
     }
 
     span {
-      @apply flex-1 flex justify-start items-center ml-10;
+      @apply ml-10 text-ellipsis whitespace-nowrap flex-nowrap overflow-x-hidden;
     }
   }
 
@@ -58,7 +53,7 @@
 
     /* Flip upside down for mobile. As the menu goes up instead of down */
     @screen phone {
-      @apply rotate-180 bg-background;
+      @apply bg-background;
     }
   }
 
@@ -142,7 +137,7 @@
   }
 
   .cmp-languagenavigation__item-link {
-    @apply text-sm uppercase text-background outline-none relative flex-1 flex flex-row justify-between items-center py-2 pl-10 pr-1 font-medium bg-foreground border-0 duration-300 transition-all ease-in-out gap-2;
+    @apply text-sm uppercase text-background outline-none relative flex-nowrap whitespace-nowrap overflow-x-hidden flex-1 flex flex-row justify-between items-center py-2 pl-10 pr-1 font-medium bg-foreground border-0 duration-300 transition-all ease-in-out gap-2;
     @apply hover:underline hover:bg-accent text-foreground;
     @apply focus:bg-accent focus:border-0 focus:outline-none focus:ring-2 focus:rounded-none focus:ring-offset-0 focus:z-10;
 

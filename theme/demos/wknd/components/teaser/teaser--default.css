@@ -1,6 +1,6 @@
 @layer utilities {
   .teaser:not(.teaser--text-bottom):not(.teaser--text-right):not(.teaser--text-left):not(.teaser--overlay):not(.teaser--mini) {
-    .cmp-teaser.cq-dd-image {
+    .cmp-teaser {
       @apply flex flex-col overflow-y-hidden relative;
       max-height: 680px;
       .cmp-teaser__content {

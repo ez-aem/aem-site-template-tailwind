@@ -11,8 +11,10 @@
   }
 
   .teaser--text-left {
-    .cmp-teaser {
-      @apply default:flex-row-reverse;
+    @screen default {
+      .cmp-teaser {
+        @apply flex-row-reverse;
+      }
     }
   }
 
