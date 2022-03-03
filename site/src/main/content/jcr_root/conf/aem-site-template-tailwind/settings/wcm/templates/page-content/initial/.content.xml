@@ -7,23 +7,26 @@
     jcr:primaryType="cq:Page"
 >
     <jcr:content
-        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="core/wcm/components/page/v2/page"
     >
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container"
-            layout="simple"
-        />
-        <cq:responsive jcr:primaryType="nt:unstructured">
-            <breakpoints jcr:primaryType="nt:unstructured">
-                <phone
+        >
+            <main
+                cq:styleIds="[container-full-width]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="responsiveGrid"
+            >
+                <content
                     jcr:primaryType="nt:unstructured"
-                    title="Smaller Screen"
-                    width="{Long}768"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid"
                 />
-            </breakpoints>
-        </cq:responsive>
+            </main>
+        </root>
     </jcr:content>
 </jcr:root>

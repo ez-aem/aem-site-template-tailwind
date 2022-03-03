@@ -64,6 +64,21 @@
                             </policy_home>
                         </page>
                     </v2>
+                    <v3 jcr:primaryType="nt:unstructured">
+                        <page jcr:primaryType="nt:unstructured">
+                            <policy_default
+                                jcr:description="Includes the required client libraries."
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Generic Page"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]"
+                            >
+                                <jcr:content
+                                    jcr:primaryType="nt:unstructured"
+                                />
+                            </policy_default>
+                            </page>
+                    </v3>
                 </page>
                 <download jcr:primaryType="nt:unstructured">
                     <v1 jcr:primaryType="nt:unstructured">
@@ -193,7 +208,7 @@
                                     </assetToComponentMapping>
                                 </cq:authoring>
                             </policy_root>
-                            <policy_default
+                            <policy_hero
                                 jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Hero"
@@ -278,13 +293,11 @@
                                         </cq:styles>
                                     </item1>
                                 </cq:styleGroups>
-                            </policy_default>
-                            <policy_main
-                                cq:styleDefaultClasses="main"
-                                cq:styleDefaultElement="main"
+                            </policy_hero>
+                            <policy_content
                                 jcr:description="Sets a &lt;main> element on the page content area."
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Page Main"
+                                jcr:title="Default Container Policy"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 components="[group:Core Content,group:Core Form,group:Core Structure,/libs/core/wcm/components/image/v3/image]"
                                 layout="responsiveGrid"
@@ -297,35 +310,18 @@
                                     jcr:primaryType="nt:unstructured"
                                 >
                                     <item0
-                                        cq:styleGroupLabel="Element Type"
-                                        jcr:primaryType="nt:unstructured"
-                                    >
-                                        <cq:styles
-                                            jcr:primaryType="nt:unstructured"
-                                        >
-                                            <item0
-                                                cq:styleClasses="main"
-                                                cq:styleElement="main"
-                                                cq:styleId="1613079653269"
-                                                cq:styleLabel="Main"
-                                                jcr:primaryType="nt:unstructured"
-                                            />
-                                            <item1
-                                                cq:styleClasses="div"
-                                                cq:styleElement="div"
-                                                cq:styleId="1613071653269"
-                                                cq:styleLabel="Div"
-                                                jcr:primaryType="nt:unstructured"
-                                            />
-                                        </cq:styles>
-                                    </item0>
-                                    <item1
                                         cq:styleGroupLabel="Grid Settings"
                                         jcr:primaryType="nt:unstructured"
                                     >
                                         <cq:styles
                                             jcr:primaryType="nt:unstructured"
                                         >
+                                            <item0
+                                                cq:styleClasses="aem-Grid--full-width"
+                                                cq:styleId="container-full-width"
+                                                cq:styleLabel="Full Width"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
                                             <item1
                                                 cq:styleClasses="aem-Grid--gap-0"
                                                 cq:styleId="9831274298374"
@@ -338,16 +334,10 @@
                                                 cq:styleLabel="Gap as Padding"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                            <item3
-                                                cq:styleClasses="aem-Grid--full-width"
-                                                cq:styleId="container-full-width"
-                                                cq:styleLabel="Full Width"
-                                                jcr:primaryType="nt:unstructured"
-                                            />
                                         </cq:styles>
-                                    </item1>
+                                    </item0>
                                 </cq:styleGroups>
-                            </policy_main>
+                            </policy_content>
                             <policy_xf_root
                                 jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
                                 jcr:primaryType="nt:unstructured"
