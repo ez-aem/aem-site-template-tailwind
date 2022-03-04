@@ -50,7 +50,7 @@
       }
 
       &.open {
-        @apply h-full;
+        @apply h-full w-full;
 
         #mobile-header {
           @apply visible translate-y-0 opacity-100;
@@ -67,6 +67,8 @@
         .cmp-button {
           @apply h-8 w-8 rounded border-0 bg-transparent bg-center bg-no-repeat;
           background-image: url("../../resources/images/hamburger-menu.png");
+
+          @apply dark:brightness-200;
         }
       }
 

@@ -46,7 +46,7 @@
                             sling:resourceType="core/wcm/components/separator/v1/separator"
                         />
                         <teaser_copy_copy_cop
-                            cq:styleIds="[1612830658386,1612897513127]"
+                            cq:styleIds="[teaser--text-bottom,1612897513127]"
                             jcr:description="&lt;p>Now that we've added your logo to the Site Assets, let's make use of it by updating the Site Elements - Header &amp;amp; Footer.&lt;/p>&#xd;&#xa;"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Previous Step"
@@ -72,7 +72,7 @@
                             </actions>
                         </teaser_copy_copy_cop>
                         <teaser
-                            cq:styleIds="[1612897513127,1612830658386]"
+                            cq:styleIds="[1612897513127,teaser--text-bottom]"
                             jcr:description="&lt;p>Now that you've learned how to Create a Page and author some new components, it's time to learn about Publishing your Site.&lt;/p>&#xd;&#xa;"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Next Steps"

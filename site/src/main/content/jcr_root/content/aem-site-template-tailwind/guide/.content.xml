@@ -79,7 +79,7 @@
                         layout="responsiveGrid"
                     >
                         <teaser_copy_copy_cop
-                            cq:styleIds="[1612897513127,1612830658386]"
+                            cq:styleIds="[1612897513127,teaser--text-bottom]"
                             jcr:description="&lt;p>Get the most from the Wireframe theme without in-depth customization.&lt;/p>&#xd;&#xa;"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Manage"
@@ -110,7 +110,7 @@
                             </actions>
                         </teaser_copy_copy_cop>
                         <teaser_1553495489_co
-                            cq:styleIds="[1612897513127,1612830658386]"
+                            cq:styleIds="[1612897513127,teaser--text-bottom]"
                             jcr:description="&lt;p>Make the Wireframe theme match your brand and style with this detailed customization guide. &lt;/p>&#xd;&#xa;"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Customize"
@@ -141,7 +141,7 @@
                             </actions>
                         </teaser_1553495489_co>
                         <teaser_983666080
-                            cq:styleIds="[1612830658386,1612897513127]"
+                            cq:styleIds="[teaser--text-bottom,1612897513127]"
                             jcr:description="&lt;p>Want to build the template for yourself? Get the code from GitHub!&lt;/p>&#xd;&#xa;"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Download Template"

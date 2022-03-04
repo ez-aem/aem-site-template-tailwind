@@ -24,6 +24,7 @@
 @import "./components/form-options/form-options.css";
 @import "./components/image/image.css";
 @import "./components/list/list.css";
+@import "./components/list/list--teaser.css";
 @import "./components/languagenavigation/languagenavigation.css";
 @import "./components/navigation/navigation.css";
 @import "./components/page/page.css";

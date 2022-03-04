@@ -42,7 +42,7 @@
                             textIsRich="true"
                         />
                         <teaser_copy_copy_cop
-                            cq:styleIds="[1612830658386,1612897513127]"
+                            cq:styleIds="[teaser--text-bottom,1612897513127]"
                             jcr:description="&lt;p>Now that we've added your logo to the Site Assets, let's make use of it by updating the Site Elements - Header &amp;amp; Footer.&lt;/p>&#xd;&#xa;"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Previous Step"

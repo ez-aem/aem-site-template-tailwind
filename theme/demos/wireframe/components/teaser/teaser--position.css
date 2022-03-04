@@ -1,25 +1,36 @@
 @layer utilities {
-  .teaser--text-bottom,
-  .teaser--text-right,
-  .teaser--text-left {
-    .cmp-teaser {
-      @apply flex flex-row;
-    }
-    .cmp-teaser__content {
-      @apply order-1;
-    }
-    .cmp-teaser__image {
-      @apply order-2;
+  .teaser--text-top {
+    .cmp-teaser,
+    .cmp-teaser__link {
+      @apply flex-col;
+
+      .cmp-teaser__content {
+        @apply pt-0;
+      }
     }
   }
 
   .teaser--text-bottom {
-    .cmp-teaser {
+    .cmp-teaser,
+    .cmp-teaser__link {
       @apply flex-col-reverse;
     }
   }
 
-  .teaser--text-bottom > .cmp-teaser,
+  .teaser--text-left {
+    .cmp-teaser,
+    .cmp-teaser__link {
+      @apply flex-row;
+    }
+  }
+
+  .teaser--text-right {
+    .cmp-teaser,
+    .cmp-teaser__link {
+      @apply flex-row-reverse;
+    }
+  }
+
   .cmp-teaser__content {
     @apply h-full justify-between py-6;
   }
@@ -38,7 +49,8 @@
   }
 
   .teaser--text-right {
-    .cmp-teaser {
+    .cmp-teaser,
+    .cmp-teaser__link {
       @apply flex-row-reverse;
     }
     .cmp-teaser__content {

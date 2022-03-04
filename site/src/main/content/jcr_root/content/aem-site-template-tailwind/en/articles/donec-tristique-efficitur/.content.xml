@@ -3,13 +3,19 @@
     xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     xmlns:cq="http://www.day.com/jcr/cq/1.0"
     xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
     xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page"
 >
     <jcr:content
+        cq:tags="[workflow:projects/wcm/launch]"
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/article-page"
+        jcr:description="Donec vitae leo varius, accumsan erat a, blandit ex. Maecenas sagittis in tortor sit amet finibus."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Duis bibendum vitae"
+        jcr:title="Donec tristique efficitur"
+        jcr:uuid="9c29e849-2776-4cec-90a3-bd3889ca9c87"
         sling:resourceType="core/wcm/components/page/v3/page"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
@@ -110,9 +116,59 @@
                             text="&lt;p>Sed ornare eget eros a gravida. Donec tristique efficitur quam eget placerat. Fusce facilisis diam ex, eu cursus ligula feugiat non. Morbi quis sem accumsan, euismod tellus sit amet, ullamcorper erat. Proin at diam vitae diam sagittis placerat. Nunc suscipit pellentesque nisi, a euismod orci fermentum non. Vestibulum imperdiet venenatis condimentum. Sed tristique risus dui, et varius quam fermentum non. Praesent hendrerit accumsan purus ut sagittis. Ut finibus congue iaculis. Suspendisse blandit ipsum ac orci lacinia, sed elementum augue eleifend. Sed porttitor mauris ac ultricies tristique. Sed ut mi ac ex convallis mattis. Nullam varius sit amet libero ut sagittis.&lt;/p>&#xd;&#xa;&lt;p>Aliquam erat volutpat. Aliquam erat volutpat. Nam dapibus quis justo vel vulputate. Cras ante nibh, volutpat eu ligula ac, bibendum aliquam odio. Quisque quis ipsum turpis. Pellentesque non diam nec nisl iaculis volutpat a eget nunc. Ut eget felis eros.&lt;/p>&#xd;&#xa;&lt;p>Integer semper ut ex in lobortis. Cras eget orci lacus. Donec consequat mauris eu dapibus varius. Phasellus sapien massa, fringilla sit amet feugiat at, pellentesque eget ipsum. Nulla ultricies luctus ipsum, elementum semper diam laoreet ut. Praesent tempor odio purus, eu viverra justo sollicitudin a. Quisque consectetur sapien faucibus enim egestas, eget varius sapien suscipit.&lt;/p>&#xd;&#xa;&lt;p>Nam sit amet finibus nunc, eu pharetra nulla. Sed pulvinar massa vitae purus rhoncus, a maximus neque interdum. Vivamus efficitur eros sed cursus ultrices. Nullam aliquet placerat nibh, in aliquam odio tempus nec. In viverra molestie mauris, cursus pulvinar erat aliquam in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla mattis turpis, quis feugiat mi vestibulum eu. Integer dictum nibh fermentum, hendrerit nulla in, convallis lacus. Nullam nisl est, ornare eget dolor quis, pharetra iaculis mi. Sed id leo nec lectus suscipit mollis. Morbi tristique nunc quis est feugiat vulputate. Sed efficitur nibh accumsan, ultrices urna et, rhoncus sapien.&lt;/p>&#xd;&#xa;&lt;p>Quisque sed arcu eu lectus luctus vehicula eget at enim. Curabitur tristique ligula lectus, a rhoncus nibh accumsan ut. Sed a imperdiet metus, sit amet tristique orci. Donec in mauris quis nulla cursus blandit eu ut lacus. Nullam vestibulum, magna maximus ultrices suscipit, dolor purus accumsan ligula, nec placerat magna diam nec turpis. Nullam ante mi, molestie quis ligula non, convallis interdum augue. Maecenas condimentum lorem sit amet magna congue dictum. Ut vel volutpat leo. Maecenas rutrum nec metus id laoreet. Aliquam sem dolor, iaculis nec augue et, viverra facilisis urna. Ut pulvinar sapien felis. Nullam quis lectus tellus.&lt;/p>&#xd;&#xa;"
                             textIsRich="true"
                         />
+                        <contentfragment
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/contentfragment/v1/contentfragment"
+                            displayMode="singleText"
+                            elementNames="blogContent"
+                            fragmentPath="/content/dam/aem-site-template-tailwind/blog-posts/aenean-fermentum-faucibus-velit"
+                            paragraphScope="all"
+                            text="Aenean fermentum faucibus velit Aenean fermentum faucibus velit, a pretium tortor congue ut. Aliquam pulvinar ultricies mi eget iaculis. Donec tristique, tellus sed cursus congue, libero odio varius ligula Aenean fermentum faucibus velit, a pretium tortor congue ut. Aliquam pulvinar ultricies mi eget iaculis. Donec tristique, tellus sed cursus congue, libero odio varius ligula, nec fringilla nunc augue nec tortor. Curabitur consequat, elit nec egestas convallis, metus nisi rutrum ligula, dapibus sodales justo nibh a magna. Curabitur id diam quis sem sagittis feugiat. Mauris nibh velit, sodales at finibus et, dignissim in ante. Mauris sollicitudin enim vehicula elit venenatis porta. Suspendisse arcu purus, gravida vel maximus nec, malesuada eu velit. Curabitur ullamcorper nibh eu eros vestibulum, nec fringilla neque pulvinar. Ut a placerat turpis. Praesent malesuada ipsum neque. Sed id placerat erat. Sed turpis nunc, varius sollicitudin lobortis id, porta quis dolor. Etiam ornare urna eget arcu sollicitudin vestibulum. Suspendisse porta justo a metus aliquam, vel lobortis odio iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam vitae sagittis ipsum. Ut pretium, arcu sed sodales ultrices, erat dolor congue dui, ut laoreet diam ipsum a libero. Integer faucibus lectus a auctor pulvinar. Sed lacinia faucibus tortor. Mauris porta placerat lectus eu bibendum. Cras ornare aliquet orci, sit amet porttitor neque vestibulum eget. Etiam varius sit amet lacus ac molestie. Nullam ullamcorper lectus nec justo suscipit, non tristique leo lacinia. Duis tempus nulla libero, vel rutrum lectus vestibulum non. Duis semper, purus maximus mattis fringilla, ex nisi venenatis erat, a suscipit diam nunc et ex. Suspendisse accumsan erat ac rhoncus aliquet. Nam a nulla vitae nibh congue condimentum. Sed vel finibus tellus. Aliquam tincidunt efficitur diam semper ultricies. Integer vel facilisis lectus. Vestibulum a porta eros. In sollicitudin velit suscipit orci tempor congue. Etiam ut pretium purus, id ornare mauris. Suspendisse potenti. Ut tempus tellus non tellus bibendum dignissim. Donec egestas ipsum sit amet lacus auctor malesuada. Morbi vitae odio orci. Integer eu efficitur mauris, vel auctor orci. Aenean molestie arcu et posuere dapibus. Duis eleifend dictum tortor eget mollis. Mauris viverra imperdiet metus, eget mattis lectus aliquam et. Quisque ipsum tortor, pharetra quis fermentum sed, iaculis quis lectus. Proin dictum odio et rhoncus consequat. Nunc ultrices lobortis purus ac consectetur. Cras imperdiet hendrerit dui eleifend malesuada. Nam non consequat velit. Aliquam finibus est a mi fermentum molestie. Praesent faucibus volutpat lorem."
+                            variationName="master"
+                        >
+                            <par5
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid"
+                            />
+                            <par0
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid"
+                            >
+                                <image
+                                    cq:styleIds="[1612913724665]"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Aenean fermentum faucibus velit, a pretium tortor congue ut"
+                                    sling:resourceType="core/wcm/components/image/v3/image"
+                                    alt="Aenean fermentum faucibus velit, a pretium tortor congue ut"
+                                    altValueFromDAM="false"
+                                    displayPopupTitle="false"
+                                    fileReference="/content/dam/aem-site-template-tailwind/building_large.png"
+                                    imageFromPageImage="false"
+                                    isDecorative="false"
+                                    linkTarget="_self"
+                                    titleValueFromDAM="false"
+                                >
+                                    <cq:responsive
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="4"
+                                        />
+                                    </cq:responsive>
+                                </image>
+                            </par0>
+                        </contentfragment>
                     </container>
                 </container_1125714356>
             </container>
         </root>
+        <cq:featuredimage
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"
+            fileReference="/content/dam/aem-site-template-tailwind/building_large.png"
+        />
     </jcr:content>
 </jcr:root>

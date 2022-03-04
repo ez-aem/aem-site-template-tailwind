@@ -40,7 +40,7 @@
                         layout="responsiveGrid"
                     >
                         <teaser_copy_copy_cop
-                            cq:styleIds="[1612830658386]"
+                            cq:styleIds="[teaser--text-bottom]"
                             jcr:description="&lt;p>Aliquam et interdum quam. Curabitur vulputate ligula turpis, et semper felis porta non. Nunc lobortis ligula tortor, at egestas est eleifend sit amet. Ut ac nisi rhoncus, finibus arcu ut, semper lectus. Nam eros lorem, egestas in neque id, hendrerit ullamcorper tellus&lt;/p>&#xd;&#xa;"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Duis bibendum vitae"

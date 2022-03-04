@@ -30,7 +30,7 @@
                     sling:resourceType="core/wcm/components/separator/v1/separator"
                 />
                 <teaser_copy_74296013_1715082336
-                    cq:styleIds="[1612830658386]"
+                    cq:styleIds="[teaser--text-bottom]"
                     jcr:description="&lt;p>Get started using your Tailwind template with our helpful guide.&lt;/p>&#xd;&#xa;"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Guide"
@@ -62,7 +62,7 @@
                     </actions>
                 </teaser_copy_74296013_1715082336>
                 <teaser_copy_copy
-                    cq:styleIds="[1612830658386]"
+                    cq:styleIds="[teaser--text-bottom]"
                     jcr:description="&lt;p>Check out our guide to get the most from the Tailwind theme and to make your own.&lt;/p>&#xd;&#xa;"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Manage"
@@ -94,7 +94,7 @@
                     </actions>
                 </teaser_copy_copy>
                 <teaser_copy_74296013
-                    cq:styleIds="[1612830658386]"
+                    cq:styleIds="[teaser--text-bottom]"
                     jcr:description="&lt;p>Learn how to make the Theme to match your brand with our customization guide.&lt;/p>&#xd;&#xa;"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Customize"

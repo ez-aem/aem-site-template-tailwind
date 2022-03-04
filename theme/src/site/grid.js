@@ -2,7 +2,6 @@ const plugin = require("tailwindcss/plugin");
 
 module.exports = plugin(({ addBase, addUtilities, theme }) => {
   const aemGridSettings = theme("aemGrid", []);
-  console.log("aemGridSettings", aemGridSettings);
 
   /*
     The AEM Grid overlay uses the parent wrapping element to determine the width of the overlay, 
@@ -56,48 +55,14 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
     ".aem-Grid--grid-width": {
       "margin-inline": "var(--aem-grid-max-width-gutter)",
       width: "calc(100% - calc(var(--aem-grid-max-width-gutter) * 2))",
-    },
-  });
-  /*
-  addUtilities({
-    ".cmp-container": {
-      display: "grid",
-      "grid-template-columns": "1fr calc(100% / 12)",
-    },
-    ".root > .cmp-container": {
-      "grid-template-columns": "1fr",
 
-      "& > *": {
-        "grid-column": "1",
+      ".aem-Grid--grid-width": {
+        width: "100%",
+        "margin-inline": "0",
       },
     },
-    ".aem-Grid--full-width > .cmp-container > *": {
-      "grid-column": "1",
-    },
-    ":where(.cmp-container) .cmp-container": {
-      "grid-template-columns": "1fr",
-    },
-    ".cmp-container .aem-Grid--full-width": {
-      "grid-column": "1 / -1",
-      "margin-inline": 0,
-      "--aem-grid-column-span": "12",
-    },
-    ".aem-Grid--full-width": {
-      "grid-column": "1 / -1",
-    },
-    ".aem-Grid--full-width > .cmp-container > .aem-Grid": {
-      "margin-inline": 0,
-      width: "100%",
-      "padding-inline": 0,
-      "grid-column": "1",
-    },
-    ":not(.aem-Grid--full-width) > .cmp-container > .aem-Grid .aem-Grid": {
-      width: "100%",
-      "grid-column": "1",
-      "margin-inline": "0",
-    },
   });
-*/
+
   aemGridSettings.forEach((grid) => {
     const {
       columns,

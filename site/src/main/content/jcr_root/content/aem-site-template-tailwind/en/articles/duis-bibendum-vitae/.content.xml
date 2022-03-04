@@ -3,13 +3,18 @@
     xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     xmlns:cq="http://www.day.com/jcr/cq/1.0"
     xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
     xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page"
 >
     <jcr:content
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/article-page"
+        jcr:description="Quisque ac libero velit. Aenean lacinia eget libero nec hendrerit. Ut convallis venenatis ligula sed pharetra. Nullam maximus dui nisl, sed efficitur enim rutrum in."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Morbi dapibus libero velit"
+        jcr:title="Duis bibendum vitae"
+        jcr:uuid="5ffbf52f-ce4f-4f4c-8bfd-bd87d192c3dd"
         sling:resourceType="core/wcm/components/page/v3/page"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
@@ -114,5 +119,11 @@
                 </container_1125714356>
             </container>
         </root>
+        <cq:featuredimage
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"
+            fileReference="/content/dam/aem-site-template-tailwind/building_large.png"
+        />
     </jcr:content>
 </jcr:root>

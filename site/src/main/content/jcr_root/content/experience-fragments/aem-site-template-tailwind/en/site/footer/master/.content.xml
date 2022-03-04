@@ -20,7 +20,7 @@
             sling:resourceType="core/wcm/components/container/v1/container"
             id="main-footer"
             layout="responsiveGrid"
-            cq:styleIds="[container-grid-width]"
+            cq:styleIds="[aem-Grid--grid-width]"
         >
             <separator
                 jcr:primaryType="nt:unstructured"

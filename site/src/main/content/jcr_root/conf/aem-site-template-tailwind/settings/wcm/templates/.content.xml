@@ -6,6 +6,7 @@
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page"
 >
+    <page-content />
     <xf-web-variation />
     <rep:policy />
     <blank-page />

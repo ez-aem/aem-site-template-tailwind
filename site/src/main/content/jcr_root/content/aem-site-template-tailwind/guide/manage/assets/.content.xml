@@ -46,7 +46,7 @@
                             sling:resourceType="core/wcm/components/separator/v1/separator"
                         />
                         <teaser_copy
-                            cq:styleIds="[1612897513127,1612830658386]"
+                            cq:styleIds="[1612897513127,teaser--text-bottom]"
                             jcr:description="&lt;p>Now that we've added your logo to the Site Assets, let's make use of it by updating the Site Elements - Header &amp;amp; Footer.&lt;/p>&#xd;&#xa;"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Next Steps"
