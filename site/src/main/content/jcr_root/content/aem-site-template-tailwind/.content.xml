@@ -27,8 +27,9 @@
             <file />
         </image>
     </jcr:content>
-    <readme />
+    <guide />
     <en />
     <de />
     <fr />
+    <es />
 </jcr:root>

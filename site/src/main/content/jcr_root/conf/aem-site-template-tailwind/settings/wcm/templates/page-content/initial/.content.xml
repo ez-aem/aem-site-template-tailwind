@@ -9,7 +9,7 @@
     <jcr:content
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="core/wcm/components/page/v2/page"
+        sling:resourceType="core/wcm/components/page/v3/page"
     >
         <root
             jcr:primaryType="nt:unstructured"

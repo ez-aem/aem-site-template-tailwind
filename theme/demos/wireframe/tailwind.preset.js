@@ -70,6 +70,9 @@ module.exports = {
             "--tw-prose-links": theme("colors.link"),
             "--tw-prose-links-hover": theme("colors.accent-darker"),
             "--tw-prose-invert-links": theme("colors.link"),
+            "max-width": "100ch",
+            "margin-inline": "auto",
+            width: "clamp(100%, 100%, 100ch)",
             a: {
               color: "var(--tw-prose-links)",
               "text-decoration": "none",

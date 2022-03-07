@@ -8,9 +8,9 @@
 >
     <jcr:content
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-content"
+        jcr:description="EZ-AEM - Tailwind AEM Site Template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home"
-        jcr:description="EZ-AEM - Tailwind AEM Site Template"
         sling:resourceType="core/wcm/components/page/v3/page"
     >
         <root
