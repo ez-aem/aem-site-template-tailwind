@@ -20,8 +20,8 @@
     "test-live-config": "backstop test --config=live.test.config.js",
     "test:local": "backstop test --config=local.test.config.js",
     "test:live": "run-p live test-live-config",
-    "test:update-local": "backstop approve --config=local.test.config.js",
-    "test:update-live": "backstop approve --config=live.test.config.js"
+    "test:update-local": "backstop approve --config=local.test.config.js && node ./test_data/uploadImagesToDrive.js",
+    "test:update-live": "backstop approve --config=live.test.config.js && node ./test_data/uploadImagesToDrive.js"
   },
   "devDependencies": {
     "@adobe/aem-site-theme-builder": "5.2.1",
@@ -64,6 +64,7 @@
   },
   "dependencies": {
     "backstopjs": "^6.0.4",
+    "fs-extra": "^10.0.1",
     "inquirer": "^8.2.0"
   }
 }
