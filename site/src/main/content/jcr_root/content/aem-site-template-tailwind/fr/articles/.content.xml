@@ -6,6 +6,7 @@
     xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page"
 >
+    <duis-vitae />
     <jcr:content
         cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -49,7 +50,7 @@
                         imageFromPageImage="false"
                         isDecorative="false"
                         linkTarget="_self"
-                        linkURL="/content/aem-site-template-tailwind/fr/articles/donec-tristique-efficitur"
+                        linkURL="/content/aem-site-template-tailwind/en/articles/donec-tristique-efficitur"
                         pretitle="Praesent diam"
                         textIsRich="true"
                         titleFromPage="true"
@@ -76,8 +77,8 @@
                         linkItems="false"
                         listFrom="static"
                         maxItems="2"
-                        pages="[/content/aem-site-template-tailwind/fr/articles/donec-tristique-efficitur,/content/aem-site-template-tailwind/fr/articles/fusce-at-efficitur-mi,/content/aem-site-template-tailwind/fr/articles/duis-bibendum-vitae]"
-                        parentPage="/content/aem-site-template-tailwind/fr/articles"
+                        pages="[/content/aem-site-template-tailwind/en/articles/donec-tristique-efficitur,/content/aem-site-template-tailwind/en/articles/fusce-at-efficitur-mi,/content/aem-site-template-tailwind/en/articles/duis-bibendum-vitae]"
+                        parentPage="/content/aem-site-template-tailwind/en/articles"
                         showDescription="false"
                         showModificationDate="false"
                         sortOrder="asc"
@@ -168,7 +169,6 @@
             fileReference="/content/dam/aem-site-template-tailwind/building_large.png"
         />
     </jcr:content>
-    <duis-vitae />
     <donec-tristique-efficitur />
     <fusce-at-efficitur-mi />
     <morbi-dapibus-libero-velit />
