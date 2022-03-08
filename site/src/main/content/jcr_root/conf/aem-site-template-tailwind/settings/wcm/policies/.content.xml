@@ -1037,13 +1037,13 @@
                                             <item0
                                                 cq:styleClasses="standard"
                                                 cq:styleId="1612913719939"
-                                                cq:styleLabel="standard"
+                                                cq:styleLabel="Standard"
                                                 jcr:primaryType="nt:unstructured"
                                             />
                                             <item1
                                                 cq:styleClasses="caption"
                                                 cq:styleId="1612913724665"
-                                                cq:styleLabel="caption"
+                                                cq:styleLabel="Caption"
                                                 jcr:primaryType="nt:unstructured"
                                             />
                                         </cq:styles>
@@ -1160,7 +1160,7 @@
                                     <cq:styleGroups
                                         jcr:primaryType="nt:unstructured"
                                     >
-                                        <main-axis-align
+                                        <item0
                                             cq:styleGroupLabel="Main Axis Positioning"
                                             jcr:primaryType="nt:unstructured"
                                         >
@@ -1186,8 +1186,8 @@
                                                     jcr:primaryType="nt:unstructured"
                                                 />
                                             </cq:styles>
-                                        </main-axis-align>
-                                        <secondary-axis-align
+                                        </item0>
+                                        <item1
                                             cq:styleGroupLabel="Secondary Axis Positioning"
                                             jcr:primaryType="nt:unstructured"
                                         >
@@ -1213,7 +1213,7 @@
                                                     jcr:primaryType="nt:unstructured"
                                                 />
                                             </cq:styles>
-                                        </secondary-axis-align>
+                                        </item1>
                                     </cq:styleGroups>
                                 </policy_default>
                             </button>
@@ -1566,6 +1566,44 @@
                         </list>
                     </v3>
                 </list>
+                <carousel jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <carousel jcr:primaryType="nt:unstructured">
+                            <policy_1646765888079
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Default Carousel Policy"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                autopauseDisabled="false"
+                                autoplay="false"
+                                components="[/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/teaser/v2/teaser]"
+                                controlsPrepended="false"
+                                delay="5000"
+                            >
+                                <jcr:content
+                                    jcr:primaryType="nt:unstructured"
+                                />
+                            </policy_1646765888079>
+                        </carousel>
+                    </v1>
+                </carousel>
+                <accordion jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <accordion jcr:primaryType="nt:unstructured">
+                            <policy_1646765956957
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Default Accordion Policy"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                allowedHeadingElements="[h2,h3,h4,h5,h6]"
+                                components="[group:Core Content,group:Core Form]"
+                                headingElement="h3"
+                            >
+                                <jcr:content
+                                    jcr:primaryType="nt:unstructured"
+                                />
+                            </policy_1646765956957>
+                        </accordion>
+                    </v1>
+                </accordion>
             </components>
         </wcm>
     </core>
