@@ -17,7 +17,7 @@
             sling:resourceType="wcm/core/components/policies/mappings"
         >
             <container
-                cq:policy="core/wcm/components/container/v1/container/policy_1641470010395"
+                cq:policy="core/wcm/components/container/v1/container/policy_content"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"
             >
@@ -145,7 +145,7 @@
                             <container jcr:primaryType="nt:unstructured">
                                 <v1 jcr:primaryType="nt:unstructured">
                                     <container
-                                        cq:policy="core/wcm/components/container/v1/container/policy_default"
+                                        cq:policy="core/wcm/components/container/v1/container/policy_content"
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="wcm/core/components/policies/mapping"
                                     />
@@ -188,12 +188,66 @@
                             >
                                 <v2 jcr:primaryType="nt:unstructured">
                                     <languagenavigation
-                                        cq:policy="core/wcm/components/languagenavigation/v2/languagenavigation/policy_xf"
+                                        cq:policy="core/wcm/components/languagenavigation/v2/languagenavigation/policy_default"
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="wcm/core/components/policies/mapping"
                                     />
                                 </v2>
                             </languagenavigation>
+                            <search jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <search
+                                        cq:policy="core/wcm/components/search/v1/search/policy_default"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"
+                                    />
+                                </v1>
+                            </search>
+                            <navigation jcr:primaryType="nt:unstructured">
+                                <v2 jcr:primaryType="nt:unstructured">
+                                    <navigation
+                                        cq:policy="core/wcm/components/navigation/v2/navigation/policy_default"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"
+                                    />
+                                </v2>
+                            </navigation>
+                            <list jcr:primaryType="nt:unstructured">
+                                <v3 jcr:primaryType="nt:unstructured">
+                                    <list
+                                        cq:policy="core/wcm/components/list/v3/list/policy_default"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"
+                                    />
+                                </v3>
+                            </list>
+                            <progressbar jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <progressbar
+                                        cq:policy="core/wcm/components/progressbar/v1/progressbar/policy_default"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"
+                                    />
+                                </v1>
+                            </progressbar>
+                            <carousel jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <carousel
+                                        cq:policy="core/wcm/components/carousel/v1/carousel/policy_default"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"
+                                    />
+                                </v1>
+                            </carousel>
+                            <accordion jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <accordion
+                                        cq:policy="core/wcm/components/accordion/v1/accordion/policy_default"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"
+                                    />
+                                </v1>
+                            </accordion>
                         </components>
                     </wcm>
                 </core>
