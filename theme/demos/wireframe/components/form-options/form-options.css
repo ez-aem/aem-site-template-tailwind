@@ -43,7 +43,7 @@
 
     .cmp-form-options__field--radio,
     .cmp-form-options__field--checkbox {
-      @apply inline-flex h-6 w-6 rounded border-2 border-shade-1 bg-shade-1;
+      @apply inline-flex h-6 w-6 rounded border-2 border-shade-1 bg-shade-1 transition-all duration-300;
       @apply hover:cursor-pointer hover:border-shade-2 hover:bg-background;
 
       &:not(:checked) {

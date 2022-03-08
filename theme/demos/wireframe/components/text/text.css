@@ -3,6 +3,10 @@
     @apply prose max-w-none;
     @apply dark:prose-invert;
 
+    h6 {
+      @apply dark:text-foreground;
+    }
+
     h1,
     h2,
     h3,
