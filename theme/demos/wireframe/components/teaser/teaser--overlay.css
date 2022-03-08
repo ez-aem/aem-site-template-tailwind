@@ -8,7 +8,7 @@
       @apply text-foreground;
     }
 
-    .cmp-teaser__image + .cmp-teaser__content {
+    .cmp-teaser.cq-dd-image .cmp-teaser__content {
       @apply text-background;
       @apply dark:text-foreground;
 
