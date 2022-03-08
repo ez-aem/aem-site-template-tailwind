@@ -14,11 +14,11 @@ const pagesToTest = [
   "guide/manage/create-a-page.html",
   "guide/manage/publish.html",
   "guide/customize.html",
-  "en/article.html",
-  "en/article/duis-vitae.html",
-  "en/article/donec-tristique-efficitur.html",
-  "en/article/fusce-at-efficitur-mi.html",
-  "en/article/morbi-dapibus-libero-velit.html",
+  "en/articles.html",
+  "en/articles/duis-vitae.html",
+  "en/articles/donec-tristique-efficitur.html",
+  "en/articles/fusce-at-efficitur-mi.html",
+  "en/articles/morbi-dapibus-libero-velit.html",
   "en/contact-us.html",
 ];
 
