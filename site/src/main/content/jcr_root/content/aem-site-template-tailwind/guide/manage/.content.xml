@@ -51,15 +51,7 @@
                             sling:resourceType="core/wcm/components/text/v2/text"
                             text="&lt;p>AEM gives you the power and flexibility to build any type of site you can imagine. This guide will help you understand how to work with assets like photos and videos, as well as site elements such as logos and content. You'll also learn how to work with existing pages, like the homepage, and create new pages from scratch, even taking you right through the publishing process, getting your site up and running in a matter of minutes.&lt;/p>&#xd;&#xa;"
                             textIsRich="true"
-                        >
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="12"
-                                />
-                            </cq:responsive>
-                        </text>
+                        />
                         <button
                             cq:styleIds="[1613070360567]"
                             jcr:primaryType="nt:unstructured"
@@ -67,20 +59,17 @@
                             sling:resourceType="core/wcm/components/button/v2/button"
                             linkTarget="_self"
                             linkURL="/content/aem-site-template-tailwind/guide/manage/assets"
-                        >
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="12"
-                                />
-                            </cq:responsive>
-                        </button>
+                        />
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="8"
+                            />
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"
                             />
                         </cq:responsive>
                     </container>
@@ -102,6 +91,11 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="4"
+                            />
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"
                             />
                         </cq:responsive>
                     </list>
