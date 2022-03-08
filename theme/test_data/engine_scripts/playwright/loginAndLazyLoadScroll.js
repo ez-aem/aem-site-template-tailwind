@@ -12,15 +12,30 @@ module.exports = async (page, scenario) => {
   await page.waitForLoadState();
 
   // this is needed because images are lazily loaded
-  await page.evaluate(() => {
-    window.scrollTo({
-      left: 0,
-      top: document.body.scrollHeight,
-      behavior: "smooth",
+  await page.evaluate(async () => {
+    await new Promise((resolve, reject) => {
+      const scrollCheck = setInterval(() => {
+        if (
+          window.scrollY >=
+          Math.floor(document.body.scrollHeight - window.innerHeight - 1)
+        ) {
+          clearInterval(scrollCheck);
+          resolve();
+        }
+        window.scrollTo({
+          left: 0,
+          top: document.body.scrollHeight,
+          behavior: "smooth",
+        });
+      }, 500);
     });
   });
-  await page.waitForSelector(".cmp-image__image--is-loading", {
-    state: "detached",
+
+  await page.waitForFunction(() => {
+    return Array.from(document.images).every((i) => {
+      console.log(i.complete);
+      return i.complete;
+    });
   });
 
   // waiting for browser sync notification to go away
