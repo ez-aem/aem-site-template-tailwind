@@ -53,7 +53,7 @@
             <text
                 cq:styleIds="[1612988098073]"
                 jcr:primaryType="nt:unstructured"
-                text="&lt;p>© COMPANY NAME ADDRESS AVE, CITY NAME, STATE ZIP&lt;/p>"
+                text="&lt;p>© COMPANY NAME ADDRESS AVE, CITY, STATE ZIP&lt;/p>"
                 sling:resourceType="core/wcm/components/text/v2/text"
                 id="copyright"
                 textIsRich="true"

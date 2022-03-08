@@ -20,6 +20,13 @@
     */
     &.open {
       @apply fixed inset-0 mb-0;
+      /* removing container margin and adding it to mobile menu, so it takes the full screen */
+      > .aem-Grid > .container {
+        @apply mx-0 w-full;
+        > #main-header {
+          @apply px-4;
+        }
+      }
 
       & > .aem-Grid {
         @apply h-full;

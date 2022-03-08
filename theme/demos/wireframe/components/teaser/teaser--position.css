@@ -13,7 +13,13 @@
   .teaser--text-bottom {
     .cmp-teaser,
     .cmp-teaser__link {
-      @apply flex-col-reverse;
+      @apply flex-col-reverse h-full;
+    }
+    .cmp-teaser__content {
+      @apply grow justify-start;
+      .cmp-teaser__action-container {
+        @apply grow items-end;
+      }
     }
   }
 

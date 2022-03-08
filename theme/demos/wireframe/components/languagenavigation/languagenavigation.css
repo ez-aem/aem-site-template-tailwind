@@ -1,6 +1,6 @@
 @layer components {
   .cmp-languagenavigation {
-    @apply relative z-10;
+    @apply relative z-20;
   }
 
   .languagenavigation.open {
@@ -33,7 +33,7 @@
     @apply focus:border-focus focus:outline-none;
 
     span {
-      @apply ml-10 flex flex-1 items-center justify-start;
+      @apply ml-10 text-ellipsis whitespace-nowrap flex-nowrap overflow-x-hidden flex flex-1 items-center justify-start;
     }
   }
 
