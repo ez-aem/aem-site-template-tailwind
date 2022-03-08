@@ -9,7 +9,6 @@
     xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="fe5d7230-9219-4e9a-b0cf-3d08984d593b"
 >
     <jcr:content
         dam:assetState="processed"

@@ -7,22 +7,6 @@ module.exports = {
     "./demos/**/**/**/**/*.{html,js,ts,tsx}",
   ],
   theme: {
-    aemGrid: [
-      {
-        name: "default",
-        columns: 12,
-        gap: "1rem",
-        horizontalPadding: true,
-      },
-      {
-        name: "phone",
-        columns: 12,
-        gap: "1rem",
-        breakpoint: "860px",
-        breakpointType: "max-width",
-        horizontalPadding: true,
-      },
-    ],
     extend: {},
   },
   variants: {

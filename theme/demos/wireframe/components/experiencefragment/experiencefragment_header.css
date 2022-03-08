@@ -1,4 +1,9 @@
 @layer components {
+  /* Make the footer full width */
+  .experiencefragment.header {
+    grid-column: 1 / -1;
+  }
+
   /* XF Header style, used on page template */
   #main-header-wrapper {
     @apply z-50 border-b-2 border-solid border-shade-1;
@@ -45,7 +50,7 @@
       }
 
       &.open {
-        @apply h-full;
+        @apply h-full w-full block;
 
         #mobile-header {
           @apply visible translate-y-0 opacity-100;
@@ -57,11 +62,13 @@
       }
 
       .button {
-        @apply z-10 mx-4 flex h-20 w-8 items-center self-center;
+        @apply z-10 flex h-20 w-8 items-center self-center;
 
         .cmp-button {
           @apply h-8 w-8 rounded border-0 bg-transparent bg-center bg-no-repeat;
           background-image: url("../../resources/images/hamburger-menu.png");
+
+          @apply dark:brightness-200;
         }
       }
 
@@ -75,7 +82,7 @@
     }
 
     #mobile-header {
-      @apply h-full translate-y-2 border-t-2 border-shade-1 bg-background p-4 opacity-0 delay-75;
+      @apply h-full translate-y-2 border-t-2 border-shade-1 bg-background py-4 opacity-0 delay-75;
       transition: transform 250ms, opacity 100ms, visibility 50ms;
       visibility: collapse;
 

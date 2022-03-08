@@ -1,4 +1,9 @@
 @layer components {
+  .cmp-teaser,
+  .cmp-teaser__link {
+    @apply flex;
+  }
+
   .cmp-teaser__content {
     @apply flex flex-col justify-center gap-y-4 text-foreground z-10;
   }
@@ -11,6 +16,7 @@
 
   .cmp-teaser__pretitle {
     @apply text-xs font-semibold uppercase text-shade-4;
+    @apply dark:text-foreground;
   }
 
   .cmp-teaser__title {
@@ -20,6 +26,21 @@
       @apply text-foreground;
       @apply hover:text-foreground;
       @apply focus:ring-offset-background;
+    }
+  }
+
+  a.cmp-teaser__link {
+    @apply hover:no-underline;
+  }
+
+  .cmp-teaser__link:hover {
+    .cmp-teaser__pretitle,
+    .cmp-teaser__description {
+      @apply no-underline decoration-0 decoration-transparent;
+    }
+
+    .cmp-teaser__title {
+      @apply underline text-foreground decoration-2 underline-offset-2;
     }
   }
 

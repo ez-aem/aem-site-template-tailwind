@@ -20,6 +20,7 @@
             sling:resourceType="core/wcm/components/container/v1/container"
             id="main-footer"
             layout="responsiveGrid"
+            cq:styleIds="[aem-Grid--grid-width]"
         >
             <separator
                 jcr:primaryType="nt:unstructured"
@@ -39,8 +40,8 @@
                 <cq:responsive jcr:primaryType="nt:unstructured">
                     <default
                         jcr:primaryType="nt:unstructured"
-                        offset="1"
-                        width="1"
+                        offset="0"
+                        width="2"
                     />
                     <phone
                         jcr:primaryType="nt:unstructured"
@@ -61,7 +62,7 @@
                     <default
                         jcr:primaryType="nt:unstructured"
                         offset="0"
-                        width="7"
+                        width="6"
                     />
                     <phone
                         jcr:primaryType="nt:unstructured"
@@ -81,12 +82,12 @@
                     <default
                         jcr:primaryType="nt:unstructured"
                         offset="0"
-                        width="1"
+                        width="2"
                     />
                     <phone
                         jcr:primaryType="nt:unstructured"
-                        offset="1"
-                        width="5"
+                        offset="0"
+                        width="6"
                     />
                 </cq:responsive>
             </text_835927192>
@@ -106,7 +107,7 @@
                     <phone
                         jcr:primaryType="nt:unstructured"
                         offset="0"
-                        width="5"
+                        width="6"
                     />
                 </cq:responsive>
             </text_626570102>

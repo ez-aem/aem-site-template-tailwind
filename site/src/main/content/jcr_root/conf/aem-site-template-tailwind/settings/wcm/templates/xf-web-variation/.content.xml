@@ -9,6 +9,6 @@
         jcr:description="My Site Experience Fragment Template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Web Variation"
-        status="enabled"
+        status="disabled"
     />
 </jcr:root>

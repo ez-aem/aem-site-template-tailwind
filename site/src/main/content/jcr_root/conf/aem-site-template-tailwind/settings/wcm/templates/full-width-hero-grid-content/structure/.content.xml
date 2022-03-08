@@ -28,30 +28,11 @@
                 sling:resourceType="core/wcm/components/container/v1/container"
                 editable="{Boolean}true"
             />
-            <container_1134415548
+            <main
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 layout="responsiveGrid"
-            >
-                <container
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/container/v1/container"
-                    editable="{Boolean}true"
-                >
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="1"
-                            width="10"
-                        />
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="12"
-                        />
-                    </cq:responsive>
-                </container>
-            </container_1134415548>
+            />
             <experiencefragment_1351464162
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"

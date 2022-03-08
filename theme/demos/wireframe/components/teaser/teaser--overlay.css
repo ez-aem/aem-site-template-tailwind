@@ -1,5 +1,5 @@
 @layer utilities {
-  .teaser:not(.teaser--text-bottom):not(.teaser--text-right):not(.teaser--text-left) {
+  .teaser--text-overlay {
     .cmp-teaser {
       @apply grid default:aspect-4/1;
       grid-template-areas: "overlay";

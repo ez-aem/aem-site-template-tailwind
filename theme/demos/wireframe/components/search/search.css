@@ -21,6 +21,8 @@
   .cmp-search__icon,
   .cmp-search__clear-icon {
     @apply relative top-[unset] left-[unset] right-[unset] z-10;
+
+    @apply dark:invert;
   }
 
   .cmp-search__loading-indicator[aria-hidden="false"],

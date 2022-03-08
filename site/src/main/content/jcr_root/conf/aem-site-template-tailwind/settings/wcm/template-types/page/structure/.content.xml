@@ -15,20 +15,13 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container"
             layout="simple"
-        >
-            <container
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/container/v1/container"
-                editable="{Boolean}true"
-                layout="responsiveGrid"
-            />
-        </root>
+        />
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
                 <phone
                     jcr:primaryType="nt:unstructured"
                     title="Smaller Screen"
-                    width="{Long}768"
+                    width="{Long}860"
                 />
             </breakpoints>
         </cq:responsive>

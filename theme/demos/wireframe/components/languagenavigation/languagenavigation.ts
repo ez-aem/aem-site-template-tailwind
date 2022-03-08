@@ -5,10 +5,10 @@ const getLanguageFromLangCode = (langCode: string) => {
       language = "English";
       break;
     case "fr":
-      language = "French";
+      language = "française";
       break;
     case "de":
-      language = "Germany";
+      language = "Deutsch";
       break;
     case "it":
       language = "Italian";
@@ -17,7 +17,7 @@ const getLanguageFromLangCode = (langCode: string) => {
       language = "Russian";
       break;
     case "es":
-      language = "Spanish";
+      language = "Español";
       break;
     case "da":
       language = "Danish";

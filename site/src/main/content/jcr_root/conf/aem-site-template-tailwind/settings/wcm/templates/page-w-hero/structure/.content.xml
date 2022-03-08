@@ -29,7 +29,7 @@
                 editable="{Boolean}true"
                 layout="responsiveGrid"
             />
-            <container_1134415548
+            <main
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 layout="responsiveGrid"
@@ -39,7 +39,7 @@
                     sling:resourceType="core/wcm/components/container/v1/container"
                     editable="{Boolean}true"
                 />
-            </container_1134415548>
+            </main>
             <experiencefragment_1351464162
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"

@@ -8,6 +8,6 @@
         cq:templateType="/conf/aem-site-template-tailwind/settings/wcm/template-types/page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Two Column, Grid Width Content Page - 25/75"
-        status="enabled"
+        status="disabled"
     />
 </jcr:root>

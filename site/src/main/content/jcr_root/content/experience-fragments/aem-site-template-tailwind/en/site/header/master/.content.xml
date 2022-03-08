@@ -22,6 +22,7 @@
             layout="responsiveGrid"
         >
             <container_1356041374
+                cq:styleIds="[aem-Grid--grid-width]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 id="main-header"
@@ -40,8 +41,8 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="1"
-                            width="1"
+                            offset="0"
+                            width="2"
                         />
                     </cq:responsive>
                 </image_271092066>
@@ -68,7 +69,7 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="9"
+                            width="10"
                         />
                         <phone
                             jcr:primaryType="nt:unstructured"
@@ -89,7 +90,7 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
-                                width="5"
+                                width="6"
                             />
                             <phone
                                 jcr:primaryType="nt:unstructured"
@@ -117,7 +118,7 @@
                     </search>
                     <languagenavigation
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/languagenavigation/v3/languagenavigation"
+                        sling:resourceType="core/wcm/components/languagenavigation/v2/languagenavigation"
                         navigationRoot="/content/aem-site-template-tailwind"
                         structureDepth="1"
                     >
