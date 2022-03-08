@@ -12,7 +12,6 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Morbi dapibus libero velit"
         sling:resourceType="core/wcm/components/page/v3/page"
-        pageTitle="Duis vitae"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
         pwaOrientation="any"
@@ -91,6 +90,11 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
+                                width="6"
+                            />
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
                                 width="12"
                             />
                         </cq:responsive>
@@ -108,6 +112,11 @@
                     >
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"
+                            />
+                            <phone
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="12"

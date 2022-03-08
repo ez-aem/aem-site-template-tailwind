@@ -52,22 +52,7 @@
                             sling:resourceType="core/wcm/components/embed/v2/embed"
                             type="url"
                             url="https://www.youtube.com/watch?v=NQeQ1jZ7ZBw"
-                        >
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="12"
-                                />
-                            </cq:responsive>
-                        </embed>
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="8"
-                            />
-                        </cq:responsive>
+                        />
                         <button
                             cq:styleIds="[1613070360567]"
                             jcr:primaryType="nt:unstructured"
@@ -76,6 +61,18 @@
                             linkTarget="_self"
                             linkURL="https://github.com/ez-aem/aem-site-template-tailwind"
                         />
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="8"
+                            />
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"
+                            />
+                        </cq:responsive>
                     </container>
                     <container_1557238351
                         jcr:primaryType="nt:unstructured"
@@ -100,6 +97,11 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="4"
+                            />
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"
                             />
                         </cq:responsive>
                     </container_1557238351>

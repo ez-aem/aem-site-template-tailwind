@@ -85,18 +85,6 @@
                             textIsRich="true"
                             titleFromPage="false"
                         >
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="12"
-                                />
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="12"
-                                />
-                            </cq:responsive>
                             <actions jcr:primaryType="nt:unstructured">
                                 <item0
                                     jcr:primaryType="nt:unstructured"
@@ -121,18 +109,6 @@
                             textIsRich="true"
                             titleFromPage="false"
                         >
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="12"
-                                />
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="12"
-                                />
-                            </cq:responsive>
                             <actions jcr:primaryType="nt:unstructured">
                                 <item0
                                     jcr:primaryType="nt:unstructured"
@@ -157,13 +133,6 @@
                             textIsRich="true"
                             titleFromPage="false"
                         >
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="12"
-                                />
-                            </cq:responsive>
                             <actions jcr:primaryType="nt:unstructured">
                                 <item0
                                     jcr:primaryType="nt:unstructured"
@@ -178,6 +147,11 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="8"
+                            />
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"
                             />
                         </cq:responsive>
                     </container>
