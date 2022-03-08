@@ -15,10 +15,10 @@ const pagesToTest = [
   "guide/manage/publish.html",
   "guide/customize.html",
   "en/article.html",
+  "en/article/duis-vitae.html",
   "en/article/donec-tristique-efficitur.html",
   "en/article/fusce-at-efficitur-mi.html",
   "en/article/morbi-dapibus-libero-velit.html",
-  "en/article/duis-bibendum-vitae.html",
   "en/contact-us.html",
 ];
 
