@@ -12,6 +12,16 @@ const username = lines.findIndex((string) =>
 const password = lines.findIndex((string) =>
   string.startsWith("AEM_PASSWORD=")
 );
+const googleDrive = lines.findIndex((string) =>
+  string.startsWith("GOOGLE_DRIVE_TEST_IMAGES_PATH=")
+);
+
+const googleDrivePath = () => {
+  if (googleDrive === -1) {
+    return null;
+  }
+  return lines[googleDrive].split("=")[1];
+};
 
 module.exports = {
   aemSite: lines[siteIndex].split("=")[1],
@@ -20,4 +30,5 @@ module.exports = {
     aemUsername: lines[username].split("=")[1],
     aemPassword: lines[password].split("=")[1],
   },
+  googleDrivePath: googleDrivePath(),
 };

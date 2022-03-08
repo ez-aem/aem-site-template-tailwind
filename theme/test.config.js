@@ -3,6 +3,7 @@ const {
   aemSite,
   aemPort,
   login,
+  googleDrivePath,
 } = require("./test_data/get-live-server-details");
 
 module.exports = {
@@ -10,6 +11,7 @@ module.exports = {
   aemLogin: login,
   aemSite,
   aemPort,
+  googleDrivePath,
   viewports: [
     {
       label: "phone",
