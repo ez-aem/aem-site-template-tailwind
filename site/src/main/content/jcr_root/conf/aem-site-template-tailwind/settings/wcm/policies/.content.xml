@@ -243,6 +243,40 @@
                                         />
                                     </assetToComponentMapping>
                                 </cq:authoring>
+                                <cq:styleGroups
+                                    jcr:primaryType="nt:unstructured"
+                                >
+                                    <item0
+                                        cq:styleGroupLabel="Grid Settings"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="aem-Grid--grid-width"
+                                                cq:styleId="aem-Grid--grid-width"
+                                                cq:styleLabel="Grid Max Width"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </item0>
+                                    <item1
+                                        cq:styleGroupLabel="Styles"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="dark dark-container"
+                                                cq:styleId="1613079653269"
+                                                cq:styleLabel="Dark Theme"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </item1>
+                                </cq:styleGroups>
                             </policy_root>
                             <policy_content
                                 jcr:description="Default Container Component Policy"
@@ -1269,15 +1303,69 @@
                                             />
                                         </cq:styles>
                                     </item0>
-                                </cq:styleGroups>
-                            </policy_default>
-                        </text>
-                    </v2>
-                </text>
-                <title jcr:primaryType="nt:unstructured">
-                    <v3 jcr:primaryType="nt:unstructured">
-                        <title jcr:primaryType="nt:unstructured">
-                            <policy_default
+                                    <item1
+                                        cq:styleGroupLabel="Main Axis Positioning"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </item1>
+                                    <item2
+                                        cq:styleGroupLabel="Secondary Axis Positioning"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </item2>
+                              </cq:styleGroups>
+                          </policy_default>
+                      </text>
+                  </v2>
+              </text>
+              <title jcr:primaryType="nt:unstructured">
+                  <v3 jcr:primaryType="nt:unstructured">
+                      <title jcr:primaryType="nt:unstructured">
+                          <policy_default
                                 jcr:description="Styles and Configurations for the Title Component"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Default Title Policy"
@@ -1286,13 +1374,9 @@
                                 linkDisabled="false"
                                 type="h2"
                             >
-                                <jcr:content
-                                    jcr:primaryType="nt:unstructured"
-                                />
-                                <cq:styleGroups
-                                    jcr:primaryType="nt:unstructured"
-                                >
-                                    <item0
+                              <jcr:content jcr:primaryType="nt:unstructured" />
+                              <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                  <item0
                                         cq:styleGroupLabel="Display As"
                                         jcr:primaryType="nt:unstructured"
                                     >
