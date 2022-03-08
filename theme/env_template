@@ -6,3 +6,13 @@ AEM_SITE=<site name>
 
 # AEM proxy port
 AEM_PROXY_PORT=7000
+
+# AEM username
+AEM_USERNAME=admin
+
+
+# AEM password
+AEM_PASSWORD=admin
+
+# (OPTIONAL) Path to google drive regression test images
+GOOGLE_DRIVE_TEST_IMAGES_PATH=G:/.shortcut-targets-by-id/{id of shared drive}/regresstiontestimages
