@@ -13,7 +13,7 @@ module.exports = {
         name: "default",
         columns: 12,
         gap: "1rem",
-        maxWidth: "1420px",
+        maxWidthGutter: "8vw",
       },
       {
         name: "phone",
