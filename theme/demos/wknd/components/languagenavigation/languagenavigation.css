@@ -1,7 +1,10 @@
 @layer components {
   .cmp-languagenavigation {
     @apply relative z-10;
-    @apply focus:ring-2;
+    > .cmp-languagenavigation__item {
+      @apply transition-all duration-300;
+      @apply focus:border-shade-1 focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
+    }
   }
 
   .languagenavigation.open {

@@ -78,7 +78,7 @@
   .cmp-navigation__item__icon {
     @apply w-6 self-stretch relative border-0 flex justify-center items-center duration-300 transition-all ease-in-out;
     @apply hover:bg-accent;
-    @apply focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background focus:bg-accent;
+    @apply focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background focus:bg-accent focus:z-30;
 
     @screen default {
       @apply focus:ring-offset-background;

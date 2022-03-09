@@ -1,12 +1,12 @@
 @layer components {
   .cmp-search__field {
-    @apply h-10 px-3 relative flex flex-row justify-between items-center overflow-hidden;
+    @apply h-10 px-3 relative flex flex-row justify-between items-center col-span-full;
   }
 
   .cmp-search__input {
-    @apply text-sm uppercase border-2 border-shade-1 bg-shade-1 absolute inset-0 pl-9 text-foreground transition-colors duration-200;
+    @apply text-sm uppercase border-2 border-shade-1 bg-shade-1 absolute inset-0 pl-9 text-foreground transition-all duration-200;
     @apply hover:bg-background;
-    @apply focus:outline-none focus:border-focus focus:bg-background focus:text-foreground;
+    @apply focus:border-shade-1 focus:bg-background focus:text-foreground focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
 
     &::placeholder {
       @apply text-shade-5;
