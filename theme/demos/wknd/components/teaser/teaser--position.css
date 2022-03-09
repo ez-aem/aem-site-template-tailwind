@@ -26,6 +26,19 @@
     }
   }
 
+  .teaser--text-bottom {
+    .cmp-teaser,
+    .cmp-teaser__link {
+      @apply h-full;
+    }
+    .cmp-teaser__content {
+      @apply grow justify-start;
+      .cmp-teaser__action-container {
+        @apply grow items-end;
+      }
+    }
+  }
+
   .teaser--text-right,
   .teaser--text-left {
     .cmp-teaser__image {
