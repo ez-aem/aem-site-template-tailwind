@@ -1,0 +1,7 @@
+@layer utilities {
+  .list[class*="teaser--"] {
+    .cmp-list {
+      @apply ml-0 list-none list-inside;
+    }
+  }
+}

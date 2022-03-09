@@ -8,6 +8,9 @@
     .cmp-teaser__content {
       @apply p-9 pt-16;
     }
+    .cmp-teaser__link {
+      @apply flex;
+    }
   }
 
   .teaser--text-left {
@@ -29,7 +32,7 @@
   .teaser--text-bottom {
     .cmp-teaser,
     .cmp-teaser__link {
-      @apply h-full;
+      @apply flex-col h-full;
     }
     .cmp-teaser__content {
       @apply grow justify-start;

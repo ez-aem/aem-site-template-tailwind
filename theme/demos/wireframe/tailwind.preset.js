@@ -161,7 +161,7 @@ module.exports = {
             "--tw-prose-bullets": theme("colors.shade-1"),
             "--tw-prose-body": theme("colors.foreground"),
             h6: {
-              color: theme("colors.shade-1"),
+              color: theme("colors.foreground"),
             },
           },
         },
