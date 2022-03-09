@@ -3,6 +3,10 @@
     @apply relative z-20;
   }
 
+  .languagenavigation {
+    @apply flex flex-col justify-center;
+  }
+
   .languagenavigation.open {
     .cmp-languagenavigation__button {
       @apply border-focus;

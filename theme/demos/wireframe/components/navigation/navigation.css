@@ -65,12 +65,14 @@
   }
 
   .cmp-navigation__item__icon {
-    @apply relative flex h-full w-6 justify-center rounded-r border-0 py-2;
+    @apply relative flex h-full grow w-6 justify-center rounded-r border-0 py-2 bg-rose-600;
     @apply focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
 
     &::after {
-      @apply block h-6 w-5 bg-shade-3 bg-no-repeat transition-transform duration-200;
+      @apply block h-full bg-shade-3 bg-no-repeat transition-transform duration-200;
       content: "";
+      min-width: 1.25rem;
+      min-height: 1.5rem;
       mask-size: 1.25rem;
       mask-repeat: no-repeat;
       mask-position: center;
