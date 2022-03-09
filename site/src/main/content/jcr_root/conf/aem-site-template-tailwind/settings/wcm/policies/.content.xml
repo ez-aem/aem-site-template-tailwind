@@ -26,6 +26,76 @@
                                 <jcr:content
                                     jcr:primaryType="nt:unstructured"
                                 />
+                                <cq:styleGroups
+                                    jcr:primaryType="nt:unstructured"
+                                >
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
+                                </cq:styleGroups>
                             </policy_default>
                         </accordion>
                     </v1>
@@ -64,6 +134,72 @@
                                             />
                                         </cq:styles>
                                     </item0>
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
                                 </cq:styleGroups>
                             </policy_default>
                         </breadcrumb>
@@ -123,8 +259,8 @@
                                             />
                                         </cq:styles>
                                     </item0>
-                                    <item1
-                                        cq:styleGroupLabel="Main Axis Positioning"
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                                         jcr:primaryType="nt:unstructured"
                                     >
                                         <cq:styles
@@ -148,10 +284,16 @@
                                                 cq:styleLabel="End"
                                                 jcr:primaryType="nt:unstructured"
                                             />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
                                         </cq:styles>
-                                    </item1>
-                                    <item2
-                                        cq:styleGroupLabel="Secondary Axis Positioning"
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                                         jcr:primaryType="nt:unstructured"
                                     >
                                         <cq:styles
@@ -175,8 +317,14 @@
                                                 cq:styleLabel="End"
                                                 jcr:primaryType="nt:unstructured"
                                             />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
                                         </cq:styles>
-                                    </item2>
+                                    </align_self>
                                 </cq:styleGroups>
                             </policy_default>
                         </button>
@@ -198,6 +346,76 @@
                                 <jcr:content
                                     jcr:primaryType="nt:unstructured"
                                 />
+                                <cq:styleGroups
+                                    jcr:primaryType="nt:unstructured"
+                                >
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
+                                </cq:styleGroups>
                             </policy_default>
                         </carousel>
                     </v1>
@@ -373,6 +591,76 @@
                                 <jcr:content
                                     jcr:primaryType="nt:unstructured"
                                 />
+                                <cq:styleGroups
+                                    jcr:primaryType="nt:unstructured"
+                                >
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
+                                </cq:styleGroups>
                             </policy_default>
                         </download>
                     </v2>
@@ -419,6 +707,72 @@
                                             />
                                         </cq:styles>
                                     </item0>
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
                                 </cq:styleGroups>
                             </policy_default>
                         </embed>
@@ -769,6 +1123,72 @@
                                             />
                                         </cq:styles>
                                     </item0>
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
                                 </cq:styleGroups>
                             </policy_default>
                         </image>
@@ -787,6 +1207,76 @@
                                 <jcr:content
                                     jcr:primaryType="nt:unstructured"
                                 />
+                                <cq:styleGroups
+                                    jcr:primaryType="nt:unstructured"
+                                >
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
+                                </cq:styleGroups>
                             </policy_default>
                         </languagenavigation>
                     </v2>
@@ -851,6 +1341,72 @@
                                             />
                                         </cq:styles>
                                     </item0>
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
                                 </cq:styleGroups>
                             </policy_default>
                         </list>
@@ -871,6 +1427,76 @@
                                 <jcr:content
                                     jcr:primaryType="nt:unstructured"
                                 />
+                                <cq:styleGroups
+                                    jcr:primaryType="nt:unstructured"
+                                >
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
+                                </cq:styleGroups>
                             </policy_default>
                         </navigation>
                     </v2>
@@ -904,6 +1530,76 @@
                                 <jcr:content
                                     jcr:primaryType="nt:unstructured"
                                 />
+                                <cq:styleGroups
+                                    jcr:primaryType="nt:unstructured"
+                                >
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
+                                </cq:styleGroups>
                             </policy_default>
                         </progressbar>
                     </v1>
@@ -922,6 +1618,76 @@
                                 <jcr:content
                                     jcr:primaryType="nt:unstructured"
                                 />
+                                <cq:styleGroups
+                                    jcr:primaryType="nt:unstructured"
+                                >
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
+                                </cq:styleGroups>
                             </policy_default>
                         </search>
                     </v1>
@@ -962,6 +1728,72 @@
                                             />
                                         </cq:styles>
                                     </item0>
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
                                 </cq:styleGroups>
                             </policy_default>
                         </separator>
@@ -1003,6 +1835,72 @@
                                             />
                                         </cq:styles>
                                     </item0>
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="justify-self-start"
+                                                cq:styleId="justify-self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="justify-self-center"
+                                                cq:styleId="justify-self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="justify-self-end"
+                                                cq:styleId="justify-self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                                        jcr:primaryType="nt:unstructured"
+                                    >
+                                        <cq:styles
+                                            jcr:primaryType="nt:unstructured"
+                                        >
+                                            <item0
+                                                cq:styleClasses="self-start"
+                                                cq:styleId="self-start"
+                                                cq:styleLabel="Start"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item1
+                                                cq:styleClasses="self-center"
+                                                cq:styleId="self-center"
+                                                cq:styleLabel="Center"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item2
+                                                cq:styleClasses="self-end"
+                                                cq:styleId="self-end"
+                                                cq:styleLabel="End"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                        </cq:styles>
+                                    </align_self>
                                 </cq:styleGroups>
                             </policy_default>
                         </tabs>
@@ -1051,6 +1949,12 @@
                                                 jcr:primaryType="nt:unstructured"
                                             />
                                             <item3
+                                                cq:styleClasses="teaser--text-right"
+                                                cq:styleId="teaser--text-right"
+                                                cq:styleLabel="Text Right"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                            <item4
                                                 cq:styleClasses="teaser--text-overlay"
                                                 cq:styleId="teaser--text-overlay"
                                                 cq:styleLabel="Text Overlay"
@@ -1073,8 +1977,8 @@
                                             />
                                         </cq:styles>
                                     </item1>
-                                    <item2
-                                        cq:styleGroupLabel="Main Axis Positioning"
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                                         jcr:primaryType="nt:unstructured"
                                     >
                                         <cq:styles
@@ -1105,9 +2009,9 @@
                                                 jcr:primaryType="nt:unstructured"
                                             />
                                         </cq:styles>
-                                    </item2>
-                                    <item3
-                                        cq:styleGroupLabel="Secondary Axis Positioning"
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                                         jcr:primaryType="nt:unstructured"
                                     >
                                         <cq:styles
@@ -1138,7 +2042,7 @@
                                                 jcr:primaryType="nt:unstructured"
                                             />
                                         </cq:styles>
-                                    </item3>
+                                    </align_self>
                                 </cq:styleGroups>
                             </policy_default>
                         </teaser>
@@ -1303,8 +2207,8 @@
                                             />
                                         </cq:styles>
                                     </item0>
-                                    <item1
-                                        cq:styleGroupLabel="Main Axis Positioning"
+                                    <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                                         jcr:primaryType="nt:unstructured"
                                     >
                                         <cq:styles
@@ -1328,10 +2232,16 @@
                                                 cq:styleLabel="End"
                                                 jcr:primaryType="nt:unstructured"
                                             />
+                                            <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
                                         </cq:styles>
-                                    </item1>
-                                    <item2
-                                        cq:styleGroupLabel="Secondary Axis Positioning"
+                                    </justify_self>
+                                    <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                                         jcr:primaryType="nt:unstructured"
                                     >
                                         <cq:styles
@@ -1355,17 +2265,23 @@
                                                 cq:styleLabel="End"
                                                 jcr:primaryType="nt:unstructured"
                                             />
+                                            <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
                                         </cq:styles>
-                                    </item2>
-                              </cq:styleGroups>
-                          </policy_default>
-                      </text>
-                  </v2>
-              </text>
-              <title jcr:primaryType="nt:unstructured">
-                  <v3 jcr:primaryType="nt:unstructured">
-                      <title jcr:primaryType="nt:unstructured">
-                          <policy_default
+                                    </align_self>
+                                </cq:styleGroups>
+                            </policy_default>
+                        </text>
+                    </v2>
+                </text>
+                <title jcr:primaryType="nt:unstructured">
+                    <v3 jcr:primaryType="nt:unstructured">
+                        <title jcr:primaryType="nt:unstructured">
+                            <policy_default
                                 jcr:description="Styles and Configurations for the Title Component"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Default Title Policy"
@@ -1374,147 +2290,163 @@
                                 linkDisabled="false"
                                 type="h2"
                             >
-                              <jcr:content jcr:primaryType="nt:unstructured" />
-                              <cq:styleGroups jcr:primaryType="nt:unstructured">
-                                  <item0
+                                <jcr:content
+                                    jcr:primaryType="nt:unstructured"
+                                />
+                                <cq:styleGroups
+                                    jcr:primaryType="nt:unstructured"
+                                >
+                                    <item0
                                         cq:styleGroupLabel="Display As"
                                         jcr:primaryType="nt:unstructured"
                                     >
-                                        <cq:styles
+                                          <cq:styles
                                             jcr:primaryType="nt:unstructured"
                                         >
-                                            <item0
+                                              <item0
                                                 cq:styleClasses="title--h1"
                                                 cq:styleId="1612896635178"
                                                 cq:styleLabel="H1 Style"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                            <item1
+                                              <item1
                                                 cq:styleClasses="title--h2"
                                                 cq:styleId="1612896641947"
                                                 cq:styleLabel="H2 Style"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                            <item2
+                                              <item2
                                                 cq:styleClasses="title--h3"
                                                 cq:styleId="1612896645990"
                                                 cq:styleLabel="H3 Style"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                            <item3
+                                              <item3
                                                 cq:styleClasses="title--h4"
                                                 cq:styleId="1612896649188"
                                                 cq:styleLabel="H4 Style"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                            <item4
+                                              <item4
                                                 cq:styleClasses="title--h5"
                                                 cq:styleId="1612988090638"
                                                 cq:styleLabel="H5 Style"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                            <item5
+                                              <item5
                                                 cq:styleClasses="title--h6"
                                                 cq:styleId="1612988098073"
                                                 cq:styleLabel="H6 Style"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                        </cq:styles>
-                                    </item0>
-                                    <item1
+                                          </cq:styles>
+                                      </item0>
+                                      <item1
                                         cq:styleGroupLabel="Spacing"
                                         jcr:primaryType="nt:unstructured"
                                     >
-                                        <cq:styles
+                                          <cq:styles
                                             jcr:primaryType="nt:unstructured"
                                         >
-                                            <item0
+                                              <item0
                                                 cq:styleClasses="title--mt-8"
                                                 cq:styleId="09812749238742"
                                                 cq:styleLabel="Top Margin"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                        </cq:styles>
-                                    </item1>
-                                    <item2
+                                          </cq:styles>
+                                      </item1>
+                                      <item2
                                         cq:styleGroupLabel="Max Width"
                                         jcr:primaryType="nt:unstructured"
                                     >
-                                        <cq:styles
+                                          <cq:styles
                                             jcr:primaryType="nt:unstructured"
                                         >
-                                            <item0
+                                              <item0
                                                 cq:styleClasses="aem-Grid--grid-width"
                                                 cq:styleId="aem-Grid--grid-width"
                                                 cq:styleLabel="Grid Max Width"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                            <item1
+                                              <item1
                                                 cq:styleClasses="prose title--prose"
                                                 cq:styleId="title--prose"
                                                 cq:styleLabel="Prose Width"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                        </cq:styles>
-                                    </item2>
-                                    <item3
-                                        cq:styleGroupLabel="Main Axis Positioning"
+                                          </cq:styles>
+                                      </item2>
+                                      <justify_self
+                                        cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                                         jcr:primaryType="nt:unstructured"
                                     >
-                                        <cq:styles
+                                          <cq:styles
                                             jcr:primaryType="nt:unstructured"
                                         >
-                                            <item0
+                                              <item0
                                                 cq:styleClasses="justify-self-start"
                                                 cq:styleId="justify-self-start"
                                                 cq:styleLabel="Start"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                            <item1
+                                              <item1
                                                 cq:styleClasses="justify-self-center"
                                                 cq:styleId="justify-self-center"
                                                 cq:styleLabel="Center"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                            <item2
+                                              <item2
                                                 cq:styleClasses="justify-self-end"
                                                 cq:styleId="justify-self-end"
                                                 cq:styleLabel="End"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                        </cq:styles>
-                                    </item3>
-                                    <item4
-                                        cq:styleGroupLabel="Secondary Axis Positioning"
+                                              <item3
+                                                cq:styleClasses="justify-self-stretch"
+                                                cq:styleId="justify-self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                          </cq:styles>
+                                      </justify_self>
+                                      <align_self
+                                        cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                                         jcr:primaryType="nt:unstructured"
                                     >
-                                        <cq:styles
+                                          <cq:styles
                                             jcr:primaryType="nt:unstructured"
                                         >
-                                            <item0
+                                              <item0
                                                 cq:styleClasses="self-start"
                                                 cq:styleId="self-start"
                                                 cq:styleLabel="Start"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                            <item1
+                                              <item1
                                                 cq:styleClasses="self-center"
                                                 cq:styleId="self-center"
                                                 cq:styleLabel="Center"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                            <item2
+                                              <item2
                                                 cq:styleClasses="self-end"
                                                 cq:styleId="self-end"
                                                 cq:styleLabel="End"
                                                 jcr:primaryType="nt:unstructured"
                                             />
-                                        </cq:styles>
-                                    </item4>
-                                </cq:styleGroups>
-                            </policy_default>
-                        </title>
-                    </v3>
+                                              <item3
+                                                cq:styleClasses="self-stretch"
+                                                cq:styleId="self-stretch"
+                                                cq:styleLabel="Stretch"
+                                                jcr:primaryType="nt:unstructured"
+                                            />
+                                          </cq:styles>
+                                      </align_self>
+                                  </cq:styleGroups>
+                              </policy_default>
+                          </title>
+                      </v3>
                 </title>
             </components>
         </wcm>

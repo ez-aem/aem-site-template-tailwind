@@ -39,7 +39,7 @@
                         startLevel="2"
                     />
                     <teaser
-                        cq:styleIds="[teaser--text-bottom]"
+                        cq:styleIds="[teaser--text-bottom,self-start]"
                         jcr:description="&lt;p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent et scelerisque diam, a sodales elit. &lt;/p>&#xd;&#xa;"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Suspendisse imperdiet felis sed nisi"

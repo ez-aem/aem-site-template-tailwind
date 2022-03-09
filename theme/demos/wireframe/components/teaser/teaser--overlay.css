@@ -8,7 +8,11 @@
       @apply text-foreground;
     }
 
-    .cmp-teaser.cq-dd-image .cmp-teaser__content {
+    /* 
+     * The .cq-dd-image was getting added to the wrapping teaser div, but isn't working consistently
+    .cmp-teaser.cq-dd-image .cmp-teaser__content { 
+    */
+    .cmp-teaser .cmp-teaser__content {
       @apply text-background;
       @apply dark:text-foreground;
 
