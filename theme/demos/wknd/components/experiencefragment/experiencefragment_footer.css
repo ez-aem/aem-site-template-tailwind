@@ -6,8 +6,8 @@
 
   #main-footer {
     /* 8.33% is to match header, this cannot be done using the grid because the header markup has an additional container while the footer does not */
-    padding: 0 8.33%;
     @apply py-4 bg-foreground mt-12;
+    margin-inline: var(--aem-grid-max-width-gutter);
 
     .cmp-container > .aem-Grid {
       @apply items-center;
