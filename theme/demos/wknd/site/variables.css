@@ -21,7 +21,7 @@
     --color-shadow: "rgba(0, 0, 0, 0.16)";
   }
 
-  .dark,
+  /* .dark,
   .dark *::before,
   .dark *::after {
     --color-background: 32, 32, 32;
@@ -41,5 +41,5 @@
     --color-success: 38, 142, 108;
     --color-success-darker: 13, 117, 83;
     --color-shadow: "rgba(0, 0, 0, 0.16)";
-  }
+  } */
 }

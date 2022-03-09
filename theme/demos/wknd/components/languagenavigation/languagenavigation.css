@@ -1,7 +1,10 @@
 @layer components {
   .cmp-languagenavigation {
     @apply relative z-10;
-    @apply focus:ring-2;
+    > .cmp-languagenavigation__item {
+      @apply transition-all duration-300;
+      @apply focus:border-shade-1 focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:ring-offset-background;
+    }
   }
 
   .languagenavigation.open {
@@ -70,7 +73,7 @@
     }
 
     .cmp-languagenavigation__item-link {
-      @apply text-background;
+      @apply text-background text-ellipsis whitespace-nowrap overflow-x-hidden flex-nowrap gap-0 min-w-0;
       @apply hover:text-foreground;
       @apply focus:text-foreground;
 
@@ -81,7 +84,7 @@
   }
 
   .cmp-languagenavigation__item {
-    @apply text-sm uppercase flex flex-row gap-x-2 flex-1 items-center;
+    @apply text-sm uppercase flex flex-row flex-1 items-center;
 
     &:not(.cmp-languagenavigation__item--active):hover {
       @apply cursor-pointer;
@@ -137,7 +140,7 @@
   }
 
   .cmp-languagenavigation__item-link {
-    @apply text-sm uppercase text-background outline-none relative flex-nowrap whitespace-nowrap overflow-x-hidden flex-1 flex flex-row justify-between items-center py-2 pl-10 pr-1 font-medium bg-foreground border-0 duration-300 transition-all ease-in-out gap-2;
+    @apply text-sm uppercase text-background outline-none relative flex-nowrap whitespace-nowrap overflow-x-hidden flex-1 flex flex-row justify-between items-center py-2 pl-10 pr-1 font-medium bg-foreground border-0 duration-300 transition-all ease-in-out;
     @apply hover:underline hover:bg-accent text-foreground;
     @apply focus:bg-accent focus:border-0 focus:outline-none focus:ring-2 focus:rounded-none focus:ring-offset-0 focus:z-10;
 
@@ -147,11 +150,14 @@
   }
 
   .cmp-languagenavigation__item--active .cmp-languagenavigation__item-link {
-    @apply text-foreground bg-accent underline;
-
-    &::after {
-      @apply bg-foreground;
-      mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZGVmcz48c3R5bGU+LmEsLmJ7ZmlsbDojMjY4ZTZjO30uYXtvcGFjaXR5OjA7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03MDMgLTgwKSI+PHJlY3QgY2xhc3M9ImEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzAzIDgwKSIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNNC45MzIsMjY5LjlhMSwxLDAsMCwxLS44NjQtLjQ2N0wuNzA3LDI2Ni4wNzJhMSwxLDAsMSwxLDEuNDE0LTEuNDE1bDIuODExLDIuODExLDcuNzYxLTcuNzYxYTEsMSwwLDEsMSwxLjQxNCwxLjQxNUw1LjgsMjY5LjQzMmExLDEsMCwwLDEtLjg0Ny40NjhaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3MDcuNTg2IC0xNzIuNjU3KSIvPjwvZz48L3N2Zz4=");
-    }
+    @apply text-foreground bg-accent underline shrink;
+  }
+  .cmp-languagenavigation__item--active::after {
+    content: "";
+    min-width: 20px;
+    min-height: 20px;
+    @apply bg-foreground shrink-0 mr-1;
+    mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZGVmcz48c3R5bGU+LmEsLmJ7ZmlsbDojMjY4ZTZjO30uYXtvcGFjaXR5OjA7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03MDMgLTgwKSI+PHJlY3QgY2xhc3M9ImEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzAzIDgwKSIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNNC45MzIsMjY5LjlhMSwxLDAsMCwxLS44NjQtLjQ2N0wuNzA3LDI2Ni4wNzJhMSwxLDAsMSwxLDEuNDE0LTEuNDE1bDIuODExLDIuODExLDcuNzYxLTcuNzYxYTEsMSwwLDEsMSwxLjQxNCwxLjQxNUw1LjgsMjY5LjQzMmExLDEsMCwwLDEtLjg0Ny40NjhaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3MDcuNTg2IC0xNzIuNjU3KSIvPjwvZz48L3N2Zz4=");
+    mask-position: center;
   }
 }
