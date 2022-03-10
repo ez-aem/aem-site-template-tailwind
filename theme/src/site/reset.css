@@ -5,12 +5,6 @@
   min-height: 0 !important;
 }
 
-.xf-web-container div.container {
-  margin-left: revert;
-  margin-right: revert;
-  padding: revert;
-}
-
 div.image {
   margin-bottom: revert;
   overflow: revert;

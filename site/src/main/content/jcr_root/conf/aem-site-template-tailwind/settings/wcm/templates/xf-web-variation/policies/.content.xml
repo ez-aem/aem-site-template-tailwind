@@ -155,6 +155,24 @@
                                 />
                             </v2>
                         </languagenavigation>
+                        <search jcr:primaryType="nt:unstructured">
+                            <v1 jcr:primaryType="nt:unstructured">
+                                <search
+                                    cq:policy="core/wcm/components/search/v1/search/policy_default"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"
+                                />
+                            </v1>
+                        </search>
+                        <navigation jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <navigation
+                                    cq:policy="core/wcm/components/navigation/v2/navigation/policy_default"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"
+                                />
+                            </v2>
+                        </navigation>
                     </components>
                 </wcm>
             </core>

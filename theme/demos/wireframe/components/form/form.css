@@ -3,7 +3,7 @@
     @apply mt-6 mb-20;
 
     label {
-      @apply text-xs font-semibold uppercase text-shade-4;
+      @apply text-xs font-semibold uppercase pb-2;
     }
   }
 }

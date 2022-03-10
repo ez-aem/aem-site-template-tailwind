@@ -72,9 +72,9 @@
         @apply hover:border-shade-4 hover:bg-shade-4 hover:text-background;
         @apply focus:border-focus focus:bg-shade-4 focus:text-background focus:ring-0;
 
-        @apply dark:border-link dark:text-link;
-        @apply dark:hover:bg-link dark:hover:text-background;
-        @apply dark:focus:border-background dark:focus:bg-link dark:focus:text-background;
+        @apply dark:border-accent-lighter dark:text-accent-lighter;
+        @apply dark:hover:bg-accent-lighter dark:hover:text-background;
+        @apply dark:focus:border-background dark:focus:bg-accent-lighter dark:focus:text-background;
       }
 
       &:first-child {
