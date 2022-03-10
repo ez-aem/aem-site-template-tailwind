@@ -1,7 +1,7 @@
 @layer components {
   .cmp-teaser,
   .cmp-teaser__link {
-    @apply flex;
+    @apply flex flex-col;
   }
 
   .cmp-teaser__content {

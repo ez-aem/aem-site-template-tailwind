@@ -10,10 +10,4 @@
     <xf-web-variation />
     <rep:policy />
     <blank-page />
-    <page-w-hero />
-    <grid-width-content-page />
-    <full-width-hero-grid-content />
-    <two-column-grid />
-    <article-page />
-    <two-column-grid1 />
 </jcr:root>

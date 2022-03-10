@@ -12,7 +12,7 @@
         sling:resourceType="wcm/core/components/policies/mappings"
     >
         <root
-            cq:policy="core/wcm/components/container/v1/container/policy_xf_root"
+            cq:policy="core/wcm/components/container/v1/container/policy_root"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/core/components/policies/mapping"
         >
@@ -149,7 +149,7 @@
                         <languagenavigation jcr:primaryType="nt:unstructured">
                             <v2 jcr:primaryType="nt:unstructured">
                                 <languagenavigation
-                                    cq:policy="core/wcm/components/languagenavigation/v2/languagenavigation/policy_xf"
+                                    cq:policy="core/wcm/components/languagenavigation/v2/languagenavigation/policy_default"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wcm/core/components/policies/mapping"
                                 />

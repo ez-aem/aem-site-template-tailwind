@@ -12,6 +12,7 @@
     "lint:check": "eslint -c theme/.eslintrc.json theme --ext .ts,.js,.jsx,.tsx",
     "lint:fix": "eslint -c theme/.eslintrc.json --fix theme --ext .ts,.js,.jsx,.tsx",
     "live": "cd theme && npm run live",
+    "postinstall": "cd theme && npm install",
     "prepare": "husky install",
     "prettier:check": "prettier --check ./theme/**/*.{css,html,js,ts} ./site/**/*.xml",
     "prettier:fix": "prettier --write ./theme/**/*.{css,html,js,ts} ./site/**/*.xml",

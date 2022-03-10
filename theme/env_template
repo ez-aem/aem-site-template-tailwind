@@ -10,7 +10,6 @@ AEM_PROXY_PORT=7000
 # AEM username
 AEM_USERNAME=admin
 
-
 # AEM password
 AEM_PASSWORD=admin
 
