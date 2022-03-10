@@ -76,7 +76,7 @@
   }
 
   .cmp-form-options {
-    @apply flex flex-col gap-y-2;
+    @apply flex flex-col;
   }
   .cmp-form-options__field--drop-down {
     @apply relative flex h-10 w-full flex-row items-center justify-start rounded-md border-2 border-solid border-shade-1 bg-shade-1 leading-4 text-shade-4 transition-colors duration-200;
@@ -84,9 +84,26 @@
     @apply focus:border-focus focus:bg-background focus:text-foreground focus:ring-offset-background;
     @apply dark:hover:text-shade-1;
     @apply dark:focus:text-foreground;
-
     &:active {
       @apply dark:hover:text-foreground;
+    }
+  }
+  .cmp-form-options__field--drop-down {
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg style='color:#455A64' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'><path stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/></svg>");
+    &:hover {
+      background-image: url("data:image/svg+xml;charset=utf-8,<svg style='color:#455A64' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'><path stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/></svg>");
+    }
+    &:focus {
+      background-image: url("data:image/svg+xml;charset=utf-8,<svg style='color:#292929' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'><path stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/></svg>");
+    }
+  }
+  .dark .cmp-form-options__field--drop-down {
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg style='color:#334249' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'><path stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/></svg>");
+    &:hover {
+      background-image: url("data:image/svg+xml;charset=utf-8,<svg style='color:#56717F' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'><path stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/></svg>");
+    }
+    &:focus {
+      background-image: url("data:image/svg+xml;charset=utf-8,<svg style='color:#FAFAFA' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'><path stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/></svg>");
     }
   }
 }
