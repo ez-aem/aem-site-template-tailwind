@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jcr:root
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page"
+>
+    <jcr:content
+        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-content"
+        jcr:description="Mauris dignissim vehicula quam at consequat. Nam pulvinar ut arcu et consequat."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Fusce at efficitur mi"
+        sling:resourceType="core/wcm/components/page/v3/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any"
+    >
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+        >
+            <main
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="responsiveGrid"
+            >
+                <content
+                    cq:styleIds="[aem-Grid--grid-width]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid"
+                >
+                    <breadcrumb
+                        cq:styleIds="[aem-Grid--grid-width]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/breadcrumb/v3/breadcrumb"
+                        disableShadowing="false"
+                        hideCurrent="false"
+                        showHidden="false"
+                        startLevel="2"
+                    />
+                    <title
+                        cq:styleIds="[title--prose]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/title/v3/title"
+                        type="h1"
+                    />
+                    <text
+                        cq:styleIds="[text--prose]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>Duis vitae elementum quam. Praesent ac lacus ac ipsum pretium fringilla non ac lorem. Nullam sed dapibus est, eget tristique nunc. In pellentesque, lectus non aliquam fermentum, neque ligula gravida dolor&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"
+                    />
+                    <image
+                        cq:styleIds="[1612913724665]"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Mauris dignissim vehicula quam at consequat. Nam pulvinar ut arcu et consequat."
+                        sling:resourceType="core/wcm/components/image/v3/image"
+                        alt="EZ-AEM - Tailwind AEM Site Template"
+                        altValueFromDAM="false"
+                        altValueFromPageImage="false"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/aem-site-template-tailwind/building_large.png"
+                        imageFromPageImage="true"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        titleValueFromDAM="false"
+                    />
+                    <text_copy
+                        cq:styleIds="[text--prose]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>Praesent fringilla tristique sollicitudin. Vivamus &lt;a href=&quot;/content/aem-site-template-tailwind/en/articles.html&quot;>lobortis magna&lt;/a> et dui faucibus mattis. Suspendisse &lt;b>facilisis&lt;/b> leo ante, eu scelerisque mi efficitur nec. Proin non consectetur nunc. Quisque viverra mollis &lt;i>nibh in&lt;/i> faucibus. Nunc quis &lt;u>feugiat odio&lt;/u>, eget posuere magna. Aenean non nulla a velit porta mattis ac et erat. Pellentesque ullamcorper eu odio at congue.&lt;/p>&#xd;&#xa;&lt;h2>Mauris aliquet elit sit amet magna pulvinar laoreet.&lt;/h2>&#xd;&#xa;&lt;blockquote>Vivamus euismod dictum elit, ac feugiat urna. Nunc bibendum iaculis sapien non sagittis.&lt;/blockquote>&#xd;&#xa;&lt;p>Morbi diam nibh, mattis quis euismod eu, euismod eu neque. Nulla vel tristique diam. Quisque est ex, pulvinar ac vulputate eu, fermentum quis sapien. Suspendisse porta, velit ut venenatis dignissim, leo nunc condimentum tortor, ac vestibulum tellus lorem id sem. Praesent lectus sapien, maximus eget mi vel, tempus convallis dui. &lt;/p>&#xd;&#xa;&lt;h3>Curabitur vitae dui velit.&lt;/h3>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>Vivamus scelerisque est id rhoncus dapibus.&lt;/li>&#xd;&#xa;&lt;li>Vestibulum placerat faucibus diam tempus congue.&lt;/li>&#xd;&#xa;&lt;li>Vivamus id ex a urna ullamcorper congue.&lt;/li>&#xd;&#xa;&lt;li>Curabitur arcu augue, dictum nec dolor interdum, tristique venenatis odio.&lt;/li>&#xd;&#xa;&lt;li>Nullam rhoncus ante metus, dignissim auctor massa mattis ut.&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                        textIsRich="true"
+                    />
+                    <image_1563184774
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Cras eu placerat nisi, ut mollis felis. Fusce lorem orci, tempus nec nulla a, ultrices euismod tortor. Donec iaculis tellus eget dolor vulputate, sit amet eleifend purus porttitor."
+                        sling:resourceType="core/wcm/components/image/v3/image"
+                        alt="Cras eu placerat nisi, ut mollis felis. Fusce lorem orci, tempus nec nulla a, ultrices euismod tortor. Donec iaculis tellus eget dolor vulputate, sit amet eleifend purus porttitor."
+                        altValueFromPageImage="false"
+                        displayPopupTitle="false"
+                        imageFromPageImage="true"
+                        isDecorative="false"
+                        linkTarget="_self"
+                    >
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"
+                            />
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"
+                            />
+                        </cq:responsive>
+                    </image_1563184774>
+                    <image_1563184774_cop
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Nunc dictum ligula nec rutrum congue. Cras tempor feugiat justo a mattis"
+                        sling:resourceType="core/wcm/components/image/v3/image"
+                        alt="Nunc dictum ligula nec rutrum congue. Cras tempor feugiat justo a mattis"
+                        altValueFromPageImage="false"
+                        displayPopupTitle="false"
+                        imageFromPageImage="true"
+                        isDecorative="false"
+                        linkTarget="_self"
+                    >
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"
+                            />
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"
+                            />
+                        </cq:responsive>
+                    </image_1563184774_cop>
+                    <text_1408460158
+                        cq:styleIds="[text--prose]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;h4>Proin id risus sollicitudin, tincidunt quam ac, ultrices sapien.&lt;/h4>&#xd;&#xa;&lt;ol>&#xd;&#xa;&lt;li>Quisque quis vestibulum lectus.&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>Mauris dignissim vehicula quam at consequat.&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>Nam pulvinar ut arcu et consequat.&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>Etiam rutrum quis libero quis fringilla.&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>Cras eu placerat nisi, ut mollis felis.&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;/ol>&#xd;&#xa;&lt;p>Fusce lorem orci, tempus nec nulla a, ultrices euismod tortor. Donec iaculis tellus eget dolor vulputate, sit amet eleifend purus porttitor. Nunc dictum ligula nec rutrum congue. Cras tempor feugiat justo a mattis. Quisque varius, diam nec mollis imperdiet, sapien ex malesuada erat, eget elementum magna lacus eu enim. Nam non tortor in mi molestie rutrum.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;h5>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;/h5>&#xd;&#xa;&lt;pre>&#xd;&#xa;Proin egestas scelerisque urna et ornare. Duis vitae massa in libero maximus fermentum eget eget sem. &#xd;&#xa;&lt;/pre>&#xd;&#xa;&lt;p>Quisque convallis luctus velit, non tincidunt orci vestibulum et. Praesent vestibulum ullamcorper nulla non ullamcorper&lt;sup>1&lt;/sup>. Vestibulum dui lorem, aliquet non sem&lt;sub>2&lt;/sub> sed, malesuada efficitur elit. Sed auctor elit orci. Quisque dignissim ante tristique dui aliquet aliquet. Maecenas semper risus metus. Nam porta nisi odio, ac facilisis nunc mollis et. Sed vestibulum lacinia sollicitudin. Cras risus ligula, lacinia vitae quam sit amet, fringilla lobortis neque. Aliquam sit amet ligula ac quam blandit pulvinar.&lt;/p>&#xd;&#xa;&lt;h6>Ut quis nibh erat.&lt;/h6>&#xd;&#xa;&lt;p>Suspendisse non tristique ex, quis molestie massa.&lt;/p>&#xd;&#xa;&lt;p style=&quot;text-align: center;&quot;>Donec dapibus, augue eget pretium auctor, urna magna congue nunc, eu sagittis neque est vitae dolor.&lt;/p>&#xd;&#xa;&lt;p style=&quot;text-align: right;&quot;>Aenean nibh metus, ultrices et bibendum eu, vehicula in tellus.&lt;/p>&#xd;&#xa;&lt;p style=&quot;text-align: justify;&quot;>Etiam eget sem sem. Nam non mauris in mi imperdiet sodales id sit amet nunc. Curabitur bibendum arcu vel mi egestas fermentum. Nulla facilisi. Praesent rhoncus rutrum ultricies. Quisque et sem nunc. Mauris egestas egestas lobortis. Nunc pellentesque maximus lorem, eget mollis sem rhoncus non. In sed ante non urna eleifend aliquam. Morbi sed quam laoreet, semper leo vitae, elementum magna. Aenean blandit risus ut molestie sagittis.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"
+                    />
+                    <experiencefragment_c
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/article-recommendations/master"
+                    />
+                </content>
+            </main>
+        </root>
+        <cq:featuredimage
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"
+            fileReference="/content/dam/aem-site-template-tailwind/building_large.png"
+        />
+    </jcr:content>
+</jcr:root>

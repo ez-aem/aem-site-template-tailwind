@@ -1,9 +1,9 @@
 @layer components {
   .cmp-form-text {
-    @apply flex flex-col gap-y-2;
+    @apply flex flex-col;
 
     label {
-      @apply text-foreground;
+      @apply text-foreground pb-2;
     }
   }
 
@@ -19,7 +19,8 @@
       @apply dark:text-shade-4;
     }
 
-    &:hover::placeholder {
+    &:hover::placeholder,
+    &:focus::placeholder {
       @apply dark:text-shade-1;
     }
   }

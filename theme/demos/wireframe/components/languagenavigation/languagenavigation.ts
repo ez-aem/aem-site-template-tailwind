@@ -5,10 +5,10 @@ const getLanguageFromLangCode = (langCode: string) => {
       language = "English";
       break;
     case "fr":
-      language = "French";
+      language = "française";
       break;
     case "de":
-      language = "Germany";
+      language = "Deutsch";
       break;
     case "it":
       language = "Italian";
@@ -17,7 +17,7 @@ const getLanguageFromLangCode = (langCode: string) => {
       language = "Russian";
       break;
     case "es":
-      language = "Spanish";
+      language = "Español";
       break;
     case "da":
       language = "Danish";
@@ -63,12 +63,25 @@ const languageNavigation = () => {
 
     const $toggleButton = document.createElement("button");
     const $activeText = document.createElement("span");
+
+    window.openLanguageNav = () => {
+      $el.classList.toggle("open");
+      setTimeout(() => document.addEventListener("click", closeLanguageNav), 1);
+    };
+
+    window.closeLanguageNav = (e) => {
+      if (!$el.contains(e.target) && e.target !== $toggleButton) {
+        $el.classList.remove("open");
+      }
+      document.removeEventListener("click", closeNavigationGroup);
+    };
+
     $toggleButton.classList.add(...classes);
     $activeText.innerText = language;
     $toggleButton.classList.add("cmp-languagenavigation__button");
     $toggleButton.appendChild($activeText);
-    $toggleButton.addEventListener("hover", () => $el.classList.toggle("open"));
-    $toggleButton.addEventListener("click", () => $el.classList.toggle("open"));
+    // $toggleButton.addEventListener("hover", () => $el.classList.toggle("open"));
+    $toggleButton.addEventListener("click", openLanguageNav);
     $el.querySelector(".cmp-languagenavigation").prepend($toggleButton);
   });
 };

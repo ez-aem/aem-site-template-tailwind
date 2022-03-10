@@ -3,20 +3,20 @@
     @apply my-3 font-bold;
   }
   .cmp-breadcrumb__list {
-    @apply flex flex-row flex-wrap gap-x-2;
+    @apply flex flex-row flex-wrap;
   }
   .cmp-breadcrumb__item {
     @apply inline-flex items-center align-middle text-sm uppercase;
   }
 
   .cmp-breadcrumb__item-link {
-    @apply text-foreground px-3 py-1 font-semibold inline-flex duration-300 transition-shadow rounded-none;
+    @apply text-foreground py-1 font-semibold inline-flex duration-300 transition-shadow rounded-none;
     @apply hover:text-foreground hover:underline;
     @apply focus:text-foreground focus:ring-2 focus:ring-focus focus:ring-offset-2 focus:rounded-none;
   }
 
   .cmp-breadcrumb__item--active {
-    @apply font-normal uppercase px-3 py-2 inline-flex text-foreground pl-0;
+    @apply font-normal uppercase py-2 inline-flex text-foreground pl-0;
   }
 
   .cmp-breadcrumb__item-link:first-of-type {
@@ -24,7 +24,7 @@
   }
 
   .breadcrumb .cmp-breadcrumb__item:not(:last-of-type):after {
-    @apply h-6 w-6 inline-flex text-accent justify-center;
+    @apply px-4 h-6 w-6 inline-flex text-accent justify-center;
     content: "▶";
   }
 }

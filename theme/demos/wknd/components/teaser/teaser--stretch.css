@@ -1,0 +1,8 @@
+@layer utilities {
+  .teaser.justify-self-stretch,
+  .teaser.self-stretch {
+    .cmp-teaser {
+      @apply h-full w-full;
+    }
+  }
+}

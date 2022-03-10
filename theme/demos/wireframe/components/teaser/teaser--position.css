@@ -1,19 +1,47 @@
 @layer utilities {
-  .teaser--text-bottom,
-  .teaser--text-right,
-  .teaser--text-left {
-    .cmp-teaser {
-      @apply flex flex-col;
+  .teaser--text-top {
+    .cmp-teaser,
+    .cmp-teaser__link {
+      @apply flex-col;
+
+      .cmp-teaser__content {
+        @apply pt-0;
+      }
+    }
+  }
+
+  .teaser--text-bottom {
+    .cmp-teaser,
+    .cmp-teaser__link {
+      @apply flex-col-reverse h-full;
     }
     .cmp-teaser__content {
-      @apply py-6;
+      @apply grow justify-start;
+      .cmp-teaser__action-container {
+        @apply grow items-end;
+      }
     }
   }
 
   .teaser--text-left {
-    .cmp-teaser {
-      @apply default:flex-row-reverse;
+    .cmp-teaser,
+    .cmp-teaser__link {
+      @apply flex-row;
     }
+  }
+
+  .teaser--text-right {
+    .cmp-teaser,
+    .cmp-teaser__link {
+      @apply flex-row-reverse;
+    }
+  }
+
+  .cmp-teaser__content {
+    @apply h-full justify-between py-6;
+  }
+
+  .teaser--text-left {
     .cmp-teaser__content {
       @apply p-6;
       @apply default:p-8;
@@ -27,13 +55,18 @@
   }
 
   .teaser--text-right {
-    @screen default {
-      .cmp-teaser {
-        @apply flex-row;
-      }
+    .cmp-teaser,
+    .cmp-teaser__link {
+      @apply flex-row-reverse;
+    }
+    .cmp-teaser__content {
+      @apply p-6;
+      @apply default:p-6;
+    }
+    &:not(.teaser--dark) {
       .cmp-teaser__content {
-        @apply p-6;
-        @apply default:p-6;
+        @apply pr-0;
+        @apply default:pr-0;
       }
     }
   }

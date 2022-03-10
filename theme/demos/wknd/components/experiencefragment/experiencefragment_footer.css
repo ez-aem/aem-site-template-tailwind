@@ -1,25 +1,38 @@
 @layer components {
   /*== XF Footer style, used on page template */
+  #footer > .xf-content-height > .root.container.responsivegrid {
+    @apply m-0 w-full;
+  }
+
   #main-footer {
+    /* 8.33% is to match header, this cannot be done using the grid because the header markup has an additional container while the footer does not */
     @apply py-4 bg-foreground mt-12;
+    margin-inline: var(--aem-grid-max-width-gutter);
 
     .cmp-container > .aem-Grid {
       @apply items-center;
     }
 
-    #copyright {
-      @apply flex justify-center items-center w-full apply text-background;
+    .title {
+      @apply flex justify-center items-center w-full;
+      .cmp-title__text {
+        @apply text-background;
+      }
+    }
+
+    .text {
+      @apply flex items-center justify-center;
     }
 
     .text .cmp-text * {
       @apply text-background text-xs mb-3 text-justify;
     }
     .text .cmp-text a {
-      @apply underline;
+      @apply underline text-center block;
     }
 
     .image {
-      @apply flex;
+      @apply flex items-center;
       .cmp-image__image {
         max-width: 8rem;
         @apply w-full invert hue-rotate-180;
@@ -51,12 +64,12 @@
 
       .text {
         &:not(:last-child) {
-          @apply m-0 justify-end flex pr-4 text-background;
+          @apply m-0 justify-end flex text-background;
           grid-area: terms;
         }
 
         &:last-child {
-          @apply justify-start pl-4;
+          @apply justify-start;
           grid-area: privacy;
         }
       }

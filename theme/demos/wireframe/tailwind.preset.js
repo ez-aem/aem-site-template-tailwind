@@ -13,15 +13,15 @@ module.exports = {
         name: "default",
         columns: 12,
         gap: "1rem",
-        maxWidth: "1420px",
+        maxWidthGutter: "8vw",
       },
       {
         name: "phone",
-        columns: 4,
+        columns: 12,
         gap: "1rem",
-        maxWidth: "100%",
         breakpoint: "860px",
         breakpointType: "max-width",
+        maxWidthGutter: "1rem",
       },
     ],
     extend: {
@@ -70,6 +70,9 @@ module.exports = {
             "--tw-prose-links": theme("colors.link"),
             "--tw-prose-links-hover": theme("colors.accent-darker"),
             "--tw-prose-invert-links": theme("colors.link"),
+            "max-width": "100ch",
+            "margin-inline": "auto",
+            width: "clamp(100%, 100%, 100ch)",
             a: {
               color: "var(--tw-prose-links)",
               "text-decoration": "none",
@@ -159,7 +162,7 @@ module.exports = {
             "--tw-prose-bullets": theme("colors.shade-1"),
             "--tw-prose-body": theme("colors.foreground"),
             h6: {
-              color: theme("colors.shade-1"),
+              color: theme("colors.foreground"),
             },
           },
         },

@@ -8,11 +8,16 @@
     .cmp-teaser__content {
       @apply p-9 pt-16;
     }
+    .cmp-teaser__link {
+      @apply flex;
+    }
   }
 
   .teaser--text-left {
-    .cmp-teaser {
-      @apply default:flex-row-reverse;
+    @screen default {
+      .cmp-teaser {
+        @apply flex-row-reverse;
+      }
     }
   }
 
@@ -20,6 +25,19 @@
     @screen default {
       .cmp-teaser {
         @apply flex-row;
+      }
+    }
+  }
+
+  .teaser--text-bottom {
+    .cmp-teaser,
+    .cmp-teaser__link {
+      @apply flex-col h-full;
+    }
+    .cmp-teaser__content {
+      @apply grow justify-start;
+      .cmp-teaser__action-container {
+        @apply grow items-end;
       }
     }
   }
