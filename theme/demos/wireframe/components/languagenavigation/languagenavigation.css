@@ -122,7 +122,7 @@
   }
 
   .cmp-languagenavigation__item-link {
-    @apply relative flex flex-1 flex-row items-center justify-between border-2 border-background p-2 pl-10 text-foreground outline-none;
+    @apply relative flex flex-1 flex-row items-center justify-between border-2 border-background p-2 pl-10 text-foreground outline-none whitespace-nowrap;
     @apply hover:border-shade-1 hover:no-underline;
     @apply focus:rounded-none focus:border-focus focus:outline-none focus:ring-0;
   }
