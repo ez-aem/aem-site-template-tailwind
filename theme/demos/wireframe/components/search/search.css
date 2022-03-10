@@ -3,10 +3,6 @@
     @apply relative flex h-[2.5em] flex-row items-center justify-between overflow-hidden rounded py-2 px-3;
   }
 
-  .search {
-    @apply flex flex-col justify-center;
-  }
-
   .cmp-search__input {
     @apply absolute inset-0 rounded border-2 border-shade-1 bg-shade-1 pl-9 text-foreground transition-colors duration-200;
     @apply hover:bg-background;

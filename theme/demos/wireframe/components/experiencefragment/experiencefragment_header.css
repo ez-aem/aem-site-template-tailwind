@@ -54,7 +54,7 @@
     }
 
     & > .aem-Grid {
-      @apply default:items-center;
+      @apply default:items-center w-full;
     }
   }
 
@@ -133,6 +133,12 @@
 }
 
 @layer utilities {
+  html[class*="aem-AuthorLayer"] {
+    #main-header {
+      @apply h-auto min-h-[5rem];
+    }
+  }
+
   @screen phone {
     .aem-AuthorLayer-Preview.aem-Author--hidePlaceholder,
     .aem-AuthorLayer-Edit {
