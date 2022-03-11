@@ -1,6 +1,6 @@
 {
   "name": "aem-site-template-tailwind-theme",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "AEM Site Theme Tailwind",
   "license": "MIT License, Copyright 2022 headwire.com, Inc",
   "scripts": {
