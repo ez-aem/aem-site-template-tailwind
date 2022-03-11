@@ -7,8 +7,3 @@ dist/
 
 .parcel-cache
 .env
-
-### BackstopJS Files ###
-test_data/bitmaps_reference/
-test_data/bitmaps_test/
-test_data/html_report/

@@ -1,6 +1,6 @@
 {
   "name": "aem-site-template-tailwind-theme",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "AEM Site Theme Tailwind",
   "license": "MIT License, Copyright 2022 headwire.com, Inc",
   "scripts": {
@@ -16,12 +16,7 @@
     "proxy": "aem-site-theme-builder live",
     "watch": "run-p watch:*",
     "watch:color-scheme": "parcel watch src/color-scheme.ts",
-    "watch:theme": "parcel watch src/theme.ts",
-    "test-live-config": "backstop test --config=live.test.config.js",
-    "test:local": "node ./test_data/loadImagesFromDrive.js && backstop test --config=local.test.config.js",
-    "test:live": "node ./test_data/loadImagesFromDrive.js && run-p live test-live-config",
-    "test:update-local": "backstop approve --config=local.test.config.js && node ./test_data/uploadImagesToDrive.js",
-    "test:update-live": "backstop approve --config=live.test.config.js && node ./test_data/uploadImagesToDrive.js"
+    "watch:theme": "parcel watch src/theme.ts"
   },
   "devDependencies": {
     "@adobe/aem-site-theme-builder": "5.2.1",
@@ -32,16 +27,13 @@
     "@typescript-eslint/eslint-plugin": "^5.9.0",
     "@typescript-eslint/parser": "^5.9.0",
     "autoprefixer": "^10.4.0",
-    "backstopjs": "^6.0.4",
     "browser-sync": "^2.26.13",
     "cross-env": "^7.0.3",
     "cssnano": "^5.0.12",
     "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "fs-extra": "^10.0.1",
     "install": "^0.13.0",
-    "inquirer": "^8.2.0",
     "npm": "^8.1.4",
     "npm-run-all": "^4.1.5",
     "parcel": "^2.0.1",
