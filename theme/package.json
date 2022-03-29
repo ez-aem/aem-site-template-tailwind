@@ -7,6 +7,7 @@
     "build": "cross-env NODE_ENV=production run-s build:*",
     "build:clean": "rimraf dist",
     "build:color-scheme": "parcel build src/color-scheme.ts",
+    "build:styles": "node src/styles/build.js",
     "build:theme": "parcel build src/theme.ts",
     "lint:check": "eslint --ext .ts,.js,.jsx,.tsx",
     "lint:fix": "eslint --fix --ext .ts,.js,.jsx,.tsx",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@adobe/aem-site-theme-builder": "5.2.1",
+    "@ez-aem/policies": "file:../../policies",
     "@playwright/test": "^1.19.1",
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/line-clamp": "^0.3.0",
