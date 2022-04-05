@@ -15,6 +15,7 @@ const Policies = [
     require("./components/breadcrumb"),
     require("./components/button"),
     require("./components/carousel"),
+    ...require("./components/container"),
 // import Button from "./components/button";
 // import Carousel from "./components/carousel";
 // import Container from "./components/container";
