@@ -5,6 +5,7 @@
   "license": "MIT License, Copyright 2022 headwire.com",
   "scripts": {
     "build": "aem-site-template-builder",
+    "build:template": "cd template && npm run build",
     "build:theme": "cd theme && npm run build",
     "cleanup": "run-s cleanup-xml prettier:fix",
     "cleanup-xml": "node cleanup-xml.js",

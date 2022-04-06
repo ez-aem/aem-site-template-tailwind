@@ -29,7 +29,7 @@ module.exports = [
     "@jcr:description": "Root Policy for Container Component",
     "@jcr:title": "Container Page Root Policy",
     "@sling:resourceType": "core/wcm/components/container/v1/container",
-    "@components": "[group:Core Content,group:Core Form,group:Core Structure]"
+    "@components": "[group:Core Content,group:Core Form,group:Core Structure]",
     "@layoutDisabled": false,
     "cq:styleGroups": require("../../../../../../theme/src/styles/container"),
     "cq:authoring": cqAuthoring,  

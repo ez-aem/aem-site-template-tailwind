@@ -16,29 +16,24 @@ const Policies = [
     require("./components/button"),
     require("./components/carousel"),
     ...require("./components/container"),
-// import Button from "./components/button";
-// import Carousel from "./components/carousel";
-// import Container from "./components/container";
-// import Download from "./components/download";
-// import Embed from "./components/embed";
-// import ExperienceFragment from "./components/experiencefragment";
-// import FormButton from "./components/form-button";
-// import FormContainer from "./components/form-container";
-// import FormOptions from "./components/form-options";
-// import FormText from "./components/form-text";
-// import Image from "./components/image";
-// import LanguageNavigation from "./components/languagenavigation";
-// import List from "./components/list";
-// import Navigation from "./components/navigation";
-// import Page from "./components/page";
-// import ProgressBar from "./components/progressbar";
-// import Search from "./components/search";
-// import Separator from "./components/separator";
-// import Tabs from "./components/tabs";
-// import Teaser from "./components/teaser";
-// import Text from "./components/text";
-// import Title from "./components/title";
+    require("./components/download"),
+    require("./components/embed"),
+    ...require("./components/experiencefragment"),
+    require("./components/form-button"),
+    require("./components/form-container"),
+    require("./components/image"),
+    require("./components/languagenavigation"),
+    require("./components/list"),
+    require("./components/navigation"),
+    require("./components/page"),
+    require("./components/progressbar"),
+    require("./components/search"),
+    require("./components/separator"),
+    require("./components/tabs"),
+    require("./components/teaser"),
+    require("./components/text"),
+    require("./components/title"),
 ];
 
 
-writeFileSync("../site/src/main/content/jcr_root/conf/aem-site-template-tailwind/settings/wcm/policies/.content-test-2.xml", Builder.build(generatePolicies(Policies)));
+writeFileSync("../site/src/main/content/jcr_root/conf/aem-site-template-tailwind/settings/wcm/policies/.content.xml", Builder.build(generatePolicies(Policies)));

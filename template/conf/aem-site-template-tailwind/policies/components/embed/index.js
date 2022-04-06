@@ -9,12 +9,12 @@ module.exports = new ComponentPolicy({
   "@htmlDisabled": false,
   "@urlDisabled": false,
   "@youtubeAAutoPlayDefaultValue": false,
-  "@youtubeAutoPlayEnabled", true,
+  "@youtubeAutoPlayEnabled": true,
   "@youtubeLoopDefaultValue": false,
   "@yoututbeLoopEnabled": true,
   "@youtubePlaysInlineDefaultValue": false,
   "@youtubeplaysInlineEnabled": true,
   "@youtubeRelatedVideosDefaultValue": false,
-  "@youtubeRelatedVideosEnabled": true
+  "@youtubeRelatedVideosEnabled": true,
   "cq:styleGroups": require("../../../../../../theme/src/styles/embed"),
 });

@@ -36,7 +36,7 @@ module.exports = new ComponentPolicy({
           "@ratio": "1.6180",
         }, 
       }
-    }   
+    },
     "rotate": {
       "@features": "right",
     },
