@@ -1,7 +1,7 @@
 const { CQStyle, CQStyleGroup } = require("@ez-aem/policies");
 
 module.exports = new CQStyleGroup({
-  "@cq:styleGroupLabel": "Presets",
+  "@cq:styleGroupLabel": "Layout",
   "cq:styles": [
     new CQStyle({
       "@cq:styleLabel": "Layout - Text Top",
