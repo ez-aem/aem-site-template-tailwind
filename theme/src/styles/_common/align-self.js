@@ -1,23 +1,23 @@
 const { CQStyle, CQStyleGroup } = require("@ez-aem/policies");
 
 module.exports = new CQStyleGroup({
-  "@cq:styleGroupLabel": "Secondary Axis Positioning - Align Self",
-  "cq:styles": [
+  label: "Secondary Axis Positioning - Align Self",
+  styles: [
     new CQStyle({
-      "@cq:styleLabel": "Start",
-      "@cq:styleId": "self-start",
+      label: "Start",
+      id: "self-start",
     }),
     new CQStyle({
-      "@cq:styleLabel": "Center",
-      "@cq:styleId": "self-center",
+      label: "Center",
+      id: "self-center",
     }),
     new CQStyle({
-      "@cq:styleLabel": "End",
-      "@cq:styleId": "self-end",
+      label: "End",
+      id: "self-end",
     }),
     new CQStyle({
-      "@cq:styleLabel": "Stretch",
-      "@cq:styleId": "self-stretch",
+      label: "Stretch",
+      id: "self-stretch",
     }),
   ],
 });

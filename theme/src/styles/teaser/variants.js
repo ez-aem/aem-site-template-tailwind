@@ -1,27 +1,27 @@
 const { CQStyle, CQStyleGroup } = require("@ez-aem/policies");
 
 module.exports = new CQStyleGroup({
-  "@cq:styleGroupLabel": "Layout",
-  "cq:styles": [
+  label: "Layout",
+  styles: [
     new CQStyle({
-      "@cq:styleLabel": "Layout - Text Top",
-      "@cq:styleId": "teaser--text-top",
+      label: "Layout - Text Top",
+      id: "teaser--text-top",
     }),
     new CQStyle({
-      "@cq:styleLabel": "Layout - Text Bottom",
-      "@cq:styleId": "teaser--text-bottom",
+      label: "Layout - Text Bottom",
+      id: "teaser--text-bottom",
     }),
     new CQStyle({
-      "@cq:styleLabel": "Layout - Text Left",
-      "@cq:styleId": "teaser--text-left",
+      label: "Layout - Text Left",
+      id: "teaser--text-left",
     }),
     new CQStyle({
-      "@cq:styleLabel": "Layout - Text Right",
-      "@cq:styleId": "teaser--text-right",
+      label: "Layout - Text Right",
+      id: "teaser--text-right",
     }),
     new CQStyle({
-      "@cq:styleLabel": "Layout - Text Overlay",
-      "@cq:styleId": "teaser--text-overlay",
+      label: "Layout - Text Overlay",
+      id: "teaser--text-overlay",
     }),
   ],
 });

@@ -7,7 +7,12 @@ const Builder = new XMLBuilder({
   ignoreAttributes: false,
   indentBy: "  ",
   attributeNamePrefix: "@",
-  supressEmptyNode: true,
+  attributesGroupName: "attributes",
+  suppressBooleanAttributes: false,
+  // supressEmptyNode: true,
+  // suppressUnpairedNode: true,
+  // unpairedTags: ["item", "jcr:content", "?xml"],
+  // stopNodes: ["jcr:content"],
 });
 
 const Policies = [

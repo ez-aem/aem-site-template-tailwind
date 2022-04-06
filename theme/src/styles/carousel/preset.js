@@ -1,12 +1,12 @@
 const { CQStyle, CQStyleGroup } = require("@ez-aem/policies");
 
 module.exports = new CQStyleGroup({
-  "@cq:styleGroupLabel": "Presets",
-  "cq:styles": [
+  label: "Presets",
+  styles: [
     new CQStyle({
-      "@cq:styleLabel": "Library Preset",
-      "@cq:styleId": "library-preset",
-      "@cq:styleClasses": "library-preset separator--preset:library-preset",
+      label: "Library Preset",
+      id: "library-preset",
+      classes: "library-preset separator--preset:library-preset",
     }),
   ]
 })

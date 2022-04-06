@@ -1,19 +1,19 @@
 const { CQStyle, CQStyleGroup } = require("@ez-aem/policies");
 
 module.exports = new CQStyleGroup({
-  "@cq:styleGroupLabel": "Variants",
-  "cq:styles": [
+  label: "Variants",
+  styles: [
     new CQStyle({
-      "@cq:styleLabel": "Primary",
-      "@cq:styleId": "button--primary",
+      label: "Primary",
+      id: "button--primary",
     }),
     new CQStyle({
-      "@cq:styleLabel": "Secondary",
-      "@cq:styleId": "button--secondary",
+      label: "Secondary",
+      id: "button--secondary",
     }),
     new CQStyle({
-      "@cq:styleLabel": "Quiet",
-      "@cq:styleId": "button--quiet",
+      label: "Quiet",
+      id: "button--quiet",
     }),
   ],
 });

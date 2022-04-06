@@ -1,20 +1,20 @@
 const { CQStyle, CQStyleGroup } = require("@ez-aem/policies");
 
 module.exports = new CQStyleGroup({
-  "@cq:styleGroupLabel": "Presets",
-  "cq:styles": [
+  label: "Presets",
+  styles: [
     new CQStyle({
-      "@cq:styleLabel": "Library Preset",
-      "@cq:styleId": "library-preset",
-      "@cq:styleClasses": "library-preset tabs--preset:library-preset",
+      label: "Library Preset",
+      id: "library-preset",
+      classes: "library-preset tabs--preset:library-preset",
     }),
     new CQStyle({
-      "@cq:styleLabel": "Layout - Horizontal",
-      "@cq:styleId": "tabs--horizontal",
+      label: "Layout - Horizontal",
+      id: "tabs--horizontal",
     }),
     new CQStyle({
-      "@cq:styleLabel": "Layout - Vertical",
-      "@cq:styleId": "tabs--vertical",
+      label: "Layout - Vertical",
+      id: "tabs--vertical",
     }),
   ],
 });

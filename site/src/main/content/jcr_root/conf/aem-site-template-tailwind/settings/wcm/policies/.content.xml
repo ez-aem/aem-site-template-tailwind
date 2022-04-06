@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" jcr:primaryType="nt:unstructured">
-  <rep:policy>
-  </rep:policy>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" jcr:mixinTypes="[rep:AccessControllable]" jcr:primaryType="cq:Page">
+  <rep:policy></rep:policy>
   <core jcr:primaryType="nt:unstructured">
     <wcm jcr:primaryType="nt:unstructured">
       <components jcr:primaryType="nt:unstructured">
@@ -39,7 +38,7 @@
         <breadcrumb jcr:primaryType="nt:unstructured">
           <v3 jcr:primaryType="nt:unstructured">
             <breadcrumb jcr:primaryType="nt:unstructured">
-              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Accordion Policy" jcr:description="Default Policy for Breadcrumb Component" cq:styleDefaultClasses="standard" disableShadowing="{Boolean}false" hideCurrent="{Boolean}false" showHidden="{Boolean}false" startLevel="2">
+              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Breadcrumb Policy" jcr:description="Default Policy for Breadcrumb Component" cq:styleDefaultClasses="standard" disableShadowing="false" hideCurrent="false" showHidden="false" startLevel="2">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
@@ -115,7 +114,7 @@
         <carousel jcr:primaryType="nt:unstructured">
           <v1 jcr:primaryType="nt:unstructured">
             <carousel jcr:primaryType="nt:unstructured">
-              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Carousel Policy" jcr:description="Default Policy for Carousel Component" autopauseDisabled="{Boolean}false" autoplay="{Boolean}false" controlsPrepended="{Boolean}false" delay="5000" components="[/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/teaser/v2/teaser]">
+              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Carousel Policy" jcr:description="Default Policy for Carousel Component" autopauseDisabled="false" autoplay="false" controlsPrepended="false" delay="5000" components="[/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/teaser/v2/teaser]">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
@@ -145,17 +144,10 @@
           </v1>
         </carousel>
         <container jcr:primaryType="nt:unstructured">
-          <v1 jcr:primaryType="nt:unstructured">
+          <v2 jcr:primaryType="nt:unstructured">
             <container jcr:primaryType="nt:unstructured">
-              <policy_root jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Container Page Root Policy" jcr:description="Root Policy for Container Component" components="[group:Core Content,group:Core Form,group:Core Structure]" layoutDisabled="{Boolean}false">
+              <policy_root jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Container Page Root Policy" jcr:description="Root Policy for Container Component" components="[group:Core Content,group:Core Form,group:Core Structure]" layoutDisabled="false">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
-                <cq:authoring jcr:primaryType="nt:unstructured">
-                  <assetToComponentMapping>
-                    <mapping_image assetGroup="media" assetMimetype="image/*" droptarget="image" resourceType="core/wcm/components/image/v3/image"></mapping_image>
-                    <mapping_xf assetGroup="content" assetMimetype="text/html" droptarget="experiencefragment" resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"></mapping_xf>
-                    <mapping_cf assetGroup="media" assetMimetype="[text/html,application/vnd.adobe.contentfragment]" droptarget="image" resourceType="core/wcm/components/contentfragment/v1/contentfragment"></mapping_cf>
-                  </assetToComponentMapping>
-                </cq:authoring>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
                     <cq:styles jcr:primaryType="nt:unstructured">
@@ -186,15 +178,8 @@
                   </item3>
                 </cq:styleGroups>
               </policy_root>
-              <policy_content jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Container Policy" jcr:description="Default Policy for Container Component" components="[group:Core Content,group:Core Form,group:Core Structure]" layout="responsiveGrid" layoutDisabled="{Boolean}false">
+              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Container Policy" jcr:description="Default Policy for Container Component" components="[group:Core Content,group:Core Form,group:Core Structure]" layout="responsiveGrid" layoutDisabled="false">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
-                <cq:authoring jcr:primaryType="nt:unstructured">
-                  <assetToComponentMapping>
-                    <mapping_image assetGroup="media" assetMimetype="image/*" droptarget="image" resourceType="core/wcm/components/image/v3/image"></mapping_image>
-                    <mapping_xf assetGroup="content" assetMimetype="text/html" droptarget="experiencefragment" resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"></mapping_xf>
-                    <mapping_cf assetGroup="media" assetMimetype="[text/html,application/vnd.adobe.contentfragment]" droptarget="image" resourceType="core/wcm/components/contentfragment/v1/contentfragment"></mapping_cf>
-                  </assetToComponentMapping>
-                </cq:authoring>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
                     <cq:styles jcr:primaryType="nt:unstructured">
@@ -224,14 +209,14 @@
                     </cq:styles>
                   </item3>
                 </cq:styleGroups>
-              </policy_content>
+              </policy_default>
             </container>
-          </v1>
+          </v2>
         </container>
         <download jcr:primaryType="nt:unstructured">
           <v2 jcr:primaryType="nt:unstructured">
             <download jcr:primaryType="nt:unstructured">
-              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Download Policy" jcr:description="Default Policy for Download Component" allowUpload="{Boolean}false" displayFilename="{Boolean}true" displayFormat="{Boolean}true" displaySize="{Boolean}true" hideTitleLink="{Boolean}false" titleType="h3">
+              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Download Policy" jcr:description="Default Policy for Download Component" allowUpload="false" displayFilename="true" displayFormat="true" displaySize="true" hideTitleLink="false" titleType="h3">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
@@ -263,7 +248,7 @@
         <embed jcr:primaryType="nt:unstructured">
           <v2 jcr:primaryType="nt:unstructured">
             <embed jcr:primaryType="nt:unstructured">
-              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Embed Policy" jcr:description="Default Policy for Embed Component" embeddablesDisabled="{Boolean}false" htmlDisabled="{Boolean}false" urlDisabled="{Boolean}false" youtubeAAutoPlayDefaultValue="{Boolean}false" youtubeAutoPlayEnabled="{Boolean}true" youtubeLoopDefaultValue="{Boolean}false" yoututbeLoopEnabled="{Boolean}true" youtubePlaysInlineDefaultValue="{Boolean}false" youtubeplaysInlineEnabled="{Boolean}true" youtubeRelatedVideosDefaultValue="{Boolean}false" youtubeRelatedVideosEnabled="{Boolean}true">
+              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Embed Policy" jcr:description="Default Policy for Embed Component" embeddablesDisabled="false" htmlDisabled="false" urlDisabled="false" youtubeAAutoPlayDefaultValue="false" youtubeAutoPlayEnabled="true" youtubeLoopDefaultValue="false" yoututbeLoopEnabled="true" youtubePlaysInlineDefaultValue="false" youtubeplaysInlineEnabled="true" youtubeRelatedVideosDefaultValue="false" youtubeRelatedVideosEnabled="true">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
@@ -294,16 +279,16 @@
           </v2>
         </embed>
         <experiencefragment jcr:primaryType="nt:unstructured">
-          <v1 jcr:primaryType="nt:unstructured">
+          <v2 jcr:primaryType="nt:unstructured">
             <experiencefragment jcr:primaryType="nt:unstructured">
-              <policy_header jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Header Policy for Experience Fragment" jcr:description="Header Policy for Experience Fragment Component" cq:defaultElement="header" cq:styleDefaultClasses="header" cq:styleElement="header">
+              <policy_header jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Header Experience Fragment Policy" jcr:description="Header Policy for Experience Fragment Component" cq:defaultElement="header" cq:styleDefaultClasses="header" cq:styleElement="header">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0 jcr:primaryType="nt:unstructured" cq:styleId="library-preset" cq:styleLabel="Library Preset" cq:styleClasses="library-preset experiencefragment--preset:library-preset"></item0>
-                      <item1 jcr:primaryType="nt:unstructured" cq:styleId="site-header" cq:styleLabel="Site Header" cq:styleClasses="experiencefragment--preset:site-header" cq:styleElement="header"></item1>
-                      <item2 jcr:primaryType="nt:unstructured" cq:styleId="site-footer" cq:styleLabel="Site Footer" cq:styleClasses="experiencefragment--preset:site-footer" cq:styleElement="footer"></item2>
+                      <item1 jcr:primaryType="nt:unstructured" cq:styleId="site-header" cq:styleLabel="Site Header" cq:styleClasses="experiencefragment--preset:site-header"></item1>
+                      <item2 jcr:primaryType="nt:unstructured" cq:styleId="site-footer" cq:styleLabel="Site Footer" cq:styleClasses="experiencefragment--preset:site-footer"></item2>
                     </cq:styles>
                   </item0>
                   <item1 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Main Axis Positioning - Justify Self" cq:styleGroupMultiple="false">
@@ -330,8 +315,8 @@
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0 jcr:primaryType="nt:unstructured" cq:styleId="library-preset" cq:styleLabel="Library Preset" cq:styleClasses="library-preset experiencefragment--preset:library-preset"></item0>
-                      <item1 jcr:primaryType="nt:unstructured" cq:styleId="site-header" cq:styleLabel="Site Header" cq:styleClasses="experiencefragment--preset:site-header" cq:styleElement="header"></item1>
-                      <item2 jcr:primaryType="nt:unstructured" cq:styleId="site-footer" cq:styleLabel="Site Footer" cq:styleClasses="experiencefragment--preset:site-footer" cq:styleElement="footer"></item2>
+                      <item1 jcr:primaryType="nt:unstructured" cq:styleId="site-header" cq:styleLabel="Site Header" cq:styleClasses="experiencefragment--preset:site-header"></item1>
+                      <item2 jcr:primaryType="nt:unstructured" cq:styleId="site-footer" cq:styleLabel="Site Footer" cq:styleClasses="experiencefragment--preset:site-footer"></item2>
                     </cq:styles>
                   </item0>
                   <item1 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Main Axis Positioning - Justify Self" cq:styleGroupMultiple="false">
@@ -352,14 +337,14 @@
                   </item2>
                 </cq:styleGroups>
               </policy_footer>
-              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Policy for Experience Fragment" jcr:description="Default Policy for Experience Fragment Component">
+              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Experience Fragment Policy" jcr:description="Default Policy for Experience Fragment Component">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0 jcr:primaryType="nt:unstructured" cq:styleId="library-preset" cq:styleLabel="Library Preset" cq:styleClasses="library-preset experiencefragment--preset:library-preset"></item0>
-                      <item1 jcr:primaryType="nt:unstructured" cq:styleId="site-header" cq:styleLabel="Site Header" cq:styleClasses="experiencefragment--preset:site-header" cq:styleElement="header"></item1>
-                      <item2 jcr:primaryType="nt:unstructured" cq:styleId="site-footer" cq:styleLabel="Site Footer" cq:styleClasses="experiencefragment--preset:site-footer" cq:styleElement="footer"></item2>
+                      <item1 jcr:primaryType="nt:unstructured" cq:styleId="site-header" cq:styleLabel="Site Header" cq:styleClasses="experiencefragment--preset:site-header"></item1>
+                      <item2 jcr:primaryType="nt:unstructured" cq:styleId="site-footer" cq:styleLabel="Site Footer" cq:styleClasses="experiencefragment--preset:site-footer"></item2>
                     </cq:styles>
                   </item0>
                   <item1 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Main Axis Positioning - Justify Self" cq:styleGroupMultiple="false">
@@ -381,7 +366,7 @@
                 </cq:styleGroups>
               </policy_default>
             </experiencefragment>
-          </v1>
+          </v2>
         </experiencefragment>
         <form jcr:primaryType="nt:unstructured">
           <button jcr:primaryType="nt:unstructured">
@@ -459,7 +444,7 @@
         <image jcr:primaryType="nt:unstructured">
           <v3 jcr:primaryType="nt:unstructured">
             <image jcr:primaryType="nt:unstructured">
-              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Image Policy" jcr:description="Default Policy for Image Component&amp;#xd;&amp;#xa;- Enable lazy loading for faster page loading.&amp;#xd;&amp;#xa;- Define allowed image widths for automatic loading of the image in the most optimal resolution, given the size at which each image is displayed on the page, and the visitor&apos;s pixel density.&amp;#xd;&amp;#xa;- Disallow direct asset upload, to force authors to first upload the images to Assets." allowedRenditionWidths="[320,480,600,800,1024,1200,1600]" allowUpload="false" altValueFromDAM disableLazyLoading="false" displayPopupTitle isDecorative="false" jpegQuality="{Long}85" titleValueFromDAM uuidDisabled>
+              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Image Policy" jcr:description="Default Policy for Image Component&amp;#xd;&amp;#xa;- Enable lazy loading for faster page loading.&amp;#xd;&amp;#xa;- Define allowed image widths for automatic loading of the image in the most optimal resolution, given the size at which each image is displayed on the page, and the visitor&apos;s pixel density.&amp;#xd;&amp;#xa;- Disallow direct asset upload, to force authors to first upload the images to Assets." allowedRenditionWidths="[320,480,600,800,1024,1200,1600]" allowUpload="false" altValueFromDAM="true" disableLazyLoading="false" displayPopupTitle="true" isDecorative="false" jpegQuality="{Long}85" titleValueFromDAM="true" uuidDisabled="true">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
@@ -523,7 +508,7 @@
         <list jcr:primaryType="nt:unstructured">
           <v3 jcr:primaryType="nt:unstructured">
             <list jcr:primaryType="nt:unstructured">
-              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default List Policy" jcr:description="Default Policy for List Component" disableChildren="{Boolean}false" disableSearch="{Boolean}false" disableStatic="{Boolean}false" disableTags="{Boolean}false" showDescription="{Boolean}false" showModificationDate="{Boolean}false">
+              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default List Policy" jcr:description="Default Policy for List Component" disableChildren="false" disableSearch="false" disableStatic="false" disableTags="false" showDescription="false" showModificationDate="false">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
@@ -564,7 +549,7 @@
         <navigation jcr:primaryType="nt:unstructured">
           <v2 jcr:primaryType="nt:unstructured">
             <navigation jcr:primaryType="nt:unstructured">
-              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Navigation Policy" jcr:description="Default Policy for Navigation Component" collectAllPages="{Boolean}true" disableShadowing="{Boolean}false" navigationRoot="/content/aem-site-template-tailwind" structureStart="1">
+              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Navigation Policy" jcr:description="Default Policy for Navigation Component" collectAllPages="true" disableShadowing="false" navigationRoot="/content/aem-site-template-tailwind" structureStart="1">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
@@ -744,7 +729,7 @@
         <teaser jcr:primaryType="nt:unstructured">
           <v2 jcr:primaryType="nt:unstructured">
             <teaser jcr:primaryType="nt:unstructured">
-              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Teaser Policy" jcr:description="Default Policy for Teaser Component" showTitleType="{Boolean}false" titleType="h3">
+              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Teaser Policy" jcr:description="Default Policy for Teaser Component" showTitleType="false" titleType="h3">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">
@@ -820,7 +805,7 @@
         <title jcr:primaryType="nt:unstructured">
           <v3 jcr:primaryType="nt:unstructured">
             <title jcr:primaryType="nt:unstructured">
-              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Title Policy" jcr:description="Default Policy for Title Component" allowedTypes="[h1,h2,h3,h4,h5,h6]" linkDisabled="{Boolean}false" type="h2">
+              <policy_default jcr:primaryType="nt:unstructured" sling:resourceType="wcm/core/components/policy/policy" jcr:title="Default Title Policy" jcr:description="Default Policy for Title Component" allowedTypes="[h1,h2,h3,h4,h5,h6]" linkDisabled="false" type="h2">
                 <jcr:content jcr:primaryType="nt:unstructured"></jcr:content>
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0 jcr:primaryType="nt:unstructured" cq:styleGroupLabel="Presets" cq:styleGroupMultiple="false">

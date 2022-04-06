@@ -1,10 +1,13 @@
 const { ComponentPolicy } = require("@ez-aem/policies");
 
 module.exports = new ComponentPolicy({
-  "policyName": "policy_default",
-  "@jcr:description": "Default Policy for Language Navigation Component",
-  "@jcr:title": "Default Language Navigation Policy",
-  "@sling:resourceType": "core/wcm/components/languagenavigation/v2/languagenavigation",
-  "@structureDepth": 1,
-  "cq:styleGroups": require("../../../../../../theme/src/styles/languagenavigation"),
+  component: "core/wcm/components/languagenavigation/v2/languagenavigation",
+  description: "Default Policy for Language Navigation Component",
+  policy: "policy_default",
+  styles: require("../../../../../../theme/src/styles/languagenavigation"),
+  title: "Default Language Navigation Policy",
+
+  attributes: {
+    structureDepth: 1,
+  },
 });
