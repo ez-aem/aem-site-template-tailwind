@@ -8,5 +8,5 @@ module.exports = new CQStyleGroup({
       id: "library-preset",
       classes: "library-preset image--preset:library-preset",
     }),
-  ]
-})
+  ],
+});

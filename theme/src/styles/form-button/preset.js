@@ -8,5 +8,5 @@ module.exports = new CQStyleGroup({
       id: "library-preset",
       classes: "library-preset form-button--preset:library-preset",
     }),
-  ]
-})
+  ],
+});

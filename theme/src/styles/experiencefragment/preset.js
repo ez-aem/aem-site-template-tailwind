@@ -20,5 +20,5 @@ module.exports = new CQStyleGroup({
       classes: "experiencefragment--preset:site-footer",
       "@cq:styleElement": "footer",
     }),
-  ]
-})
+  ],
+});
