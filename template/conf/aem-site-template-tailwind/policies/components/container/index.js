@@ -22,7 +22,7 @@ const cqAuthoring = {
       attributes: {
         assetGroup: "media",
         assetMimetype: "[text/html,application/vnd.adobe.contentfragment]",
-        droptarget: "image",
+        droptarget: "contentfragment",
         resourceType: "core/wcm/components/contentfragment/v1/contentfragment",
       }
     },
@@ -31,10 +31,10 @@ const cqAuthoring = {
 
 module.exports = [
   new ComponentPolicy({
-    component: "core/wcm/components/container/v2/container",
+    component: "core/wcm/components/container/v1/container",
     description: "Root Policy for Container Component",
     policy: "policy_root",
-    styles: require("../../../../../../theme/src/styles/container"),
+    styles: require("../../../../../../theme/src/styles/container/root"),
     title: "Container Page Root Policy",
 
     attributes: {
@@ -46,7 +46,7 @@ module.exports = [
     }
   }),
   new ComponentPolicy({
-    component: "core/wcm/components/container/v2/container",
+    component: "core/wcm/components/container/v1/container",
     description: "Default Policy for Container Component",
     policy: "policy_default",
     styles: require("../../../../../../theme/src/styles/container"),

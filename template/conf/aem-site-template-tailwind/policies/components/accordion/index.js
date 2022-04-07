@@ -9,7 +9,7 @@ module.exports = new ComponentPolicy({
 
   attributes: {
     headingElement: "h3",
-    allowedElements: "[h2,h3,h4,h5,h6]",
+    allowedHeadingElements: "[h2,h3,h4,h5,h6]",
     components: "[group:Core Content,group:Core Form]",
   },
 });

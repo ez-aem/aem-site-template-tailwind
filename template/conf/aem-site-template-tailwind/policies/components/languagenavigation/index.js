@@ -8,6 +8,7 @@ module.exports = new ComponentPolicy({
   title: "Default Language Navigation Policy",
 
   attributes: {
+    navigationRoot: "/content/aem-site-template-tailwind",
     structureDepth: 1,
   },
 });

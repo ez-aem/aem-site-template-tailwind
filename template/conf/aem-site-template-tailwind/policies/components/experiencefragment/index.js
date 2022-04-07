@@ -2,10 +2,10 @@ const { ComponentPolicy } = require("@ez-aem/policies");
 
 module.exports = [
   new ComponentPolicy({
-    component: "core/wcm/components/experiencefragment/v2/experiencefragment",
+    component: "core/wcm/components/experiencefragment/v1/experiencefragment",
     description: "Header Policy for Experience Fragment Component",
     policy: "policy_header",
-    styles: require("../../../../../../theme/src/styles/experiencefragment"),
+    styles: require("../../../../../../theme/src/styles/experiencefragment/site-elements"),
     title: "Header Experience Fragment Policy",
 
     attributes: {
@@ -15,10 +15,10 @@ module.exports = [
     },
   }),
   new ComponentPolicy({
-    component: "core/wcm/components/experiencefragment/v2/experiencefragment",
+    component: "core/wcm/components/experiencefragment/v1/experiencefragment",
     description: "Footer Policy for Experience Fragment Component",
     policy: "policy_footer",
-    styles: require("../../../../../../theme/src/styles/experiencefragment"),
+    styles: require("../../../../../../theme/src/styles/experiencefragment/site-elements"),
     title: "Footer Policy for Experience Fragment",
 
     attributes: {
@@ -28,7 +28,7 @@ module.exports = [
     },
   }),
   new ComponentPolicy({
-    component: "core/wcm/components/experiencefragment/v2/experiencefragment",
+    component: "core/wcm/components/experiencefragment/v1/experiencefragment",
     description: "Default Policy for Experience Fragment Component",
     policy: "policy_default",
     styles: require("../../../../../../theme/src/styles/experiencefragment"),

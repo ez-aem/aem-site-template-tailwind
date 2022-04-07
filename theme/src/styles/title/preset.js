@@ -3,11 +3,11 @@ const { CQStyle, CQStyleGroup } = require("@ez-aem/policies");
 module.exports = new CQStyleGroup({
   label: "Presets",
   styles: [
-    new CQStyle({
-      label: "Library Preset",
-      id: "library-preset",
-      classes: "library-preset title--preset:library-preset",
-    }),
+    // new CQStyle({
+    //   label: "Library Preset",
+    //   id: "library-preset",
+    //   classes: "library-preset title--preset:library-preset",
+    // }),
     new CQStyle({
       label: "Display As - H1",
       id: "title--h1",

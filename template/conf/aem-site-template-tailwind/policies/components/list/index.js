@@ -12,6 +12,7 @@ module.exports = new ComponentPolicy({
     disableSearch: false,
     disableStatic: false,
     disableTags: false,
+    linkItems: false,
     showDescription: false,
     showModificationDate: false,
   },

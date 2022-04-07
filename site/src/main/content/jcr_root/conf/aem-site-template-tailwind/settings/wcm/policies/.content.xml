@@ -21,26 +21,12 @@
                 jcr:title="Default Accordion Policy"
                 jcr:description="Default Policy for Accordion Component"
                 headingElement="h3"
-                allowedElements="[h2,h3,h4,h5,h6]"
+                allowedHeadingElements="[h2,h3,h4,h5,h6]"
                 components="[group:Core Content,group:Core Form]"
               >
                 <jcr:content jcr:primaryType="nt:unstructured" />
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0
-                    jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Presets"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset accordion--preset:library-preset"
-                      />
-                    </cq:styles>
-                  </item0>
-                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                     cq:styleGroupMultiple="false"
@@ -71,8 +57,8 @@
                         cq:styleClasses="justify-self-stretch"
                       />
                     </cq:styles>
-                  </item1>
-                  <item2
+                  </item0>
+                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                     cq:styleGroupMultiple="false"
@@ -103,7 +89,7 @@
                         cq:styleClasses="self-stretch"
                       />
                     </cq:styles>
-                  </item2>
+                  </item1>
                 </cq:styleGroups>
               </policy_default>
             </accordion>
@@ -127,20 +113,6 @@
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0
                     jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Presets"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset breadcrumb--preset:library-preset"
-                      />
-                    </cq:styles>
-                  </item0>
-                  <item1
-                    jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Grid Max Width"
                     cq:styleGroupMultiple="false"
                   >
@@ -152,8 +124,8 @@
                         cq:styleClasses="aem-Grid--max-width"
                       />
                     </cq:styles>
-                  </item1>
-                  <item2
+                  </item0>
+                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                     cq:styleGroupMultiple="false"
@@ -184,8 +156,8 @@
                         cq:styleClasses="justify-self-stretch"
                       />
                     </cq:styles>
-                  </item2>
-                  <item3
+                  </item1>
+                  <item2
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                     cq:styleGroupMultiple="false"
@@ -216,7 +188,7 @@
                         cq:styleClasses="self-stretch"
                       />
                     </cq:styles>
-                  </item3>
+                  </item2>
                 </cq:styleGroups>
               </policy_default>
             </breadcrumb>
@@ -238,14 +210,7 @@
                     cq:styleGroupLabel="Presets"
                     cq:styleGroupMultiple="false"
                   >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset separator--preset:library-preset"
-                      />
-                    </cq:styles>
+                    <cq:styles jcr:primaryType="nt:unstructured" />
                   </item0>
                   <item1
                     jcr:primaryType="nt:unstructured"
@@ -360,20 +325,6 @@
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0
                     jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Presets"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset separator--preset:library-preset"
-                      />
-                    </cq:styles>
-                  </item0>
-                  <item1
-                    jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                     cq:styleGroupMultiple="false"
                   >
@@ -403,8 +354,8 @@
                         cq:styleClasses="justify-self-stretch"
                       />
                     </cq:styles>
-                  </item1>
-                  <item2
+                  </item0>
+                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                     cq:styleGroupMultiple="false"
@@ -435,14 +386,14 @@
                         cq:styleClasses="self-stretch"
                       />
                     </cq:styles>
-                  </item2>
+                  </item1>
                 </cq:styleGroups>
               </policy_default>
             </carousel>
           </v1>
         </carousel>
         <container jcr:primaryType="nt:unstructured">
-          <v2 jcr:primaryType="nt:unstructured">
+          <v1 jcr:primaryType="nt:unstructured">
             <container jcr:primaryType="nt:unstructured">
               <policy_root
                 jcr:primaryType="nt:unstructured"
@@ -456,26 +407,6 @@
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0
                     jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Presets"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset container--preset:library-preset"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="dark"
-                        cq:styleLabel="Dark Background"
-                        cq:styleClasses="dark dark-container container--dark"
-                      />
-                    </cq:styles>
-                  </item0>
-                  <item1
-                    jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Grid Max Width"
                     cq:styleGroupMultiple="false"
                   >
@@ -487,71 +418,7 @@
                         cq:styleClasses="aem-Grid--max-width"
                       />
                     </cq:styles>
-                  </item1>
-                  <item2
-                    jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Main Axis Positioning - Justify Self"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="justify-self-start"
-                        cq:styleLabel="Start"
-                        cq:styleClasses="justify-self-start"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="justify-self-center"
-                        cq:styleLabel="Center"
-                        cq:styleClasses="justify-self-center"
-                      />
-                      <item2
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="justify-self-end"
-                        cq:styleLabel="End"
-                        cq:styleClasses="justify-self-end"
-                      />
-                      <item3
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="justify-self-stretch"
-                        cq:styleLabel="Stretch"
-                        cq:styleClasses="justify-self-stretch"
-                      />
-                    </cq:styles>
-                  </item2>
-                  <item3
-                    jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="self-start"
-                        cq:styleLabel="Start"
-                        cq:styleClasses="self-start"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="self-center"
-                        cq:styleLabel="Center"
-                        cq:styleClasses="self-center"
-                      />
-                      <item2
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="self-end"
-                        cq:styleLabel="End"
-                        cq:styleClasses="self-end"
-                      />
-                      <item3
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="self-stretch"
-                        cq:styleLabel="Stretch"
-                        cq:styleClasses="self-stretch"
-                      />
-                    </cq:styles>
-                  </item3>
+                  </item0>
                 </cq:styleGroups>
                 <cq:authoring jcr:primaryType="nt:unstructured">
                   <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -572,7 +439,7 @@
                     <mapping_cf
                       assetGroup="media"
                       assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
-                      droptarget="image"
+                      droptarget="contentfragment"
                       resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                       jcr:primaryType="nt:unstructured"
                     />
@@ -598,12 +465,6 @@
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
                         jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset container--preset:library-preset"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
                         cq:styleId="dark"
                         cq:styleLabel="Dark Background"
                         cq:styleClasses="dark dark-container container--dark"
@@ -708,7 +569,7 @@
                     <mapping_cf
                       assetGroup="media"
                       assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
-                      droptarget="image"
+                      droptarget="contentfragment"
                       resourceType="core/wcm/components/contentfragment/v1/contentfragment"
                       jcr:primaryType="nt:unstructured"
                     />
@@ -716,7 +577,7 @@
                 </cq:authoring>
               </policy_default>
             </container>
-          </v2>
+          </v1>
         </container>
         <download jcr:primaryType="nt:unstructured">
           <v2 jcr:primaryType="nt:unstructured">
@@ -736,20 +597,6 @@
                 <jcr:content jcr:primaryType="nt:unstructured" />
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0
-                    jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Presets"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset download--preset:library-preset"
-                      />
-                    </cq:styles>
-                  </item0>
-                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                     cq:styleGroupMultiple="false"
@@ -780,8 +627,8 @@
                         cq:styleClasses="justify-self-stretch"
                       />
                     </cq:styles>
-                  </item1>
-                  <item2
+                  </item0>
+                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                     cq:styleGroupMultiple="false"
@@ -812,7 +659,7 @@
                         cq:styleClasses="self-stretch"
                       />
                     </cq:styles>
-                  </item2>
+                  </item1>
                 </cq:styleGroups>
               </policy_default>
             </download>
@@ -829,12 +676,14 @@
                 embeddablesDisabled="false"
                 htmlDisabled="false"
                 urlDisabled="false"
-                youtubeAAutoPlayDefaultValue="false"
+                youtubeAutoPlayDefaultValue="false"
                 youtubeAutoPlayEnabled="true"
                 youtubeLoopDefaultValue="false"
-                yoututbeLoopEnabled="true"
+                youtubeLoopEnabled="true"
+                youtubeMuteDefaultValue="false"
+                youtubeMuteEnabled="true"
                 youtubePlaysInlineDefaultValue="false"
-                youtubeplaysInlineEnabled="true"
+                youtubePlaysInlineEnabled="true"
                 youtubeRelatedVideosDefaultValue="false"
                 youtubeRelatedVideosEnabled="true"
               >
@@ -848,14 +697,8 @@
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
                         jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset embed--preset:library-preset"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
                         cq:styleId="embed--video"
-                        cq:styleLabel="Library Preset"
+                        cq:styleLabel="Video Aspect Ratio"
                         cq:styleClasses="embed--video aspect-video"
                       />
                     </cq:styles>
@@ -930,7 +773,7 @@
           </v2>
         </embed>
         <experiencefragment jcr:primaryType="nt:unstructured">
-          <v2 jcr:primaryType="nt:unstructured">
+          <v1 jcr:primaryType="nt:unstructured">
             <experiencefragment jcr:primaryType="nt:unstructured">
               <policy_header
                 jcr:primaryType="nt:unstructured"
@@ -951,17 +794,11 @@
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
                         jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset experiencefragment--preset:library-preset"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
                         cq:styleId="site-header"
                         cq:styleLabel="Site Header"
                         cq:styleClasses="experiencefragment--preset:site-header"
                       />
-                      <item2
+                      <item1
                         jcr:primaryType="nt:unstructured"
                         cq:styleId="site-footer"
                         cq:styleLabel="Site Footer"
@@ -969,70 +806,6 @@
                       />
                     </cq:styles>
                   </item0>
-                  <item1
-                    jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Main Axis Positioning - Justify Self"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="justify-self-start"
-                        cq:styleLabel="Start"
-                        cq:styleClasses="justify-self-start"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="justify-self-center"
-                        cq:styleLabel="Center"
-                        cq:styleClasses="justify-self-center"
-                      />
-                      <item2
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="justify-self-end"
-                        cq:styleLabel="End"
-                        cq:styleClasses="justify-self-end"
-                      />
-                      <item3
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="justify-self-stretch"
-                        cq:styleLabel="Stretch"
-                        cq:styleClasses="justify-self-stretch"
-                      />
-                    </cq:styles>
-                  </item1>
-                  <item2
-                    jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="self-start"
-                        cq:styleLabel="Start"
-                        cq:styleClasses="self-start"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="self-center"
-                        cq:styleLabel="Center"
-                        cq:styleClasses="self-center"
-                      />
-                      <item2
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="self-end"
-                        cq:styleLabel="End"
-                        cq:styleClasses="self-end"
-                      />
-                      <item3
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="self-stretch"
-                        cq:styleLabel="Stretch"
-                        cq:styleClasses="self-stretch"
-                      />
-                    </cq:styles>
-                  </item2>
                 </cq:styleGroups>
               </policy_header>
               <policy_footer
@@ -1054,17 +827,11 @@
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
                         jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset experiencefragment--preset:library-preset"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
                         cq:styleId="site-header"
                         cq:styleLabel="Site Header"
                         cq:styleClasses="experiencefragment--preset:site-header"
                       />
-                      <item2
+                      <item1
                         jcr:primaryType="nt:unstructured"
                         cq:styleId="site-footer"
                         cq:styleLabel="Site Footer"
@@ -1072,70 +839,6 @@
                       />
                     </cq:styles>
                   </item0>
-                  <item1
-                    jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Main Axis Positioning - Justify Self"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="justify-self-start"
-                        cq:styleLabel="Start"
-                        cq:styleClasses="justify-self-start"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="justify-self-center"
-                        cq:styleLabel="Center"
-                        cq:styleClasses="justify-self-center"
-                      />
-                      <item2
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="justify-self-end"
-                        cq:styleLabel="End"
-                        cq:styleClasses="justify-self-end"
-                      />
-                      <item3
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="justify-self-stretch"
-                        cq:styleLabel="Stretch"
-                        cq:styleClasses="justify-self-stretch"
-                      />
-                    </cq:styles>
-                  </item1>
-                  <item2
-                    jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="self-start"
-                        cq:styleLabel="Start"
-                        cq:styleClasses="self-start"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="self-center"
-                        cq:styleLabel="Center"
-                        cq:styleClasses="self-center"
-                      />
-                      <item2
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="self-end"
-                        cq:styleLabel="End"
-                        cq:styleClasses="self-end"
-                      />
-                      <item3
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="self-stretch"
-                        cq:styleLabel="Stretch"
-                        cq:styleClasses="self-stretch"
-                      />
-                    </cq:styles>
-                  </item2>
                 </cq:styleGroups>
               </policy_footer>
               <policy_default
@@ -1154,17 +857,11 @@
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
                         jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset experiencefragment--preset:library-preset"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
                         cq:styleId="site-header"
                         cq:styleLabel="Site Header"
                         cq:styleClasses="experiencefragment--preset:site-header"
                       />
-                      <item2
+                      <item1
                         jcr:primaryType="nt:unstructured"
                         cq:styleId="site-footer"
                         cq:styleLabel="Site Footer"
@@ -1239,7 +936,7 @@
                 </cq:styleGroups>
               </policy_default>
             </experiencefragment>
-          </v2>
+          </v1>
         </experiencefragment>
         <form jcr:primaryType="nt:unstructured">
           <button jcr:primaryType="nt:unstructured">
@@ -1254,20 +951,6 @@
                   <jcr:content jcr:primaryType="nt:unstructured" />
                   <cq:styleGroups jcr:primaryType="nt:unstructured">
                     <item0
-                      jcr:primaryType="nt:unstructured"
-                      cq:styleGroupLabel="Presets"
-                      cq:styleGroupMultiple="false"
-                    >
-                      <cq:styles jcr:primaryType="nt:unstructured">
-                        <item0
-                          jcr:primaryType="nt:unstructured"
-                          cq:styleId="library-preset"
-                          cq:styleLabel="Library Preset"
-                          cq:styleClasses="library-preset form-button--preset:library-preset"
-                        />
-                      </cq:styles>
-                    </item0>
-                    <item1
                       jcr:primaryType="nt:unstructured"
                       cq:styleGroupLabel="Variants"
                       cq:styleGroupMultiple="false"
@@ -1292,101 +975,6 @@
                           cq:styleClasses="button--quiet"
                         />
                       </cq:styles>
-                    </item1>
-                    <item2
-                      jcr:primaryType="nt:unstructured"
-                      cq:styleGroupLabel="Main Axis Positioning - Justify Self"
-                      cq:styleGroupMultiple="false"
-                    >
-                      <cq:styles jcr:primaryType="nt:unstructured">
-                        <item0
-                          jcr:primaryType="nt:unstructured"
-                          cq:styleId="justify-self-start"
-                          cq:styleLabel="Start"
-                          cq:styleClasses="justify-self-start"
-                        />
-                        <item1
-                          jcr:primaryType="nt:unstructured"
-                          cq:styleId="justify-self-center"
-                          cq:styleLabel="Center"
-                          cq:styleClasses="justify-self-center"
-                        />
-                        <item2
-                          jcr:primaryType="nt:unstructured"
-                          cq:styleId="justify-self-end"
-                          cq:styleLabel="End"
-                          cq:styleClasses="justify-self-end"
-                        />
-                        <item3
-                          jcr:primaryType="nt:unstructured"
-                          cq:styleId="justify-self-stretch"
-                          cq:styleLabel="Stretch"
-                          cq:styleClasses="justify-self-stretch"
-                        />
-                      </cq:styles>
-                    </item2>
-                    <item3
-                      jcr:primaryType="nt:unstructured"
-                      cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
-                      cq:styleGroupMultiple="false"
-                    >
-                      <cq:styles jcr:primaryType="nt:unstructured">
-                        <item0
-                          jcr:primaryType="nt:unstructured"
-                          cq:styleId="self-start"
-                          cq:styleLabel="Start"
-                          cq:styleClasses="self-start"
-                        />
-                        <item1
-                          jcr:primaryType="nt:unstructured"
-                          cq:styleId="self-center"
-                          cq:styleLabel="Center"
-                          cq:styleClasses="self-center"
-                        />
-                        <item2
-                          jcr:primaryType="nt:unstructured"
-                          cq:styleId="self-end"
-                          cq:styleLabel="End"
-                          cq:styleClasses="self-end"
-                        />
-                        <item3
-                          jcr:primaryType="nt:unstructured"
-                          cq:styleId="self-stretch"
-                          cq:styleLabel="Stretch"
-                          cq:styleClasses="self-stretch"
-                        />
-                      </cq:styles>
-                    </item3>
-                  </cq:styleGroups>
-                </policy_default>
-              </button>
-            </v2>
-          </button>
-          <container jcr:primaryType="nt:unstructured">
-            <v2 jcr:primaryType="nt:unstructured">
-              <container jcr:primaryType="nt:unstructured">
-                <policy_default
-                  jcr:primaryType="nt:unstructured"
-                  sling:resourceType="wcm/core/components/policy/policy"
-                  jcr:title="Default Form Container Policy"
-                  jcr:description="Default Policy for Form Container Component"
-                  components="[group:Core Content,group:Core Form]"
-                >
-                  <jcr:content jcr:primaryType="nt:unstructured" />
-                  <cq:styleGroups jcr:primaryType="nt:unstructured">
-                    <item0
-                      jcr:primaryType="nt:unstructured"
-                      cq:styleGroupLabel="Presets"
-                      cq:styleGroupMultiple="false"
-                    >
-                      <cq:styles jcr:primaryType="nt:unstructured">
-                        <item0
-                          jcr:primaryType="nt:unstructured"
-                          cq:styleId="library-preset"
-                          cq:styleLabel="Library Preset"
-                          cq:styleClasses="library-preset form-container--preset:library-preset"
-                        />
-                      </cq:styles>
                     </item0>
                     <item1
                       jcr:primaryType="nt:unstructured"
@@ -1452,6 +1040,87 @@
                         />
                       </cq:styles>
                     </item2>
+                  </cq:styleGroups>
+                </policy_default>
+              </button>
+            </v2>
+          </button>
+          <container jcr:primaryType="nt:unstructured">
+            <v2 jcr:primaryType="nt:unstructured">
+              <container jcr:primaryType="nt:unstructured">
+                <policy_default
+                  jcr:primaryType="nt:unstructured"
+                  sling:resourceType="wcm/core/components/policy/policy"
+                  jcr:title="Default Form Container Policy"
+                  jcr:description="Default Policy for Form Container Component"
+                  components="[group:Core Content,group:Core Form]"
+                >
+                  <jcr:content jcr:primaryType="nt:unstructured" />
+                  <cq:styleGroups jcr:primaryType="nt:unstructured">
+                    <item0
+                      jcr:primaryType="nt:unstructured"
+                      cq:styleGroupLabel="Main Axis Positioning - Justify Self"
+                      cq:styleGroupMultiple="false"
+                    >
+                      <cq:styles jcr:primaryType="nt:unstructured">
+                        <item0
+                          jcr:primaryType="nt:unstructured"
+                          cq:styleId="justify-self-start"
+                          cq:styleLabel="Start"
+                          cq:styleClasses="justify-self-start"
+                        />
+                        <item1
+                          jcr:primaryType="nt:unstructured"
+                          cq:styleId="justify-self-center"
+                          cq:styleLabel="Center"
+                          cq:styleClasses="justify-self-center"
+                        />
+                        <item2
+                          jcr:primaryType="nt:unstructured"
+                          cq:styleId="justify-self-end"
+                          cq:styleLabel="End"
+                          cq:styleClasses="justify-self-end"
+                        />
+                        <item3
+                          jcr:primaryType="nt:unstructured"
+                          cq:styleId="justify-self-stretch"
+                          cq:styleLabel="Stretch"
+                          cq:styleClasses="justify-self-stretch"
+                        />
+                      </cq:styles>
+                    </item0>
+                    <item1
+                      jcr:primaryType="nt:unstructured"
+                      cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
+                      cq:styleGroupMultiple="false"
+                    >
+                      <cq:styles jcr:primaryType="nt:unstructured">
+                        <item0
+                          jcr:primaryType="nt:unstructured"
+                          cq:styleId="self-start"
+                          cq:styleLabel="Start"
+                          cq:styleClasses="self-start"
+                        />
+                        <item1
+                          jcr:primaryType="nt:unstructured"
+                          cq:styleId="self-center"
+                          cq:styleLabel="Center"
+                          cq:styleClasses="self-center"
+                        />
+                        <item2
+                          jcr:primaryType="nt:unstructured"
+                          cq:styleId="self-end"
+                          cq:styleLabel="End"
+                          cq:styleClasses="self-end"
+                        />
+                        <item3
+                          jcr:primaryType="nt:unstructured"
+                          cq:styleId="self-stretch"
+                          cq:styleLabel="Stretch"
+                          cq:styleClasses="self-stretch"
+                        />
+                      </cq:styles>
+                    </item1>
                   </cq:styleGroups>
                 </policy_default>
               </container>
@@ -1479,20 +1148,6 @@
                 <jcr:content jcr:primaryType="nt:unstructured" />
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0
-                    jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Presets"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset image--preset:library-preset"
-                      />
-                    </cq:styles>
-                  </item0>
-                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                     cq:styleGroupMultiple="false"
@@ -1523,8 +1178,8 @@
                         cq:styleClasses="justify-self-stretch"
                       />
                     </cq:styles>
-                  </item1>
-                  <item2
+                  </item0>
+                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                     cq:styleGroupMultiple="false"
@@ -1555,7 +1210,7 @@
                         cq:styleClasses="self-stretch"
                       />
                     </cq:styles>
-                  </item2>
+                  </item1>
                 </cq:styleGroups>
                 <plugins jcr:primaryType="nt:unstructured">
                   <crop features="*" jcr:primaryType="nt:unstructured">
@@ -1597,25 +1252,12 @@
                 sling:resourceType="wcm/core/components/policy/policy"
                 jcr:title="Default Language Navigation Policy"
                 jcr:description="Default Policy for Language Navigation Component"
+                navigationRoot="/content/aem-site-template-tailwind"
                 structureDepth="1"
               >
                 <jcr:content jcr:primaryType="nt:unstructured" />
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0
-                    jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Presets"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset languagenavigation--preset:library-preset"
-                      />
-                    </cq:styles>
-                  </item0>
-                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                     cq:styleGroupMultiple="false"
@@ -1646,8 +1288,8 @@
                         cq:styleClasses="justify-self-stretch"
                       />
                     </cq:styles>
-                  </item1>
-                  <item2
+                  </item0>
+                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                     cq:styleGroupMultiple="false"
@@ -1678,7 +1320,7 @@
                         cq:styleClasses="self-stretch"
                       />
                     </cq:styles>
-                  </item2>
+                  </item1>
                 </cq:styleGroups>
               </policy_default>
             </languagenavigation>
@@ -1696,26 +1338,13 @@
                 disableSearch="false"
                 disableStatic="false"
                 disableTags="false"
+                linkItems="false"
                 showDescription="false"
                 showModificationDate="false"
               >
                 <jcr:content jcr:primaryType="nt:unstructured" />
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0
-                    jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Presets"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset list--preset:library-preset"
-                      />
-                    </cq:styles>
-                  </item0>
-                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Layout"
                     cq:styleGroupMultiple="false"
@@ -1752,8 +1381,8 @@
                         cq:styleClasses="teaser--text-overlay"
                       />
                     </cq:styles>
-                  </item1>
-                  <item2
+                  </item0>
+                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                     cq:styleGroupMultiple="false"
@@ -1784,8 +1413,8 @@
                         cq:styleClasses="justify-self-stretch"
                       />
                     </cq:styles>
-                  </item2>
-                  <item3
+                  </item1>
+                  <item2
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                     cq:styleGroupMultiple="false"
@@ -1816,7 +1445,7 @@
                         cq:styleClasses="self-stretch"
                       />
                     </cq:styles>
-                  </item3>
+                  </item2>
                 </cq:styleGroups>
               </policy_default>
             </list>
@@ -1839,20 +1468,6 @@
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0
                     jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Presets"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset navigation--preset:library-preset"
-                      />
-                    </cq:styles>
-                  </item0>
-                  <item1
-                    jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                     cq:styleGroupMultiple="false"
                   >
@@ -1882,8 +1497,8 @@
                         cq:styleClasses="justify-self-stretch"
                       />
                     </cq:styles>
-                  </item1>
-                  <item2
+                  </item0>
+                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                     cq:styleGroupMultiple="false"
@@ -1914,7 +1529,7 @@
                         cq:styleClasses="self-stretch"
                       />
                     </cq:styles>
-                  </item2>
+                  </item1>
                 </cq:styleGroups>
               </policy_default>
             </navigation>
@@ -1931,22 +1546,7 @@
                 clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]"
               >
                 <jcr:content jcr:primaryType="nt:unstructured" />
-                <cq:styleGroups jcr:primaryType="nt:unstructured">
-                  <item0
-                    jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Presets"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset pdfviewer--preset:library-preset"
-                      />
-                    </cq:styles>
-                  </item0>
-                </cq:styleGroups>
+                <cq:styleGroups jcr:primaryType="nt:unstructured" />
               </policy_default>
             </page>
           </v3>
@@ -1964,20 +1564,6 @@
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0
                     jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Presets"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset progressbar--preset:library-preset"
-                      />
-                    </cq:styles>
-                  </item0>
-                  <item1
-                    jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                     cq:styleGroupMultiple="false"
                   >
@@ -2007,8 +1593,8 @@
                         cq:styleClasses="justify-self-stretch"
                       />
                     </cq:styles>
-                  </item1>
-                  <item2
+                  </item0>
+                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                     cq:styleGroupMultiple="false"
@@ -2039,7 +1625,7 @@
                         cq:styleClasses="self-stretch"
                       />
                     </cq:styles>
-                  </item2>
+                  </item1>
                 </cq:styleGroups>
               </policy_default>
             </progressbar>
@@ -2061,20 +1647,6 @@
                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                   <item0
                     jcr:primaryType="nt:unstructured"
-                    cq:styleGroupLabel="Presets"
-                    cq:styleGroupMultiple="false"
-                  >
-                    <cq:styles jcr:primaryType="nt:unstructured">
-                      <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset search--preset:library-preset"
-                      />
-                    </cq:styles>
-                  </item0>
-                  <item1
-                    jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Main Axis Positioning - Justify Self"
                     cq:styleGroupMultiple="false"
                   >
@@ -2104,8 +1676,8 @@
                         cq:styleClasses="justify-self-stretch"
                       />
                     </cq:styles>
-                  </item1>
-                  <item2
+                  </item0>
+                  <item1
                     jcr:primaryType="nt:unstructured"
                     cq:styleGroupLabel="Secondary Axis Positioning - Align Self"
                     cq:styleGroupMultiple="false"
@@ -2136,7 +1708,7 @@
                         cq:styleClasses="self-stretch"
                       />
                     </cq:styles>
-                  </item2>
+                  </item1>
                 </cq:styleGroups>
               </policy_default>
             </search>
@@ -2161,17 +1733,11 @@
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
                         jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset separator--preset:library-preset"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
                         cq:styleId="separator--standard"
                         cq:styleLabel="Standard Size"
                         cq:styleClasses="separator--standard"
                       />
-                      <item2
+                      <item1
                         jcr:primaryType="nt:unstructured"
                         cq:styleId="separator--small"
                         cq:styleLabel="Small Size"
@@ -2268,17 +1834,11 @@
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
                         jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset tabs--preset:library-preset"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
                         cq:styleId="tabs--horizontal"
                         cq:styleLabel="Layout - Horizontal"
                         cq:styleClasses="tabs--horizontal"
                       />
-                      <item2
+                      <item1
                         jcr:primaryType="nt:unstructured"
                         cq:styleId="tabs--vertical"
                         cq:styleLabel="Layout - Vertical"
@@ -2375,12 +1935,6 @@
                   >
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
-                        jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset teaser--preset:library-preset"
-                      />
-                      <item1
                         jcr:primaryType="nt:unstructured"
                         cq:styleId="teaser--dark"
                         cq:styleLabel="Dark Background"
@@ -2514,17 +2068,11 @@
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
                         jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset text--preset:library-preset"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
                         cq:styleId="var-prose"
                         cq:styleLabel="Prose"
                         cq:styleClasses="var-prose"
                       />
-                      <item2
+                      <item1
                         jcr:primaryType="nt:unstructured"
                         cq:styleId="var-prose var-max-w-none"
                         cq:styleLabel="Prose - No Max Width"
@@ -2721,41 +2269,35 @@
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
                         jcr:primaryType="nt:unstructured"
-                        cq:styleId="library-preset"
-                        cq:styleLabel="Library Preset"
-                        cq:styleClasses="library-preset title--preset:library-preset"
-                      />
-                      <item1
-                        jcr:primaryType="nt:unstructured"
                         cq:styleId="title--h1"
                         cq:styleLabel="Display As - H1"
                         cq:styleClasses="title--h1"
                       />
-                      <item2
+                      <item1
                         jcr:primaryType="nt:unstructured"
                         cq:styleId="title--h2"
                         cq:styleLabel="Display As - H2"
                         cq:styleClasses="title--h2"
                       />
-                      <item3
+                      <item2
                         jcr:primaryType="nt:unstructured"
                         cq:styleId="title--h3"
                         cq:styleLabel="Display As - H3"
                         cq:styleClasses="title--h3"
                       />
-                      <item4
+                      <item3
                         jcr:primaryType="nt:unstructured"
                         cq:styleId="title--h4"
                         cq:styleLabel="Display As - H4"
                         cq:styleClasses="title--h4"
                       />
-                      <item5
+                      <item4
                         jcr:primaryType="nt:unstructured"
                         cq:styleId="title--h5"
                         cq:styleLabel="Display As - H5"
                         cq:styleClasses="title--h5"
                       />
-                      <item6
+                      <item5
                         jcr:primaryType="nt:unstructured"
                         cq:styleId="title--h6"
                         cq:styleLabel="Display As - H6"
