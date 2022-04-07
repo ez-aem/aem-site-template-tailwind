@@ -4,7 +4,7 @@
     <filter root="/content/aem-site-template-tailwind" mode="merge" />
     <filter root="/content/dam/aem-site-template-tailwind" mode="merge" />
     <filter
-        root="/content/experience-fragments/aem-site-template-tailwind"
-        mode="merge"
-    />
+    root="/content/experience-fragments/aem-site-template-tailwind"
+    mode="merge"
+  />
 </workspaceFilter>

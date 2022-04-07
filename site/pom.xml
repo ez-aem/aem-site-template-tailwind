@@ -15,9 +15,9 @@
  |  limitations under the License.
 -->
 <project
-    xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
 >
     <modelVersion>4.0.0</modelVersion>
 
@@ -30,7 +30,7 @@
     <packaging>content-package</packaging>
     <name>Standard AEM Site Template</name>
     <description
-    >Site template content package of Standard AEM Site Template</description>
+  >Site template content package of Standard AEM Site Template</description>
 
     <!-- ====================================================================== -->
     <!-- B U I L D   D E F I N I T I O N                                        -->
@@ -84,7 +84,7 @@
                     <id>adobe-public-releases</id>
                     <name>Adobe Public Repository</name>
                     <url
-                    >https://repo.adobe.com/nexus/content/groups/public/</url>
+          >https://repo.adobe.com/nexus/content/groups/public/</url>
                     <layout>default</layout>
                 </repository>
             </repositories>
@@ -94,7 +94,7 @@
                     <id>adobe-public-releases</id>
                     <name>Adobe Public Repository</name>
                     <url
-                    >https://repo.adobe.com/nexus/content/groups/public/</url>
+          >https://repo.adobe.com/nexus/content/groups/public/</url>
                     <layout>default</layout>
                 </pluginRepository>
             </pluginRepositories>
