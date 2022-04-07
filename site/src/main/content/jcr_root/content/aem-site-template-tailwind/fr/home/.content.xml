@@ -53,7 +53,7 @@
                         </actions>
                     </teaser>
                     <container
-            cq:styleIds="[aem-Grid--grid-width]"
+            cq:styleIds="[aem-Grid--max-width]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container"
             layout="responsiveGrid"
