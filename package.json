@@ -6,6 +6,7 @@
   "scripts": {
     "build": "aem-site-template-builder",
     "build:template": "cd template && npm run build",
+    "build:format-policies": "npm run prettier:policies",
     "build:theme": "cd theme && npm run build",
     "cleanup": "run-s cleanup-xml prettier:fix",
     "cleanup-xml": "node cleanup-xml.js",
@@ -17,6 +18,7 @@
     "prepare": "husky install",
     "prettier:check": "prettier --check ./theme/**/*.{css,html,js,ts} ./site/**/*.xml",
     "prettier:fix": "prettier --write ./theme/**/*.{css,html,js,ts} ./site/**/*.xml",
+    "prettier:policies": "prettier --write ./site/**/**/policies/.content.xml",
     "stub": "aem-site-template-builder stub"
   },
   "devDependencies": {
