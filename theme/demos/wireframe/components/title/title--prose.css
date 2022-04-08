@@ -1,0 +1,5 @@
+@layer utilities {
+    .title--prose .cmp-title {
+        @apply max-w-[100ch] mx-auto;
+    }
+}

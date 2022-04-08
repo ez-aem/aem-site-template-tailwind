@@ -27,8 +27,7 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
         "calc(var(--aem-grid-column-span) + var(--aem-grid-column-offset))",
       "grid-column-end": "span var(--aem-grid-columns-w-offset, -1)",
       "margin-inline-start":
-        "calc(var(--aem-grid-margin-column-offset-percent) + calc(var(--aem-grid-gap) * var(--aem-grid-margin-column-offset)))",
-      // "padding-inline": "var(--aem-grid-column-padding)", // Used for variant to place gap setting as padding
+        "calc(var(--aem-grid-margin-column-offset-percent) + var(--aem-grid-gap) * var(--aem-grid-margin-column-offset))",
       "word-break": "break-word", // Prevents overflow with 12 columns on mobile
     },
     "html.aem-AuthorLayer-Edit .aem-Grid-newComponent": {
@@ -52,13 +51,14 @@ module.exports = plugin(({ addBase, addUtilities, theme }) => {
   });
 
   addUtilities({
-    ".aem-Grid--grid-width": {
+    ".aem-Grid--max-width": {
       "margin-inline": "var(--aem-grid-max-width-gutter)",
       width: "calc(100% - calc(var(--aem-grid-max-width-gutter) * 2))",
 
-      ".aem-Grid--grid-width": {
+      ".aem-Grid--max-width": {
         width: "100%",
-        "margin-inline": "0",
+        "margin-inline-start": "0",
+        "margin-inline-end": "0",
       },
     },
   });
