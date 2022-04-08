@@ -1,4 +1,5 @@
 const { ComponentPolicy } = require("@ez-aem/policies");
+const { content, form } = require("../components");
 
 module.exports = new ComponentPolicy({
   component: "core/wcm/components/tabs/v1/tabs",
@@ -9,5 +10,6 @@ module.exports = new ComponentPolicy({
 
   attributes: {
     "cq:styleDefaultClasses": "tabs--horizontal",
+    components: [...content, ...form],
   },
 });

@@ -1,4 +1,5 @@
 const { ComponentPolicy } = require("@ez-aem/policies");
+const components = require("../components");
 
 const cqAuthoring = {
   assetToComponentMapping: {
@@ -38,7 +39,7 @@ module.exports = [
     title: "Container Page Root Policy",
 
     attributes: {
-      components: "[group:Core Content,group:Core Form,group:Core Structure]",
+      components: components.all,
       layoutDisabled: false,
     },
     configurations: {
@@ -53,7 +54,7 @@ module.exports = [
     title: "Default Container Policy",
 
     attributes: {
-      components: "[group:Core Content,group:Core Form,group:Core Structure]",
+      components: components.all,
       layout: "responsiveGrid",
       layoutDisabled: false,
     },

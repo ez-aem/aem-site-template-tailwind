@@ -1,4 +1,5 @@
 const { ComponentPolicy } = require("@ez-aem/policies");
+const { content, form } = require("../components");
 
 module.exports = new ComponentPolicy({
   component: "core/wcm/components/accordion/v1/accordion",
@@ -10,6 +11,6 @@ module.exports = new ComponentPolicy({
   attributes: {
     headingElement: "h3",
     allowedHeadingElements: "[h2,h3,h4,h5,h6]",
-    components: "[group:Core Content,group:Core Form]",
+    components: [...content, ...form],
   },
 });
