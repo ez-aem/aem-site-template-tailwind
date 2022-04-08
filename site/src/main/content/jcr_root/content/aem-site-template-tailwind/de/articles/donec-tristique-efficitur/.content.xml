@@ -54,7 +54,7 @@
             textIsRich="true"
           />
                     <image
-            cq:styleIds="[1612913724665]"
+            
             jcr:primaryType="nt:unstructured"
             jcr:title="Mauris dignissim vehicula quam at consequat. Nam pulvinar ut arcu et consequat."
             sling:resourceType="core/wcm/components/image/v3/image"

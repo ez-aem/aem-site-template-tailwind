@@ -299,7 +299,7 @@
                             </cq:responsive>
                         </text_copy_copy>
                         <separator_copy_copy_
-              cq:styleIds="[1612911013038]"
+              cq:styleIds="[separator--small]"
               jcr:primaryType="nt:unstructured"
               sling:resourceType="core/wcm/components/separator/v1/separator"
             >

@@ -32,5 +32,9 @@ module.exports = new CQStyleGroup({
       label: "Display As - H6",
       id: "title--h6",
     }),
+    new CQStyle({
+      label: "Title Prose Width",
+      id: "title--prose",
+    }),
   ],
 });

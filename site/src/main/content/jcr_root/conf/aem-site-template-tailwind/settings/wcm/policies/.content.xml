@@ -2068,15 +2068,15 @@
                     <cq:styles jcr:primaryType="nt:unstructured">
                       <item0
                         jcr:primaryType="nt:unstructured"
-                        cq:styleId="var-prose"
+                        cq:styleId="text--prose"
                         cq:styleLabel="Prose"
-                        cq:styleClasses="var-prose"
+                        cq:styleClasses="text--prose"
                       />
                       <item1
                         jcr:primaryType="nt:unstructured"
-                        cq:styleId="var-prose var-max-w-none"
+                        cq:styleId="text--prose--max-w-none"
                         cq:styleLabel="Prose - No Max Width"
-                        cq:styleClasses="var-prose var-max-w-none"
+                        cq:styleClasses="text--prose max-w-none"
                       />
                     </cq:styles>
                   </item0>
@@ -2302,6 +2302,12 @@
                         cq:styleId="title--h6"
                         cq:styleLabel="Display As - H6"
                         cq:styleClasses="title--h6"
+                      />
+                      <item6
+                        jcr:primaryType="nt:unstructured"
+                        cq:styleId="title--prose"
+                        cq:styleLabel="Title Prose Width"
+                        cq:styleClasses="title--prose"
                       />
                     </cq:styles>
                   </item0>

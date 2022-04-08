@@ -47,14 +47,14 @@
               type="h1"
             />
                         <embed
-              cq:styleIds="[16130982314089]"
+              cq:styleIds="[embed--video]"
               jcr:primaryType="nt:unstructured"
               sling:resourceType="core/wcm/components/embed/v2/embed"
               type="url"
               url="https://www.youtube.com/watch?v=NQeQ1jZ7ZBw"
             />
                         <button
-              cq:styleIds="[1613070360567]"
+              cq:styleIds="[button--primary]"
               jcr:primaryType="nt:unstructured"
               jcr:title="Get the Code"
               sling:resourceType="core/wcm/components/button/v2/button"
@@ -79,7 +79,7 @@
             sling:resourceType="core/wcm/components/container/v1/container"
           >
                         <title_copy
-              cq:styleIds="[1612896645990,aem-Grid--max-width]"
+              cq:styleIds="[title--h3,aem-Grid--max-width]"
               jcr:primaryType="nt:unstructured"
               jcr:title="Helpful Links"
               sling:resourceType="core/wcm/components/title/v3/title"

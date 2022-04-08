@@ -53,7 +53,7 @@
               textIsRich="true"
             />
                         <button
-              cq:styleIds="[1613070360567]"
+              cq:styleIds="[button--primary]"
               jcr:primaryType="nt:unstructured"
               jcr:title="Keep Reading"
               sling:resourceType="core/wcm/components/button/v2/button"

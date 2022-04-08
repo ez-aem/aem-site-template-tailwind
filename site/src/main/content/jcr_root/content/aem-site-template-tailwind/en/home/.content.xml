@@ -59,7 +59,7 @@
             layout="responsiveGrid"
           >
                         <title
-              cq:styleIds="[09812749238742]"
+              cq:styleIds="[title--mt-8]"
               jcr:primaryType="nt:unstructured"
               jcr:title="Welcome to the Wireframe Site Template"
               sling:resourceType="core/wcm/components/title/v3/title"

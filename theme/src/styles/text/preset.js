@@ -10,11 +10,12 @@ module.exports = new CQStyleGroup({
     // }),
     new CQStyle({
       label: "Prose",
-      id: "var-prose",
+      id: "text--prose",
     }),
     new CQStyle({
       label: "Prose - No Max Width",
-      id: "var-prose var-max-w-none",
+      id: "text--prose--max-w-none",
+      classes: "text--prose max-w-none",
     }),
   ],
 });

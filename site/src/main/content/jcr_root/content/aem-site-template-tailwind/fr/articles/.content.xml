@@ -69,7 +69,7 @@
                         </cq:responsive>
                     </teaser>
                     <list
-            cq:styleIds="[1646415547585]"
+            cq:styleIds="[teaser--text-bottom]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/list/v3/list"
             childDepth="1"
@@ -98,7 +98,7 @@
                         </cq:responsive>
                     </list>
                     <separator
-            cq:styleIds="[1612911013038]"
+            cq:styleIds="[separator--small]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/separator/v1/separator"
           />
@@ -139,7 +139,7 @@
                             </cq:responsive>
                         </text>
                         <button
-              cq:styleIds="[1646421189722,self-end]"
+              cq:styleIds="[button--primary,self-end]"
               jcr:primaryType="nt:unstructured"
               jcr:title="Subscribe"
               sling:resourceType="core/wcm/components/form/button/v2/button"
