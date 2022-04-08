@@ -5,7 +5,6 @@
     "postcss-custom-properties": {},
     "tailwindcss/nesting": {},
     "tailwindcss": {},
-    "autoprefixer": {},
     "cssnano": {}
   }
 }

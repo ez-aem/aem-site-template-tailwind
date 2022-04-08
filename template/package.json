@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@ez-aem/policies": "file:../../policies",
     "fast-xml-parser": "^4.0.7"
   }
