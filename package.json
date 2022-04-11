@@ -5,7 +5,7 @@
   "license": "MIT License, Copyright 2022 headwire.com",
   "scripts": {
     "build": "cross-env NODE_ENV=production run-s build:*",
-    "build:template": "cd template && npm run build",
+    "build:policies": "cd policies && npm run build",
     "build:format-policies": "npm run prettier:policies",
     "build:builder": "aem-site-template-builder",
     "cleanup": "run-s cleanup-xml prettier:fix",
