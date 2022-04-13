@@ -6,7 +6,7 @@
   jcr:mixinTypes="[rep:AccessControllable]"
   jcr:primaryType="cq:Page"
 >
-    <rep:policy />
-    <page />
-    <xf />
+  <rep:policy />
+  <page />
+  <xf />
 </jcr:root>

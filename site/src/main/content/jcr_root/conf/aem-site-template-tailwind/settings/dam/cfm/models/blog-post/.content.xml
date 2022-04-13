@@ -9,7 +9,7 @@
   allowedPaths="[/content/entities(/.*)?]"
   ranking="{Long}100"
 >
-    <jcr:content
+  <jcr:content
     cq:scaffolding="/conf/aem-site-template-tailwind/settings/dam/cfm/models/blog-post/jcr:content/model"
     cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
     jcr:primaryType="cq:PageContent"
@@ -18,27 +18,24 @@
     sling:resourceType="dam/cfm/models/console/components/data/entity/default"
     status="enabled"
   >
-        <metadata jcr:primaryType="nt:unstructured" />
-        <model
+    <metadata jcr:primaryType="nt:unstructured" />
+    <model
       cq:targetPath="/content/entities"
       jcr:primaryType="cq:PageContent"
       sling:resourceType="wcm/scaffolding/components/scaffolding"
       dataTypesConfig="/mnt/overlay/settings/dam/cfm/models/formbuilderconfig/datatypes"
       maxGeneratedOrder="20"
     >
-            <cq:dialog
+      <cq:dialog
         jcr:primaryType="nt:unstructured"
         sling:resourceType="cq/gui/components/authoring/dialog"
       >
-                <content
+        <content
           jcr:primaryType="nt:unstructured"
           sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
         >
-                    <items
-            jcr:primaryType="nt:unstructured"
-            maxGeneratedOrder="26"
-          >
-                        <_x0031_646412355783
+          <items jcr:primaryType="nt:unstructured" maxGeneratedOrder="26">
+            <_x0031_646412355783
               jcr:primaryType="nt:unstructured"
               sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
               fieldLabel="Title"
@@ -51,9 +48,9 @@
               showEmptyInReadOnly="true"
               valueType="string"
             >
-                            <granite:data jcr:primaryType="nt:unstructured" />
-                        </_x0031_646412355783>
-                        <_x0031_646412541876
+              <granite:data jcr:primaryType="nt:unstructured" />
+            </_x0031_646412355783>
+            <_x0031_646412541876
               jcr:primaryType="nt:unstructured"
               sling:resourceType="dam/cfm/models/editor/components/datatypes/datepicker"
               displayedFormat="YYYY-MM-DD HH:mm"
@@ -68,12 +65,9 @@
               valueFormat="YYYY-MM-DD[T]HH:mm:ss.000Z"
               valueType="calendar/datetime"
             >
-                            <granite:data
-                jcr:primaryType="nt:unstructured"
-                typeHint="Date"
-              />
-                        </_x0031_646412541876>
-                        <_x0031_646412430864
+              <granite:data jcr:primaryType="nt:unstructured" typeHint="Date" />
+            </_x0031_646412541876>
+            <_x0031_646412430864
               jcr:primaryType="nt:unstructured"
               sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
               cfm-element="Description"
@@ -86,7 +80,7 @@
               showEmptyInReadOnly="true"
               valueType="string/multiline"
             />
-                        <_x0031_646412555746
+            <_x0031_646412555746
               jcr:primaryType="nt:unstructured"
               sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
               allowNew="{Boolean}true"
@@ -101,10 +95,10 @@
               showEmptyInReadOnly="true"
               valueType="string/content-fragment"
             >
-                            <field jcr:primaryType="nt:unstructured" />
-                            <granite:data jcr:primaryType="nt:unstructured" />
-                        </_x0031_646412555746>
-                        <_x0031_646412406301
+              <field jcr:primaryType="nt:unstructured" />
+              <granite:data jcr:primaryType="nt:unstructured" />
+            </_x0031_646412555746>
+            <_x0031_646412406301
               jcr:primaryType="nt:unstructured"
               sling:resourceType="dam/cfm/models/editor/components/contentreference"
               fieldLabel="Featured Image"
@@ -119,13 +113,13 @@
               validation="[cfm.validation.contenttype.image,cfm.validation.contenttype.video]"
               valueType="string/reference"
             >
-                            <granite:data
+              <granite:data
                 jcr:primaryType="nt:unstructured"
                 showThumbnail="true"
                 thumbnail-validation="cfm.validation.thumbnail.show"
               />
-                        </_x0031_646412406301>
-                        <_x0031_646412377697
+            </_x0031_646412406301>
+            <_x0031_646412377697
               jcr:primaryType="nt:unstructured"
               sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
               cfm-element="Blog Content"
@@ -139,9 +133,9 @@
               showEmptyInReadOnly="true"
               valueType="string/multiline"
             />
-                    </items>
-                </content>
-            </cq:dialog>
-        </model>
-    </jcr:content>
+          </items>
+        </content>
+      </cq:dialog>
+    </model>
+  </jcr:content>
 </jcr:root>

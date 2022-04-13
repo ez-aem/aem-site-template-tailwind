@@ -4,7 +4,7 @@
   xmlns:jcr="http://www.jcp.org/jcr/1.0"
   jcr:primaryType="cq:Template"
 >
-    <jcr:content
+  <jcr:content
     cq:templateType="/conf/aem-site-template-tailwind/settings/wcm/template-types/xf"
     jcr:description="My Site Experience Fragment Template"
     jcr:primaryType="cq:PageContent"

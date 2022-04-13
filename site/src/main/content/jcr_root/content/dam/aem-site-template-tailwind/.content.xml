@@ -6,14 +6,14 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="sling:OrderedFolder"
 >
-    <jcr:content
+  <jcr:content
     cq:conf="/conf/aem-site-template-tailwind"
     jcr:primaryType="nt:unstructured"
     jcr:title="aem-site-template-tailwind"
   >
-        <folderThumbnail />
-    </jcr:content>
-    <Image_x0040_2x.png />
-    <Group_x0020_3458_x0040_2x.png />
-    <building_large.png />
+    <folderThumbnail />
+  </jcr:content>
+  <Image_x0040_2x.png />
+  <Group_x0020_3458_x0040_2x.png />
+  <building_large.png />
 </jcr:root>

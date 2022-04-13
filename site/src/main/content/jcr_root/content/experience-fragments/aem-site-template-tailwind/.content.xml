@@ -9,5 +9,5 @@
   jcr:title="aem-site-template-tailwind"
   sling:configRef="/conf/aem-site-template-tailwind"
 >
-    <en />
+  <en />
 </jcr:root>

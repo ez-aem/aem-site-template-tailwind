@@ -5,7 +5,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-    <jcr:content jcr:primaryType="nt:unstructured" />
-    <blog-post />
-    <contributor />
+  <jcr:content jcr:primaryType="nt:unstructured" />
+  <blog-post />
+  <contributor />
 </jcr:root>

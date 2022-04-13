@@ -6,7 +6,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-    <jcr:content
+  <jcr:content
     cq:allowedTemplates="/conf/aem-site-template-tailwind/settings/wcm/templates/(?!xf-).*"
     cq:conf="/conf/aem-site-template-tailwind"
     cq:redirectTarget="/content/aem-site-template-tailwind/en"
@@ -23,13 +23,13 @@
     pwaDisplay="standalone"
     pwaOrientation="any"
   >
-        <image jcr:primaryType="nt:unstructured">
-            <file />
-        </image>
-    </jcr:content>
-    <guide />
-    <en />
-    <de />
-    <fr />
-    <es />
+    <image jcr:primaryType="nt:unstructured">
+      <file />
+    </image>
+  </jcr:content>
+  <guide />
+  <en />
+  <de />
+  <fr />
+  <es />
 </jcr:root>

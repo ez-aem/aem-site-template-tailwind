@@ -6,7 +6,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-    <jcr:content
+  <jcr:content
     cq:tags="[]"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/xf-web-variation"
     cq:xfMasterVariation="{Boolean}true"
@@ -15,21 +15,21 @@
     jcr:title="Article Recommendations"
     sling:resourceType="cq/experience-fragments/components/xfpage"
   >
-        <root
+    <root
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
       layout="responsiveGrid"
     >
-            <container
+      <container
         jcr:primaryType="nt:unstructured"
         sling:resourceType="core/wcm/components/container/v1/container"
         layout="responsiveGrid"
       >
-                <separator_copy
+        <separator_copy
           jcr:primaryType="nt:unstructured"
           sling:resourceType="core/wcm/components/separator/v1/separator"
         />
-                <teaser_copy_74296013_1715082336
+        <teaser_copy_74296013_1715082336
           cq:styleIds="[teaser--text-bottom]"
           jcr:description="&lt;p>Get started using your Tailwind template with our helpful guide.&lt;/p>&#xd;&#xa;"
           jcr:primaryType="nt:unstructured"
@@ -41,27 +41,19 @@
           textIsRich="true"
           titleFromPage="false"
         >
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="4"
-            />
-                        <phone
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="12"
-            />
-                    </cq:responsive>
-                    <actions jcr:primaryType="nt:unstructured">
-                        <item0
+          <cq:responsive jcr:primaryType="nt:unstructured">
+            <default jcr:primaryType="nt:unstructured" offset="0" width="4" />
+            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+          </cq:responsive>
+          <actions jcr:primaryType="nt:unstructured">
+            <item0
               jcr:primaryType="nt:unstructured"
               link="/content/aem-site-template-tailwind/guide"
               text="Guide"
             />
-                    </actions>
-                </teaser_copy_74296013_1715082336>
-                <teaser_copy_copy
+          </actions>
+        </teaser_copy_74296013_1715082336>
+        <teaser_copy_copy
           cq:styleIds="[teaser--text-bottom]"
           jcr:description="&lt;p>Check out our guide to get the most from the Tailwind theme and to make your own.&lt;/p>&#xd;&#xa;"
           jcr:primaryType="nt:unstructured"
@@ -73,27 +65,19 @@
           textIsRich="true"
           titleFromPage="false"
         >
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="4"
-            />
-                        <phone
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="12"
-            />
-                    </cq:responsive>
-                    <actions jcr:primaryType="nt:unstructured">
-                        <item0
+          <cq:responsive jcr:primaryType="nt:unstructured">
+            <default jcr:primaryType="nt:unstructured" offset="0" width="4" />
+            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+          </cq:responsive>
+          <actions jcr:primaryType="nt:unstructured">
+            <item0
               jcr:primaryType="nt:unstructured"
               link="/content/aem-site-template-tailwind/guide/manage"
               text="Learn More"
             />
-                    </actions>
-                </teaser_copy_copy>
-                <teaser_copy_74296013
+          </actions>
+        </teaser_copy_copy>
+        <teaser_copy_74296013
           cq:styleIds="[teaser--text-bottom]"
           jcr:description="&lt;p>Learn how to make the Theme to match your brand with our customization guide.&lt;/p>&#xd;&#xa;"
           jcr:primaryType="nt:unstructured"
@@ -105,27 +89,19 @@
           textIsRich="true"
           titleFromPage="false"
         >
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="4"
-            />
-                        <phone
-              jcr:primaryType="nt:unstructured"
-              offset="0"
-              width="12"
-            />
-                    </cq:responsive>
-                    <actions jcr:primaryType="nt:unstructured">
-                        <item0
+          <cq:responsive jcr:primaryType="nt:unstructured">
+            <default jcr:primaryType="nt:unstructured" offset="0" width="4" />
+            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+          </cq:responsive>
+          <actions jcr:primaryType="nt:unstructured">
+            <item0
               jcr:primaryType="nt:unstructured"
               link="/content/aem-site-template-tailwind/guide/customize"
               text="Keep Reading"
             />
-                    </actions>
-                </teaser_copy_74296013>
-            </container>
-        </root>
-    </jcr:content>
+          </actions>
+        </teaser_copy_74296013>
+      </container>
+    </root>
+  </jcr:content>
 </jcr:root>

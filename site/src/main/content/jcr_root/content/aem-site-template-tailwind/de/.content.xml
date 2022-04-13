@@ -6,7 +6,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-    <jcr:content
+  <jcr:content
     cq:isLanguageRoot="true"
     cq:redirectTarget="/content/aem-site-template-tailwind/de/home"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-content"
@@ -19,23 +19,23 @@
     pwaDisplay="standalone"
     pwaOrientation="any"
   >
-        <root
+    <root
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
     >
-            <main
+      <main
         jcr:primaryType="nt:unstructured"
         sling:resourceType="core/wcm/components/container/v1/container"
         layout="responsiveGrid"
       />
-        </root>
-        <cq:featuredimage
+    </root>
+    <cq:featuredimage
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/image/v3/image"
       altValueFromDAM="true"
     />
-    </jcr:content>
-    <home />
-    <articles />
-    <contact-us />
+  </jcr:content>
+  <home />
+  <articles />
+  <contact-us />
 </jcr:root>

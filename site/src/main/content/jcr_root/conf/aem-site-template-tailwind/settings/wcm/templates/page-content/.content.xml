@@ -4,7 +4,7 @@
   xmlns:jcr="http://www.jcp.org/jcr/1.0"
   jcr:primaryType="cq:Template"
 >
-    <jcr:content
+  <jcr:content
     cq:templateType="/conf/aem-site-template-tailwind/settings/wcm/template-types/page"
     jcr:description="General Purpose Content Page Template with support for Full-Width components that includes the Header and Footer Site Elements"
     jcr:primaryType="cq:PageContent"

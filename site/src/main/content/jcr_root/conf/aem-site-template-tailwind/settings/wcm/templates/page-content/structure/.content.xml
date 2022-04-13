@@ -42,15 +42,15 @@
         fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/site/footer/master"
         id="footer"
       />
-        </root>
-        <cq:responsive jcr:primaryType="nt:unstructured">
-            <breakpoints jcr:primaryType="nt:unstructured">
-                <phone
+    </root>
+    <cq:responsive jcr:primaryType="nt:unstructured">
+      <breakpoints jcr:primaryType="nt:unstructured">
+        <phone
           jcr:primaryType="nt:unstructured"
           title="Phone"
           width="{Long}860"
         />
-            </breakpoints>
-        </cq:responsive>
-    </jcr:content>
+      </breakpoints>
+    </cq:responsive>
+  </jcr:content>
 </jcr:root>

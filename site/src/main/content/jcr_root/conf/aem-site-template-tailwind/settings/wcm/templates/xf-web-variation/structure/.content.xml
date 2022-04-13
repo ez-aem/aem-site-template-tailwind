@@ -6,25 +6,25 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-    <jcr:content
+  <jcr:content
     cq:deviceGroups="[mobile/groups/responsive]"
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/xf-web-variation"
     jcr:primaryType="cq:PageContent"
     sling:resourceType="cq/experience-fragments/components/xfpage"
   >
-        <root
+    <root
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
       editable="{Boolean}true"
     />
-        <cq:responsive jcr:primaryType="nt:unstructured">
-            <breakpoints jcr:primaryType="nt:unstructured">
-                <phone
+    <cq:responsive jcr:primaryType="nt:unstructured">
+      <breakpoints jcr:primaryType="nt:unstructured">
+        <phone
           jcr:primaryType="nt:unstructured"
           title="Smaller Screen"
           width="{Long}768"
         />
-            </breakpoints>
-        </cq:responsive>
-    </jcr:content>
+      </breakpoints>
+    </cq:responsive>
+  </jcr:content>
 </jcr:root>

@@ -5,10 +5,10 @@
   xmlns:jcr="http://www.jcp.org/jcr/1.0"
   jcr:primaryType="cq:Page"
 >
-    <jcr:content
+  <jcr:content
     jcr:primaryType="cq:PageContent"
     sling:resourceType="cq/contexthub/components/segments-listing-page"
   />
-    <winter />
-    <summer />
+  <winter />
+  <summer />
 </jcr:root>

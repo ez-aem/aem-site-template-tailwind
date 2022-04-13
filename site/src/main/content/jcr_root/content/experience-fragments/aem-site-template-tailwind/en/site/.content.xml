@@ -7,6 +7,6 @@
   jcr:primaryType="sling:OrderedFolder"
   jcr:title="Site Elements"
 >
-    <header />
-    <footer />
+  <header />
+  <footer />
 </jcr:root>

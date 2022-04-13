@@ -4,8 +4,8 @@
   xmlns:jcr="http://www.jcp.org/jcr/1.0"
   jcr:primaryType="cq:Page"
 >
-    <template-types />
-    <templates />
-    <policies />
-    <segments />
+  <template-types />
+  <templates />
+  <policies />
+  <segments />
 </jcr:root>

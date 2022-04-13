@@ -5,12 +5,12 @@
   xmlns:jcr="http://www.jcp.org/jcr/1.0"
   jcr:primaryType="cq:Page"
 >
-    <jcr:content
+  <jcr:content
     cq:tags="[]"
     cq:template="/libs/cq/experience-fragments/components/experiencefragment/template"
     jcr:primaryType="cq:PageContent"
     jcr:title="Header"
     sling:resourceType="cq/experience-fragments/components/experiencefragment"
   />
-    <master />
+  <master />
 </jcr:root>

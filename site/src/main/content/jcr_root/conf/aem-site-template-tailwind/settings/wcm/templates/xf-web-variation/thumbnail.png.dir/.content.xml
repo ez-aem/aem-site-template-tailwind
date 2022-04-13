@@ -5,7 +5,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="nt:file"
 >
-    <jcr:content
+  <jcr:content
     jcr:mixinTypes="[dam:Thumbnails]"
     jcr:primaryType="nt:resource"
   />

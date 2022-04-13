@@ -18,5 +18,5 @@
       sling:resourceType="core/wcm/components/container/v1/container"
       layout="responsiveGrid"
     />
-    </jcr:content>
+  </jcr:content>
 </jcr:root>

@@ -4,7 +4,7 @@
   xmlns:jcr="http://www.jcp.org/jcr/1.0"
   jcr:primaryType="cq:Template"
 >
-    <jcr:content
+  <jcr:content
     cq:templateType="/conf/aem-site-template-tailwind/settings/wcm/template-types/page"
     jcr:description="A blank page with no Header or Footer Site Elements, only the main content area"
     jcr:primaryType="cq:PageContent"

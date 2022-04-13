@@ -6,7 +6,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="cq:Page"
 >
-    <jcr:content
+  <jcr:content
     cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-content"
     jcr:description="Configure AEM Site Elements with your logo and branded content."
     jcr:primaryType="cq:PageContent"
@@ -16,22 +16,22 @@
     pwaDisplay="standalone"
     pwaOrientation="any"
   >
-        <root
+    <root
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/container/v1/container"
     >
-            <main
+      <main
         jcr:primaryType="nt:unstructured"
         sling:resourceType="core/wcm/components/container/v1/container"
         layout="responsiveGrid"
       >
-                <content
+        <content
           cq:styleIds="[aem-Grid--max-width]"
           jcr:primaryType="nt:unstructured"
           sling:resourceType="core/wcm/components/container/v1/container"
           layout="responsiveGrid"
         >
-                    <breadcrumb
+          <breadcrumb
             cq:styleIds="[aem-Grid--max-width]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/breadcrumb/v3/breadcrumb"
@@ -40,24 +40,24 @@
             showHidden="false"
             startLevel="2"
           />
-                    <title
+          <title
             cq:styleIds="[title--prose]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/title/v3/title"
             type="h1"
           />
-                    <text_copy
+          <text_copy
             cq:styleIds="[text--prose]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/text/v2/text"
             text="&lt;p>The Header &amp;amp; Footer are complex and crucial elements of your Site. The Tailwind AEM Site Template comes with one responsively designed Header &amp;amp; Footer that look great on your phone, tablet, and PC.&lt;/p>&#xd;&#xa;&lt;p>It's strongly suggested to not alter the Header or Footer layout significantly without updating the Theme Styles to match.&lt;/p>&#xd;&#xa;&lt;h2>Make it yours&lt;/h2>&#xd;&#xa;&lt;p>In the previous chapter of the Guide to Manage your Site, we discussed digital asset management with AEM Assets. Now that your logo is uploaded to your AEM Cloud Environment, let's make it the Site&amp;nbsp;&lt;i>yours&lt;/i>&amp;nbsp;by updating the logos in the Header &amp;amp; Footer.&lt;/p>&#xd;&#xa;&lt;h2>Add your Logo&lt;/h2>&#xd;&#xa;&lt;p>From your AEM Cloud Environment home page, navigate to the Experience Fragments. Select the folder with your Site name, and then click through the folder hierarchy until you find the Site Elements folder - Demo &amp;gt; en &amp;gt; Site Elements.&lt;/p>&#xd;&#xa;&lt;p>Here you will see two Experience Fragments - Header &amp;amp; Footer. Each of these Experience Fragments will have one Variation. Let's add your logo to the Header &amp;amp; Footer.&lt;/p>&#xd;&#xa;&lt;p>To learn more about these concepts make sure to visit Experience League.&lt;/p>&#xd;&#xa;&lt;p>Open the 'master' variant of the Header for editing. Ensure that you have the Side Panel open, and the Assets tab selected. If not, cick the 'Toggle Side Panel' and then the Assets tab. You should see the images you've recently uploaded.&lt;/p>&#xd;&#xa;&lt;p>Find the Image (v2) component with the Wireframe Logo, and click the Configure button - with the wrench icon - to bring up Edit Dialog. Click and drag your logo onto the Image Edit Dialog to replace the existing Wireframe logo with yours, then click Done.&lt;/p>&#xd;&#xa;"
             textIsRich="true"
           />
-                    <separator_copy
+          <separator_copy
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/separator/v1/separator"
           />
-                    <teaser_copy
+          <teaser_copy
             cq:styleIds="[teaser--text-bottom,teaser--dark,self-stretch]"
             jcr:description="&lt;p>Get the most from the Wireframe theme without in-depth customization.&lt;/p>&#xd;&#xa;"
             jcr:primaryType="nt:unstructured"
@@ -71,28 +71,20 @@
             textIsRich="true"
             titleFromPage="false"
           >
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="6"
-              />
-                            <phone
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="12"
-              />
-                        </cq:responsive>
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
+            <cq:responsive jcr:primaryType="nt:unstructured">
+              <default jcr:primaryType="nt:unstructured" offset="0" width="6" />
+              <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+            </cq:responsive>
+            <actions jcr:primaryType="nt:unstructured">
+              <item0
                 jcr:primaryType="nt:unstructured"
                 link="/content/aem-site-template-tailwind/guide/manage/assets"
                 linkTarget="_self"
                 text="Assets"
               />
-                        </actions>
-                    </teaser_copy>
-                    <teaser_copy_copy
+            </actions>
+          </teaser_copy>
+          <teaser_copy_copy
             cq:styleIds="[teaser--text-bottom,teaser--dark]"
             jcr:description="&lt;p>Now that you've updated the Header Site Element, proceed to the Footer and follow the same steps to update the logo there. After you've done that, it's time to learn about Authoring content!&lt;/p>&#xd;&#xa;"
             jcr:primaryType="nt:unstructured"
@@ -106,39 +98,31 @@
             textIsRich="true"
             titleFromPage="false"
           >
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="6"
-              />
-                            <phone
-                jcr:primaryType="nt:unstructured"
-                offset="0"
-                width="12"
-              />
-                        </cq:responsive>
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
+            <cq:responsive jcr:primaryType="nt:unstructured">
+              <default jcr:primaryType="nt:unstructured" offset="0" width="6" />
+              <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+            </cq:responsive>
+            <actions jcr:primaryType="nt:unstructured">
+              <item0
                 jcr:primaryType="nt:unstructured"
                 link="/content/aem-site-template-tailwind/guide/manage/authoring"
                 linkTarget="_self"
                 text="Authoring"
               />
-                        </actions>
-                    </teaser_copy_copy>
-                    <experiencefragment_c
+            </actions>
+          </teaser_copy_copy>
+          <experiencefragment_c
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"
             fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/article-recommendations/master"
           />
-                </content>
-            </main>
-        </root>
-        <cq:featuredimage
+        </content>
+      </main>
+    </root>
+    <cq:featuredimage
       jcr:primaryType="nt:unstructured"
       sling:resourceType="core/wcm/components/image/v3/image"
       altValueFromDAM="false"
     />
-    </jcr:content>
+  </jcr:content>
 </jcr:root>

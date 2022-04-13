@@ -7,6 +7,6 @@
   jcr:primaryType="sling:OrderedFolder"
   jcr:title="en"
 >
-    <site />
-    <article-recommendations />
+  <site />
+  <article-recommendations />
 </jcr:root>

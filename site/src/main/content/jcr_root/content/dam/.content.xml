@@ -7,5 +7,5 @@
   jcr:mixinTypes="[mix:lockable,rep:AccessControllable]"
   jcr:primaryType="sling:OrderedFolder"
 >
-    <aem-site-template-tailwind />
+  <aem-site-template-tailwind />
 </jcr:root>

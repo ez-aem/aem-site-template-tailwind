@@ -4,5 +4,5 @@
   xmlns:jcr="http://www.jcp.org/jcr/1.0"
   jcr:primaryType="cq:Page"
 >
-    <cfm />
+  <cfm />
 </jcr:root>

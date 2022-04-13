@@ -6,7 +6,7 @@
   xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
   jcr:primaryType="nt:file"
 >
-    <jcr:content
+  <jcr:content
     jcr:encoding="UTF-8"
     jcr:mimeType="application/octet-stream"
     jcr:mixinTypes="[dam:Metadata]"
