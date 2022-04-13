@@ -5,7 +5,7 @@
     {
       "files": "*.xml",
       "options": {
-        "tabWidth": 2
+        "xmlWhitespaceSensitivity": "ignore"
       }
     }
   ]
