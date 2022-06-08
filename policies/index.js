@@ -1,21 +1,7 @@
 const { generatePolicies } = require("@ez-aem/policies");
-const { XMLBuilder } = require("fast-xml-parser");
-const { writeFileSync } = require("fs");
 
-const Builder = new XMLBuilder({ 
-  format: true,
-  ignoreAttributes: false,
-  indentBy: "  ",
-  attributeNamePrefix: "@",
-  attributesGroupName: "attributes",
-  suppressBooleanAttributes: false,
-  // supressEmptyNode: true,
-  // suppressUnpairedNode: true,
-  // unpairedTags: ["item", "jcr:content", "?xml"],
-  // stopNodes: ["jcr:content"],
-});
-
-const Policies = [
+generatePolicies(
+  [
     require("./components/accordion"),
     require("./components/breadcrumb"),
     require("./components/button"),
@@ -38,7 +24,7 @@ const Policies = [
     require("./components/teaser"),
     require("./components/text"),
     require("./components/title"),
-];
-
-
-writeFileSync("../site/src/main/content/jcr_root/conf/aem-site-template-tailwind/settings/wcm/policies/.content.xml", Builder.build(generatePolicies(Policies)));
+  ],
+  "../site/src/main/content/jcr_root/conf/aem-site-template-tailwind/settings/wcm/policies",
+  2
+)
