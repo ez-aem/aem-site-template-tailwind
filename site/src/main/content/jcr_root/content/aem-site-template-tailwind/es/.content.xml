@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jcr:root
-    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-    xmlns:cq="http://www.day.com/jcr/cq/1.0"
-    xmlns:jcr="http://www.jcp.org/jcr/1.0"
-    xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page"
+  xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+  xmlns:cq="http://www.day.com/jcr/cq/1.0"
+  xmlns:jcr="http://www.jcp.org/jcr/1.0"
+  xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+  jcr:primaryType="cq:Page"
 >
-    <jcr:content
-        cq:isLanguageRoot="true"
-        cq:redirectTarget="/content/aem-site-template-tailwind/es/home"
-        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-content"
-        jcr:language="es"
-        jcr:primaryType="cq:PageContent"
-        jcr:title="Español"
-        sling:resourceType="core/wcm/components/page/v3/page"
-        pageTitle="Home"
-        pwaCachestrategy="staleWhileRevalidate"
-        pwaDisplay="standalone"
-        pwaOrientation="any"
+  <jcr:content
+    cq:isLanguageRoot="true"
+    cq:redirectTarget="/content/aem-site-template-tailwind/es/home"
+    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-content"
+    jcr:language="es"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Español"
+    sling:resourceType="core/wcm/components/page/v3/page"
+    pageTitle="Home"
+    pwaCachestrategy="staleWhileRevalidate"
+    pwaDisplay="standalone"
+    pwaOrientation="any"
+  >
+    <root
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="core/wcm/components/container/v1/container"
     >
-        <root
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="core/wcm/components/container/v1/container"
-        >
-            <main
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/container/v1/container"
-                layout="responsiveGrid"
-            />
-        </root>
-        <cq:featuredimage
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="core/wcm/components/image/v3/image"
-            altValueFromDAM="true"
-        />
-    </jcr:content>
-    <home />
-    <articles />
-    <contact-us />
+      <main
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="core/wcm/components/container/v1/container"
+        layout="responsiveGrid"
+      />
+    </root>
+    <cq:featuredimage
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="core/wcm/components/image/v3/image"
+      altValueFromDAM="true"
+    />
+  </jcr:content>
+  <home />
+  <articles />
+  <contact-us />
 </jcr:root>

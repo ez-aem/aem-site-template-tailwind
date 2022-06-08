@@ -1,6 +1,6 @@
 @layer components {
   .cmp-text {
-    @apply prose max-w-none;
+    @apply prose;
     @apply dark:prose-invert;
 
     h1,
@@ -24,5 +24,11 @@
     tbody td:first-child {
       @apply pl-2;
     }
+  }
+}
+
+@layer utilities {
+  :not(.text--prose) > .cmp-text {
+    @apply max-w-none w-auto;
   }
 }

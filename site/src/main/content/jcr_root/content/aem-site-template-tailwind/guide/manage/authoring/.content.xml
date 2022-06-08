@@ -1,144 +1,128 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jcr:root
-    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-    xmlns:cq="http://www.day.com/jcr/cq/1.0"
-    xmlns:jcr="http://www.jcp.org/jcr/1.0"
-    xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page"
+  xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+  xmlns:cq="http://www.day.com/jcr/cq/1.0"
+  xmlns:jcr="http://www.jcp.org/jcr/1.0"
+  xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+  jcr:primaryType="cq:Page"
 >
-    <jcr:content
-        cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-content"
-        jcr:description="Learn how to edit and customize the homepage included with this site template."
-        jcr:primaryType="cq:PageContent"
-        jcr:title="Authoring"
-        sling:resourceType="core/wcm/components/page/v3/page"
-        pwaCachestrategy="staleWhileRevalidate"
-        pwaDisplay="standalone"
-        pwaOrientation="any"
+  <jcr:content
+    cq:template="/conf/aem-site-template-tailwind/settings/wcm/templates/page-content"
+    jcr:description="Learn how to edit and customize the homepage included with this site template."
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Authoring"
+    sling:resourceType="core/wcm/components/page/v3/page"
+    pwaCachestrategy="staleWhileRevalidate"
+    pwaDisplay="standalone"
+    pwaOrientation="any"
+  >
+    <root
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="core/wcm/components/container/v1/container"
     >
-        <root
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="core/wcm/components/container/v1/container"
+      <main
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="core/wcm/components/container/v1/container"
+        layout="responsiveGrid"
+      >
+        <content
+          cq:styleIds="[aem-Grid--max-width]"
+          jcr:primaryType="nt:unstructured"
+          sling:resourceType="core/wcm/components/container/v1/container"
+          layout="responsiveGrid"
         >
-            <main
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/container/v1/container"
-                layout="responsiveGrid"
-            >
-                <content
-                    cq:styleIds="[aem-Grid--grid-width]"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/container/v1/container"
-                    layout="responsiveGrid"
-                >
-                    <breadcrumb
-                        cq:styleIds="[aem-Grid--grid-width]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/breadcrumb/v3/breadcrumb"
-                        disableShadowing="false"
-                        hideCurrent="false"
-                        showHidden="false"
-                        startLevel="2"
-                    />
-                    <title
-                        cq:styleIds="[title--prose]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/title/v3/title"
-                        type="h1"
-                    />
-                    <text_copy_copy
-                        cq:styleIds="[text--prose]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p>Depending upon your role within your organization, you might spend most of your time creating and authoring pages. Let's learn how to update the content on the homepage that comes with the Tailwind AEM Site Template.&lt;/p>&#xd;&#xa;&lt;h2>What you'll need&lt;/h2>&#xd;&#xa;&lt;blockquote>Author or Contributor Permissions&lt;/blockquote>&#xd;&#xa;&lt;h2>Getting Started&lt;/h2>&#xd;&#xa;&lt;p>Navigate to the AEM Cloud Service home screen, select Sites, and then Demo &amp;gt; en &amp;gt; Home and open the page for editing. You can toggle between editing and previewing the page with the Edit and Preview buttons in the top utility bar of the AEM Editor.&lt;/p>&#xd;&#xa;&lt;h3>Add a Component&lt;/h3>&#xd;&#xa;&lt;p>The homepage of the Tailwind AEM Site Template has a Teaser component at the top of the page. Let's update the this to use the carousel instead.&lt;/p>&#xd;&#xa;&lt;p>Make sure you're in Edit mode and locate the first Teaser component on the page. Right below it is a field that says 'Drag components here'. You can either drag a component from the Components Side Panel, or click on the field itself and tap the '+' from the context menu to insert a new component. Let's add the Carousel component here.&lt;/p>&#xd;&#xa;&lt;p>And you're done! You've just added your first component to the homepage.&lt;/p>&#xd;&#xa;&lt;h3>Copy/Paste&lt;/h3>&#xd;&#xa;&lt;p>One of the great features of the AEM Editor is the ability to Cut, Copy &amp;amp; Paste components both on the same page and across other pages. Let's cut the Teaser component and Paste it into the Carousel compoent. Click on the Teaser, bringing up the context menu. Then click on the Cut button - scissors icon - and then click on the 'Please add Carousel components here' field, and click the Paste button - clipboard icon.&lt;/p>&#xd;&#xa;&lt;p>Great job! You've learned how to Cut &amp;amp; Paste components. You can copy components from one page and paste them on another; you can give this a try later after you've created a few more pages.&lt;/p>&#xd;&#xa;&lt;h3>Edit a Component&lt;/h3>&#xd;&#xa;&lt;p>Let's click on the Carousel component to bring up the context menu and click Edit.&lt;/p>&#xd;&#xa;&lt;p>Note: Make sure to look at the bottom right corner of the component. You will notice the name of the component you are hovering/clicking on. Sometimes it's easy to select a different component than you intended.&lt;/p>&#xd;&#xa;&lt;p>Editing the Carousel component gives us the option to Add more Items. Click the Add button, and choose the Image component. Give it a name, and then click Done.&lt;/p>&#xd;&#xa;&lt;h3>Change Carousel Slides&lt;/h3>&#xd;&#xa;&lt;p>Now that you've added another slide to your Carousel, you will notice there are two lines indicating two slides. Click on the Carousel component and bring up the context menu. You'll see a new button to 'Select Panel'; choose the Image you've just added. This will change the Carousel to the second slide for authoring. Drag an image from the Side Panel onto the 'Image (v2)' field. This will do the same as clicking the Configure button and dragging the image into the Edit dialog.&lt;/p>&#xd;&#xa;&lt;h3>Preview&lt;/h3>&#xd;&#xa;&lt;p>If you click the Preview button, you'll be able to see and interact with your newly authored content. Preview is very close to what visitors to your site will see, but still might have some layout issues due to being inside the AEM Editor.&lt;/p>&#xd;&#xa;&lt;h3>View as Published&lt;/h3>&#xd;&#xa;&lt;p>To get as close as possible to what your visitors will experience, it's best to use 'View as Published'. In the top-left of the Editor utility bar, you will see the 'Page Information' button. Click and select 'View as Published'. This will open a new tab with the page rendered without the Editor.&lt;/p>&#xd;&#xa;"
-                        textIsRich="true"
-                    />
-                    <separator_copy_copy
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/separator/v1/separator"
-                    />
-                    <teaser_copy_copy
-                        cq:styleIds="[teaser--text-bottom,1612897513127,self-stretch]"
-                        jcr:description="&lt;p>Get the most from the Wireframe theme without in-depth customization.&lt;/p>&#xd;&#xa;"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Review"
-                        sling:resourceType="core/wcm/components/teaser/v2/teaser"
-                        altValueFromPageImage="true"
-                        descriptionFromPage="true"
-                        imageFromPageImage="true"
-                        isDecorative="false"
-                        linkTarget="_self"
-                        textIsRich="true"
-                        titleFromPage="false"
-                    >
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="6"
-                            />
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"
-                            />
-                        </cq:responsive>
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/aem-site-template-tailwind/guide/manage/site-elements"
-                                linkTarget="_self"
-                                text="Site Elements"
-                            />
-                        </actions>
-                    </teaser_copy_copy>
-                    <teaser_copy_copy_cop
-                        cq:styleIds="[teaser--text-bottom,1612897513127]"
-                        jcr:description="&lt;p>Now that you've learned some authoring techniques,&amp;nbsp;let's Create your own Page!&lt;/p>&#xd;&#xa;"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Next Steps"
-                        sling:resourceType="core/wcm/components/teaser/v2/teaser"
-                        altValueFromPageImage="true"
-                        descriptionFromPage="false"
-                        imageFromPageImage="true"
-                        isDecorative="false"
-                        linkTarget="_self"
-                        textIsRich="true"
-                        titleFromPage="false"
-                    >
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="6"
-                            />
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"
-                            />
-                        </cq:responsive>
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/aem-site-template-tailwind/guide/manage/create-a-page"
-                                linkTarget="_self"
-                                text="Create a Page"
-                            />
-                        </actions>
-                    </teaser_copy_copy_cop>
-                    <experiencefragment_c
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/article-recommendations/master"
-                    />
-                </content>
-            </main>
-        </root>
-        <cq:featuredimage
+          <breadcrumb
+            cq:styleIds="[aem-Grid--max-width]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="core/wcm/components/image/v3/image"
-            altValueFromDAM="true"
-        />
-    </jcr:content>
+            sling:resourceType="core/wcm/components/breadcrumb/v3/breadcrumb"
+            disableShadowing="false"
+            hideCurrent="false"
+            showHidden="false"
+            startLevel="2"
+          />
+          <title
+            cq:styleIds="[title--prose]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/title/v3/title"
+            type="h1"
+          />
+          <text_copy_copy
+            cq:styleIds="[text--prose]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/text/v2/text"
+            text="&lt;p>Depending upon your role within your organization, you might spend most of your time creating and authoring pages. Let's learn how to update the content on the homepage that comes with the Tailwind AEM Site Template.&lt;/p>&#xd;&#xa;&lt;h2>What you'll need&lt;/h2>&#xd;&#xa;&lt;blockquote>Author or Contributor Permissions&lt;/blockquote>&#xd;&#xa;&lt;h2>Getting Started&lt;/h2>&#xd;&#xa;&lt;p>Navigate to the AEM Cloud Service home screen, select Sites, and then Demo &amp;gt; en &amp;gt; Home and open the page for editing. You can toggle between editing and previewing the page with the Edit and Preview buttons in the top utility bar of the AEM Editor.&lt;/p>&#xd;&#xa;&lt;h3>Add a Component&lt;/h3>&#xd;&#xa;&lt;p>The homepage of the Tailwind AEM Site Template has a Teaser component at the top of the page. Let's update the this to use the carousel instead.&lt;/p>&#xd;&#xa;&lt;p>Make sure you're in Edit mode and locate the first Teaser component on the page. Right below it is a field that says 'Drag components here'. You can either drag a component from the Components Side Panel, or click on the field itself and tap the '+' from the context menu to insert a new component. Let's add the Carousel component here.&lt;/p>&#xd;&#xa;&lt;p>And you're done! You've just added your first component to the homepage.&lt;/p>&#xd;&#xa;&lt;h3>Copy/Paste&lt;/h3>&#xd;&#xa;&lt;p>One of the great features of the AEM Editor is the ability to Cut, Copy &amp;amp; Paste components both on the same page and across other pages. Let's cut the Teaser component and Paste it into the Carousel compoent. Click on the Teaser, bringing up the context menu. Then click on the Cut button - scissors icon - and then click on the 'Please add Carousel components here' field, and click the Paste button - clipboard icon.&lt;/p>&#xd;&#xa;&lt;p>Great job! You've learned how to Cut &amp;amp; Paste components. You can copy components from one page and paste them on another; you can give this a try later after you've created a few more pages.&lt;/p>&#xd;&#xa;&lt;h3>Edit a Component&lt;/h3>&#xd;&#xa;&lt;p>Let's click on the Carousel component to bring up the context menu and click Edit.&lt;/p>&#xd;&#xa;&lt;p>Note: Make sure to look at the bottom right corner of the component. You will notice the name of the component you are hovering/clicking on. Sometimes it's easy to select a different component than you intended.&lt;/p>&#xd;&#xa;&lt;p>Editing the Carousel component gives us the option to Add more Items. Click the Add button, and choose the Image component. Give it a name, and then click Done.&lt;/p>&#xd;&#xa;&lt;h3>Change Carousel Slides&lt;/h3>&#xd;&#xa;&lt;p>Now that you've added another slide to your Carousel, you will notice there are two lines indicating two slides. Click on the Carousel component and bring up the context menu. You'll see a new button to 'Select Panel'; choose the Image you've just added. This will change the Carousel to the second slide for authoring. Drag an image from the Side Panel onto the 'Image (v2)' field. This will do the same as clicking the Configure button and dragging the image into the Edit dialog.&lt;/p>&#xd;&#xa;&lt;h3>Preview&lt;/h3>&#xd;&#xa;&lt;p>If you click the Preview button, you'll be able to see and interact with your newly authored content. Preview is very close to what visitors to your site will see, but still might have some layout issues due to being inside the AEM Editor.&lt;/p>&#xd;&#xa;&lt;h3>View as Published&lt;/h3>&#xd;&#xa;&lt;p>To get as close as possible to what your visitors will experience, it's best to use 'View as Published'. In the top-left of the Editor utility bar, you will see the 'Page Information' button. Click and select 'View as Published'. This will open a new tab with the page rendered without the Editor.&lt;/p>&#xd;&#xa;"
+            textIsRich="true"
+          />
+          <separator_copy_copy
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/separator/v1/separator"
+          />
+          <teaser_copy_copy
+            cq:styleIds="[teaser--text-bottom,teaser--dark,self-stretch]"
+            jcr:description="&lt;p>Get the most from the Wireframe theme without in-depth customization.&lt;/p>&#xd;&#xa;"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Review"
+            sling:resourceType="core/wcm/components/teaser/v2/teaser"
+            altValueFromPageImage="true"
+            descriptionFromPage="true"
+            imageFromPageImage="true"
+            isDecorative="false"
+            linkTarget="_self"
+            textIsRich="true"
+            titleFromPage="false"
+          >
+            <cq:responsive jcr:primaryType="nt:unstructured">
+              <default jcr:primaryType="nt:unstructured" offset="0" width="6" />
+              <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+            </cq:responsive>
+            <actions jcr:primaryType="nt:unstructured">
+              <item0
+                jcr:primaryType="nt:unstructured"
+                link="/content/aem-site-template-tailwind/guide/manage/site-elements"
+                linkTarget="_self"
+                text="Site Elements"
+              />
+            </actions>
+          </teaser_copy_copy>
+          <teaser_copy_copy_cop
+            cq:styleIds="[teaser--text-bottom,teaser--dark]"
+            jcr:description="&lt;p>Now that you've learned some authoring techniques,&amp;nbsp;let's Create your own Page!&lt;/p>&#xd;&#xa;"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Next Steps"
+            sling:resourceType="core/wcm/components/teaser/v2/teaser"
+            altValueFromPageImage="true"
+            descriptionFromPage="false"
+            imageFromPageImage="true"
+            isDecorative="false"
+            linkTarget="_self"
+            textIsRich="true"
+            titleFromPage="false"
+          >
+            <cq:responsive jcr:primaryType="nt:unstructured">
+              <default jcr:primaryType="nt:unstructured" offset="0" width="6" />
+              <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+            </cq:responsive>
+            <actions jcr:primaryType="nt:unstructured">
+              <item0
+                jcr:primaryType="nt:unstructured"
+                link="/content/aem-site-template-tailwind/guide/manage/create-a-page"
+                linkTarget="_self"
+                text="Create a Page"
+              />
+            </actions>
+          </teaser_copy_copy_cop>
+          <experiencefragment_c
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"
+            fragmentVariationPath="/content/experience-fragments/aem-site-template-tailwind/en/article-recommendations/master"
+          />
+        </content>
+      </main>
+    </root>
+    <cq:featuredimage
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="core/wcm/components/image/v3/image"
+      altValueFromDAM="true"
+    />
+  </jcr:content>
 </jcr:root>

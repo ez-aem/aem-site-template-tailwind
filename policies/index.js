@@ -1,0 +1,30 @@
+const { generatePolicies } = require("@ez-aem/policies");
+
+generatePolicies(
+  [
+    require("./components/accordion"),
+    require("./components/breadcrumb"),
+    require("./components/button"),
+    require("./components/carousel"),
+    ...require("./components/container"),
+    require("./components/download"),
+    require("./components/embed"),
+    ...require("./components/experiencefragment"),
+    require("./components/form-button"),
+    require("./components/form-container"),
+    require("./components/image"),
+    require("./components/languagenavigation"),
+    require("./components/list"),
+    require("./components/navigation"),
+    require("./components/page"),
+    require("./components/progressbar"),
+    require("./components/search"),
+    require("./components/separator"),
+    require("./components/tabs"),
+    require("./components/teaser"),
+    require("./components/text"),
+    require("./components/title"),
+  ],
+  "../site/src/main/content/jcr_root/conf/aem-site-template-tailwind/settings/wcm/policies",
+  2
+)
