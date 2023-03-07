@@ -1,62 +1,41 @@
-@layer base {
-  @font-face {
-    font-family: defaultFont;
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-    src: url("../resources/fonts/SourceSansPro/SourceSansPro-Italic.ttf")
-      format("truetype");
-  }
-  @font-face {
-    font-family: defaultFont;
-    font-weight: 400;
-    font-display: swap;
-    src: url("../resources/fonts/SourceSansPro/SourceSansPro-Regular.ttf")
-      format("truetype");
-  }
-  @font-face {
-    font-family: defaultFont;
-    font-weight: 600;
-    font-display: swap;
-    src: url("../resources/fonts/SourceSansPro/SourceSansPro-SemiBold.ttf")
-      format("truetype");
-  }
-  @font-face {
-    font-family: defaultFont;
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-    src: url("../resources/fonts/SourceSansPro/SourceSansPro-SemiBoldItalic.ttf")
-      format("truetype");
-  }
-  @font-face {
-    font-family: titleFont;
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-    src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Italic.ttf")
-      format("truetype");
-  }
-  @font-face {
-    font-family: titleFont;
-    font-weight: 400;
-    font-display: swap;
-    src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf")
-      format("truetype");
-  }
-  @font-face {
-    font-family: titleFont;
-    font-weight: 600;
-    font-display: swap;
-    src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-SemiBold.ttf")
-      format("truetype");
-  }
-  @font-face {
-    font-family: titleFont;
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-    src: url("../resources/fonts/SourceSerifPro/SourceSerifPro-SemiBoldItalic.ttf")
-      format("truetype");
-  }
+/* The fonts were generated using fontpie (https://github.com/pixel-point/fontpie),
+a tool that converts font files into web-compatible formats and generates the necessary CSS code. */
+
+@font-face {
+  font-family: 'defaultFont';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../resources/fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'defaultFont Fallback';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arial');
+  ascent-override: 104.47%;
+  descent-override: 28.98%;
+  line-gap-override: 0.00%;
+  size-adjust: 94.19%;
+}
+
+
+@font-face {
+  font-family: 'titleFont';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../resources/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'titleFont Fallback';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arial');
+  ascent-override: 90.75%;
+  descent-override: 33.12%;
+  line-gap-override: 0.00%;
+  size-adjust: 101.16%;
 }
