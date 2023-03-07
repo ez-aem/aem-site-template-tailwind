@@ -6,6 +6,7 @@
   }
   .cmp-image__image {
     @apply w-auto;
+    min-width: 100px;
   }
   .cmp-image__title {
     @apply my-2 flex text-xs uppercase leading-snug text-shade-4;
