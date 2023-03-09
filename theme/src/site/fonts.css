@@ -1,0 +1,40 @@
+/* The fonts were generated using fontpie (https://github.com/pixel-point/fontpie),
+a tool that converts font files into web-compatible formats and generates the necessary CSS code. */
+
+@font-face {
+  font-family: "defaultFont";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../resources/fonts/SourceSansPro-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "defaultFont Fallback";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Arial");
+  ascent-override: 104.47%;
+  descent-override: 28.98%;
+  line-gap-override: 0%;
+  size-adjust: 94.19%;
+}
+
+@font-face {
+  font-family: "titleFont";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../resources/fonts/SourceSerifPro-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "titleFont Fallback";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Arial");
+  ascent-override: 90.75%;
+  descent-override: 33.12%;
+  line-gap-override: 0%;
+  size-adjust: 101.16%;
+}
