@@ -19,6 +19,7 @@
     .image {
       @apply flex;
       @apply dark:hue-rotate-180 dark:invert;
+      min-width: 80px;
     }
 
     .cmp-text {
@@ -41,15 +42,16 @@
 
       .image {
         @apply max-w-[13rem] self-center justify-self-center;
+        min-width: 100px;
       }
 
       .text {
-        /* &:not(:last-child) {
-          @apply m-0 flex justify-end pr-4;
-          grid-area: terms;
-        }
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding-right: 1rem;
 
-        &:last-child {
+        /*&:last-child {
           @apply justify-start pl-4;
           grid-area: privacy;
         } */
